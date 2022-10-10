@@ -1,0 +1,120 @@
+  {
+    "_id": "2.49.0.1.578.0.20220625094437",
+    "_rev": "2-1bcf1404ea75d615a08300884f2ee204",
+    "archived": "False",
+    "incident": "0000050041",
+    "author": "anonymous@fare-b",
+    "onset": "2022-06-25T12:00",
+    "expires": "2022-06-25T23:00",
+    "phenomenon": "lightning",
+    "status": "Actual",
+    "colour": "Yellow",
+    "certainty": "Likely",
+    "severity": "Moderate",
+    "saved_at": "2022-06-25T10:38",
+    "source": "farevarseleditor",
+    "uuid": "",
+    "areaDesc": {
+      "nb": "Deler av Vestland og Sunnmøre",
+      "en": "Parts of  Vestland and Sunnmøre"
+    },
+    "altitude": "0ft",
+    "ceiling": "9000ft",
+    "msgType": "Update",
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                7.44076,
+                60.4281
+              ],
+              [
+                7.75879,
+                60.4751
+              ],
+              [
+                7.56948,
+                60.6276
+              ],
+              [
+                8.1122,
+                61.0165
+              ],
+              [
+                7.97205,
+                61.5867
+              ],
+              [
+                7.48634,
+                62.0836
+              ],
+              [
+                7.39875,
+                62.2396
+              ],
+              [
+                6.35345,
+                62.5752
+              ],
+              [
+                5.81858,
+                62.3043
+              ],
+              [
+                5.34633,
+                61.7021
+              ],
+              [
+                5.59344,
+                61.4462
+              ],
+              [
+                5.81948,
+                60.8537
+              ],
+              [
+                6.82739,
+                60.5519
+              ],
+              [
+                7.44076,
+                60.4281
+              ]
+            ]
+          ],
+          "bbox": [
+            5.34633,
+            60.4281,
+            8.1122,
+            62.5752
+          ]
+        },
+        "properties": {
+          "customArea": true,
+          "area": ""
+        }
+      }
+    ],
+    "references": "noreply@met.no,2.49.0.1.578.0.20220624093218,2022-06-24T10:51:34+00:00",
+    "_attachments": {
+      "cap_json": {
+        "content_type": "application/json",
+        "revpos": 2,
+        "digest": "md5-AkFsFp9TUvNgyU6uOyvVCg==",
+        "length": 4865,
+        "stub": true
+      },
+      "cap_xml": {
+        "content_type": "text/xml",
+        "revpos": 2,
+        "digest": "md5-02cKu7mug8s1xFAxp3x6XQ==",
+        "length": 8222,
+        "stub": true
+      }
+    }
+  }

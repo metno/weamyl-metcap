@@ -1,0 +1,136 @@
+  {
+    "_id": "2.49.0.1.578.0.20220624101914",
+    "_rev": "4-db624a3ae81c1710787b214a7e94439b",
+    "archived": "False",
+    "incident": "0000050041",
+    "author": "anonymous@fare-b",
+    "onset": "2022-06-25T14:00",
+    "expires": "2022-06-25T22:00",
+    "phenomenon": "rainFlood",
+    "status": "Actual",
+    "colour": "Yellow",
+    "certainty": "Likely",
+    "severity": "Moderate",
+    "saved_at": "2022-06-25T10:41",
+    "source": "farevarseleditor",
+    "uuid": "",
+    "areaDesc": {
+      "nb": "Deler av Vestland og Møre og Romsdal",
+      "en": "Parts of Vestland and Møre and Romsdal"
+    },
+    "altitude": "0ft",
+    "ceiling": "9000ft",
+    "msgType": "Alert",
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                5.83183,
+                59.8668
+              ],
+              [
+                6.0299,
+                59.8651
+              ],
+              [
+                6.50095,
+                59.9091
+              ],
+              [
+                6.70669,
+                60.1567
+              ],
+              [
+                6.7621,
+                60.5188
+              ],
+              [
+                6.83621,
+                60.7219
+              ],
+              [
+                6.76809,
+                61.0674
+              ],
+              [
+                6.71015,
+                61.7082
+              ],
+              [
+                6.64919,
+                61.9906
+              ],
+              [
+                5.59654,
+                62.3909
+              ],
+              [
+                5.13972,
+                62.1705
+              ],
+              [
+                5.0167,
+                61.7536
+              ],
+              [
+                4.99945,
+                61.3112
+              ],
+              [
+                5.262,
+                60.4412
+              ],
+              [
+                5.37212,
+                60.2021
+              ],
+              [
+                5.44909,
+                60.0595
+              ],
+              [
+                5.56883,
+                59.9774
+              ],
+              [
+                5.83183,
+                59.8668
+              ]
+            ]
+          ],
+          "bbox": [
+            4.99945,
+            59.8651,
+            6.83621,
+            62.3909
+          ]
+        },
+        "properties": {
+          "customArea": true,
+          "area": ""
+        }
+      }
+    ],
+    "ref_by": "2.49.0.1.578.0.20220625104102",
+    "_attachments": {
+      "cap_json": {
+        "content_type": "application/json",
+        "revpos": 4,
+        "digest": "md5-+35CJ1p5T6fz5rg3oqXiwQ==",
+        "length": 5511,
+        "stub": true
+      },
+      "cap_xml": {
+        "content_type": "text/xml",
+        "revpos": 4,
+        "digest": "md5-JbXvqKT1VlQuBaeCHqFSyw==",
+        "length": 8602,
+        "stub": true
+      }
+    }
+  }

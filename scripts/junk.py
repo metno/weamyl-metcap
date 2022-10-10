@@ -1,0 +1,25 @@
+waringsDesignGroup = {
+    "_id": f"_design/{designGroup}",
+        "views": {
+"archived":{"map":(f"{getWarningsByArchived}")},
+"incident":{"map":(f"{getWarningsByIncident}")},
+"author":{"map":(f"{getWarningsByAuthor}")},
+"onset":{"map":(f"{getWarningsByOnset}")},
+"expires":{"map":(f"{getWarningsByExpires}")},
+"phenomenon":{"map":(f"{getWarningsByPhenomenon}")},
+"status":{"map":(f"{getWarningsByStatus}")},
+"colour":{"map":(f"{getWarningsByColour}")},
+"certainty":{"map":(f"{getWarningsByCertainty}")},
+"severity":{"map":(f"{getWarningsBySeverity}")},
+"saved_at":{"map":(f"{getWarningsBySaved_at}")},
+"source":{"map":(f"{getWarningsBySource}")},
+"uuid":{"map":(f"{getWarningsByUuid}")},
+"areaDesc":{"map":(f"{getWarningsByAreaDesc}")},
+"altitude":{"map":(f"{getWarningsByAltitude}")},
+"ceiling":{"map":(f"{getWarningsByCeiling}")},
+"msgType":{"map":(f"{getWarningsByMsgType}")},
+"references":{"map":(f"{getWarningsByReferences}")},
+"epochToOnset":{"map":(f"{getEpochToOnset}")},
+"epochToExpires":{"map":(f"{getEpochToExpires}")},
+"polygon":{"map":(f"{getWarningsByPolygon}")}
+        }}

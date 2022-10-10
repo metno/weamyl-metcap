@@ -1,0 +1,80 @@
+{
+    "_id": "lr_fylke_21",
+    "objtype": "Fylke",
+    "source": "https://met.no/",
+    "uuid": "no.met:to-be-determined",
+    "administrativeName": [
+        {
+            "navn": "Nordenskiöld Land på Spitsbergen",
+            "objtype": "administrativenhetnavn",
+            "rekkefolge": "",
+            "sprak": "nor"
+        }
+    ],
+    "administrativeId": "21",
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                [
+                    [
+                        13.38,
+                        78.05
+                    ],
+                    [
+                        13.75,
+                        77.63
+                    ],
+                    [
+                        17.5,
+                        77.87
+                    ],
+                    [
+                        18,
+                        78.53
+                    ],
+                    [
+                        15.68,
+                        78.35
+                    ],
+                    [
+                        13.38,
+                        78.05
+                    ]
+                ]
+            ]
+           },
+            "properties": {
+                "objtype": "Fylke",
+                "samiskforvaltningsomrade": false,
+                "lokalid": "",
+                "navnerom": "no.met",
+                "versjonid": "",
+                "datafangstdato": "",
+                "oppdateringsdato": "20220523000000",
+                "datauttaksdato": "20220523000000",
+                "opphav": null,
+                "fylkesnummer": "21",
+                "navn": [
+                    {
+                        "navn": "Nordenskiöld Land på Spitsbergen",
+                        "objtype": "administrativenhetnavn",
+                        "rekkefolge": "",
+                        "sprak": "nor"
+                    }
+                ],
+                "bbox": [
+                    13.38, 
+                    77.63, 
+                    18.0, 
+                    78.53
+                ],
+                "area": 2.3774999999999853,
+                "crs": "epsg:4326"
+            }
+        }
+    ]
+}

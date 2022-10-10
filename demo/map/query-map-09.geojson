@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "cutoff": 1.0,
+  "altitude": 1000,
+  "ceiling": 10000,
+  "status" : "Actual",
+  "phenomenon" : "forestFire",
+  "certainty": "Observed",
+  "severity": "Moderate",
+  "onset": "2022-05-24T06:00",
+  "expires": "2022-05-29T06:00",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.7021484375,
+              60.48970392643919
+            ],
+            [
+              4.0869140625,
+              59.09138238455909
+            ],
+            [
+              7.437744140625,
+              57.73934950049299
+            ],
+            [
+              11.898193359375,
+              59.3051602771705
+            ],
+            [
+              10.294189453125,
+              60.44096253530979
+            ],
+            [
+              4.7021484375,
+              60.48970392643919
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

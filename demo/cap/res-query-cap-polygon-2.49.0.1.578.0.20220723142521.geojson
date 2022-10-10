@@ -1,0 +1,167 @@
+{
+  "_id": "2.49.0.1.578.0.20220723142521",
+  "_rev": "3-cc56783c876eb82b17ddddd0b6e7ebc0",
+  "archived": "False",
+  "incident": "0000050100",
+  "author": "anonymous@fare-b",
+  "onset": "2022-07-23T14:45",
+  "expires": "2022-07-23T22:00",
+  "phenomenon": "lightning",
+  "status": "Actual",
+  "colour": "Yellow",
+  "certainty": "Observed",
+  "severity": "Moderate",
+  "saved_at": "2022-07-23T14:53",
+  "source": "farevarseleditor",
+  "uuid": "",
+  "areaDesc": {
+    "nb": "Deler av fjellet i Sør-Norge",
+    "en": "Parts of the mountains in Southern Norway"
+  },
+  "altitude": "0ft",
+  "ceiling": "9000ft",
+  "msgType": "Alert",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4889,
+              62.3538
+            ],
+            [
+              9.95531,
+              62.6037
+            ],
+            [
+              9.66968,
+              62.7251
+            ],
+            [
+              9.29018,
+              62.8803
+            ],
+            [
+              8.91985,
+              62.8505
+            ],
+            [
+              8.73931,
+              62.7686
+            ],
+            [
+              8.60655,
+              62.6866
+            ],
+            [
+              8.30092,
+              62.4724
+            ],
+            [
+              8.03737,
+              62.3866
+            ],
+            [
+              7.48218,
+              62.2366
+            ],
+            [
+              6.91405,
+              62.0316
+            ],
+            [
+              6.68628,
+              61.7837
+            ],
+            [
+              7.01405,
+              61.2877
+            ],
+            [
+              7.30505,
+              61.1324
+            ],
+            [
+              7.51581,
+              60.7932
+            ],
+            [
+              7.55378,
+              60.6754
+            ],
+            [
+              7.62973,
+              60.4476
+            ],
+            [
+              7.95269,
+              60.1522
+            ],
+            [
+              8.61964,
+              60.2828
+            ],
+            [
+              8.90085,
+              60.5437
+            ],
+            [
+              9.55508,
+              60.7916
+            ],
+            [
+              9.73121,
+              61.2999
+            ],
+            [
+              9.80791,
+              61.4877
+            ],
+            [
+              9.92873,
+              61.7166
+            ],
+            [
+              10.1811,
+              61.8817
+            ],
+            [
+              10.4889,
+              62.3538
+            ]
+          ]
+        ],
+        "bbox": [
+          6.68628,
+          60.1522,
+          10.4889,
+          62.8803
+        ]
+      },
+      "properties": {
+        "customArea": true,
+        "area": ""
+      }
+    }
+  ],
+  "_attachments": {
+    "cap_json": {
+      "content_type": "application/json",
+      "revpos": 3,
+      "digest": "md5-NizMSWviYyHIQ1fzp3e1/A==",
+      "length": 4782,
+      "stub": true
+    },
+    "cap_xml": {
+      "content_type": "text/xml",
+      "revpos": 3,
+      "digest": "md5-cUaFinNm6q8axPbZfD1goA==",
+      "length": 8585,
+      "stub": true
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "_id": "2.49.0.1.578.0.20220614095614",
+  "_rev": "2-1f1f0298723877c4abe787bfa405eb4e",
+  "archived": "False",
+  "incident": "0000050021",
+  "author": "anonymous@fare-b",
+  "onset": "2022-06-14T09:56",
+  "expires": "2022-06-17T12:00",
+  "phenomenon": "forestFire",
+  "status": "Actual",
+  "colour": "Yellow",
+  "certainty": "Likely",
+  "severity": "Moderate",
+  "saved_at": "2022-06-15T07:23",
+  "source": "farevarseleditor",
+  "uuid": "",
+  "areaDesc": {
+    "nb": "Deler av Telemark og Agder",
+    "en": "Parts of Telemark and Agder"
+  },
+  "altitude": "0ft",
+  "ceiling": "9000ft",
+  "msgType": "Alert",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.35152,
+              59.0252
+            ],
+            [
+              7.60601,
+              58.5706
+            ],
+            [
+              7.42674,
+              58.2525
+            ],
+            [
+              7.50208,
+              58.0652
+            ],
+            [
+              7.57605,
+              58.0408
+            ],
+            [
+              7.67159,
+              58.0409
+            ],
+            [
+              8.01826,
+              58.1499
+            ],
+            [
+              8.21589,
+              58.1706
+            ],
+            [
+              8.72295,
+              58.4138
+            ],
+            [
+              9.37671,
+              58.8833
+            ],
+            [
+              9.45716,
+              58.9676
+            ],
+            [
+              9.40717,
+              59.0202
+            ],
+            [
+              9.26742,
+              59.0528
+            ],
+            [
+              8.96358,
+              59.0848
+            ],
+            [
+              8.56354,
+              59.0738
+            ],
+            [
+              8.40926,
+              59.0401
+            ],
+            [
+              8.35152,
+              59.0252
+            ]
+          ]
+        ],
+        "bbox": [
+          7.42674,
+          58.0408,
+          9.45716,
+          59.0848
+        ]
+      },
+      "properties": {
+        "customArea": true,
+        "area": ""
+      }
+    }
+  ],
+  "ref_by": "2.49.0.1.578.0.20220615070509",
+  "_attachments": {
+    "cap_json": {
+      "content_type": "application/json",
+      "revpos": 2,
+      "digest": "md5-9l3hOwMBZbBcbk2gbTsoSA==",
+      "length": 2821,
+      "stub": true
+    },
+    "cap_xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-zB7Do/Aaj1MMsQH6jT750Q==",
+      "length": 6605,
+      "stub": true
+    }
+  }
+}

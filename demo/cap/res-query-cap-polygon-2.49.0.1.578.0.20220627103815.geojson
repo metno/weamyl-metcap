@@ -1,0 +1,107 @@
+{
+  "_id": "2.49.0.1.578.0.20220627103815",
+  "_rev": "2-da8834dcec4c46def6ce4f0c84e7bebb",
+  "archived": "False",
+  "incident": "0000050052",
+  "author": "anonymous@fare-b",
+  "onset": "2022-06-28T00:00",
+  "expires": "2022-06-28T06:00",
+  "phenomenon": "rain",
+  "status": "Actual",
+  "colour": "Yellow",
+  "certainty": "Likely",
+  "severity": "Moderate",
+  "saved_at": "2022-06-27T10:57",
+  "source": "farevarseleditor",
+  "uuid": "",
+  "areaDesc": {
+    "nb": "Fjellet i Sør-Norge",
+    "en": "Mountains in South Norway"
+  },
+  "altitude": "0ft",
+  "ceiling": "9000ft",
+  "msgType": "Alert",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.93092,
+              62.3401
+            ],
+            [
+              7.34129,
+              62.08
+            ],
+            [
+              7.54679,
+              61.3963
+            ],
+            [
+              7.71453,
+              60.8816
+            ],
+            [
+              8.008,
+              60.2577
+            ],
+            [
+              8.38555,
+              59.8486
+            ],
+            [
+              8.88687,
+              59.5934
+            ],
+            [
+              9.41582,
+              60.0442
+            ],
+            [
+              9.10607,
+              61.142
+            ],
+            [
+              8.95782,
+              62.0929
+            ],
+            [
+              7.93092,
+              62.3401
+            ]
+          ]
+        ],
+        "bbox": [
+          7.34129,
+          59.5934,
+          9.41582,
+          62.3401
+        ]
+      },
+      "properties": {
+        "customArea": true,
+        "area": ""
+      }
+    }
+  ],
+  "_attachments": {
+    "cap_json": {
+      "content_type": "application/json",
+      "revpos": 2,
+      "digest": "md5-6mGOcBlBBMMjTe6AnYCASQ==",
+      "length": 3663,
+      "stub": true
+    },
+    "cap_xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-oOgoFaOuORuJEnPtVRzPoA==",
+      "length": 7236,
+      "stub": true
+    }
+  }
+}

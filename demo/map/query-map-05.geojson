@@ -1,0 +1,143 @@
+  {
+    "_id": "2.49.0.1.578.0.20220625113045",
+    "_rev": "3-27fe385f1a64c0a8479a1395463a7014",
+    "archived": "False",
+    "incident": "0000050041",
+    "author": "anonymous@fare-b",
+    "onset": "2022-06-25T18:00",
+    "expires": "2022-06-26T00:00",
+    "phenomenon": "lightning",
+    "status": "Actual",
+    "colour": "Yellow",
+    "certainty": "Observed",
+    "severity": "Moderate",
+    "saved_at": "2022-06-25T18:15",
+    "source": "farevarseleditor",
+    "uuid": "",
+    "areaDesc": {
+      "nb": "Deler av Møre og Romsdal og Trøndelag",
+      "en": "Parts of Møre and Romsdal and Trøndelag"
+    },
+    "altitude": "0ft",
+    "ceiling": "9000ft",
+    "msgType": "Alert",
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                7.19843,
+                62.6113
+              ],
+              [
+                7.96504,
+                62.1889
+              ],
+              [
+                7.96504,
+                62.1889
+              ],
+              [
+                9.01138,
+                62.3995
+              ],
+              [
+                9.69912,
+                62.2789
+              ],
+              [
+                10.1991,
+                62.7149
+              ],
+              [
+                11.1717,
+                62.6803
+              ],
+              [
+                11.6673,
+                62.3666
+              ],
+              [
+                12.1336,
+                62.3895
+              ],
+              [
+                12.0505,
+                63.2904
+              ],
+              [
+                12.3241,
+                63.74
+              ],
+              [
+                13.0369,
+                64.1282
+              ],
+              [
+                14.018,
+                64.0249
+              ],
+              [
+                14.1281,
+                64.4433
+              ],
+              [
+                13.6498,
+                64.5828
+              ],
+              [
+                14.2192,
+                65.0996
+              ],
+              [
+                12.949,
+                64.9759
+              ],
+              [
+                9.86252,
+                63.4308
+              ],
+              [
+                8.81131,
+                63.0748
+              ],
+              [
+                7.19843,
+                62.6113
+              ]
+            ]
+          ],
+          "bbox": [
+            7.19843,
+            62.1889,
+            14.2192,
+            65.0996
+          ]
+        },
+        "properties": {
+          "customArea": true,
+          "area": ""
+        }
+      }
+    ],
+    "_attachments": {
+      "cap_json": {
+        "content_type": "application/json",
+        "revpos": 3,
+        "digest": "md5-kP/jDmiYab474XKFx0JB1A==",
+        "length": 4404,
+        "stub": true
+      },
+      "cap_xml": {
+        "content_type": "text/xml",
+        "revpos": 3,
+        "digest": "md5-5/skvgQ7fac4+o49E3jynQ==",
+        "length": 8040,
+        "stub": true
+      }
+    }
+  }

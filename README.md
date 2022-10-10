@@ -1,27 +1,62 @@
-# weamyl-metcap
+# METNO METCAP API
 
-## To setup 
+## Local development and testing
 
-* clone this repository to your develepment machine
+Both the API and the database with sample data run as
+Docker containers. All test have been done on a standard
+**Ubuntu 22.04 LTS** desktop installation.
+
+To use the API in your local environment you must: 
+* install [docker](https://docker.io) and [docker-compse](https://docs.docker.com/compose/install/compose-desktop/)
+* clone this repository
+* cd to the top directory (where *local-dev-docker-compose.yml* and  *local-dev-initialize-database.sh* reside)
+* from the command line run:
 ```
-git clone ....
+docker-compose -f local-dev-docker-compose.yml  up -d
+```
+On first run this process will take several minutes as it
+builds the containers.
+
+Once done, you should have two running Docker containers. Check that is so by executing: 
+
+```
+docker ps
 ```
 
-* install docker
+The result should resemble:
+
 ```
-sudo apt-get install docker.io
+CONTAINER ID   IMAGE        COMMAND                  CREATED        STATUS         PORTS     NAMES
+fb81206ec2cf   metcap-api   "./run.sh"               20 hours ago   Up 6 minutes             metcap-api
+9179a30737b3   database     "tini -- /docker-ent…"   20 hours ago   Up 6 minutes             database
 ```
 
-* install docker-compose
+* To add search routines and data to your running database container execute
 ```
-sudo apt-get install docker-compose
-```
-
-* add your user to the docker group in /etc/group
-
-* cd to the metcap-api directory and run
-```
-docker-compose up
+./local-dev-initialize-database.sh
 ```
 
-Your first run of docker-compose will take some time since images have to be downloaded, built and database populated.
+This script is run **only once** to initialize your database.
+It too will take several minutes to complete at the end of which 
+you will have a CouchDB container running with routines and sample 
+data installed. The data is now persistent and stored under $HOME/couchdb.
+Subsequent sessions will use this data store. Note also that the CouchDB 
+caches internal queries so the first call to an end point in the API may 
+take on the order of several seconds, but subsequent calls will return 
+much more quickly.
+
+* You can point your browser to http://localhost:7532/api/docs#/
+and you should see
+
+![METCAP API docs](./images/00.png?raw=true "METCAP API docs")
+
+
+* View the database using your web browser
+```
+http://localhost:5984/_utils/#
+```
+The user name is "admin" and the password is "password". You should see
+
+![METCAP API database](./images/01.png?raw=true "METCAP API database")
+
+* Other examples of API use are found in the [./local-dev/demo](local-dev/demo/README.md) directory. 

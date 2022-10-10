@@ -1,0 +1,139 @@
+  {
+    "_id": "2.49.0.1.578.0.20220624082807",
+    "_rev": "4-852bade83e0945b505a0bfbbcb3f6367",
+    "archived": "False",
+    "incident": "0000050041",
+    "author": "anonymous@fare-b",
+    "onset": "2022-06-24T19:00",
+    "expires": "2022-06-25T04:00",
+    "phenomenon": "lightning",
+    "status": "Actual",
+    "colour": "Yellow",
+    "certainty": "Likely",
+    "severity": "Moderate",
+    "saved_at": "2022-06-24T09:32",
+    "source": "farevarseleditor",
+    "uuid": "",
+    "areaDesc": {
+      "nb": "Deler av Agder, Rogaland og Vestland",
+      "en": "Parts of Agder, Rogaland and Vestland"
+    },
+    "altitude": "0ft",
+    "ceiling": "9000ft",
+    "msgType": "Alert",
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                5.20407,
+                59.504
+              ],
+              [
+                5.50393,
+                58.7478
+              ],
+              [
+                6.62768,
+                58.1112
+              ],
+              [
+                7.52807,
+                58.0021
+              ],
+              [
+                7.6904,
+                58.3323
+              ],
+              [
+                7.37242,
+                58.78
+              ],
+              [
+                6.95841,
+                59.208
+              ],
+              [
+                7.09231,
+                59.7607
+              ],
+              [
+                6.77522,
+                60.6031
+              ],
+              [
+                6.40746,
+                61.3903
+              ],
+              [
+                5.8505,
+                61.9927
+              ],
+              [
+                5.20668,
+                62.1908
+              ],
+              [
+                4.70811,
+                61.8231
+              ],
+              [
+                4.77722,
+                61.4078
+              ],
+              [
+                4.75282,
+                60.6614
+              ],
+              [
+                4.97544,
+                60.1829
+              ],
+              [
+                5.11977,
+                60.051
+              ],
+              [
+                5.21322,
+                59.9213
+              ],
+              [
+                5.20407,
+                59.504
+              ]
+            ]
+          ],
+          "bbox": [
+            4.70811,
+            58.0021,
+            7.6904,
+            62.1908
+          ]
+        },
+        "properties": {
+          "customArea": true,
+          "area": ""
+        }
+      }
+    ],
+    "_attachments": {
+      "cap_json": {
+        "content_type": "application/json",
+        "revpos": 4,
+        "digest": "md5-yJaJEnN+GXNsLjFwyrC5tw==",
+        "length": 5596,
+        "stub": true
+      },
+      "cap_xml": {
+        "content_type": "text/xml",
+        "revpos": 4,
+        "digest": "md5-hWWdadSvJohi/Zlg0P3rFw==",
+        "length": 8789,
+        "stub": true
+      }
+    }
+  }

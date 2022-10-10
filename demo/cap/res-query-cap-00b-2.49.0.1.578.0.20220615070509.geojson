@@ -1,0 +1,184 @@
+{
+  "_id": "2.49.0.1.578.0.20220615070509",
+  "_rev": "2-9ced64f01af320b3b8e2d8fd2098d9c8",
+  "archived": "False",
+  "incident": "0000050021",
+  "author": "anonymous@fare-b",
+  "onset": "2022-06-15T06:00",
+  "expires": "2022-06-17T15:00",
+  "phenomenon": "forestFire",
+  "status": "Actual",
+  "colour": "Yellow",
+  "certainty": "Observed",
+  "severity": "Moderate",
+  "saved_at": "2022-06-15T07:23",
+  "source": "farevarseleditor",
+  "uuid": "",
+  "areaDesc": {
+    "nb": "Deler av Agder, Vestfold og Telemark og Viken",
+    "en": "Parts of Agder, Vestfold and Telemark and Viken"
+  },
+  "altitude": "0ft",
+  "ceiling": "9000ft",
+  "msgType": "Update",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.53089,
+              58.5693
+            ],
+            [
+              7.42674,
+              58.2525
+            ],
+            [
+              7.50208,
+              58.0652
+            ],
+            [
+              7.57605,
+              58.0408
+            ],
+            [
+              7.67159,
+              58.0409
+            ],
+            [
+              8.01826,
+              58.1499
+            ],
+            [
+              8.21589,
+              58.1706
+            ],
+            [
+              8.72295,
+              58.4138
+            ],
+            [
+              9.43216,
+              58.8589
+            ],
+            [
+              9.60728,
+              58.9662
+            ],
+            [
+              9.71982,
+              59.1087
+            ],
+            [
+              9.98006,
+              58.979
+            ],
+            [
+              10.2285,
+              59.1073
+            ],
+            [
+              10.4359,
+              59.1865
+            ],
+            [
+              10.7674,
+              59.3194
+            ],
+            [
+              10.8212,
+              59.2219
+            ],
+            [
+              11.1563,
+              59.0896
+            ],
+            [
+              11.189,
+              58.9412
+            ],
+            [
+              11.5492,
+              58.884
+            ],
+            [
+              11.509,
+              59.106
+            ],
+            [
+              11.3515,
+              59.3601
+            ],
+            [
+              11.269,
+              59.6131
+            ],
+            [
+              10.8344,
+              59.7789
+            ],
+            [
+              10.6381,
+              59.8781
+            ],
+            [
+              10.4099,
+              60.1045
+            ],
+            [
+              10.1929,
+              60.1783
+            ],
+            [
+              9.57657,
+              60.0801
+            ],
+            [
+              9.12501,
+              59.7422
+            ],
+            [
+              8.21314,
+              59.029
+            ],
+            [
+              7.53089,
+              58.5693
+            ]
+          ]
+        ],
+        "bbox": [
+          7.42674,
+          58.0408,
+          11.5492,
+          60.1783
+        ]
+      },
+      "properties": {
+        "customArea": true,
+        "area": ""
+      }
+    }
+  ],
+  "references": "noreply@met.no,2.49.0.1.578.0.20220614095614,2022-06-14T10:27:27+00:00",
+  "_attachments": {
+    "cap_json": {
+      "content_type": "application/json",
+      "revpos": 2,
+      "digest": "md5-fPwfEqsjbEQlFt2mrIgEUw==",
+      "length": 4233,
+      "stub": true
+    },
+    "cap_xml": {
+      "content_type": "text/xml",
+      "revpos": 2,
+      "digest": "md5-ToqgdkFcvSZdYZVwN/a3DQ==",
+      "length": 7985,
+      "stub": true
+    }
+  }
+}

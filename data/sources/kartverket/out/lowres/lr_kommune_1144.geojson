@@ -1,0 +1,92 @@
+{
+    "_id": "lr_kommune_1144",
+    "objtype": "Kommune",
+    "source": "https://kartverket.no/",
+    "uuid": "no.met:3fb84d31-5754-5b79-9200-d13f0d18bdd3",
+    "administrativeName": [
+        {
+            "navn": "Kvitsøy",
+            "rekkefolge": "",
+            "sprak": "nor"
+        }
+    ],
+    "administrativeId": "1144",
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            5.2447757901947565,
+                            59.06429012049293
+                        ],
+                        [
+                            5.166542287061387,
+                            59.03474863432373
+                        ],
+                        [
+                            4.959116917502554,
+                            58.9559582061867
+                        ],
+                        [
+                            5.007663164989891,
+                            58.9193332263087
+                        ],
+                        [
+                            5.383757740546505,
+                            58.96429941099391
+                        ],
+                        [
+                            5.445116452906097,
+                            58.982091114206
+                        ],
+                        [
+                            5.502039448281032,
+                            59.05600105312351
+                        ],
+                        [
+                            5.545405032593612,
+                            59.072445071791506
+                        ],
+                        [
+                            5.499033144100581,
+                            59.128275781821735
+                        ],
+                        [
+                            5.371034981423692,
+                            59.11172275324951
+                        ],
+                        [
+                            5.2447757901947565,
+                            59.06429012049293
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "objtype": "Kommune",
+                "samiskforvaltningsomrade": false,
+                "kommunenummer": "1144",
+                "navn": [
+                    {
+                        "navn": "Kvitsøy",
+                        "rekkefolge": "",
+                        "sprak": "nor"
+                    }
+                ],
+                "bbox": [
+                    4.959116917502554,
+                    58.9193332263087,
+                    5.545405032593612,
+                    59.128275781821735
+                ],
+                "area": 0.056637545922987344,
+                "crs": "epsg:4326"
+            }
+        }
+    ],
+    "comment": "Resampled from kommune_1144 with UUID: no.geonorge:48c71cb1-1077-5dde-a2a0-a665bb8c846f"
+}

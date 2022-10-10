@@ -1,0 +1,11 @@
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-00.geojson | jq > res-query-map-00.geojson 
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-01.geojson | jq > res-query-map-01.geojson
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-02.geojson | jq > res-query-map-02.geojson
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-03.geojson | jq > res-query-map-03.geojson
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-04.geojson | jq > res-query-map-04.geojson
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-05.geojson | jq > res-query-map-05.geojson
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-06.geojson | jq > res-query-map-06.geojson
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-07.geojson | jq > res-query-map-07.geojson
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-08.geojson | jq > res-query-map-08.geojson
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-09.geojson | jq > res-query-map-09.geojson
+curl -X 'POST'   'http://localhost:7532/api/v1/map/'   -H 'accept: application/json'   -d @query-map-2.49.0.1.578.0.20220614095614.geojson | jq > res-query-map-2.49.0.1.578.0.20220614095614.geojson

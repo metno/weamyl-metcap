@@ -1,0 +1,12 @@
+--- 
+couchDb:
+  engine: couchDb
+  protocol: http
+  FQDN: localhost
+  port: 5984
+  username: admin
+  password: password
+  mapDb: map
+  lrmapDb: lrmap
+  capDb: warnings
+  customMapDb: area
