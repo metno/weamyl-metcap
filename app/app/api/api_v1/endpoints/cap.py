@@ -5,7 +5,8 @@
 
 # # import httpx
 import socket
-from fastapi import APIRouter, Depends, HTTPException, Query, Request
+from fastapi import APIRouter, Depends, HTTPException, Query, Request, Response
+# from fastapi import APIRouter, Depends, HTTPException, Query, Request
 
 # from app.core.search import ms
 from app.core.wsearch import ws
@@ -155,12 +156,24 @@ async def get_warnings_by_incident_name(name):
     """
     return ws.getWarningsByIncidentName(name)
 
-# @router.get("/incident/{description}")
-# async def get_warnings_by_incident_description(description):
-#     """
-#     Returns list of current CAP warnings with given incident description.
-#     """
-#     return ws.getWarningsByIncidentDescription(description)
+# test{
+@router.get("/xml/{id}")
+async def get_capXML_by_warning_id(id):
+    """
+    Returns source CAP XML for current warning.
+    """
+    # return ws.getWarningCapXML(id)
+    return Response(ws.getWarningCapXML(id), media_type="application/xml")
+
+@router.get("/json/{id}")
+async def get_capJSON_by_warning_id(id):
+    """
+    Returns source CAP JSON for current warning.
+    """
+    # return ws.getWarningCapJSON(id)
+    return Response(ws.getWarningCapJSON(id), media_type="application/json")
+# test}
+
 
 @router.post("/echo/", status_code=200)
 async def echo_query(query: Request):

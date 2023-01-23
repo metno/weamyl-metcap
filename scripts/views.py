@@ -643,6 +643,33 @@ function(doc) {
         })
     }}
 '''
+# warning by capXML
+getCapXMLNameByWarning = '''
+function (doc) {
+ if (typeof doc.type !== 'undefined' && doc.features && doc._attachments) {
+    Object.keys(doc._attachments).forEach(function(k){
+     if(doc._attachments[k].content_type == "text/xml"){
+       emit(doc._id,k);
+     }
+    }
+   )
+  }
+}
+'''
+# warning by capJSON
+getCapJSONNameByWarning = '''
+function (doc) {
+ if (typeof doc.type !== 'undefined' && doc.features && doc._attachments) {
+    Object.keys(doc._attachments).forEach(function(k){
+     if(doc._attachments[k].content_type == "application/json"){
+       emit(doc._id,k);
+     }
+    }
+   )
+  }
+}
+'''
+
 
 waringsDesignGroup = {
     "_id": f"_design/{designGroup}",
@@ -670,6 +697,8 @@ waringsDesignGroup = {
         "polygon":{"map":(f"{getWarningsByPolygon}")},
         "bbox":{"map":(f"{getWarningsByBBox}")},
         "customArea":{"map":(f"{getWarningByCustomArea}")},
+        "capXML":{"map":(f"{getCapXMLNameByWarning}")},
+        "capJSON":{"map":(f"{getCapJSONNameByWarning}")},
         "coordinates":{"map":(f"{getWarningByCoordinates}")}
         }
     }

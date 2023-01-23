@@ -36,6 +36,9 @@ class Search():
                     "geometry": doc['value'][2]   
                     }
                 self.searchResult["features"].append(feature)
+                # test{
+                print("((((((((((((((((((((((((")
+                # test}
         return self.searchResult
 
     def mapSearch(self, query):

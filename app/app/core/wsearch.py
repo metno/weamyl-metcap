@@ -443,12 +443,8 @@ class WSearch():
         if ('onset' in query.keys() and 'expires' in query.keys()):
             rSets.append(set(self.getWarningsInPeriod(query['onset'],query['expires'])))
         # test{
-        # if ('altitude' in query.keys() and 'ceiling' in query.keys()):
-        #     rSets.append(set(self.getWarningsInHeightRange(self.query['altitude'],self.query['ceiling'])))
-        # test}
-        # test{
-        # for elem in set.intersection(*rSets):
-        #     print(elem)
+        if ('incidentName' in query.keys()):
+            rSets.append(set(self.getWarningsByIncidentName(query['incidentName'])))
         # test}
         return set.intersection(*rSets)
 
@@ -465,8 +461,77 @@ class WSearch():
             qs = f'/{self.query["db"]}/{item}'
             response, status = couch.get(qs)
             self.result.append(response.json())
+            # print(response.json())
         return self.result
     
+    def getCapXMLNameByWarning(self,id):
+        # input: string id
+        # output: cap XML file name (array)
+        # query example 
+        # input: getCapXMLNameByWarning('2.49.0.1.578.0.20220602073715')
+        # output: ['cap_xml']
+        # 
+        self.query = {'db': 'warnings',
+                      'design': 'metcap',
+                      'view': 'capXML',
+                      'key': id
+                      }
+        qs = f'/{self.query["db"]}/_design/{self.query["design"]}/_view/{self.query["view"]}?key="{self.query["key"]}"'
+        response, status = couch.get(qs)
+        self.result = []
+        if(not response.json()['rows']):
+            return
+        else:
+            for doc in response.json()['rows']:
+                self.result.append(doc['value'])
+            return self.result
+
+    def getWarningCapXML(self,id):
+        attachments = self.getCapXMLNameByWarning(id)
+        if(len(attachments) == 0):
+            return
+        else:
+            self.query = {'db': 'warnings',
+                     'key': attachments[0]
+                    }
+            qs = f'/{self.query["db"]}/{id}/{self.query["key"]}'
+            response,status = couch.get(qs)
+            return(response.content.decode())
+
+    def getCapJSONNameByWarning(self,id):
+        # input: string id
+        # output: cap JSON file name (array)
+        # query example 
+        # input: getCapJSONNameByWarning('2.49.0.1.578.0.20220602073715')
+        # output: ['cap_json']
+        # 
+        self.query = {'db': 'warnings',
+                      'design': 'metcap',
+                      'view': 'capJSON',
+                      'key': id
+                      }
+        qs = f'/{self.query["db"]}/_design/{self.query["design"]}/_view/{self.query["view"]}?key="{self.query["key"]}"'
+        response, status = couch.get(qs)
+        self.result = []
+        if(not response.json()['rows']):
+            return
+        else:
+            for doc in response.json()['rows']:
+                self.result.append(doc['value'])
+            return self.result
+
+    def getWarningCapJSON(self,id):
+        attachments = self.getCapJSONNameByWarning(id)
+        if(len(attachments) == 0):
+            return
+        else:
+            self.query = {'db': 'warnings',
+                     'key': attachments[0]
+                    }
+            qs = f'/{self.query["db"]}/{id}/{self.query["key"]}'
+            response,status = couch.get(qs)
+            return(response.content.decode())
+
 ###############################################################################
 
 ws = WSearch()

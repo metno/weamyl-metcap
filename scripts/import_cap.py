@@ -43,6 +43,9 @@ class CapToDB:
         """
         capdir = Path(path)
         for fn in tqdm(list(capdir.glob("**/METfare*.xml"))):
+            # test{
+            print(fn)
+            # test}
             dic = self.xml_to_dict(fn)
             warning, incident = self.map_dict(dic)
 
@@ -217,6 +220,7 @@ if __name__ == "__main__":
     
     captodb = CapToDB()
     path = "test_data" if len(sys.argv) == 1 else sys.argv[1]
-    captodb.run(path, couch["archive_warnings"], couch["archive_incidents"])
+    # captodb.run(path, couch["archive_warnings"], couch["archive_incidents"])
+    captodb.run(path, couch["junk-warnings"], couch["junk-incidents"])
 
 

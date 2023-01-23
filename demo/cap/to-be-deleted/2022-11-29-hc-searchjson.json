@@ -1,0 +1,24 @@
+{
+  "cutoff": 0.5,
+  "features": [
+    {
+      "geometry": {
+        "bbox": [6.05628, 58.6904, 11.3904, 61.4875],
+        "coordinates": [
+          [
+            [6.05628, 60.4331],
+            [7.84596, 58.6904],
+            [11.3904, 59.947],
+            [9.16063, 61.4875],
+            [6.05628, 60.4331]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {},
+      "type": "Feature"
+    }
+  ],
+  "phenomenon": "lightning",
+  "type": "FeatureCollection"
+}

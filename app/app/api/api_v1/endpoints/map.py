@@ -53,7 +53,7 @@ def requests_count():
     # return JSONResponse(content=res)
     # return Response(content=res, media_type="text/plain")
     # return res
-# teset}
+# test}
 
 
 @router.get("/lowres/fylke/{administrativeId}")

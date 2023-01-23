@@ -60,5 +60,3 @@ The user name is "admin" and the password is "password". You should see
 ![METCAP API database](./images/01.png?raw=true "METCAP API database")
 
 * Other examples of API use are found in the [./local-dev/demo](local-dev/demo/README.md) directory. 
-
-
