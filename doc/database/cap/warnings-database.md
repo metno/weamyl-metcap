@@ -158,7 +158,9 @@ example
       }
 ```
 
-### Example CAP GeoJSON document
+### Example CAP GeoJSON document and original XML file
+
+#### GeoJSON
 
 ```
 {
@@ -484,4 +486,189 @@ example
     }
   }
 }
+```
+
+#### XML
+
+```
+<alert>
+<identifier>2.49.0.1.578.0.20220706064636</identifier>
+<sender>noreply@met.no</sender>
+<sent>2022-07-06T07:15:57+00:00</sent>
+<status>Actual</status>
+<msgType>Alert</msgType>
+<scope>Public</scope>
+<code>CAP-V12.NO.V1.0</code>
+<incidents>0000050073</incidents>
+<info>
+<language>no</language>
+<category>Met</category>
+<event>Skogbrannfare</event>
+<responseType>Monitor</responseType>
+<urgency>Future</urgency>
+<severity>Moderate</severity>
+<certainty>Likely</certainty>
+<eventCode>
+<valueName>eventType</valueName>
+<value>forestFire</value>
+</eventCode>
+<effective>2022-07-06T10:00:00+00:00</effective>
+<onset>2022-07-06T10:00:00+00:00</onset>
+<expires>2022-07-08T08:00:00+00:00</expires>
+<senderName>Meteorologisk Institutt</senderName>
+<headline>
+Skogbrannfare ventes, gult nivå, Deler av Øst-Finnmark, 2022-07-06T10:00:00+00:00, 2022-07-08T08:00:00+00:00
+</headline>
+<description>
+Lokal gress- og lyngbrannfare inntil det kommer nedbør av betydning.
+</description>
+<instruction>
+Vær forsiktig med åpen ild. Følg lokale myndigheters instruksjoner. Behov for forebyggende tiltak og beredskap skal vurderes fortløpende av beredskapsaktører.
+</instruction>
+<web>
+https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare
+</web>
+<contact>https://www.met.no/kontakt-oss</contact>
+<parameter>
+<valueName>consequences</valueName>
+<value>
+Vegetasjon kan lett antennes og store områder kan bli berørt.
+</value>
+</parameter>
+<parameter>
+<valueName>eventAwarenessName</valueName>
+<value>Skogbrannfare ventes</value>
+</parameter>
+<parameter>
+<valueName>awareness_level</valueName>
+<value>2; yellow; Moderate</value>
+</parameter>
+<parameter>
+<valueName>awarenessSeriousness</valueName>
+<value>Utfordrende situasjon</value>
+</parameter>
+<parameter>
+<valueName>awareness_type</valueName>
+<value>8; forest-fire</value>
+</parameter>
+<parameter>
+<valueName>awarenessResponse</valueName>
+<value>Følg med</value>
+</parameter>
+<parameter>
+<valueName>geographicDomain</valueName>
+<value>land</value>
+</parameter>
+<resource>
+<resourceDesc>
+Kart over Skogbrannfare ventes, gult nivå, Deler av Øst-Finnmark, 2022-07-06T10:00:00+00:00, 2022-07-08T08:00:00+00:00
+</resourceDesc>
+<mimeType>image/png</mimeType>
+<uri>
+https://slaps.met.no/cap-images/9aa8434c-6ae3-466d-9bd8-e9a74c06e983.png
+</uri>
+</resource>
+<area>
+<areaDesc>Deler av Øst-Finnmark</areaDesc>
+<polygon>
+70.0883,27.9362 70.0655,27.9759 70.0655,27.9759 69.9562,28.0614 69.8844,28.3323 69.8351,28.3658 69.7962,28.4845 69.7516,28.8147 69.6964,29.1216 69.6383,29.2034 69.5395,29.3128 69.4823,29.3405 69.3876,29.2216 69.2171,28.8137 69.0918,28.825 69.0045,29.0405 69.0135,29.1139 69.1733,29.3136 69.3218,29.361 69.3273,29.4076 69.335,29.628 69.4227,29.879 69.4157,30.0252 69.4672,30.1083 69.5703,30.1818 69.6421,30.0751 69.6596,30.101 69.6682,30.177 69.54,30.5468 69.5218,30.8273 69.5887,30.9925 69.7855,30.8477 69.8435,30.3283 70.0006,30.0685 70.2313,30.5997 70.283,31.0734 70.4175,31.0243 70.5247,30.6245 70.5918,30.4158 70.6905,30.1977 70.7333,29.7498 70.7269,29.4582 70.8477,29.3277 70.8924,29.0881 70.884,28.8178 70.7399,28.5375 70.6729,28.5456 70.5326,28.3948 70.5077,28.1672 70.4537,27.5012 70.4565,26.8304 70.5268,26.4519 70.2971,26.2754 70.1726,26.3337 69.955,26.5597 69.9617,26.7092 69.9508,26.867 69.9295,26.9171 69.9172,27.0651 69.9466,27.3083 69.9786,27.3121 70.0206,27.5265 70.0686,27.6001 70.0669,27.7639 70.0883,27.9362 70.0883,27.9362
+</polygon>
+<geocode>
+<valueName>county</valueName>
+<value>54</value>
+</geocode>
+<geocode>
+<valueName>MunicipalityId</valueName>
+<value>5404;5405;5438;5440;5441;5442;5443;5444</value>
+</geocode>
+<altitude>0</altitude>
+<ceiling>9000</ceiling>
+</area>
+</info>
+<info>
+<language>en-GB</language>
+<category>Met</category>
+<event>Forest fire danger</event>
+<responseType>Monitor</responseType>
+<urgency>Future</urgency>
+<severity>Moderate</severity>
+<certainty>Likely</certainty>
+<eventCode>
+<valueName>eventType</valueName>
+<value>forestFire</value>
+</eventCode>
+<effective>2022-07-06T10:00:00+00:00</effective>
+<onset>2022-07-06T10:00:00+00:00</onset>
+<expires>2022-07-08T08:00:00+00:00</expires>
+<senderName>MET Norway</senderName>
+<headline>
+Forest fire danger expected, yellow level, Parts of East-Finnmark, 2022-07-06T10:00:00+00:00, 2022-07-08T08:00:00+00:00
+</headline>
+<description>
+Local grass and heathland fire danger in areas until significant precipitation.
+</description>
+<instruction>
+Be careful with open fire. Follow the instructions from the local authorities. Emergency services should assess a necessary level of alertness.
+</instruction>
+<web>
+https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare
+</web>
+<contact>https://www.met.no/en/contact-us</contact>
+<parameter>
+<valueName>consequences</valueName>
+<value>
+Vegetation is easily ignited and large areas may be affected.
+</value>
+</parameter>
+<parameter>
+<valueName>eventAwarenessName</valueName>
+<value>Forest fire danger expected</value>
+</parameter>
+<parameter>
+<valueName>awareness_level</valueName>
+<value>2; yellow; Moderate</value>
+</parameter>
+<parameter>
+<valueName>awarenessSeriousness</valueName>
+<value>Challenging situation</value>
+</parameter>
+<parameter>
+<valueName>awareness_type</valueName>
+<value>8; forest-fire</value>
+</parameter>
+<parameter>
+<valueName>awarenessResponse</valueName>
+<value>Be aware</value>
+</parameter>
+<parameter>
+<valueName>geographicDomain</valueName>
+<value>land</value>
+</parameter>
+<resource>
+<resourceDesc>
+Map over Forest fire danger expected, yellow level, Parts of East-Finnmark, 2022-07-06T10:00:00+00:00, 2022-07-08T08:00:00+00:00
+</resourceDesc>
+<mimeType>image/png</mimeType>
+<uri>
+https://slaps.met.no/cap-images/9aa8434c-6ae3-466d-9bd8-e9a74c06e983.png
+</uri>
+</resource>
+<area>
+<areaDesc>Parts of East-Finnmark</areaDesc>
+<polygon>
+70.0883,27.9362 70.0655,27.9759 70.0655,27.9759 69.9562,28.0614 69.8844,28.3323 69.8351,28.3658 69.7962,28.4845 69.7516,28.8147 69.6964,29.1216 69.6383,29.2034 69.5395,29.3128 69.4823,29.3405 69.3876,29.2216 69.2171,28.8137 69.0918,28.825 69.0045,29.0405 69.0135,29.1139 69.1733,29.3136 69.3218,29.361 69.3273,29.4076 69.335,29.628 69.4227,29.879 69.4157,30.0252 69.4672,30.1083 69.5703,30.1818 69.6421,30.0751 69.6596,30.101 69.6682,30.177 69.54,30.5468 69.5218,30.8273 69.5887,30.9925 69.7855,30.8477 69.8435,30.3283 70.0006,30.0685 70.2313,30.5997 70.283,31.0734 70.4175,31.0243 70.5247,30.6245 70.5918,30.4158 70.6905,30.1977 70.7333,29.7498 70.7269,29.4582 70.8477,29.3277 70.8924,29.0881 70.884,28.8178 70.7399,28.5375 70.6729,28.5456 70.5326,28.3948 70.5077,28.1672 70.4537,27.5012 70.4565,26.8304 70.5268,26.4519 70.2971,26.2754 70.1726,26.3337 69.955,26.5597 69.9617,26.7092 69.9508,26.867 69.9295,26.9171 69.9172,27.0651 69.9466,27.3083 69.9786,27.3121 70.0206,27.5265 70.0686,27.6001 70.0669,27.7639 70.0883,27.9362 70.0883,27.9362
+</polygon>
+<geocode>
+<valueName>county</valueName>
+<value>54</value>
+</geocode>
+<geocode>
+<valueName>MunicipalityId</valueName>
+<value>5404;5405;5438;5440;5441;5442;5443;5444</value>
+</geocode>
+<altitude>0</altitude>
+<ceiling>9000</ceiling>
+</area>
+</info>
+</alert>
 ```
