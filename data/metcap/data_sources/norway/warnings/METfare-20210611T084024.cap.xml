@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210611084024181.1251</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-06-11T08:40:24+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.210611075001007.1250,2021-06-11T07:50:01+00:00</references>
+  <incidents>48805</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-06-11T17:00:00+00:00</effective>
+    <onset>2021-06-11T17:00:00+00:00</onset>
+    <expires>2021-06-12T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Vest-Finnmark med Vidda, 11 June 17:00 UTC til 12 June 18:00 UTC.</headline>
+    <description>Fra fredag kveld er det ventet mye regn i Vest-Finnmark og vest på Finnmarksvidda. Det er ventet rundt 25mm/6t, og totalt kan det komme inntil 50mm/24t. Det er ventet mest regn fredag kveld og natt til lørdag.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-06-12T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye regn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over mye regn, gult nivå, Vest-Finnmark med Vidda, 11 June 17:00 UTC til 12 June 18:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/60b6b07d-88c2-49c3-bcb4-7ce1be7ac054.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vest-Finnmark med Vidda</areaDesc>
+      <polygon>69.900000,25.750000 70.000000,25.866667 70.099833,25.899833 70.233167,25.983167 70.366667,26.049833 70.466667,26.083167 70.666667,26.250000 70.783167,26.433167 70.966667,26.600000 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.650000,22.883167 69.599833,22.783167 69.533167,22.716667 69.483167,22.283167 69.349833,22.350000 69.233167,22.500000 69.116667,22.483167 69.083167,22.299833 69.066667,22.000000 68.933167,22.183167 68.816667,22.299833 68.716667,22.383167 68.733167,22.600000 68.683167,22.783167 68.699833,23.049833 68.633167,23.216667 68.683167,23.466667 68.699833,23.666667 68.800000,23.783167 68.816667,24.000000 68.733167,24.250000 68.650000,24.716667 68.566667,24.899833 68.633167,25.100000 68.800000,25.166667 68.883167,25.416667 68.900000,25.633167 69.033167,25.733167 69.266667,25.716667 69.400000,25.816667 69.533167,25.850000 69.599833,25.966667 69.666667,25.899833 69.733167,26.049833 69.816667,26.299833 69.900000,26.433167 69.900000,26.200000 69.900000,25.750000
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5430;5437</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-06-11T17:00:00+00:00</effective>
+    <onset>2021-06-11T17:00:00+00:00</onset>
+    <expires>2021-06-12T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Vest-Finnmark med Vidda, 11 June 17:00 UTC to 12 June 18:00 UTC.</headline>
+    <description>From Friday evening to Saturday morning much rain is expected in west parts of Finnmark. About 25mm/6h, and in total up to 50mm/24h. Most rain is expected Friday evening and early Saturday morning.</description>
+    <instruction>Consider the need for preventive measures. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-06-12T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rain</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of heavy rain, yellow level, Vest-Finnmark med Vidda, 11 June 17:00 UTC to 12 June 18:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/60b6b07d-88c2-49c3-bcb4-7ce1be7ac054.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vest-Finnmark med Vidda</areaDesc>
+      <polygon>69.900000,25.750000 70.000000,25.866667 70.099833,25.899833 70.233167,25.983167 70.366667,26.049833 70.466667,26.083167 70.666667,26.250000 70.783167,26.433167 70.966667,26.600000 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.650000,22.883167 69.599833,22.783167 69.533167,22.716667 69.483167,22.283167 69.349833,22.350000 69.233167,22.500000 69.116667,22.483167 69.083167,22.299833 69.066667,22.000000 68.933167,22.183167 68.816667,22.299833 68.716667,22.383167 68.733167,22.600000 68.683167,22.783167 68.699833,23.049833 68.633167,23.216667 68.683167,23.466667 68.699833,23.666667 68.800000,23.783167 68.816667,24.000000 68.733167,24.250000 68.650000,24.716667 68.566667,24.899833 68.633167,25.100000 68.800000,25.166667 68.883167,25.416667 68.900000,25.633167 69.033167,25.733167 69.266667,25.716667 69.400000,25.816667 69.533167,25.850000 69.599833,25.966667 69.666667,25.899833 69.733167,26.049833 69.816667,26.299833 69.900000,26.433167 69.900000,26.200000 69.900000,25.750000
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5430;5437</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

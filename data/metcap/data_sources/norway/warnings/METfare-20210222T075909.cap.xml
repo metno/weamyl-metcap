@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210222075909216.475</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-02-22T07:59:09+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.210221091320126.453,2021-02-21T09:13:20+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-02-21T19:00:00+00:00</effective>
+    <onset>2021-02-21T19:00:00+00:00</onset>
+    <expires>2021-02-23T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Nordkapp - Grense Jakobselv, 21 February 19:00 UTC til 23 February 09:00 UTC.</headline>
+    <description>Sørlig sterk kuling 20 m/s, periodevis liten storm til full storm 25. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Meget høye bølger. Rullingen blir tung og støtende. Synsvidden nedsettes. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Nordkapp - Grense Jakobselv</areaDesc>
+      <polygon>70.744167,27.621333 70.733167,28.183167 70.683167,28.716667 70.550000,29.466667 70.349833,30.033167 70.116667,30.133167 69.900000,30.200000 69.783167,30.266667 69.699833,30.600000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-02-21T19:00:00+00:00</effective>
+    <onset>2021-02-21T19:00:00+00:00</onset>
+    <expires>2021-02-23T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, North Cape - Russian border, 21 February 19:00 UTC to 23 February 09:00 UTC.</headline>
+    <description>South strong gale force 9, occasionally storm force 10. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Very high waves. Considerable tumbling of waves with heavy impact. Reduced visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>North Cape - Russian border</areaDesc>
+      <polygon>70.744167,27.621333 70.733167,28.183167 70.683167,28.716667 70.550000,29.466667 70.349833,30.033167 70.116667,30.133167 69.900000,30.200000 69.783167,30.266667 69.699833,30.600000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210706173110227.1361</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-07-06T17:31:10+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-07-07T11:00:00+00:00</effective>
+    <onset>2021-07-07T11:00:00+00:00</onset>
+    <expires>2021-07-07T17:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Karmøy - Bulandet, 07 July 11:00 UTC til 07 July 17:00 UTC.</headline>
+    <description>Fra onsdag ettermiddag, sørlig periodevis stiv kuling 15 m/s. Onsdag kveld minkende. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-07-07T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Grov sjø og hvitt skum fra bølgetopper som brekker. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Karmøy - Bulandet</areaDesc>
+      <polygon>60.760000,4.511500 60.529000,4.637667 60.309167,4.755333 60.235500,4.795000 60.009333,4.874000 59.918833,4.893833 59.738333,4.925000 59.649500,4.939500 59.564333,4.903500 59.460167,4.867333 59.372667,4.823333 59.299500,4.824500 59.346667,5.193667 59.581000,5.198167 59.684000,5.168500 59.767333,5.129500 59.924333,5.079000 60.014333,5.067833 60.123667,5.057333 60.223167,5.023000 60.347167,4.984500 60.447500,4.960833 60.570667,4.849500 60.661333,4.795833 60.786833,4.694500 60.853333,4.702833 60.949000,4.696667 61.052167,4.674667 61.156500,4.695167 61.302667,4.691667 61.297000,4.451833 61.146667,4.455833 61.048500,4.451333 60.976000,4.456667 60.851000,4.484167 60.760000,4.511500
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO811</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-07-07T11:00:00+00:00</effective>
+    <onset>2021-07-07T11:00:00+00:00</onset>
+    <expires>2021-07-07T17:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Karmoey - Bulandet, 07 July 11:00 UTC to 07 July 17:00 UTC.</headline>
+    <description>From Wednesday afternoon, south occasionally near gale force 7. Wednesday evening decreasing. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-07-07T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sea heaps up. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Karmoey - Bulandet</areaDesc>
+      <polygon>60.760000,4.511500 60.529000,4.637667 60.309167,4.755333 60.235500,4.795000 60.009333,4.874000 59.918833,4.893833 59.738333,4.925000 59.649500,4.939500 59.564333,4.903500 59.460167,4.867333 59.372667,4.823333 59.299500,4.824500 59.346667,5.193667 59.581000,5.198167 59.684000,5.168500 59.767333,5.129500 59.924333,5.079000 60.014333,5.067833 60.123667,5.057333 60.223167,5.023000 60.347167,4.984500 60.447500,4.960833 60.570667,4.849500 60.661333,4.795833 60.786833,4.694500 60.853333,4.702833 60.949000,4.696667 61.052167,4.674667 61.156500,4.695167 61.302667,4.691667 61.297000,4.451833 61.146667,4.455833 61.048500,4.451333 60.976000,4.456667 60.851000,4.484167 60.760000,4.511500
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO811</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

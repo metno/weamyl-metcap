@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220814104849</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-14T10:49:56+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220814084503,2022-08-14T10:28:00+00:00</references>
+  <incidents>0000050130</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-16T15:00:00+00:00</effective>
+    <onset>2022-08-16T15:00:00+00:00</onset>
+    <expires>2022-08-17T04:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Trøndelag og Nordland, 2022-08-16T15:00:00+00:00, 2022-08-17T04:00:00+00:00</headline>
+    <description>Fra tirsdag ettermiddag til natt til onsdag er det ventet kraftige regnbyger. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt. Nedbørens plassering er usikker. Lokalt er nedbøren ventet å passere 15 mm/1t.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Unngå unødvendig ferdsel utsatte steder. Ikke kjør bil i vann dypere enn 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-17T04:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn, gult nivå, Trøndelag og Nordland, 2022-08-16T15:00:00+00:00, 2022-08-17T04:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/effab63d-9fb4-4c34-a9de-64d4774557a8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Trøndelag og Nordland</areaDesc>
+      <polygon>69.5133,16.198 68.977,13.4982 67.1507,11.3098 63.6902,8.02602 63.3588,8.32334 63.3755,8.80091 63.3644,8.86611 63.3435,8.88429 63.2657,8.83194 63.2216,8.85649 63.197,8.82732 63.1843,8.66174 63.1486,8.43669 63.1586,8.31039 63.1352,8.11785 63.0173,8.22213 63.0642,8.43523 63.0521,8.51986 63.0652,8.6688 63.1182,8.78954 63.1225,8.96882 63.0712,8.97434 63.0788,9.07512 63.0304,9.1281 62.9334,9.12181 62.9138,9.27286 62.7867,9.3293 62.7399,8.98949 62.698,8.92443 62.5688,9.21505 62.4383,9.2059 62.3693,9.05441 62.253,9.58125 62.3023,9.81281 62.3964,9.95749 62.4229,10.1001 62.5534,10.008 62.6914,10.1627 62.6519,10.7291 62.697,10.8449 62.6535,11.1414 62.5504,11.2219 62.4739,11.4303 62.3704,11.5554 62.3806,11.6595 62.3486,11.6902 62.3496,11.718 62.3825,11.7713 62.3452,12.0533 62.3062,12.1301 62.3226,12.1826 62.3214,12.3504 63.416,12.3132 63.9311,13.0583 63.992,14.3345 64.717,14.1664 66.3029,15.6344 67.1367,16.594 67.4196,16.3354 68.0672,17.2939 67.9421,17.9649 68.1799,18.264 68.487,18.1729 68.6008,18.0151 68.6034,17.5215 68.5733,16.861 68.5019,16.559 68.4354,16.5565 68.3722,16.1441 68.3845,16.0287 68.5104,16.146 68.534,16.0527 68.6028,15.9665 68.451,15.6536 68.508,15.6461 68.5747,15.6273 68.6981,15.7879 68.7559,16.0215 68.7898,16.0247 68.8158,15.9225 68.9171,16.017 69.258,16.3951 69.5133,16.198 69.5133,16.198</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1576;1804;1806;1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837;1838;1839;1840;1841;1845;1848;1851;1853;1856;1857;1859;1860;1865;1866;1867;1868;1870;1871;1874;1875;5001;5006;5007;5014;5020;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5041;5042;5043;5044;5045;5046;5047;5049;5052;5053;5054;5055;5056;5057;5058;5059;5060;5061;5412</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-16T15:00:00+00:00</effective>
+    <onset>2022-08-16T15:00:00+00:00</onset>
+    <expires>2022-08-17T04:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Trøndelag and Nordland, 2022-08-16T15:00:00+00:00, 2022-08-17T04:00:00+00:00</headline>
+    <description>From Tuesday afternoon to early Wednesday heavy rain showers are expected in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly. The exact location of the precipitation is uncertain. Locally the precipitation can exceed 15 mm/h.</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Stay away from exposed places if possible. Do not drive in water deeper than 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-17T04:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Trøndelag and Nordland, 2022-08-16T15:00:00+00:00, 2022-08-17T04:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/effab63d-9fb4-4c34-a9de-64d4774557a8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Trøndelag and Nordland</areaDesc>
+      <polygon>69.5133,16.198 68.977,13.4982 67.1507,11.3098 63.6902,8.02602 63.3588,8.32334 63.3755,8.80091 63.3644,8.86611 63.3435,8.88429 63.2657,8.83194 63.2216,8.85649 63.197,8.82732 63.1843,8.66174 63.1486,8.43669 63.1586,8.31039 63.1352,8.11785 63.0173,8.22213 63.0642,8.43523 63.0521,8.51986 63.0652,8.6688 63.1182,8.78954 63.1225,8.96882 63.0712,8.97434 63.0788,9.07512 63.0304,9.1281 62.9334,9.12181 62.9138,9.27286 62.7867,9.3293 62.7399,8.98949 62.698,8.92443 62.5688,9.21505 62.4383,9.2059 62.3693,9.05441 62.253,9.58125 62.3023,9.81281 62.3964,9.95749 62.4229,10.1001 62.5534,10.008 62.6914,10.1627 62.6519,10.7291 62.697,10.8449 62.6535,11.1414 62.5504,11.2219 62.4739,11.4303 62.3704,11.5554 62.3806,11.6595 62.3486,11.6902 62.3496,11.718 62.3825,11.7713 62.3452,12.0533 62.3062,12.1301 62.3226,12.1826 62.3214,12.3504 63.416,12.3132 63.9311,13.0583 63.992,14.3345 64.717,14.1664 66.3029,15.6344 67.1367,16.594 67.4196,16.3354 68.0672,17.2939 67.9421,17.9649 68.1799,18.264 68.487,18.1729 68.6008,18.0151 68.6034,17.5215 68.5733,16.861 68.5019,16.559 68.4354,16.5565 68.3722,16.1441 68.3845,16.0287 68.5104,16.146 68.534,16.0527 68.6028,15.9665 68.451,15.6536 68.508,15.6461 68.5747,15.6273 68.6981,15.7879 68.7559,16.0215 68.7898,16.0247 68.8158,15.9225 68.9171,16.017 69.258,16.3951 69.5133,16.198 69.5133,16.198</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1576;1804;1806;1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837;1838;1839;1840;1841;1845;1848;1851;1853;1856;1857;1859;1860;1865;1866;1867;1868;1870;1871;1874;1875;5001;5006;5007;5014;5020;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5041;5042;5043;5044;5045;5046;5047;5049;5052;5053;5054;5055;5056;5057;5058;5059;5060;5061;5412</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

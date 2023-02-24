@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220511094433823.1563</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-05-11T09:44:33+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.220509080323082.1557,2022-05-09T08:03:23+00:00</references>
+  <incidents>49193</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2022-05-10T00:00:00+00:00</effective>
+    <onset>2022-05-10T00:00:00+00:00</onset>
+    <expires>2022-05-13T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Jotunheimen og Langfjella, 10 May 00:00 UTC til 13 May 09:00 UTC.</headline>
+    <description>Onsdag, torsdag og første del av fredag ventes perioder med sludd og snø på fjellovergangene over 800-1100 meter. Det nedbør vesentlig i vestlige fjelltrakter. Temperaturen og snøgrensen er lavest nattestid.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-05-13T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det kan være lokalt vanskelige kjøreforhold. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over snø, gult nivå, Jotunheimen og Langfjella, 10 May 00:00 UTC til 13 May 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/5a735d54-5f71-4ecf-afbc-9d2bcefccaf8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Jotunheimen og Langfjella</areaDesc>
+      <polygon>59.625333,7.771500 59.654667,8.042000 59.799333,8.266667 59.902833,8.393000 60.028167,8.656167 60.373667,8.517500 60.577500,8.324500 60.870167,8.961667 60.992000,8.959500 61.065333,8.899667 61.199500,7.807500 61.052667,7.640667 61.012000,7.329167 60.713167,7.201333 60.494000,7.096000 60.316500,6.767167 60.109167,6.669333 59.963500,6.691500 59.820333,7.001333 59.705167,7.044833 59.234500,6.751333 59.084667,6.911333 58.983167,6.740167 58.921000,6.780167 58.722833,7.373167 58.683167,7.547833 58.674667,7.668667 58.721000,7.750000 58.791000,7.722167 58.911833,7.653000 58.988667,7.642000 59.022167,7.736333 59.065833,7.911667 59.123167,7.950500 59.338667,7.852167 59.625333,7.771500
+</polygon>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3454;3434;3435;3453;3436;3433;4643;4644</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3042;3043;3044;3452;3454;4641;4642</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3044;3052;3818;3825;4618;4619;4620</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3823;3824;4220;4221;4222;4224;4228</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO041</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO042</value>
+      </geocode>
+      <altitude>264</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2022-05-10T00:00:00+00:00</effective>
+    <onset>2022-05-10T00:00:00+00:00</onset>
+    <expires>2022-05-13T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Jotunheimen og Langfjella, 10 May 00:00 UTC to 13 May 09:00 UTC.</headline>
+    <description>Wednesday, Thursday and first part of Friday sleet and snow is expected in mountainous areas, mainly in western areas. Lowest temperature during night time.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-05-13T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Local driving conditions may become difficult. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of snow, yellow level, Jotunheimen og Langfjella, 10 May 00:00 UTC to 13 May 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/5a735d54-5f71-4ecf-afbc-9d2bcefccaf8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Jotunheimen og Langfjella</areaDesc>
+      <polygon>59.625333,7.771500 59.654667,8.042000 59.799333,8.266667 59.902833,8.393000 60.028167,8.656167 60.373667,8.517500 60.577500,8.324500 60.870167,8.961667 60.992000,8.959500 61.065333,8.899667 61.199500,7.807500 61.052667,7.640667 61.012000,7.329167 60.713167,7.201333 60.494000,7.096000 60.316500,6.767167 60.109167,6.669333 59.963500,6.691500 59.820333,7.001333 59.705167,7.044833 59.234500,6.751333 59.084667,6.911333 58.983167,6.740167 58.921000,6.780167 58.722833,7.373167 58.683167,7.547833 58.674667,7.668667 58.721000,7.750000 58.791000,7.722167 58.911833,7.653000 58.988667,7.642000 59.022167,7.736333 59.065833,7.911667 59.123167,7.950500 59.338667,7.852167 59.625333,7.771500
+</polygon>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3454;3434;3435;3453;3436;3433;4643;4644</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3042;3043;3044;3452;3454;4641;4642</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3044;3052;3818;3825;4618;4619;4620</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3823;3824;4220;4221;4222;4224;4228</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO041</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO042</value>
+      </geocode>
+      <altitude>264</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

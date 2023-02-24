@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211127160753368.2435</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-11-27T16:07:53+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-11-28T05:00:00+00:00</effective>
+    <onset>2021-11-28T05:00:00+00:00</onset>
+    <expires>2021-11-28T21:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Stavern - Lindesnes, 28 November 05:00 UTC til 28 November 21:00 UTC.</headline>
+    <description>Fra søndag morgen nordøstlig stiv kuling 15 m/s. Søndag kveld minkende. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-28T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Stavern - Lindesnes</areaDesc>
+      <polygon>58.922667,9.435000 58.797333,9.222667 58.681000,9.026167 58.470333,8.680000 58.173167,8.146667 58.154500,7.994833 58.069167,7.565667 58.067667,7.159167 57.972167,7.040833 57.957167,7.568500 58.063500,8.052000 58.089167,8.215333 58.246167,8.525500 58.396500,8.808833 58.629000,9.153833 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.956500,10.048167 59.053333,10.010833 59.051667,9.840167 59.064833,9.770167 58.922667,9.435000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO813</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO814</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO802</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO812</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-11-28T05:00:00+00:00</effective>
+    <onset>2021-11-28T05:00:00+00:00</onset>
+    <expires>2021-11-28T21:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Stavern - Lindesnes, 28 November 05:00 UTC to 28 November 21:00 UTC.</headline>
+    <description>From Sunday morning northeast near gale force 7. Sunday evening decreasing. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-28T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Stavern - Lindesnes</areaDesc>
+      <polygon>58.922667,9.435000 58.797333,9.222667 58.681000,9.026167 58.470333,8.680000 58.173167,8.146667 58.154500,7.994833 58.069167,7.565667 58.067667,7.159167 57.972167,7.040833 57.957167,7.568500 58.063500,8.052000 58.089167,8.215333 58.246167,8.525500 58.396500,8.808833 58.629000,9.153833 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.956500,10.048167 59.053333,10.010833 59.051667,9.840167 59.064833,9.770167 58.922667,9.435000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO813</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO814</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO802</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO812</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

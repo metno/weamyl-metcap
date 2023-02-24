@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.201222120542019.5148</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-12-22T12:05:42+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-12-23T03:00:00+00:00</effective>
+    <onset>2020-12-23T03:00:00+00:00</onset>
+    <expires>2020-12-23T11:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Stad - Ona, 23 December 03:00 UTC til 23 December 11:00 UTC.</headline>
+    <description>Natt til onsdag økning til nordvest stiv kuling 15 m/s. Onsdag formiddag minkende.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-12-23T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. Høye bølger. Det er farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Stad - Ona</areaDesc>
+      <polygon>62.360333,5.222667 62.217167,4.932500 62.183833,5.141000 62.265500,5.446000 62.350500,5.573000 62.480000,5.948667 62.577333,6.069333 62.638000,6.152333 62.685333,6.253500 62.776833,6.459333 62.838167,6.607333 62.922000,6.453000 62.847500,6.235000 62.740500,6.029000 62.631000,5.812167 62.541500,5.637333 62.433667,5.400500 62.360333,5.222667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-12-23T03:00:00+00:00</effective>
+    <onset>2020-12-23T03:00:00+00:00</onset>
+    <expires>2020-12-23T11:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Stad - Ona, 23 December 03:00 UTC to 23 December 11:00 UTC.</headline>
+    <description>Early wednesday morning northwest near gale force 7. Late wednesday morning decreasing.</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-12-23T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. Large waves. High risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Stad - Ona</areaDesc>
+      <polygon>62.360333,5.222667 62.217167,4.932500 62.183833,5.141000 62.265500,5.446000 62.350500,5.573000 62.480000,5.948667 62.577333,6.069333 62.638000,6.152333 62.685333,6.253500 62.776833,6.459333 62.838167,6.607333 62.922000,6.453000 62.847500,6.235000 62.740500,6.029000 62.631000,5.812167 62.541500,5.637333 62.433667,5.400500 62.360333,5.222667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

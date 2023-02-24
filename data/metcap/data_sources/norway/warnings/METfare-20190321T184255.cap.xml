@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190321184255975.1325</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-21T18:42:55+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2021</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-03-22T05:00:00+00:00</effective>
+    <onset>2019-03-22T05:00:00+00:00</onset>
+    <expires>2019-03-22T21:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Karmøy - Fedje, 22 March 05:00 UTC til 22 March 21:00 UTC.</headline>
+    <description>Fredag morgen økning til sørlig stiv kuling 15 m/s, fra om formiddagen økning til sterk kuling 20 og nord for Slåtterøy til dels liten storm 22. Fredag kveld dreiende sørvest stiv kuling 15. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-22T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Tette skumstrimer driver i vindretningen. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Karmøy - Fedje</areaDesc>
+      <polygon>59.918833,4.893833 59.738333,4.925000 59.649500,4.939500 59.564333,4.903500 59.460167,4.867333 59.372667,4.823333 59.299500,4.824500 59.346667,5.193667 59.581000,5.198167 59.684000,5.168500 59.767333,5.129500 59.924333,5.079000 60.014333,5.067833 60.123667,5.057333 60.223167,5.023000 60.347167,4.984500 60.447500,4.960833 60.570667,4.849500 60.661333,4.795833 60.786833,4.694500 60.760000,4.511500 60.529000,4.637667 60.309167,4.755333 60.235500,4.795000 60.009333,4.874000 59.918833,4.893833
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-03-22T05:00:00+00:00</effective>
+    <onset>2019-03-22T05:00:00+00:00</onset>
+    <expires>2019-03-22T21:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Karmoey - Fedje, 22 March 05:00 UTC to 22 March 21:00 UTC.</headline>
+    <description>Friday morning increasing south near gale force 7, from late in the morning increasing gale force 8 and north for Slaatteroey at times strong gale force 9. Friday evening veering southwest near gale force 7. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-22T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>High waves whose crests sometimes roll over. Dense foam is blown along wind direction. Large amounts of airborne spray may begin to reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Karmoey - Fedje</areaDesc>
+      <polygon>59.918833,4.893833 59.738333,4.925000 59.649500,4.939500 59.564333,4.903500 59.460167,4.867333 59.372667,4.823333 59.299500,4.824500 59.346667,5.193667 59.581000,5.198167 59.684000,5.168500 59.767333,5.129500 59.924333,5.079000 60.014333,5.067833 60.123667,5.057333 60.223167,5.023000 60.347167,4.984500 60.447500,4.960833 60.570667,4.849500 60.661333,4.795833 60.786833,4.694500 60.760000,4.511500 60.529000,4.637667 60.309167,4.755333 60.235500,4.795000 60.009333,4.874000 59.918833,4.893833
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

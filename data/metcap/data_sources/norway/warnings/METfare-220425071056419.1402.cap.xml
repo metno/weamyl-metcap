@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220425071056419.1402</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-04-25T07:10:56+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.220424095122068.1399,2022-04-24T09:51:22+00:00</references>
+  <incidents>49174</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2022-04-25T09:00:00+00:00</effective>
+    <onset>2022-04-25T09:00:00+00:00</onset>
+    <expires>2022-04-27T05:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, Nordkappbanken, Nordbanken, Kildinbanken, B4, C4, C5 og B5, 25 April 09:00 UTC til 27 April 05:00 UTC.</headline>
+    <description>Et polart lavtrykk vil mandag formiddag dannes i overgangen mellom B4 og C4 og bevege seg hurtig i sørøstlig retning. Tirsdag kl 06 UTC vil lavtrykket ligge lengst øst i C5. I vestlig del av lavtrykket vil det være nordlig sterk storm 30 m/s, kan hende orkan 33. Lavtrykket ventes å svekkes onsdag morgen.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-04-27T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over polart lavtrykk, gult nivå, Nordkappbanken, Nordbanken, Kildinbanken, B4, C4, C5 og B5, 25 April 09:00 UTC til 27 April 05:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/7c23d450-8a2f-48b7-b712-3616c27685af.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordkappbanken, Nordbanken, Kildinbanken, B4, C4, C5 og B5</areaDesc>
+      <polygon>71.099833,35.750000 72.500000,32.312500 72.500000,30.000000 75.000000,30.000000 77.500000,30.000000 77.500000,20.000000 77.500000,18.357000 76.608167,17.147333 76.547167,16.116667 77.161000,14.199667 77.500000,13.680667 77.500000,10.000000 75.000000,10.000000 72.500000,10.000000 72.500000,15.000000 72.500000,15.750000 72.500000,19.649667 72.500000,20.000000 72.500000,24.607667 71.194167,25.814167 71.116667,26.783167 71.150167,27.643167 71.105667,28.237667 70.711167,30.158167 70.422500,31.144500 69.250000,35.400000 70.000000,36.333167 70.500000,37.000000 71.099667,35.750000 71.099833,35.750000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2022-04-25T09:00:00+00:00</effective>
+    <onset>2022-04-25T09:00:00+00:00</onset>
+    <expires>2022-04-27T05:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, North Cape bank, North bank, Kildinbank, B4, C4, C5 and B5, 25 April 09:00 UTC to 27 April 05:00 UTC.</headline>
+    <description>A polar low will late Monday morning develop at the border between B4 and C4 and move quickly in southeast direction. At Tuesday 06 UTC the center will be at eastern border of C5. West of center the wind is expected at north violent storm force 11, possibly hurricane force 12. The low is expected to weaken Wednesday morning.</description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-04-27T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of polar low, yellow level, North Cape bank, North bank, Kildinbank, B4, C4, C5 and B5, 25 April 09:00 UTC to 27 April 05:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/7c23d450-8a2f-48b7-b712-3616c27685af.png</uri>
+    </resource>
+    <area>
+      <areaDesc>North Cape bank, North bank, Kildinbank, B4, C4, C5 and B5</areaDesc>
+      <polygon>71.099833,35.750000 72.500000,32.312500 72.500000,30.000000 75.000000,30.000000 77.500000,30.000000 77.500000,20.000000 77.500000,18.357000 76.608167,17.147333 76.547167,16.116667 77.161000,14.199667 77.500000,13.680667 77.500000,10.000000 75.000000,10.000000 72.500000,10.000000 72.500000,15.000000 72.500000,15.750000 72.500000,19.649667 72.500000,20.000000 72.500000,24.607667 71.194167,25.814167 71.116667,26.783167 71.150167,27.643167 71.105667,28.237667 70.711167,30.158167 70.422500,31.144500 69.250000,35.400000 70.000000,36.333167 70.500000,37.000000 71.099667,35.750000 71.099833,35.750000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

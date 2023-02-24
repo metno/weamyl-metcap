@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220127104419823.3218</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-01-27T10:44:19+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>49058</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2022-01-28T04:00:00+00:00</effective>
+    <onset>2022-01-28T04:00:00+00:00</onset>
+    <expires>2022-01-28T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, Ytre Vestfjorden, Røstbanken, Vesterålsbankene, Bankene utenfor Troms og Tromsøflaket og Lofoten, Vesterålen og Troms, 28 January 04:00 UTC til 28 January 10:00 UTC.</headline>
+    <description>Et polart lavtrykk vil natt til fredag dannes i havområdet vest for Troms og beveger seg mot aust. Fredag morgen er posisjonen usikker men ventes å treffe mellom Lofoten og Tromsø. I vestlige del av lavtrykket vil det være nordvestlig sterk kuling til liten storm. Lavtrykket ventes å svekkes fredag formiddag. </description>
+    <instruction>Vær oppmerksom på raske endringer i været. Unngå unødvendig ferdsel på utsatte steder. Vurder om reisen er nødvendig. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-01-28T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. Det kan være vanskelig fremkommelighet på grunn av snø, snøfokk og redusert sikt. Noen reiser vil kunne få lenger reisetid. Det kan være lokalt vanskelige kjøreforhold grunnet kraftig snøfall i kombinasjon med vind. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over polart lavtrykk, gult nivå, Ytre Vestfjorden, Røstbanken, Vesterålsbankene, Bankene utenfor Troms og Tromsøflaket og Lofoten, Vesterålen og Troms, 28 January 04:00 UTC til 28 January 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/bc4e00cc-b608-4503-a0fd-92972acf48b5.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre Vestfjorden, Røstbanken, Vesterålsbankene, Bankene utenfor Troms og Tromsøflaket og Lofoten, Vesterålen og Troms</areaDesc>
+      <polygon>68.098667,14.742167 68.166667,15.216667 68.266667,15.183167 68.300000,15.116667 68.349833,15.266667 68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667 68.500000,15.683167 68.466667,15.616667 68.449833,15.649833 68.500000,15.766667 68.533167,15.866667 68.599833,15.949833 68.566667,16.033167 68.633167,16.233167 68.566667,16.466667 68.566667,16.566667 68.550000,16.616667 68.533167,16.549833 68.500000,16.566667 68.516667,16.733167 68.583167,16.866667 68.550000,17.216667 68.550000,17.316667 68.599833,17.533167 68.599833,18.033167 68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.462667,21.334667 70.680833,21.941167 70.840000,22.685667 72.400000,19.850000 72.500000,19.650000 72.500000,15.750000 72.000000,15.750000 70.716833,16.780000 70.200000,16.900000 70.000000,16.600000 69.800000,16.300000 69.550000,15.200000 68.220000,10.000000 66.632000,10.000000 66.801000,12.795000 66.800000,12.800000 67.200000,13.700000 67.453833,14.241333 67.616333,14.420833 67.766667,14.383167 68.030667,14.894000 68.098667,14.742167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2022-01-28T04:00:00+00:00</effective>
+    <onset>2022-01-28T04:00:00+00:00</onset>
+    <expires>2022-01-28T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, Outer Vestfjord, Roest Bank, Vesteraalbanks, Banks outside Troms and Tromsoeflaket and Lofoten, Vesteraalen and Troms, 28 January 04:00 UTC to 28 January 10:00 UTC.</headline>
+    <description>A Polar low will early Friday morning develop in the sea areas west of Troms and is moving towards east. Friday morning the position is uncertain but its expected to make landfall between Lofoten and Tromsø. In western part of the low northwesterly gale force 8 or severe gale force 9 is expected. The low is weakening late Friday morning. </description>
+    <instruction>Be aware of abrupt weather changes. Avoid unnecessary journeys to exposed places. Consider whether the journey is necessary. Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-01-28T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. It can be difficult to navigate due to snow, blowing snow and reduced visibility. Some journeys may have longer travel time. It can be locally difficult driving conditions due to heavy snowfall in combination with wind. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of polar low, yellow level, Outer Vestfjord, Roest Bank, Vesteraalbanks, Banks outside Troms and Tromsoeflaket and Lofoten, Vesteraalen and Troms, 28 January 04:00 UTC to 28 January 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/bc4e00cc-b608-4503-a0fd-92972acf48b5.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer Vestfjord, Roest Bank, Vesteraalbanks, Banks outside Troms and Tromsoeflaket and Lofoten, Vesteraalen and Troms</areaDesc>
+      <polygon>68.098667,14.742167 68.166667,15.216667 68.266667,15.183167 68.300000,15.116667 68.349833,15.266667 68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667 68.500000,15.683167 68.466667,15.616667 68.449833,15.649833 68.500000,15.766667 68.533167,15.866667 68.599833,15.949833 68.566667,16.033167 68.633167,16.233167 68.566667,16.466667 68.566667,16.566667 68.550000,16.616667 68.533167,16.549833 68.500000,16.566667 68.516667,16.733167 68.583167,16.866667 68.550000,17.216667 68.550000,17.316667 68.599833,17.533167 68.599833,18.033167 68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.462667,21.334667 70.680833,21.941167 70.840000,22.685667 72.400000,19.850000 72.500000,19.650000 72.500000,15.750000 72.000000,15.750000 70.716833,16.780000 70.200000,16.900000 70.000000,16.600000 69.800000,16.300000 69.550000,15.200000 68.220000,10.000000 66.632000,10.000000 66.801000,12.795000 66.800000,12.800000 67.200000,13.700000 67.453833,14.241333 67.616333,14.420833 67.766667,14.383167 68.030667,14.894000 68.098667,14.742167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210912101331095.1673</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-09-12T10:13:31+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48888</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2021-09-13T06:00:00+00:00</effective>
+    <onset>2021-09-13T06:00:00+00:00</onset>
+    <expires>2021-09-14T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Finnmarksvidda, 13 September 06:00 UTC til 14 September 06:00 UTC.</headline>
+    <description>Fra mandag morgen til tirsdag morgen ventes 5-15 cm snø på veier over 300 meters høyde. </description>
+    <instruction>Bruk riktige dekk og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-09-14T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det kan være lokalt vanskelige kjøreforhold. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over snø, gult nivå, Finnmarksvidda, 13 September 06:00 UTC til 14 September 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/26c40420-d364-4d16-bcaf-93fd8b99ab58.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmarksvidda</areaDesc>
+      <polygon>69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.816667,26.299833 69.733167,26.049833 69.666667,25.899833 69.599833,25.966667 69.533167,25.850000 69.400000,25.816667 69.266667,25.716667 69.033167,25.733167 68.900000,25.633167 68.883167,25.416667 68.800000,25.166667 68.633167,25.100000 68.566667,24.899833 68.650000,24.716667 68.733167,24.250000 68.816667,24.000000 68.800000,23.783167 68.699833,23.666667 68.683167,23.466667 68.633167,23.216667 68.699833,23.049833 68.683167,22.783167 68.733167,22.600000 68.716667,22.383167 68.816667,22.299833 68.933167,22.183167 69.066667,22.000000
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5430;5437</value>
+      </geocode>
+      <altitude>800</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2021-09-13T06:00:00+00:00</effective>
+    <onset>2021-09-13T06:00:00+00:00</onset>
+    <expires>2021-09-14T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Finnmarksvidda, 13 September 06:00 UTC to 14 September 06:00 UTC.</headline>
+    <description>From Monday morning to Tuesday morning 5-15 cm snow is expected on roads above 300 meters. </description>
+    <instruction>Use tires fit for winter conditions and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-09-14T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Local driving conditions may become difficult. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of snow, yellow level, Finnmarksvidda, 13 September 06:00 UTC to 14 September 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/26c40420-d364-4d16-bcaf-93fd8b99ab58.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmarksvidda</areaDesc>
+      <polygon>69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.816667,26.299833 69.733167,26.049833 69.666667,25.899833 69.599833,25.966667 69.533167,25.850000 69.400000,25.816667 69.266667,25.716667 69.033167,25.733167 68.900000,25.633167 68.883167,25.416667 68.800000,25.166667 68.633167,25.100000 68.566667,24.899833 68.650000,24.716667 68.733167,24.250000 68.816667,24.000000 68.800000,23.783167 68.699833,23.666667 68.683167,23.466667 68.633167,23.216667 68.699833,23.049833 68.683167,22.783167 68.733167,22.600000 68.716667,22.383167 68.816667,22.299833 68.933167,22.183167 69.066667,22.000000
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5430;5437</value>
+      </geocode>
+      <altitude>800</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

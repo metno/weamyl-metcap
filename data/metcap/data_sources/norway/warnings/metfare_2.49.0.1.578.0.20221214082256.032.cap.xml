@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221214082256.032</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-14T08:42:54+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221213082707.036,2022-12-13T08:51:32+00:00</references>
+  <incidents>0000050320</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Ising</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>icing</value>
+    </eventCode>
+    <effective>2022-12-14T05:00:00+00:00</effective>
+    <onset>2022-12-14T05:00:00+00:00</onset>
+    <expires>2022-12-16T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Moderat ising på skip, gult nivå, Kyst- og fjordstrøk i Øst-Finnmark, 2022-12-14T05:00:00+00:00, 2022-12-16T06:00:00+00:00</headline>
+    <description>Fra tidlig onsdag morgen til fredag morgen er det ventet lokalt moderat ising på skip i utsatte kyst- og fjordstrøk.</description>
+    <instruction>Fjern is fra båten. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/ising-pa-fartoyer</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-16T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Rask nok isvekst kan føre til at en liten båt mister stabiliteten, velter og synker. For større båter ventes glatte dekk, gelender, stiger og nedisete redningsbåter og annet redningsutstyr. Isingen kan ødelegge radiokommunikasjonen hvis antennene fryser. Moderat isvekst på fronten/styrhuset til skipet. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Moderat ising på skip</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>0.5cm/h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>marine</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Moderat ising på skip, gult nivå, Kyst- og fjordstrøk i Øst-Finnmark, 2022-12-14T05:00:00+00:00, 2022-12-16T06:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/dea388f8-917c-4e36-8739-b766e459fec0.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Kyst- og fjordstrøk i Øst-Finnmark</areaDesc>
+      
+          <polygon>70.6667,26.25 70.4667,26.0832 70.3667,26.0498 70.2332,25.9832 70.176,26.3192 70.2322,26.7063 70.3422,27.0737 70.4805,27.388 70.4482,27.6158 70.3488,27.8882 70.3623,28.3325 70.4522,28.7555 70.5987,28.9103 70.5408,29.3933 70.4482,29.9492 70.3787,30.3315 70.2342,30.1187 70.1967,29.5548 70.2635,28.7917 70.2153,28.2613 70.09,28.3045 69.9725,28.5832 69.9225,29.0392 69.7677,29.1532 69.6832,29.1167 69.5738,29.4108 69.6122,29.8318 69.65,30.0832 69.6667,30.2 69.5998,30.4167 69.5332,30.5332 69.5167,30.8332 69.5667,30.95 69.6832,30.9167 69.7667,30.85 69.8167,30.8832 70.1667,31.5332 70.4225,31.1445 70.7112,30.1582 71.1057,28.2377 71.1502,27.6432 71.1167,26.7832 70.9667,26.6 70.7832,26.4332 70.6667,26.25 70.6667,26.25</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>80</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Icing</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>icing</value>
+    </eventCode>
+    <effective>2022-12-14T05:00:00+00:00</effective>
+    <onset>2022-12-14T05:00:00+00:00</onset>
+    <expires>2022-12-16T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Moderate icing on ships, yellow level, Coast and fjords of eastern Finnmark, 2022-12-14T05:00:00+00:00, 2022-12-16T06:00:00+00:00</headline>
+    <description>From early Wednesday morning to Friday locally moderate icing on ships is expected in exposed coastal and fjord areas.</description>
+    <instruction>Remove ice from the boat. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/ising-pa-fartoyer</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-16T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Rapid ice accumulation on a small boat may cause it to lose its stability, tip over and sink. For ships the issue is more directed towards slippery decks, handrailing, ladders, iced down safety boats and safety equipment. Ice accumulation may also damage radio communication if the antennas are freezing. Moderate ice accumulation on the bow/bridge of the ship. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Moderate icing on ships</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>0.5cm/h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>marine</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Moderate icing on ships, yellow level, Coast and fjords of eastern Finnmark, 2022-12-14T05:00:00+00:00, 2022-12-16T06:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/dea388f8-917c-4e36-8739-b766e459fec0.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Coast and fjords of eastern Finnmark</areaDesc>
+      
+          <polygon>70.6667,26.25 70.4667,26.0832 70.3667,26.0498 70.2332,25.9832 70.176,26.3192 70.2322,26.7063 70.3422,27.0737 70.4805,27.388 70.4482,27.6158 70.3488,27.8882 70.3623,28.3325 70.4522,28.7555 70.5987,28.9103 70.5408,29.3933 70.4482,29.9492 70.3787,30.3315 70.2342,30.1187 70.1967,29.5548 70.2635,28.7917 70.2153,28.2613 70.09,28.3045 69.9725,28.5832 69.9225,29.0392 69.7677,29.1532 69.6832,29.1167 69.5738,29.4108 69.6122,29.8318 69.65,30.0832 69.6667,30.2 69.5998,30.4167 69.5332,30.5332 69.5167,30.8332 69.5667,30.95 69.6832,30.9167 69.7667,30.85 69.8167,30.8832 70.1667,31.5332 70.4225,31.1445 70.7112,30.1582 71.1057,28.2377 71.1502,27.6432 71.1167,26.7832 70.9667,26.6 70.7832,26.4332 70.6667,26.25 70.6667,26.25</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>80</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190111043057364.160</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-11T04:30:57+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190110105940298.127,2019-01-10T10:59:40+00:00</references>
+  <incidents>1343</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-11T05:00:00+00:00</effective>
+    <onset>2019-01-11T05:00:00+00:00</onset>
+    <expires>2019-01-12T00:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Ytre Vestfjorden, Røstbanken og Vesterålsbankene, 11 January 05:00 UTC til 12 January 00:00 UTC.</headline>
+    <description>Fra fredag morgen nordvestlig full og periodevis sterk storm 30 m/s, fra fredag ettermiddag sterk kuling 20. Fredag kveld og natt til lørdag minkende, først i sør.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-12T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. Ualminnelig høye bølger (små og middelstore skip kan for en tid forsvinne i bølgedalene). Sjøen er fullstendig dekket av lange, hvite skumflak som ligger i vindens retning. Overalt blåser bølgekammene til frådelignende skum. Sjørokket nedsetter synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>24.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Ytre Vestfjorden, Røstbanken og Vesterålsbankene</areaDesc>
+      <polygon>67.557167,12.603667 67.646167,12.507167 68.030000,12.908167 68.840000,14.548667 69.071667,15.163667 69.332167,16.062667 69.425667,16.458667 69.550000,15.200000 68.220000,10.000000 66.632000,10.000000 66.801000,12.795000 66.800000,12.800000 67.200000,13.700000 67.453833,14.241333 67.616333,14.420833 67.766667,14.383167 68.030667,14.894000 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557333,12.603667 67.557167,12.603667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-11T05:00:00+00:00</effective>
+    <onset>2019-01-11T05:00:00+00:00</onset>
+    <expires>2019-01-12T00:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Outer Vestfjord, Roest Bank and Vesteraalbanks, 11 January 05:00 UTC to 12 January 00:00 UTC.</headline>
+    <description>From Friday morning northwest strom force 10, occasionally violent storm force 11. From Friday afternoon gale force 8. Friday evening and early Saturday morning decreasing, first in southern part.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-12T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. Exceptionally high waves. Very large patches of foam, driven before the wind, cover much of the sea surface. Very large amounts of airborne spray severely reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>24.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Outer Vestfjord, Roest Bank and Vesteraalbanks</areaDesc>
+      <polygon>67.557167,12.603667 67.646167,12.507167 68.030000,12.908167 68.840000,14.548667 69.071667,15.163667 69.332167,16.062667 69.425667,16.458667 69.550000,15.200000 68.220000,10.000000 66.632000,10.000000 66.801000,12.795000 66.800000,12.800000 67.200000,13.700000 67.453833,14.241333 67.616333,14.420833 67.766667,14.383167 68.030667,14.894000 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557333,12.603667 67.557167,12.603667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

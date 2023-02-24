@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220714110657</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-14T11:07:11+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220714091407,2022-07-14T09:44:07+00:00</references>
+  <incidents>0000050084</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-07-14T18:00:00+00:00</effective>
+    <onset>2022-07-14T18:00:00+00:00</onset>
+    <expires>2022-07-15T08:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Svært mye regn, oransje nivå, Deler av Vest Finnmark og Finnmarksvidda, 2022-07-14T18:00:00+00:00, 2022-07-15T08:00:00+00:00</headline>
+    <description>Det ventes svært mye regn, lokalt 30-50 mm/12t. Mye av nedbøren vil komme som kraftig bygenedbør og er ventet å lokalt overskride 15mm/1t. </description>
+    <instruction>Vurder behov for forebyggende tiltak. Følg lokale myndigheters instruksjoner, og råd fra beredskapsmyndigheter. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/nyhetsarkiv/farevarsel-om-svaert-mye-regn-i-deler-av-troms-og-finnmark</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-15T08:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Svært mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Alvorlig situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Vær forberedt</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Svært mye regn, oransje nivå, Deler av Vest Finnmark og Finnmarksvidda, 2022-07-14T18:00:00+00:00, 2022-07-15T08:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/bcacda2b-b840-49bf-9e7f-67f478c2ffd8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Vest Finnmark og Finnmarksvidda</areaDesc>
+      <polygon>69.3728,22.73 68.9046,22.2107 68.7253,22.455 68.6503,23.1255 68.6425,23.3408 68.7098,23.706 68.7992,23.8504 68.8,24.007 68.7095,24.3496 68.6537,24.6861 68.6004,24.8218 68.5928,24.9436 68.6404,25.1001 68.8081,25.2449 68.8641,25.3788 68.8682,25.4571 68.8942,25.6376 68.9942,25.796 69.1624,25.7648 69.2688,25.7606 69.358,25.8576 69.5393,25.9577 69.6906,26.0554 69.7514,26.2435 69.844,26.4274 69.9116,26.5252 69.9612,26.7531 70.0676,26.036 70.1437,25.3687 70.3079,24.4931 70.0177,23.0045 69.3728,22.73 69.3728,22.73</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5403;5430;5436;5437;5441</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-07-14T18:00:00+00:00</effective>
+    <onset>2022-07-14T18:00:00+00:00</onset>
+    <expires>2022-07-15T08:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Very heavy rain, orange level, Part of West Finnmark and  Finnmarksvidda, 2022-07-14T18:00:00+00:00, 2022-07-15T08:00:00+00:00</headline>
+    <description>Heavy rainfall is expected, locally 30-50 mm in 12 hours. Much of the precipitation is expected as heavy rain showers and can reach 15 mm in 1 hour. </description>
+    <instruction>Consider the need for preventive measures. Follow the advice of emergency authorities, both local and governmental. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/nyhetsarkiv/farevarsel-om-svaert-mye-regn-i-deler-av-troms-og-finnmark</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-15T08:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Very heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Severe situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be prepared</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Very heavy rain, orange level, Part of West Finnmark and  Finnmarksvidda, 2022-07-14T18:00:00+00:00, 2022-07-15T08:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/bcacda2b-b840-49bf-9e7f-67f478c2ffd8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Part of West Finnmark and  Finnmarksvidda</areaDesc>
+      <polygon>69.3728,22.73 68.9046,22.2107 68.7253,22.455 68.6503,23.1255 68.6425,23.3408 68.7098,23.706 68.7992,23.8504 68.8,24.007 68.7095,24.3496 68.6537,24.6861 68.6004,24.8218 68.5928,24.9436 68.6404,25.1001 68.8081,25.2449 68.8641,25.3788 68.8682,25.4571 68.8942,25.6376 68.9942,25.796 69.1624,25.7648 69.2688,25.7606 69.358,25.8576 69.5393,25.9577 69.6906,26.0554 69.7514,26.2435 69.844,26.4274 69.9116,26.5252 69.9612,26.7531 70.0676,26.036 70.1437,25.3687 70.3079,24.4931 70.0177,23.0045 69.3728,22.73 69.3728,22.73</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5403;5430;5436;5437;5441</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

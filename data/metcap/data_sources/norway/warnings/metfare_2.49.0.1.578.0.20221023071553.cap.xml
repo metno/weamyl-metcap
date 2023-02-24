@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221023071553</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-23T08:18:51+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221021213104,2022-10-21T21:36:09+00:00</references>
+  <incidents>0000050234</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-23T08:00:00+00:00</effective>
+    <onset>2022-10-23T08:00:00+00:00</onset>
+    <expires>2022-10-23T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast pågår, gult nivå, Deler av Troms og Finnmark, 2022-10-23T08:00:00+00:00, 2022-10-23T12:00:00+00:00</headline>
+    <description>Fra søndag morgen er det observert nordvestlig full storm og kraftige vindkast på kysten av Troms opp mot 35 m/s på offisielle værstasjoner i lavlandet.  Den sterkeste vinden ser nå ut til å stort sett berøre den nordligste delen av Troms og den vestligste delen av Finnmark, og vinden vil minke tidlig søndag ettermiddag til sterk kuling utsatte steder og vindkastene vil da ikke være like kraftige lenger.</description>
+    <instruction>Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Vis forsiktighet ved ferdsel i strandsona og på sjøen. På forhånd vurder tiltak for å begrense skade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-23T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Den sterke vinden kan gi lokalt høye bølger i fjordstrøk og innsjøer. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftige vindkast pågår</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftige vindkast pågår, gult nivå, Deler av Troms og Finnmark, 2022-10-23T08:00:00+00:00, 2022-10-23T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/c2b559cc-71d2-4152-b1b6-9e0fba188069.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Troms og Finnmark</areaDesc>
+      <polygon>69.0021,20.4323 68.7077,22.3164 69.5554,24.5647 70.973,21.7735 70.7181,19.2616 69.7472,16.6939 69.0021,20.4323 69.0021,20.4323</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5401;5403;5421;5422;5423;5424;5425;5426;5427;5428;5429;5430;5432;5433</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-23T08:00:00+00:00</effective>
+    <onset>2022-10-23T08:00:00+00:00</onset>
+    <expires>2022-10-23T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts ongoing, yellow level, Parts of Troms and Finnmark, 2022-10-23T08:00:00+00:00, 2022-10-23T12:00:00+00:00</headline>
+    <description>From Sunday morning there is observed northwesterly storm force 10 and severe wind gusts at the coast of Troms up to 35 m/s at official weather station in the low-land areas. The strongest wind is now expected to only affect the northern part of Troms, and the westernmost part of Finnmark, and will decrease early Sunday afternoon to gale force 8 and the wind gusts will then be less severe.</description>
+    <instruction>Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no). Be careful in coastal areas. In advance consider measures to limit damage. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-23T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. The strong wind may cause locally high waves in fjords and lakes. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Strong wind gusts ongoing</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Strong wind gusts ongoing, yellow level, Parts of Troms and Finnmark, 2022-10-23T08:00:00+00:00, 2022-10-23T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/c2b559cc-71d2-4152-b1b6-9e0fba188069.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Troms and Finnmark</areaDesc>
+      <polygon>69.0021,20.4323 68.7077,22.3164 69.5554,24.5647 70.973,21.7735 70.7181,19.2616 69.7472,16.6939 69.0021,20.4323 69.0021,20.4323</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5401;5403;5421;5422;5423;5424;5425;5426;5427;5428;5429;5430;5432;5433</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

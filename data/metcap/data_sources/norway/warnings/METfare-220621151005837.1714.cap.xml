@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220621151005837.1714</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-21T15:10:05+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-06-22T11:00:00+00:00</effective>
+    <onset>2022-06-22T11:00:00+00:00</onset>
+    <expires>2022-06-22T15:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Fedje - Bulandet, 22 June 11:00 UTC til 22 June 15:00 UTC.</headline>
+    <description>Fra onsdag formiddag sørvest stiv kuling 15 m/s. Minkende utover ettermiddag.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-06-22T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. Grov sjø og hvitt skum fra bølgetopper som brekker. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fedje - Bulandet</areaDesc>
+      <polygon>60.773667,4.605000 60.830167,4.574333 61.003500,4.478667 61.024167,4.467333 61.025833,4.466500 61.027667,4.466167 61.033333,4.465500 61.034000,4.465500 61.073167,4.464833 61.074167,4.464833 61.253333,4.485333 61.298000,4.490333 61.302667,4.691667 61.156500,4.695167 61.052167,4.674667 60.949000,4.696667 60.853167,4.702667 60.786667,4.694500 60.773667,4.605000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-06-22T11:00:00+00:00</effective>
+    <onset>2022-06-22T11:00:00+00:00</onset>
+    <expires>2022-06-22T15:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Fedje - Bulandet, 22 June 11:00 UTC to 22 June 15:00 UTC.</headline>
+    <description>From late Wednesday morning southwest near gale force 7, decreasing in the afternoon.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-06-22T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. Sea heaps up. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fedje - Bulandet</areaDesc>
+      <polygon>60.773667,4.605000 60.830167,4.574333 61.003500,4.478667 61.024167,4.467333 61.025833,4.466500 61.027667,4.466167 61.033333,4.465500 61.034000,4.465500 61.073167,4.464833 61.074167,4.464833 61.253333,4.485333 61.298000,4.490333 61.302667,4.691667 61.156500,4.695167 61.052167,4.674667 60.949000,4.696667 60.853167,4.702667 60.786667,4.694500 60.773667,4.605000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

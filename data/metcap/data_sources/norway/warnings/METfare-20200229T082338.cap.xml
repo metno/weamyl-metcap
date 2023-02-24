@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200229082338507.1841</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-02-29T08:23:38+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200228183137270.1825,2020-02-28T18:31:37+00:00</references>
+  <incidents>4099</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-02-29T10:00:00+00:00</effective>
+    <onset>2020-02-29T10:00:00+00:00</onset>
+    <expires>2020-02-29T20:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Utsira Sør, 29 February 10:00 UTC til 29 February 20:00 UTC.</headline>
+    <description>Sørøst liten storm 22 m/s.</description>
+    <instruction>Vurder å la båten ligge. Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-29T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Utsira Sør</areaDesc>
+      <polygon>59.013000,5.315167 59.000000,3.994167 58.500000,4.000000 57.753667,4.000000 57.754000,7.445667 57.964000,7.030833 57.967500,6.997667 57.968000,6.994333 57.968500,6.992167 58.036667,6.679167 58.041167,6.658667 58.041167,6.658500 58.043167,6.649500 58.044000,6.646500 58.044333,6.645500 58.055333,6.610667 58.056333,6.607833 58.057000,6.606333 58.071500,6.574667 58.071667,6.574167 58.191667,6.321500 58.311167,6.067333 58.411000,5.852667 58.411833,5.850833 58.417833,5.839833 58.418500,5.838667 58.515167,5.677667 58.515667,5.676667 58.543167,5.635000 58.544667,5.633000 58.545500,5.632000 58.649000,5.521000 58.650000,5.520167 58.661667,5.509500 58.663333,5.508167 58.744833,5.453667 58.746167,5.452833 58.873000,5.391000 58.873500,5.390667 59.001000,5.334333 59.013000,5.315167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-02-29T10:00:00+00:00</effective>
+    <onset>2020-02-29T10:00:00+00:00</onset>
+    <expires>2020-02-29T20:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, South Utsire, 29 February 10:00 UTC to 29 February 20:00 UTC.</headline>
+    <description>Southeast severe gale force 9.</description>
+    <instruction>It is not recommended to be at sea in a small boat. Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-29T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>High waves whose crests sometimes roll over. Airborne spray may reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>South Utsire</areaDesc>
+      <polygon>59.013000,5.315167 59.000000,3.994167 58.500000,4.000000 57.753667,4.000000 57.754000,7.445667 57.964000,7.030833 57.967500,6.997667 57.968000,6.994333 57.968500,6.992167 58.036667,6.679167 58.041167,6.658667 58.041167,6.658500 58.043167,6.649500 58.044000,6.646500 58.044333,6.645500 58.055333,6.610667 58.056333,6.607833 58.057000,6.606333 58.071500,6.574667 58.071667,6.574167 58.191667,6.321500 58.311167,6.067333 58.411000,5.852667 58.411833,5.850833 58.417833,5.839833 58.418500,5.838667 58.515167,5.677667 58.515667,5.676667 58.543167,5.635000 58.544667,5.633000 58.545500,5.632000 58.649000,5.521000 58.650000,5.520167 58.661667,5.509500 58.663333,5.508167 58.744833,5.453667 58.746167,5.452833 58.873000,5.391000 58.873500,5.390667 59.001000,5.334333 59.013000,5.315167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

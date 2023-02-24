@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210205093238054.303</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-02-05T09:32:38+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.210205085003334.302,2021-02-05T08:50:03+00:00</references>
+  <incidents>48685</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Ising</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>icing</value>
+    </eventCode>
+    <effective>2021-02-05T09:00:00+00:00</effective>
+    <onset>2021-02-05T09:00:00+00:00</onset>
+    <expires>2021-02-06T13:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Moderat ising på skip, gult nivå, Rogaland, 05 February 09:00 UTC til 06 February 13:00 UTC.</headline>
+    <description>I dag fredag og i morgen lørdag er det ventet, i perioder utrygt for moderat ising på skip utsatte steder på kysten.</description>
+    <instruction>Fjern is fra båten.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask nok isvekst kan føre til at en liten båt mister stabiliteten, velter og synker. For større båter ventes glatte dekk, gelender, stiger og nedisete redningsbåter og annet redningsutstyr. Isingen kan ødelegge radiokommunikasjonen hvis antennene fryser. Moderat isvekst på fronten/styrhuset til skipet. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Moderat ising på skip</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.5 cm/h</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over moderat ising på skip, gult nivå, Rogaland, 05 February 09:00 UTC til 06 February 13:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/1185fb66-a516-4c95-95ce-94d4841e2661.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Rogaland</areaDesc>
+      <polygon>59.112500,6.901000 59.053500,6.787500 59.039167,6.780167 59.020333,6.730000 59.006833,6.710000 58.992833,6.703500 58.985167,6.663667 58.967667,6.651667 58.939667,6.633167 58.911333,6.563167 58.900667,6.561167 58.885333,6.569500 58.874833,6.607500 58.840333,6.562000 58.807333,6.542167 58.766667,6.518500 58.764333,6.575000 58.741167,6.574167 58.715167,6.617500 58.694000,6.618667 58.669167,6.509000 58.671500,6.466167 58.650500,6.435667 58.637667,6.474500 58.616333,6.493500 58.614667,6.495667 58.627667,6.532667 58.616833,6.583000 58.624833,6.614000 58.605833,6.596500 58.594667,6.589667 58.586000,6.595000 58.578667,6.610333 58.563333,6.608500 58.561667,6.614000 58.533667,6.607000 58.501667,6.587000 58.448500,6.630833 58.419833,6.591167 58.377500,6.606500 58.355667,6.593000 58.330667,6.567333 58.314500,6.533500 58.303333,6.468167 58.277667,6.377000 58.196167,6.282333 58.215500,6.255000 58.234333,6.228500 58.281333,6.083167 58.314000,5.981667 58.319500,5.963667 58.336500,5.909333 58.362500,5.818167 58.364833,5.810667 58.367333,5.803667 58.370167,5.797000 58.373167,5.790667 58.376333,5.784667 58.377167,5.783167 58.382167,5.774833 58.382833,5.773833 58.429167,5.698000 58.451000,5.662500 58.482333,5.611000 58.503500,5.575000 58.507000,5.569500 58.510667,5.564500 58.513500,5.561000 58.525167,5.547667 58.527000,5.545667 58.605333,5.461833 58.623500,5.442167 58.625167,5.440333 58.636833,5.428667 58.641000,5.425000 58.645167,5.421833 58.647500,5.420167 58.671333,5.405667 58.729000,5.370000 58.731833,5.368500 58.815167,5.319833 58.858333,5.301333 58.861167,5.300000 58.923333,5.272333 58.949333,5.258167 58.979500,5.247167 59.035333,5.168333 59.052167,5.144500 59.088500,5.392667 59.118667,5.504667 59.146167,5.588833 59.150667,5.680167 59.131167,5.769000 59.110333,5.807667 59.098167,5.842333 59.103167,5.876500 59.113167,5.907833 59.120333,5.935167 59.134667,5.956167 59.147000,5.975167 59.158500,5.992000 59.175333,5.997000 59.194833,5.987833 59.215167,5.984167 59.227333,6.008500 59.232833,6.050333 59.241167,6.094667 59.251000,6.144667 59.258833,6.179667 59.269167,6.218667 59.274833,6.258667 59.285167,6.299833 59.295500,6.339000 59.304500,6.366833 59.314333,6.398500 59.316167,6.434333 59.318333,6.484833 59.317500,6.536833 59.318833,6.566833 59.320833,6.615333 59.319500,6.659833 59.319833,6.704667 59.320500,6.745667 59.321500,6.796167 59.322333,6.833500 59.293167,6.827333 59.274167,6.825167 59.251167,6.844333 59.231333,6.840167 59.210500,6.837667 59.192500,6.835500 59.181167,6.851667 59.183833,6.887333 59.185833,6.921167 59.183167,6.933667 59.174167,6.924167 59.164667,6.922333 59.159833,6.908167 59.147500,6.889000 59.140167,6.883667 59.137833,6.892500 59.129833,6.898000 59.112500,6.901000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1103;1121;1127;1122;1108;1135;1124;1114;1145;1160;1134;1144;1149;1111;1130;1101;1112;1106;1146;1151;1133;1119;1120</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO043</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Icing</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>icing</value>
+    </eventCode>
+    <effective>2021-02-05T09:00:00+00:00</effective>
+    <onset>2021-02-05T09:00:00+00:00</onset>
+    <expires>2021-02-06T13:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Moderate icing on ships, yellow level, Rogaland, 05 February 09:00 UTC to 06 February 13:00 UTC.</headline>
+    <description>Today Friday and tomorrow Saturday is the expected, in periods risk of moderate icing on skip in exposed places on the coast.</description>
+    <instruction>Remove ice from the boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rapid ice accumulation on a small boat may cause it to lose its stability, tip over and sink. For ships the issue is more directed towards slippery decks, handrailing, ladders, iced down safety boats and safety equipment. Ice accumulation may also damage radio communication if the antennas are freezing. Moderate ice accumulation on the bow/bridge of the ship. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Moderate icing on ships</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.5 cm/h</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of moderate icing on ships, yellow level, Rogaland, 05 February 09:00 UTC to 06 February 13:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/1185fb66-a516-4c95-95ce-94d4841e2661.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Rogaland</areaDesc>
+      <polygon>59.112500,6.901000 59.053500,6.787500 59.039167,6.780167 59.020333,6.730000 59.006833,6.710000 58.992833,6.703500 58.985167,6.663667 58.967667,6.651667 58.939667,6.633167 58.911333,6.563167 58.900667,6.561167 58.885333,6.569500 58.874833,6.607500 58.840333,6.562000 58.807333,6.542167 58.766667,6.518500 58.764333,6.575000 58.741167,6.574167 58.715167,6.617500 58.694000,6.618667 58.669167,6.509000 58.671500,6.466167 58.650500,6.435667 58.637667,6.474500 58.616333,6.493500 58.614667,6.495667 58.627667,6.532667 58.616833,6.583000 58.624833,6.614000 58.605833,6.596500 58.594667,6.589667 58.586000,6.595000 58.578667,6.610333 58.563333,6.608500 58.561667,6.614000 58.533667,6.607000 58.501667,6.587000 58.448500,6.630833 58.419833,6.591167 58.377500,6.606500 58.355667,6.593000 58.330667,6.567333 58.314500,6.533500 58.303333,6.468167 58.277667,6.377000 58.196167,6.282333 58.215500,6.255000 58.234333,6.228500 58.281333,6.083167 58.314000,5.981667 58.319500,5.963667 58.336500,5.909333 58.362500,5.818167 58.364833,5.810667 58.367333,5.803667 58.370167,5.797000 58.373167,5.790667 58.376333,5.784667 58.377167,5.783167 58.382167,5.774833 58.382833,5.773833 58.429167,5.698000 58.451000,5.662500 58.482333,5.611000 58.503500,5.575000 58.507000,5.569500 58.510667,5.564500 58.513500,5.561000 58.525167,5.547667 58.527000,5.545667 58.605333,5.461833 58.623500,5.442167 58.625167,5.440333 58.636833,5.428667 58.641000,5.425000 58.645167,5.421833 58.647500,5.420167 58.671333,5.405667 58.729000,5.370000 58.731833,5.368500 58.815167,5.319833 58.858333,5.301333 58.861167,5.300000 58.923333,5.272333 58.949333,5.258167 58.979500,5.247167 59.035333,5.168333 59.052167,5.144500 59.088500,5.392667 59.118667,5.504667 59.146167,5.588833 59.150667,5.680167 59.131167,5.769000 59.110333,5.807667 59.098167,5.842333 59.103167,5.876500 59.113167,5.907833 59.120333,5.935167 59.134667,5.956167 59.147000,5.975167 59.158500,5.992000 59.175333,5.997000 59.194833,5.987833 59.215167,5.984167 59.227333,6.008500 59.232833,6.050333 59.241167,6.094667 59.251000,6.144667 59.258833,6.179667 59.269167,6.218667 59.274833,6.258667 59.285167,6.299833 59.295500,6.339000 59.304500,6.366833 59.314333,6.398500 59.316167,6.434333 59.318333,6.484833 59.317500,6.536833 59.318833,6.566833 59.320833,6.615333 59.319500,6.659833 59.319833,6.704667 59.320500,6.745667 59.321500,6.796167 59.322333,6.833500 59.293167,6.827333 59.274167,6.825167 59.251167,6.844333 59.231333,6.840167 59.210500,6.837667 59.192500,6.835500 59.181167,6.851667 59.183833,6.887333 59.185833,6.921167 59.183167,6.933667 59.174167,6.924167 59.164667,6.922333 59.159833,6.908167 59.147500,6.889000 59.140167,6.883667 59.137833,6.892500 59.129833,6.898000 59.112500,6.901000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1103;1121;1127;1122;1108;1135;1124;1114;1145;1160;1134;1144;1149;1111;1130;1101;1112;1106;1146;1151;1133;1119;1120</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO043</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190211200950562.687</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-02-11T20:09:50+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1658</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-12T10:00:00+00:00</effective>
+    <onset>2019-02-12T10:00:00+00:00</onset>
+    <expires>2019-02-12T21:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Storegga og Området fra Storegga-Haltenbanken til 0-meridianen, 12 February 10:00 UTC til 12 February 21:00 UTC.</headline>
+    <description>Tirsdag formiddag økning til sørlig sterk kuling 20 m/s, i kveld dreiende sørvest med til dels liten storm 22 m/s.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Tette skumstrimer driver i vindretningen. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Storegga og Området fra Storegga-Haltenbanken til 0-meridianen</areaDesc>
+      <polygon>63.900333,5.105833 64.234667,5.992333 64.599333,7.001000 65.002167,8.280667 65.000667,6.998000 65.001500,5.502667 65.000833,4.003667 64.996167,2.494000 64.997500,1.005000 65.000833,0.000000 63.004167,0.000000 63.003333,0.994000 63.000500,2.001500 63.007333,1.992167 62.302833,4.697833 63.297000,7.299667 63.907667,5.095500 63.900333,5.105833
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-12T10:00:00+00:00</effective>
+    <onset>2019-02-12T10:00:00+00:00</onset>
+    <expires>2019-02-12T21:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Storegga and Area from Storegga-Haltenbank to Greenwich meridian, 12 February 10:00 UTC to 12 February 21:00 UTC.</headline>
+    <description>Late Tuesday morning increasing to south gale force 8, this evening veering southwest with occasionally strong gale force 9.</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>High waves whose crests sometimes roll over. Dense foam is blown along wind direction. Large amounts of airborne spray may begin to reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Storegga and Area from Storegga-Haltenbank to Greenwich meridian</areaDesc>
+      <polygon>63.900333,5.105833 64.234667,5.992333 64.599333,7.001000 65.002167,8.280667 65.000667,6.998000 65.001500,5.502667 65.000833,4.003667 64.996167,2.494000 64.997500,1.005000 65.000833,0.000000 63.004167,0.000000 63.003333,0.994000 63.000500,2.001500 63.007333,1.992167 62.302833,4.697833 63.297000,7.299667 63.907667,5.095500 63.900333,5.105833
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

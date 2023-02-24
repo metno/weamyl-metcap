@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200227091031330.1763</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-02-27T09:10:31+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>4076</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-02-29T11:00:00+00:00</effective>
+    <onset>2020-02-29T11:00:00+00:00</onset>
+    <expires>2020-03-01T17:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye snø, gult nivå, Dalane, 29 February 11:00 UTC til 01 March 17:00 UTC.</headline>
+    <description>Frå laurdag føremiddag til søndag ettermiddag er det venta 15-20 cm, lokalt meir. </description>
+    <instruction>Sårbare installasjoner og gjenstander bør beskyttes. Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-03-01T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sårbar infrastruktur kan bli rammet som følge av snøtyngden. Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>15 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Mye snø, gult nivå, Dalane, 29 February 11:00 UTC til 01 March 17:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/f0705bf8-2bfe-4887-84b4-6971be901a10.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Dalane</areaDesc>
+      <polygon>58.649333,6.436000 58.663500,6.450667 58.671500,6.477000 58.670000,6.513333 58.687000,6.601167 58.696000,6.622000 58.726667,6.606000 58.741333,6.573500 58.765167,6.572667 58.767333,6.518000 58.758333,6.458667 58.742833,6.428000 58.732500,6.385833 58.735667,6.355667 58.740667,6.354667 58.732333,6.306667 58.739667,6.273000 58.746000,6.282333 58.758000,6.273833 58.767333,6.278500 58.773500,6.266667 58.771167,6.244000 58.785833,6.219000 58.792500,6.197500 58.788167,6.180000 58.794833,6.170333 58.774333,6.164000 58.738167,6.133833 58.745500,6.063667 58.737500,6.046333 58.719500,6.040500 58.710833,6.039000 58.706833,6.021500 58.694167,6.008167 58.681667,6.021500 58.672500,5.954500 58.682833,5.930167 58.683667,5.916833 58.670833,5.896333 58.662333,5.864000 58.649500,5.885167 58.624667,5.895000 58.617667,5.885500 58.608500,5.906167 58.593500,5.906833 58.590333,5.890000 58.584500,5.885667 58.576000,5.892167 58.561667,5.872333 58.543333,5.915000 58.546667,5.927500 58.535500,5.934667 58.531000,5.906833 58.525833,5.902500 58.523000,5.872667 58.517000,5.874833 58.498833,5.853667 58.477333,5.847500 58.463833,5.805333 58.332500,5.519500 58.279833,5.610333 58.158333,5.871667 58.077500,6.044333 58.065667,6.069333 58.058833,6.083833 58.027833,6.149667 58.215667,6.318000 58.276500,6.372833 58.299500,6.470500 58.322333,6.553333 58.372167,6.608500 58.416167,6.595167 58.443667,6.630167 58.451167,6.632000 58.456833,6.620167 58.489333,6.607333 58.496500,6.596000 58.492667,6.587667 58.555167,6.618000 58.561667,6.608167 58.578167,6.609167 58.590167,6.587833 58.625000,6.614667 58.615167,6.582667 58.627833,6.532333 58.609833,6.497333 58.635000,6.477000 58.649333,6.436000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1101;1102;1103;1106;1111;1112;1114;1119;1120;1121;1122;1124;1127;1129;1130;1133;1134;1135;1141;1142;1144;1145;1146;1149;1151;1154;1159;1160</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO043</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-02-29T11:00:00+00:00</effective>
+    <onset>2020-02-29T11:00:00+00:00</onset>
+    <expires>2020-03-01T17:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy snow, yellow level, Dalane, 29 February 11:00 UTC to 01 March 17:00 UTC.</headline>
+    <description>From Saturday forenoon to Sunday afternoon it is expected 15-20 cm, locally more </description>
+    <instruction>Vulnerable installations and objects should be protected. Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-03-01T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Vulnerable infrastructure can be affected due to accumulation of snow. Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>15 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Heavy snow, yellow level, Dalane, 29 February 11:00 UTC to 01 March 17:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/f0705bf8-2bfe-4887-84b4-6971be901a10.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Dalane</areaDesc>
+      <polygon>58.649333,6.436000 58.663500,6.450667 58.671500,6.477000 58.670000,6.513333 58.687000,6.601167 58.696000,6.622000 58.726667,6.606000 58.741333,6.573500 58.765167,6.572667 58.767333,6.518000 58.758333,6.458667 58.742833,6.428000 58.732500,6.385833 58.735667,6.355667 58.740667,6.354667 58.732333,6.306667 58.739667,6.273000 58.746000,6.282333 58.758000,6.273833 58.767333,6.278500 58.773500,6.266667 58.771167,6.244000 58.785833,6.219000 58.792500,6.197500 58.788167,6.180000 58.794833,6.170333 58.774333,6.164000 58.738167,6.133833 58.745500,6.063667 58.737500,6.046333 58.719500,6.040500 58.710833,6.039000 58.706833,6.021500 58.694167,6.008167 58.681667,6.021500 58.672500,5.954500 58.682833,5.930167 58.683667,5.916833 58.670833,5.896333 58.662333,5.864000 58.649500,5.885167 58.624667,5.895000 58.617667,5.885500 58.608500,5.906167 58.593500,5.906833 58.590333,5.890000 58.584500,5.885667 58.576000,5.892167 58.561667,5.872333 58.543333,5.915000 58.546667,5.927500 58.535500,5.934667 58.531000,5.906833 58.525833,5.902500 58.523000,5.872667 58.517000,5.874833 58.498833,5.853667 58.477333,5.847500 58.463833,5.805333 58.332500,5.519500 58.279833,5.610333 58.158333,5.871667 58.077500,6.044333 58.065667,6.069333 58.058833,6.083833 58.027833,6.149667 58.215667,6.318000 58.276500,6.372833 58.299500,6.470500 58.322333,6.553333 58.372167,6.608500 58.416167,6.595167 58.443667,6.630167 58.451167,6.632000 58.456833,6.620167 58.489333,6.607333 58.496500,6.596000 58.492667,6.587667 58.555167,6.618000 58.561667,6.608167 58.578167,6.609167 58.590167,6.587833 58.625000,6.614667 58.615167,6.582667 58.627833,6.532333 58.609833,6.497333 58.635000,6.477000 58.649333,6.436000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1101;1102;1103;1106;1111;1112;1114;1119;1120;1121;1122;1124;1127;1129;1130;1133;1134;1135;1141;1142;1144;1145;1146;1149;1151;1154;1159;1160</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO043</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

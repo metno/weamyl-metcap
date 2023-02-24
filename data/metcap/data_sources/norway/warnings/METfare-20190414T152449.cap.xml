@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190414152449363.1638</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-04-14T15:24:49+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190413151549893.1632,2019-04-13T15:15:49+00:00</references>
+  <incidents>2184</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-04-13T09:00:00+00:00</effective>
+    <onset>2019-04-13T09:00:00+00:00</onset>
+    <expires>2019-04-15T13:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Loppa - Slettnes fyr, 13 April 09:00 UTC til 15 April 13:00 UTC.</headline>
+    <description>Søndag kveld til mandag ettermiddag fremdeles vestlig periodevis stiv kuling 15 m/s, søndag kveld sterk kuling 20 nær Slettnes. Minkende først i sør.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-04-15T13:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Grov sjø og hvitt skum fra bølgetopper som brekker, begynner å blåse i strimer i vindretningen. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Loppa - Slettnes fyr</areaDesc>
+      <polygon>71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 70.116667,22.516667 70.250000,22.383167 70.333167,22.616667 70.400000,22.733167 70.416667,23.033167 70.433167,23.283167 70.500000,23.583167 70.583167,23.683167 70.599833,23.916667 70.650000,24.033167 70.716667,24.166667 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-04-13T09:00:00+00:00</effective>
+    <onset>2019-04-13T09:00:00+00:00</onset>
+    <expires>2019-04-15T13:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Loppa - Slettnes lighthouse, 13 April 09:00 UTC to 15 April 13:00 UTC.</headline>
+    <description>Sunday evening to Monday afternoon still west occasionally near gale force 7, Sunday evening gale force 8 near Slettnes. Decreasing first in southern part.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-04-15T13:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sea heaps up. Some foam from breaking waves is blown into streaks along wind direction. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Loppa - Slettnes lighthouse</areaDesc>
+      <polygon>71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 70.116667,22.516667 70.250000,22.383167 70.333167,22.616667 70.400000,22.733167 70.416667,23.033167 70.433167,23.283167 70.500000,23.583167 70.583167,23.683167 70.599833,23.916667 70.650000,24.033167 70.716667,24.166667 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

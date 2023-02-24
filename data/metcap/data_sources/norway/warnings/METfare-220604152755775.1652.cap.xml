@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220604152755775.1652</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-04T15:27:55+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-06-05T04:00:00+00:00</effective>
+    <onset>2022-06-05T04:00:00+00:00</onset>
+    <expires>2022-06-05T08:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Andenes - Hekkingen, 05 June 04:00 UTC til 05 June 08:00 UTC.</headline>
+    <description>Søndag morgen sørvestlig periodevis stiv kuling 15, minkende om formiddagen. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-06-05T08:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Andenes - Hekkingen</areaDesc>
+      <polygon>69.332167,16.062667 69.425667,16.458667 69.687167,17.759667 69.650167,17.799667 69.516667,18.099667 69.316333,16.864500 69.233000,16.333000 69.332167,16.062667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-06-05T04:00:00+00:00</effective>
+    <onset>2022-06-05T04:00:00+00:00</onset>
+    <expires>2022-06-05T08:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Andenes - Hekkingen, 05 June 04:00 UTC to 05 June 08:00 UTC.</headline>
+    <description>Sunday morning southwest occasionally near gale force 7, decreasing late in the morning. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-06-05T08:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Andenes - Hekkingen</areaDesc>
+      <polygon>69.332167,16.062667 69.425667,16.458667 69.687167,17.759667 69.650167,17.799667 69.516667,18.099667 69.316333,16.864500 69.233000,16.333000 69.332167,16.062667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

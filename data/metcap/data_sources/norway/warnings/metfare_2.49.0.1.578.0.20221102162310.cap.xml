@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221102162310</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-11-02T16:43:01+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050262</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-11-03T00:00:00+00:00</effective>
+    <onset>2022-11-03T00:00:00+00:00</onset>
+    <expires>2022-11-04T04:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Høyfjellsoverganger, 2022-11-03T00:00:00+00:00, 2022-11-04T04:00:00+00:00</headline>
+    <description>Fra natt til torsdag frem til tidlig fredag morgen ventes det snø på høyfjellsovergangene. Temperaturen ventes å være noe varierende i løpet av døgnet. Snøgrensa ventes å ligge omkring 1000 - 1400 meter.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-04T04:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Høyfjellsoverganger, 2022-11-03T00:00:00+00:00, 2022-11-04T04:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/33f836d8-c34d-4fc1-9979-8571a95391d8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Høyfjellsoverganger</areaDesc>
+      
+          <polygon>62.0586,7.76006 62.0053,7.175 61.7969,7.42718 61.4971,7.74934 61.2071,7.73523 60.8719,7.22898 60.4841,7.18926 60.4034,7.01351 60.3079,6.73423 60.0012,6.63845 59.751,7.07634 59.7242,7.62372 59.9174,7.98673 60.1842,8.30536 60.6918,8.28737 61.2351,8.77881 61.6117,9.19544 61.752,8.63291 62.0586,7.76006 62.0586,7.76006</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3042;3043;3044;3052;3433;3434;3435;3453;3454;3818;3825;4618;4619;4620;4641;4642;4643;4644;4651</value>
+    </geocode>
+    <altitude>3000</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-11-03T00:00:00+00:00</effective>
+    <onset>2022-11-03T00:00:00+00:00</onset>
+    <expires>2022-11-04T04:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Mountainous areas, 2022-11-03T00:00:00+00:00, 2022-11-04T04:00:00+00:00</headline>
+    <description>From early Thursday morning until Friday morning expect snow above 1000-1400 m in higher mountainous areas.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-04T04:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Mountainous areas, 2022-11-03T00:00:00+00:00, 2022-11-04T04:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/33f836d8-c34d-4fc1-9979-8571a95391d8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Mountainous areas</areaDesc>
+      
+          <polygon>62.0586,7.76006 62.0053,7.175 61.7969,7.42718 61.4971,7.74934 61.2071,7.73523 60.8719,7.22898 60.4841,7.18926 60.4034,7.01351 60.3079,6.73423 60.0012,6.63845 59.751,7.07634 59.7242,7.62372 59.9174,7.98673 60.1842,8.30536 60.6918,8.28737 61.2351,8.77881 61.6117,9.19544 61.752,8.63291 62.0586,7.76006 62.0586,7.76006</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3042;3043;3044;3052;3433;3434;3435;3453;3454;3818;3825;4618;4619;4620;4641;4642;4643;4644;4651</value>
+    </geocode>
+    <altitude>3000</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

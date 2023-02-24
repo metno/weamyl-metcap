@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221206100832.068</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-06T10:09:15+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221206080010.014,2022-12-06T08:20:17+00:00</references>
+  <incidents>0000050299</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T14:00:00+00:00</effective>
+    <onset>2022-12-06T14:00:00+00:00</onset>
+    <expires>2022-12-07T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Nordlige deler av Sogn og Fjordane, 2022-12-06T14:00:00+00:00, 2022-12-07T22:00:00+00:00</headline>
+    <description>Fra i dag tirsdag, er det ventet snøbyger med synkende snøgrense utover dagen. Det er ventet rundt 10-25 cm snø på 24t. Det vil være store lokale forskjeller, over 300 m ventes lokalt mere enn 25 cm snø på 24 timer.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-07T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>5cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Nordlige deler av Sogn og Fjordane, 2022-12-06T14:00:00+00:00, 2022-12-07T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/00adf8dc-0f50-4ed3-aaff-aeae1507af1d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordlige deler av Sogn og Fjordane</areaDesc>
+      
+          <polygon>62.0075,7.34865 62.009,7.32941 62.0175,7.31419 62.0182,7.27507 62.0188,7.24294 62.0338,7.23506 62.0307,7.19772 62.0202,7.20557 62.011,7.17228 62.0178,7.16104 62.0106,7.0761 62.0051,7.08297 61.9865,7.05792 61.9865,7.00106 61.9816,6.98913 61.9904,6.96183 61.9758,6.91542 61.9812,6.89907 61.9758,6.85625 61.9636,6.84603 61.9675,6.82691 61.9691,6.79466 61.9641,6.77776 61.9608,6.7769 61.9534,6.75837 61.9561,6.72879 61.9536,6.70313 61.9623,6.66488 61.9563,6.61716 61.949,6.60285 61.9446,6.54014 61.9394,6.53547 61.9361,6.52544 61.9279,6.52502 61.925,6.51513 61.9285,6.49499 61.9326,6.49406 61.9412,6.47045 61.9498,6.44466 61.9652,6.43379 61.9858,6.40915 61.9784,6.38136 61.9639,6.36136 61.9595,6.32726 61.9567,6.30652 61.9636,6.31402 61.9783,6.28676 61.9913,6.24012 62.0049,6.25632 62.0094,6.22421 62.0113,6.18562 61.9925,6.17301 61.9878,6.13408 61.9735,6.14147 61.9633,6.0907 61.9669,6.06317 61.9557,6.04175 61.9731,6.0173 61.9811,5.99073 61.9954,5.9703 61.9882,5.94741 61.9956,5.9325 61.9821,5.87872 61.9662,5.79802 61.9734,5.76887 61.9803,5.73042 61.9692,5.70504 61.9746,5.68316 61.9626,5.55177 61.9708,5.53044 61.9859,5.48442 61.9832,5.4736 61.9764,5.46315 61.975,5.44652 61.9907,5.46787 62.0007,5.49353 62.0075,5.5031 62.0122,5.50226 62.0141,5.489 62.0233,5.49271 62.0342,5.49767 62.0522,5.50682 62.0664,5.50427 62.0795,5.4733 62.0935,5.43348 62.106,5.40281 62.1233,5.36358 62.1462,5.35987 62.1689,5.36205 62.2167,5.2871 62.2616,5.22329 61.9772,4.80683 61.6247,4.6732 61.5715,4.90646 61.5369,5.30969 61.5136,5.79324 61.4705,6.38086 61.4561,6.78634 61.5741,7.02665 61.7301,7.51964 61.7641,7.51368 61.8071,7.46454 61.8579,7.41425 61.8969,7.41136 61.9314,7.38985 61.9646,7.392 61.9808,7.39538 62.0026,7.38181 62.0075,7.34865 62.0075,7.34865</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4602;4644;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T14:00:00+00:00</effective>
+    <onset>2022-12-06T14:00:00+00:00</onset>
+    <expires>2022-12-07T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Northern parts of Sogn og Fjordane, 2022-12-06T14:00:00+00:00, 2022-12-07T22:00:00+00:00</headline>
+    <description>From today Tuesday, showers of snow with decreasing snow line throughout the day. 10-25cm of snow is expected within 24 hours. There will be large local variations, more than 25 cm pr 24 hours is expected locally above 300m.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-07T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>5cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Northern parts of Sogn og Fjordane, 2022-12-06T14:00:00+00:00, 2022-12-07T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/00adf8dc-0f50-4ed3-aaff-aeae1507af1d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Northern parts of Sogn og Fjordane</areaDesc>
+      
+          <polygon>62.0075,7.34865 62.009,7.32941 62.0175,7.31419 62.0182,7.27507 62.0188,7.24294 62.0338,7.23506 62.0307,7.19772 62.0202,7.20557 62.011,7.17228 62.0178,7.16104 62.0106,7.0761 62.0051,7.08297 61.9865,7.05792 61.9865,7.00106 61.9816,6.98913 61.9904,6.96183 61.9758,6.91542 61.9812,6.89907 61.9758,6.85625 61.9636,6.84603 61.9675,6.82691 61.9691,6.79466 61.9641,6.77776 61.9608,6.7769 61.9534,6.75837 61.9561,6.72879 61.9536,6.70313 61.9623,6.66488 61.9563,6.61716 61.949,6.60285 61.9446,6.54014 61.9394,6.53547 61.9361,6.52544 61.9279,6.52502 61.925,6.51513 61.9285,6.49499 61.9326,6.49406 61.9412,6.47045 61.9498,6.44466 61.9652,6.43379 61.9858,6.40915 61.9784,6.38136 61.9639,6.36136 61.9595,6.32726 61.9567,6.30652 61.9636,6.31402 61.9783,6.28676 61.9913,6.24012 62.0049,6.25632 62.0094,6.22421 62.0113,6.18562 61.9925,6.17301 61.9878,6.13408 61.9735,6.14147 61.9633,6.0907 61.9669,6.06317 61.9557,6.04175 61.9731,6.0173 61.9811,5.99073 61.9954,5.9703 61.9882,5.94741 61.9956,5.9325 61.9821,5.87872 61.9662,5.79802 61.9734,5.76887 61.9803,5.73042 61.9692,5.70504 61.9746,5.68316 61.9626,5.55177 61.9708,5.53044 61.9859,5.48442 61.9832,5.4736 61.9764,5.46315 61.975,5.44652 61.9907,5.46787 62.0007,5.49353 62.0075,5.5031 62.0122,5.50226 62.0141,5.489 62.0233,5.49271 62.0342,5.49767 62.0522,5.50682 62.0664,5.50427 62.0795,5.4733 62.0935,5.43348 62.106,5.40281 62.1233,5.36358 62.1462,5.35987 62.1689,5.36205 62.2167,5.2871 62.2616,5.22329 61.9772,4.80683 61.6247,4.6732 61.5715,4.90646 61.5369,5.30969 61.5136,5.79324 61.4705,6.38086 61.4561,6.78634 61.5741,7.02665 61.7301,7.51964 61.7641,7.51368 61.8071,7.46454 61.8579,7.41425 61.8969,7.41136 61.9314,7.38985 61.9646,7.392 61.9808,7.39538 62.0026,7.38181 62.0075,7.34865 62.0075,7.34865</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4602;4644;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

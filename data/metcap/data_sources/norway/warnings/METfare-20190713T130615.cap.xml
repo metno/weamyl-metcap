@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190713130615525.2102</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-07-13T13:06:15+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2444</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2019-07-13T12:00:00+00:00</effective>
+    <onset>2019-07-13T12:00:00+00:00</onset>
+    <expires>2019-07-13T19:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige regnbyger, gult nivå, Agder, Telemark og Vestfold, 13 July 12:00 UTC til 13 July 19:00 UTC.</headline>
+    <description>Lørdag ettermiddag lokalt kraftige regnbyger i indre strøk av Agder, Telemark og Vestfold. Det ventes omkring 20mm/1t.</description>
+    <instruction>Vurder behov for forebyggende tiltak.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-07-13T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det er fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige regnbyger</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kraftige regnbyger, gult nivå, Agder, Telemark og Vestfold, 13 July 12:00 UTC til 13 July 19:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/a6633c23-abd3-434a-b2e8-60c013639aca.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Agder, Telemark og Vestfold</areaDesc>
+      <polygon>59.328167,9.747167 59.350833,9.773667 59.367667,9.764000 59.410333,9.773333 59.415500,9.701833 59.408167,9.655333 59.427667,9.625833 59.453167,9.590000 59.487000,9.561500 59.484167,9.470000 59.505000,9.471833 59.535667,9.516500 59.560333,9.461000 59.581667,9.457500 59.688000,9.397167 59.701333,9.330833 59.782833,9.363333 59.795500,9.343333 59.829167,9.185667 59.867333,9.173500 59.886500,9.181000 59.929167,9.187833 59.944167,9.140333 59.961667,9.108500 59.963167,9.061500 59.987000,9.032000 59.985167,8.991167 59.995833,8.987333 59.998000,8.996000 60.010000,8.983000 60.018000,8.981500 60.078667,8.968667 60.081333,8.966333 60.097333,8.962500 60.117333,8.904167 60.140000,8.852667 60.155333,8.817167 60.158667,8.789500 60.179000,8.732000 60.170667,8.514333 60.165833,8.460500 60.179333,8.374500 60.172167,8.287167 60.185333,8.212500 60.182500,8.105333 60.171500,8.087333 60.154167,8.014833 60.141167,7.923833 60.119500,7.858000 60.105167,7.808833 60.116000,7.775667 60.129000,7.651833 60.100167,7.492167 60.057333,7.437667 60.019333,7.436667 60.002000,7.370333 59.990667,7.329833 59.987667,7.280167 59.963833,7.228000 59.931833,7.188833 59.886167,7.151167 59.846167,7.144500 59.831667,7.158833 59.810833,7.142167 59.782667,7.093333 59.766000,7.102667 59.742000,7.113167 59.703167,7.106833 59.672167,7.213167 59.653333,7.097667 59.644333,7.099833 59.623167,7.089833 59.613833,7.079167 59.602667,7.064833 59.588167,7.050000 59.596333,6.989333 59.559333,6.982500 59.512667,6.967667 59.505333,6.999000 59.480333,7.023333 59.447500,6.965167 59.428167,6.882167 59.413500,6.907667 59.402000,6.928333 59.393667,6.921000 59.393500,6.906167 59.397833,6.889833 59.371333,6.861000 59.335667,6.846833 59.318833,6.833000 59.272333,6.823167 59.253167,6.838000 59.192833,6.837000 59.191167,6.837333 59.182833,6.851000 59.184833,6.900833 59.188333,6.936500 59.188167,6.954333 59.189833,6.992667 59.193667,7.007333 59.183500,7.019833 59.161833,7.179000 59.140667,7.204000 59.134167,7.163667 59.140667,7.203833 59.161667,7.178833 59.183333,7.019667 59.193667,7.007167 59.189667,6.992667 59.188167,6.954167 59.188167,6.936500 59.140833,6.881667 59.137167,6.899333 59.112333,6.901000 59.053500,6.787333 59.039167,6.780167 59.020167,6.730000 59.006667,6.710000 58.992667,6.703333 58.985167,6.663667 58.967667,6.651667 58.939667,6.633167 58.911167,6.563167 58.900667,6.561167 58.885167,6.569333 58.874667,6.607500 58.840167,6.561833 58.807167,6.542167 58.766667,6.518333 58.764167,6.574833 58.741167,6.574167 58.715167,6.617333 58.694000,6.618667 58.669167,6.508833 58.671500,6.466167 58.650500,6.435667 58.637667,6.474500 58.616167,6.493500 58.614667,6.495667 58.627667,6.532667 58.616667,6.583000 58.624667,6.613833 58.605667,6.596333 58.594667,6.589667 58.585833,6.594833 58.578667,6.610167 58.563167,6.608500 58.561667,6.613833 58.533667,6.606833 58.501667,6.586833 58.448500,6.630667 58.419667,6.591167 58.377333,6.606500 58.355667,6.592833 58.330667,6.567167 58.314500,6.533500 58.303333,6.468667 58.277667,6.377000 58.266667,6.364167 58.022333,6.566833 57.972167,7.040833 57.957167,7.568500 58.063500,8.052000 58.089167,8.215333 58.246167,8.525500 58.396500,8.808833 58.629000,9.153833 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.956500,10.048167 58.972667,10.224667 59.043667,10.653167 59.074000,10.654833 59.138667,10.657667 59.195833,10.644000 59.236833,10.619167 59.261167,10.604167 59.292333,10.593500 59.327667,10.584667 59.352667,10.588500 59.362167,10.593000 59.371333,10.595167 59.385167,10.593000 59.392500,10.585000 59.401167,10.567000 59.412167,10.551167 59.427667,10.539167 59.443667,10.538667 59.457500,10.544000 59.477167,10.448167 59.486500,10.446167 59.493667,10.446500 59.498833,10.433500 59.499500,10.420500 59.518500,10.388167 59.528167,10.394333 59.570000,10.411000 59.581500,10.412167 59.593167,10.417667 59.606167,10.411667 59.619667,10.414167 59.625333,10.423667 59.638667,10.416667 59.653167,10.410167 59.671667,10.405167 59.686667,10.385000 59.697167,10.366333 59.700167,10.346167 59.700167,10.322667 59.696333,10.321167 59.668833,10.307333 59.669667,10.300167 59.673833,10.245333 59.668333,10.241000 59.669667,10.226167 59.665167,10.214167 59.669333,10.198333 59.666000,10.151333 59.671000,10.133667 59.669167,10.110667 59.659667,10.107833 59.650500,10.091667 59.640167,10.088500 59.641667,10.076667 59.643167,10.061667 59.641667,10.045333 59.644167,10.031667 59.658667,10.018167 59.664500,10.005667 59.663667,9.997167 59.655167,9.994667 59.646167,9.984000 59.635500,9.978500 59.617667,9.977000 59.613167,9.958167 59.608000,9.940500 59.602500,9.928833 59.596500,9.935667 59.586667,9.941167 59.585833,9.918167 59.584167,9.920167 59.567500,9.945167 59.538167,9.976667 59.513500,10.021667 59.492667,10.044667 59.486167,10.048500 59.472167,10.059167 59.464000,10.021333 59.459167,10.015167 59.459833,10.001167 59.466667,9.991833 59.465667,9.979667 59.468167,9.944333 59.459333,9.935667 59.455167,9.916167 59.459333,9.873000 59.458167,9.854833 59.471167,9.817000 59.457167,9.755333 59.414667,9.774167 59.410167,9.773167 59.367667,9.763833 59.350667,9.773667 59.328167,9.747167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>07</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>08</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>09</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>10</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0701;0704;0710;0711;0712;0713;0715;0716;0729</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0805;0806;0807;0811;0814;0815;0817;0819;0821;0822;0826;0827;0828;0829;0830;0831;0833;0834</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0901;0904;0906;0911;0912;0914;0919;0926;0928;0929;0935;0937;0938;0940;0941</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1001;1002;1003;1004;1014;1017;1018;1021;1026;1027;1029;1032;1034;1037;1046</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-07</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-08</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-09</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-10</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO033</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO041</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO042</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>2500</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2019-07-13T12:00:00+00:00</effective>
+    <onset>2019-07-13T12:00:00+00:00</onset>
+    <expires>2019-07-13T19:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Agder, Telemark and Vestfold, 13 July 12:00 UTC to 13 July 19:00 UTC.</headline>
+    <description>Saturday afternoon locally heavy showers in inner areas of Agder, Telemark and Vestfold. Expect 20mm/1t.</description>
+    <instruction>Consider the need for preventive measures.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-07-13T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Heavy rainshowers, yellow level, Agder, Telemark and Vestfold, 13 July 12:00 UTC to 13 July 19:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/a6633c23-abd3-434a-b2e8-60c013639aca.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Agder, Telemark and Vestfold</areaDesc>
+      <polygon>59.328167,9.747167 59.350833,9.773667 59.367667,9.764000 59.410333,9.773333 59.415500,9.701833 59.408167,9.655333 59.427667,9.625833 59.453167,9.590000 59.487000,9.561500 59.484167,9.470000 59.505000,9.471833 59.535667,9.516500 59.560333,9.461000 59.581667,9.457500 59.688000,9.397167 59.701333,9.330833 59.782833,9.363333 59.795500,9.343333 59.829167,9.185667 59.867333,9.173500 59.886500,9.181000 59.929167,9.187833 59.944167,9.140333 59.961667,9.108500 59.963167,9.061500 59.987000,9.032000 59.985167,8.991167 59.995833,8.987333 59.998000,8.996000 60.010000,8.983000 60.018000,8.981500 60.078667,8.968667 60.081333,8.966333 60.097333,8.962500 60.117333,8.904167 60.140000,8.852667 60.155333,8.817167 60.158667,8.789500 60.179000,8.732000 60.170667,8.514333 60.165833,8.460500 60.179333,8.374500 60.172167,8.287167 60.185333,8.212500 60.182500,8.105333 60.171500,8.087333 60.154167,8.014833 60.141167,7.923833 60.119500,7.858000 60.105167,7.808833 60.116000,7.775667 60.129000,7.651833 60.100167,7.492167 60.057333,7.437667 60.019333,7.436667 60.002000,7.370333 59.990667,7.329833 59.987667,7.280167 59.963833,7.228000 59.931833,7.188833 59.886167,7.151167 59.846167,7.144500 59.831667,7.158833 59.810833,7.142167 59.782667,7.093333 59.766000,7.102667 59.742000,7.113167 59.703167,7.106833 59.672167,7.213167 59.653333,7.097667 59.644333,7.099833 59.623167,7.089833 59.613833,7.079167 59.602667,7.064833 59.588167,7.050000 59.596333,6.989333 59.559333,6.982500 59.512667,6.967667 59.505333,6.999000 59.480333,7.023333 59.447500,6.965167 59.428167,6.882167 59.413500,6.907667 59.402000,6.928333 59.393667,6.921000 59.393500,6.906167 59.397833,6.889833 59.371333,6.861000 59.335667,6.846833 59.318833,6.833000 59.272333,6.823167 59.253167,6.838000 59.192833,6.837000 59.191167,6.837333 59.182833,6.851000 59.184833,6.900833 59.188333,6.936500 59.188167,6.954333 59.189833,6.992667 59.193667,7.007333 59.183500,7.019833 59.161833,7.179000 59.140667,7.204000 59.134167,7.163667 59.140667,7.203833 59.161667,7.178833 59.183333,7.019667 59.193667,7.007167 59.189667,6.992667 59.188167,6.954167 59.188167,6.936500 59.140833,6.881667 59.137167,6.899333 59.112333,6.901000 59.053500,6.787333 59.039167,6.780167 59.020167,6.730000 59.006667,6.710000 58.992667,6.703333 58.985167,6.663667 58.967667,6.651667 58.939667,6.633167 58.911167,6.563167 58.900667,6.561167 58.885167,6.569333 58.874667,6.607500 58.840167,6.561833 58.807167,6.542167 58.766667,6.518333 58.764167,6.574833 58.741167,6.574167 58.715167,6.617333 58.694000,6.618667 58.669167,6.508833 58.671500,6.466167 58.650500,6.435667 58.637667,6.474500 58.616167,6.493500 58.614667,6.495667 58.627667,6.532667 58.616667,6.583000 58.624667,6.613833 58.605667,6.596333 58.594667,6.589667 58.585833,6.594833 58.578667,6.610167 58.563167,6.608500 58.561667,6.613833 58.533667,6.606833 58.501667,6.586833 58.448500,6.630667 58.419667,6.591167 58.377333,6.606500 58.355667,6.592833 58.330667,6.567167 58.314500,6.533500 58.303333,6.468667 58.277667,6.377000 58.266667,6.364167 58.022333,6.566833 57.972167,7.040833 57.957167,7.568500 58.063500,8.052000 58.089167,8.215333 58.246167,8.525500 58.396500,8.808833 58.629000,9.153833 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.956500,10.048167 58.972667,10.224667 59.043667,10.653167 59.074000,10.654833 59.138667,10.657667 59.195833,10.644000 59.236833,10.619167 59.261167,10.604167 59.292333,10.593500 59.327667,10.584667 59.352667,10.588500 59.362167,10.593000 59.371333,10.595167 59.385167,10.593000 59.392500,10.585000 59.401167,10.567000 59.412167,10.551167 59.427667,10.539167 59.443667,10.538667 59.457500,10.544000 59.477167,10.448167 59.486500,10.446167 59.493667,10.446500 59.498833,10.433500 59.499500,10.420500 59.518500,10.388167 59.528167,10.394333 59.570000,10.411000 59.581500,10.412167 59.593167,10.417667 59.606167,10.411667 59.619667,10.414167 59.625333,10.423667 59.638667,10.416667 59.653167,10.410167 59.671667,10.405167 59.686667,10.385000 59.697167,10.366333 59.700167,10.346167 59.700167,10.322667 59.696333,10.321167 59.668833,10.307333 59.669667,10.300167 59.673833,10.245333 59.668333,10.241000 59.669667,10.226167 59.665167,10.214167 59.669333,10.198333 59.666000,10.151333 59.671000,10.133667 59.669167,10.110667 59.659667,10.107833 59.650500,10.091667 59.640167,10.088500 59.641667,10.076667 59.643167,10.061667 59.641667,10.045333 59.644167,10.031667 59.658667,10.018167 59.664500,10.005667 59.663667,9.997167 59.655167,9.994667 59.646167,9.984000 59.635500,9.978500 59.617667,9.977000 59.613167,9.958167 59.608000,9.940500 59.602500,9.928833 59.596500,9.935667 59.586667,9.941167 59.585833,9.918167 59.584167,9.920167 59.567500,9.945167 59.538167,9.976667 59.513500,10.021667 59.492667,10.044667 59.486167,10.048500 59.472167,10.059167 59.464000,10.021333 59.459167,10.015167 59.459833,10.001167 59.466667,9.991833 59.465667,9.979667 59.468167,9.944333 59.459333,9.935667 59.455167,9.916167 59.459333,9.873000 59.458167,9.854833 59.471167,9.817000 59.457167,9.755333 59.414667,9.774167 59.410167,9.773167 59.367667,9.763833 59.350667,9.773667 59.328167,9.747167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>07</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>08</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>09</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>10</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0701;0704;0710;0711;0712;0713;0715;0716;0729</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0805;0806;0807;0811;0814;0815;0817;0819;0821;0822;0826;0827;0828;0829;0830;0831;0833;0834</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0901;0904;0906;0911;0912;0914;0919;0926;0928;0929;0935;0937;0938;0940;0941</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1001;1002;1003;1004;1014;1017;1018;1021;1026;1027;1029;1032;1034;1037;1046</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-07</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-08</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-09</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-10</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO033</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO041</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO042</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>2500</ceiling>
+    </area>
+  </info>
+</alert>

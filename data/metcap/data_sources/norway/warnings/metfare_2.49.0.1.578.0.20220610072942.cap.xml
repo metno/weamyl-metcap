@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220610072942</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-10T08:29:01+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050018</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-11T11:00:00+00:00</effective>
+    <onset>2022-06-11T11:00:00+00:00</onset>
+    <expires>2022-06-11T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn, gult nivå, Deler av Trøndelag, 2022-06-11T11:00:00+00:00, 2022-06-11T22:00:00+00:00</headline>
+    <description>Fra lørdag ettermiddag er det er fare for tordenvær med mye lyn. Det vil være store lokale forskjeller i intensitet. Noen steder vil ikke få tordenvær. Faren avtar sent lørdag kveld.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-11T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn, gult nivå, Deler av Trøndelag, 2022-06-11T11:00:00+00:00, 2022-06-11T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/aaa11e47-eaf2-451c-ac2a-332824e4c13b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Trøndelag</areaDesc>
+      <polygon>63.6205,8.09069 63.3615,8.34735 63.4454,8.72559 63.3481,8.89361 63.2041,8.84372 63.0577,9.16038 62.8673,9.35349 62.7817,9.35386 62.7277,8.99274 62.7028,8.94281 62.5626,9.2345 62.4909,9.24011 62.3728,9.10678 62.2585,9.60695 62.3035,9.81724 62.4425,10.0951 62.5601,9.99603 62.711,10.1889 62.6694,10.6808 62.6587,10.7491 62.6917,10.9706 62.6405,11.1671 62.5321,11.2553 62.4723,11.4361 62.3665,11.5443 62.3504,11.7122 62.3833,11.7681 62.3461,12.0501 62.3007,12.1218 62.3336,12.271 62.5801,12.1065 62.7344,12.1473 62.9206,12.1088 62.9963,12.2185 63.2861,12.0054 63.5006,12.2261 63.5903,12.1941 63.9718,12.7336 64.0307,12.9184 64.0732,13.2614 64.7478,11.0506 63.6205,8.09069 63.6205,8.09069</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5001;5006;5007;5014;5020;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5041;5047;5049;5053;5054;5055;5056;5057;5058;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-11T11:00:00+00:00</effective>
+    <onset>2022-06-11T11:00:00+00:00</onset>
+    <expires>2022-06-11T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning, yellow level, Parts of Trøndelag, 2022-06-11T11:00:00+00:00, 2022-06-11T22:00:00+00:00</headline>
+    <description>From Saturday afternoon there is a risk of frequent lightning. There will be large local differences in intensity. Some places will not experience any lightning. The danger decreases late Saturday evening.</description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-11T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning, yellow level, Parts of Trøndelag, 2022-06-11T11:00:00+00:00, 2022-06-11T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/aaa11e47-eaf2-451c-ac2a-332824e4c13b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Trøndelag</areaDesc>
+      <polygon>63.6205,8.09069 63.3615,8.34735 63.4454,8.72559 63.3481,8.89361 63.2041,8.84372 63.0577,9.16038 62.8673,9.35349 62.7817,9.35386 62.7277,8.99274 62.7028,8.94281 62.5626,9.2345 62.4909,9.24011 62.3728,9.10678 62.2585,9.60695 62.3035,9.81724 62.4425,10.0951 62.5601,9.99603 62.711,10.1889 62.6694,10.6808 62.6587,10.7491 62.6917,10.9706 62.6405,11.1671 62.5321,11.2553 62.4723,11.4361 62.3665,11.5443 62.3504,11.7122 62.3833,11.7681 62.3461,12.0501 62.3007,12.1218 62.3336,12.271 62.5801,12.1065 62.7344,12.1473 62.9206,12.1088 62.9963,12.2185 63.2861,12.0054 63.5006,12.2261 63.5903,12.1941 63.9718,12.7336 64.0307,12.9184 64.0732,13.2614 64.7478,11.0506 63.6205,8.09069 63.6205,8.09069</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5001;5006;5007;5014;5020;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5041;5047;5049;5053;5054;5055;5056;5057;5058;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

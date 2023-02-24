@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190212175308202.702</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-02-12T17:53:08+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1668</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-13T00:00:00+00:00</effective>
+    <onset>2019-02-13T00:00:00+00:00</onset>
+    <expires>2019-02-13T11:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Sandnessjøen - Støtt, 13 February 00:00 UTC til 13 February 11:00 UTC.</headline>
+    <description>Natt til onsdag sørøst stiv kuling 15 m/s, onsdag morgen minkende, onsdag formiddag kortvarig nordvest stiv kuling 15.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-02-13T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Sandnessjøen - Støtt</areaDesc>
+      <polygon>65.994833,11.429000 66.129000,11.510167 66.130667,11.511333 66.131167,11.512000 66.297167,11.680167 66.463000,11.850667 66.598000,11.991167 66.599500,11.993167 66.601000,11.995500 66.602500,11.998333 66.602667,11.998500 66.736167,12.300333 66.775333,12.389667 66.800000,12.800000 67.048500,13.353500 66.949667,13.583167 66.913333,13.760667 65.949667,12.683167 65.949667,12.316667 65.838833,11.336000 65.994833,11.429000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-13T00:00:00+00:00</effective>
+    <onset>2019-02-13T00:00:00+00:00</onset>
+    <expires>2019-02-13T11:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Sandnessjoeen - Stoett, 13 February 00:00 UTC to 13 February 11:00 UTC.</headline>
+    <description>Early Wednesday morning southeast near gale force 7, Wednesday morning decreasing, late Wednesday morning briefly northwest near gale force 7.</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-02-13T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Sandnessjoeen - Stoett</areaDesc>
+      <polygon>65.994833,11.429000 66.129000,11.510167 66.130667,11.511333 66.131167,11.512000 66.297167,11.680167 66.463000,11.850667 66.598000,11.991167 66.599500,11.993167 66.601000,11.995500 66.602500,11.998333 66.602667,11.998500 66.736167,12.300333 66.775333,12.389667 66.800000,12.800000 67.048500,13.353500 66.949667,13.583167 66.913333,13.760667 65.949667,12.683167 65.949667,12.316667 65.838833,11.336000 65.994833,11.429000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

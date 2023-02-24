@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220816044637</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-16T05:08:38+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050131</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-08-16T04:47:00+00:00</effective>
+    <onset>2022-08-16T04:47:00+00:00</onset>
+    <expires>2022-08-16T20:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn pågår, gult nivå, Østlandet og Sørlandet, 2022-08-16T04:47:00+00:00, 2022-08-16T20:00:00+00:00</headline>
+    <description>Tirsdag er det fare for mye lyn og torden i forbindelse med regnbygene. Faren vil avta tirsdag kveld.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-16T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Lokalt kraftige regnbyger. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn pågår</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn pågår, gult nivå, Østlandet og Sørlandet, 2022-08-16T04:47:00+00:00, 2022-08-16T20:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/8fb32f3f-1ede-4499-a4d1-0b1f94567742.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Østlandet og Sørlandet</areaDesc>
+      <polygon>62.3146,9.85092 62.2778,9.60814 62.3683,9.08526 62.3617,8.31118 62.1988,7.90124 62.063,7.39723 61.7246,7.55124 61.7287,7.83438 61.5502,8.0048 61.512,8.23859 61.2211,8.01277 61.056,8.22877 60.9241,7.88129 60.6791,7.47286 60.1663,7.60454 59.968,7.25408 59.7683,7.09428 59.5136,6.93437 59.1472,6.8049 58.6554,6.49251 58.3032,6.52039 58.0803,6.58589 57.9907,7.21529 58.0158,7.87163 58.1669,8.48269 58.6901,9.35332 58.9405,9.83994 59.1326,10.5201 59.2195,10.7142 58.9958,11.009 58.7747,11.108 58.894,11.6693 59.388,11.8477 59.6243,11.78 59.7796,12.0552 60.0052,12.454 60.3657,12.649 60.6971,12.502 61.0252,12.2801 61.0348,12.7147 61.4201,12.8609 61.717,12.193 62.3422,12.2768 62.4316,11.537 62.6784,11.1298 62.702,10.206 62.6045,10.0213 62.4218,10.1216 62.3146,9.85092 62.3146,9.85092</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>03</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>0301;1108;1112;1134;3001;3002;3003;3004;3005;3006;3007;3011;3012;3013;3014;3015;3016;3017;3018;3019;3020;3021;3022;3023;3024;3025;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3038;3039;3040;3041;3042;3043;3044;3045;3046;3047;3048;3049;3050;3051;3052;3053;3054;3401;3403;3405;3407;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3421;3422;3423;3424;3425;3426;3427;3428;3429;3430;3431;3432;3433;3434;3435;3436;3437;3438;3439;3440;3441;3442;3443;3446;3447;3448;3449;3450;3451;3452;3453;3454;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4202;4203;4204;4205;4206;4207;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4221;4222;4223;4224;4225;4226;4227;4228;4619;4620;4642;4643;5025</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-08-16T04:47:00+00:00</effective>
+    <onset>2022-08-16T04:47:00+00:00</onset>
+    <expires>2022-08-16T20:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning ongoing, yellow level, Østlandet and Sørlandet, 2022-08-16T04:47:00+00:00, 2022-08-16T20:00:00+00:00</headline>
+    <description>Tuesday there will be a risk of frequent lightning in showers.  The risk of lightning will decrease Tuesday evening. </description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-16T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Locally heavy rain showers. Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning ongoing</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning ongoing, yellow level, Østlandet and Sørlandet, 2022-08-16T04:47:00+00:00, 2022-08-16T20:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/8fb32f3f-1ede-4499-a4d1-0b1f94567742.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Østlandet and Sørlandet</areaDesc>
+      <polygon>62.3146,9.85092 62.2778,9.60814 62.3683,9.08526 62.3617,8.31118 62.1988,7.90124 62.063,7.39723 61.7246,7.55124 61.7287,7.83438 61.5502,8.0048 61.512,8.23859 61.2211,8.01277 61.056,8.22877 60.9241,7.88129 60.6791,7.47286 60.1663,7.60454 59.968,7.25408 59.7683,7.09428 59.5136,6.93437 59.1472,6.8049 58.6554,6.49251 58.3032,6.52039 58.0803,6.58589 57.9907,7.21529 58.0158,7.87163 58.1669,8.48269 58.6901,9.35332 58.9405,9.83994 59.1326,10.5201 59.2195,10.7142 58.9958,11.009 58.7747,11.108 58.894,11.6693 59.388,11.8477 59.6243,11.78 59.7796,12.0552 60.0052,12.454 60.3657,12.649 60.6971,12.502 61.0252,12.2801 61.0348,12.7147 61.4201,12.8609 61.717,12.193 62.3422,12.2768 62.4316,11.537 62.6784,11.1298 62.702,10.206 62.6045,10.0213 62.4218,10.1216 62.3146,9.85092 62.3146,9.85092</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>03</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>0301;1108;1112;1134;3001;3002;3003;3004;3005;3006;3007;3011;3012;3013;3014;3015;3016;3017;3018;3019;3020;3021;3022;3023;3024;3025;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3038;3039;3040;3041;3042;3043;3044;3045;3046;3047;3048;3049;3050;3051;3052;3053;3054;3401;3403;3405;3407;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3421;3422;3423;3424;3425;3426;3427;3428;3429;3430;3431;3432;3433;3434;3435;3436;3437;3438;3439;3440;3441;3442;3443;3446;3447;3448;3449;3450;3451;3452;3453;3454;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4202;4203;4204;4205;4206;4207;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4221;4222;4223;4224;4225;4226;4227;4228;4619;4620;4642;4643;5025</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221115122201</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-11-17T10:06:17+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221115084206,2022-11-15T09:17:12+00:00</references>
+  <incidents>0000050276</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-11-17T12:00:00+00:00</effective>
+    <onset>2022-11-17T12:00:00+00:00</onset>
+    <expires>2022-11-19T00:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø pågår, gult nivå, Deler av Østlandet og Agder, 2022-11-17T12:00:00+00:00, 2022-11-19T00:00:00+00:00</headline>
+    <description>Fra torsdag ettermiddag og fram til natt til lørdag ventes snø, særlig i indre og høyere strøk. Det ventes 5-15 cm på 24 timer, lokalt opp mot 25 cm. Snøgrense 100-400 meter, lavest fredag kveld.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-19T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø pågår</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø pågår, gult nivå, Deler av Østlandet og Agder, 2022-11-17T12:00:00+00:00, 2022-11-19T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/6d448b81-b44b-4868-aa55-4f165a0fac0b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Østlandet og Agder</areaDesc>
+      
+          <polygon>59.382,9.84053 59.7008,9.71587 60.0597,9.14261 60.0127,8.53588 59.7642,7.95679 59.4799,7.57893 59.206,7.27049 58.8992,6.99922 58.6331,6.88813 58.2239,7.00979 58.1481,7.33689 58.2198,7.95709 58.3414,8.48262 58.647,9.03717 58.8711,9.37902 59.1581,9.64028 59.382,9.84053 59.382,9.84053</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3006;3050;3051;3807;3808;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4202;4203;4204;4205;4211;4212;4213;4214;4216;4217;4218;4219;4220;4221;4223;4224;4225;4226;4227;4228</value>
+    </geocode>
+    <altitude>300</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-11-17T12:00:00+00:00</effective>
+    <onset>2022-11-17T12:00:00+00:00</onset>
+    <expires>2022-11-19T00:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow ongoing, yellow level, Parts of Østlandet and Agder, 2022-11-17T12:00:00+00:00, 2022-11-19T00:00:00+00:00</headline>
+    <description>From Thursday afternoon until late Friday evening snow is expected above 100-400 meters, lowest Friday evening. 5-15 cm is expected in 24 hours, locally up to 25 cm.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-19T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow ongoing</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow ongoing, yellow level, Parts of Østlandet and Agder, 2022-11-17T12:00:00+00:00, 2022-11-19T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/6d448b81-b44b-4868-aa55-4f165a0fac0b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Østlandet and Agder</areaDesc>
+      
+          <polygon>59.382,9.84053 59.7008,9.71587 60.0597,9.14261 60.0127,8.53588 59.7642,7.95679 59.4799,7.57893 59.206,7.27049 58.8992,6.99922 58.6331,6.88813 58.2239,7.00979 58.1481,7.33689 58.2198,7.95709 58.3414,8.48262 58.647,9.03717 58.8711,9.37902 59.1581,9.64028 59.382,9.84053 59.382,9.84053</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3006;3050;3051;3807;3808;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4202;4203;4204;4205;4211;4212;4213;4214;4216;4217;4218;4219;4220;4221;4223;4224;4225;4226;4227;4228</value>
+    </geocode>
+    <altitude>300</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

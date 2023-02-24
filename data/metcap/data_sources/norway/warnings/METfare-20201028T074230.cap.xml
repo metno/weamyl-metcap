@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.201028074230061.4552</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-10-28T07:42:30+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>4810</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2020-10-28T13:00:00+00:00</effective>
+    <onset>2020-10-28T13:00:00+00:00</onset>
+    <expires>2020-10-28T20:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Ytre Sogn, 28 October 13:00 UTC til 28 October 20:00 UTC.</headline>
+    <description>Onsdag er det fare for kraftige vindkast fra sør og sørvestlig retning, lokalt 27-33 m/s.</description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-10-28T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over kraftige vindkast, gult nivå, Ytre Sogn, 28 October 13:00 UTC til 28 October 20:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/eca1a7fd-d35e-4960-935f-91753708a0ad.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre Sogn</areaDesc>
+      <polygon>61.388500,6.435167 61.386500,6.304500 61.384833,6.191500 61.384333,6.096667 61.379500,6.018000 61.358000,5.933000 61.330500,5.868000 61.298667,5.826667 61.261500,5.749667 61.235667,5.646833 61.208667,5.491333 61.219500,5.434000 61.250667,5.289000 61.256667,5.182000 61.264167,5.035833 61.265333,4.910500 61.271167,4.666167 61.255500,4.389167 61.227667,4.386333 61.166167,4.380333 61.076333,4.371167 61.038500,4.366333 61.034167,4.366333 61.027667,4.366333 61.023333,4.366667 61.019000,4.367333 61.014333,4.368833 61.010000,4.371167 60.966833,4.395500 60.880500,4.444333 60.874500,4.447833 60.889167,4.610000 60.863833,4.680500 60.847000,4.834667 60.839500,4.961167 60.827833,5.059500 60.808833,5.132167 60.838500,5.141500 60.860667,5.137667 60.875167,5.159167 60.897833,5.159833 60.908167,5.199833 60.920833,5.217500 60.928000,5.275667 60.941333,5.280667 60.938333,5.304833 60.911333,5.327000 60.912500,5.383833 60.927500,5.422500 60.937000,5.472000 60.922000,5.482833 60.931167,5.526333 60.961333,5.585167 60.977667,5.619833 60.979167,5.650000 60.964000,5.666167 60.957167,5.705833 60.967333,5.715000 60.976500,5.744500 60.985167,5.798833 60.953333,5.855333 60.951333,5.884167 60.983833,5.904167 61.012000,5.929167 61.009333,5.943167 61.034500,6.017667 61.027000,6.049333 60.999167,6.074167 60.984167,6.148667 60.971167,6.140833 60.939167,6.136000 60.922500,6.155000 60.914333,6.200500 60.910667,6.212833 60.880000,6.301000 60.931167,6.388833 60.923167,6.414333 60.922667,6.446000 60.946833,6.483167 60.945333,6.499000 60.943500,6.500000 61.383667,6.500000 61.388500,6.435167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4646;4651;4602;4643;4648;4638;4636;4645;4644;4647;4639;4635;4640;4649;4641;1577;4637;4642;4650</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-14</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2020-10-28T13:00:00+00:00</effective>
+    <onset>2020-10-28T13:00:00+00:00</onset>
+    <expires>2020-10-28T20:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Ytre Sogn, 28 October 13:00 UTC to 28 October 20:00 UTC.</headline>
+    <description>Wednesday it is a risk of strong wind gusts from a southerly and southwesterly direction, locally 27-33 m/s.</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-10-28T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. Some roads may be closed due to trees or other objects in the road. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of strong wind gusts, yellow level, Ytre Sogn, 28 October 13:00 UTC to 28 October 20:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/eca1a7fd-d35e-4960-935f-91753708a0ad.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre Sogn</areaDesc>
+      <polygon>61.388500,6.435167 61.386500,6.304500 61.384833,6.191500 61.384333,6.096667 61.379500,6.018000 61.358000,5.933000 61.330500,5.868000 61.298667,5.826667 61.261500,5.749667 61.235667,5.646833 61.208667,5.491333 61.219500,5.434000 61.250667,5.289000 61.256667,5.182000 61.264167,5.035833 61.265333,4.910500 61.271167,4.666167 61.255500,4.389167 61.227667,4.386333 61.166167,4.380333 61.076333,4.371167 61.038500,4.366333 61.034167,4.366333 61.027667,4.366333 61.023333,4.366667 61.019000,4.367333 61.014333,4.368833 61.010000,4.371167 60.966833,4.395500 60.880500,4.444333 60.874500,4.447833 60.889167,4.610000 60.863833,4.680500 60.847000,4.834667 60.839500,4.961167 60.827833,5.059500 60.808833,5.132167 60.838500,5.141500 60.860667,5.137667 60.875167,5.159167 60.897833,5.159833 60.908167,5.199833 60.920833,5.217500 60.928000,5.275667 60.941333,5.280667 60.938333,5.304833 60.911333,5.327000 60.912500,5.383833 60.927500,5.422500 60.937000,5.472000 60.922000,5.482833 60.931167,5.526333 60.961333,5.585167 60.977667,5.619833 60.979167,5.650000 60.964000,5.666167 60.957167,5.705833 60.967333,5.715000 60.976500,5.744500 60.985167,5.798833 60.953333,5.855333 60.951333,5.884167 60.983833,5.904167 61.012000,5.929167 61.009333,5.943167 61.034500,6.017667 61.027000,6.049333 60.999167,6.074167 60.984167,6.148667 60.971167,6.140833 60.939167,6.136000 60.922500,6.155000 60.914333,6.200500 60.910667,6.212833 60.880000,6.301000 60.931167,6.388833 60.923167,6.414333 60.922667,6.446000 60.946833,6.483167 60.945333,6.499000 60.943500,6.500000 61.383667,6.500000 61.388500,6.435167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4646;4651;4602;4643;4648;4638;4636;4645;4644;4647;4639;4635;4640;4649;4641;1577;4637;4642;4650</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-14</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

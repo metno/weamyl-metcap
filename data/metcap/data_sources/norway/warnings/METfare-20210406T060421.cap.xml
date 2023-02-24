@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210406060421597.959</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-04-06T06:04:21+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.210405105137205.947,2021-04-05T10:51:37+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-04-05T11:00:00+00:00</effective>
+    <onset>2021-04-05T11:00:00+00:00</onset>
+    <expires>2021-04-07T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Åna-Sira - Karmøy, 05 April 11:00 UTC til 07 April 09:00 UTC.</headline>
+    <description>Fra tirsdag formiddag fortsatt nord og nordvest stiv kuling 15 m/s og periodevis sterk kuling 20. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Grov sjø og hvitt skum fra bølgetopper som brekker. Middels høye bølger. Bølgekammene er ved å brytes opp til sjørokk. Høye bølger. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Åna-Sira - Karmøy</areaDesc>
+      <polygon>58.629000,5.434333 58.509000,5.565000 58.369500,5.806667 58.313833,5.988500 58.248667,6.188333 58.216833,6.317667 58.266667,6.364167 58.277667,6.377000 58.292167,6.392667 58.330167,6.318500 58.359167,6.213833 58.399000,6.082833 58.444333,5.970833 58.498667,5.842167 58.568667,5.692667 58.658667,5.595500 58.712000,5.558833 58.821333,5.561000 58.902833,5.579000 58.996667,5.570500 59.064667,5.509667 59.119333,5.388167 59.153333,5.272833 59.192167,5.227000 59.266167,5.205833 59.346667,5.193667 59.299500,4.824500 59.209833,4.894333 59.148833,4.987167 59.089500,5.106000 59.020167,5.199167 58.973167,5.251167 58.812667,5.324500 58.714167,5.377000 58.629000,5.434333
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO811</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-04-05T11:00:00+00:00</effective>
+    <onset>2021-04-05T11:00:00+00:00</onset>
+    <expires>2021-04-07T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Aana-Sira - Karmoey, 05 April 11:00 UTC to 07 April 09:00 UTC.</headline>
+    <description>From late Tuesday morning still north and northwest near gale force 7 and occasionally gale force 8. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sea heaps up. Moderate amounts of airborne spray. Moderately high waves with breaking crests forming spindrift. Considerable airborne spray. High waves whose crests sometimes roll over. Airborne spray may reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Aana-Sira - Karmoey</areaDesc>
+      <polygon>58.629000,5.434333 58.509000,5.565000 58.369500,5.806667 58.313833,5.988500 58.248667,6.188333 58.216833,6.317667 58.266667,6.364167 58.277667,6.377000 58.292167,6.392667 58.330167,6.318500 58.359167,6.213833 58.399000,6.082833 58.444333,5.970833 58.498667,5.842167 58.568667,5.692667 58.658667,5.595500 58.712000,5.558833 58.821333,5.561000 58.902833,5.579000 58.996667,5.570500 59.064667,5.509667 59.119333,5.388167 59.153333,5.272833 59.192167,5.227000 59.266167,5.205833 59.346667,5.193667 59.299500,4.824500 59.209833,4.894333 59.148833,4.987167 59.089500,5.106000 59.020167,5.199167 58.973167,5.251167 58.812667,5.324500 58.714167,5.377000 58.629000,5.434333
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO811</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

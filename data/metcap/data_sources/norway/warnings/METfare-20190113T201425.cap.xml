@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190113201425102.254</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-13T20:14:25+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1415</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-14T04:00:00+00:00</effective>
+    <onset>2019-01-14T04:00:00+00:00</onset>
+    <expires>2019-01-14T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Skagerrak, 14 January 04:00 UTC til 14 January 22:00 UTC.</headline>
+    <description>Fra mandag morgen nordvest periodevis sterk kuling 20 m/s, sent mandag kveld minkende.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-14T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Skagerrak</areaDesc>
+      <polygon>57.760333,10.544333 57.862833,11.505833 58.336167,11.170667 58.939167,10.904167 59.043667,10.653167 58.972667,10.224667 58.956500,10.048167 58.930000,9.784667 58.852167,9.595000 58.759667,9.369167 58.629000,9.153667 58.396333,8.808667 58.246167,8.525500 58.089167,8.215167 58.063333,8.052000 57.957167,7.568500 57.972167,7.040667 57.950167,6.987667 57.754000,7.445667 57.130500,8.525667 57.120667,8.798167 57.174833,8.992833 57.157500,9.166833 57.172167,9.375000 57.256833,9.540000 57.491667,9.757667 57.605500,9.939167 57.635667,10.206167 57.760333,10.544333
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-14T04:00:00+00:00</effective>
+    <onset>2019-01-14T04:00:00+00:00</onset>
+    <expires>2019-01-14T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Skagerrak, 14 January 04:00 UTC to 14 January 22:00 UTC.</headline>
+    <description>From Monday morning northwest occasionally gale force 8, late Monday evening decreasing.</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-14T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Skagerrak</areaDesc>
+      <polygon>57.760333,10.544333 57.862833,11.505833 58.336167,11.170667 58.939167,10.904167 59.043667,10.653167 58.972667,10.224667 58.956500,10.048167 58.930000,9.784667 58.852167,9.595000 58.759667,9.369167 58.629000,9.153667 58.396333,8.808667 58.246167,8.525500 58.089167,8.215167 58.063333,8.052000 57.957167,7.568500 57.972167,7.040667 57.950167,6.987667 57.754000,7.445667 57.130500,8.525667 57.120667,8.798167 57.174833,8.992833 57.157500,9.166833 57.172167,9.375000 57.256833,9.540000 57.491667,9.757667 57.605500,9.939167 57.635667,10.206167 57.760333,10.544333
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

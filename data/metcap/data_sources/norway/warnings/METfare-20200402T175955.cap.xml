@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200402175955315.3006</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-04-02T17:59:55+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200402075547403.2991,2020-04-02T07:55:47+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-04-02T22:00:00+00:00</effective>
+    <onset>2020-04-02T22:00:00+00:00</onset>
+    <expires>2020-04-03T05:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Ytre Skagerrak, 02 April 22:00 UTC til 03 April 05:00 UTC.</headline>
+    <description>Vestlig sterk kuling 20 m/s.</description>
+    <instruction>Vurder å la båten ligge. Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-04-03T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Middels høye bølger. Bølgekammene er ved å brytes opp til sjørokk. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Ytre Skagerrak</areaDesc>
+      <polygon>57.120667,8.798167 57.174667,8.992667 57.157500,9.166667 57.172167,9.375000 57.256667,9.539833 57.491667,9.757667 57.605333,9.939167 57.635667,10.206167 57.760167,10.544167 58.387000,8.833333 58.296500,8.682000 58.295333,8.679833 58.205500,8.498500 58.205333,8.498167 58.095500,8.272500 58.094333,8.269833 58.093333,8.267000 58.092833,8.264667 58.077667,8.205500 58.077667,8.205333 58.033667,8.030667 58.033333,8.029167 57.964167,7.717000 57.959667,7.697167 57.959500,7.696833 57.951167,7.657333 57.950667,7.654833 57.945500,7.623667 57.945000,7.620333 57.944833,7.617833 57.941833,7.567833 57.941833,7.564500 57.941833,7.563833 57.944833,7.226167 57.945000,7.202000 57.945000,7.198667 57.945333,7.195833 57.964000,7.030833 57.754000,7.445667 57.130500,8.525667 57.120667,8.798167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-04-02T22:00:00+00:00</effective>
+    <onset>2020-04-02T22:00:00+00:00</onset>
+    <expires>2020-04-03T05:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Outer Skagerrak, 02 April 22:00 UTC to 03 April 05:00 UTC.</headline>
+    <description>West gale force 8.</description>
+    <instruction>It is not recommended to be at sea in a small boat. Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-04-03T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderately high waves with breaking crests forming spindrift. Considerable airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Outer Skagerrak</areaDesc>
+      <polygon>57.120667,8.798167 57.174667,8.992667 57.157500,9.166667 57.172167,9.375000 57.256667,9.539833 57.491667,9.757667 57.605333,9.939167 57.635667,10.206167 57.760167,10.544167 58.387000,8.833333 58.296500,8.682000 58.295333,8.679833 58.205500,8.498500 58.205333,8.498167 58.095500,8.272500 58.094333,8.269833 58.093333,8.267000 58.092833,8.264667 58.077667,8.205500 58.077667,8.205333 58.033667,8.030667 58.033333,8.029167 57.964167,7.717000 57.959667,7.697167 57.959500,7.696833 57.951167,7.657333 57.950667,7.654833 57.945500,7.623667 57.945000,7.620333 57.944833,7.617833 57.941833,7.567833 57.941833,7.564500 57.941833,7.563833 57.944833,7.226167 57.945000,7.202000 57.945000,7.198667 57.945333,7.195833 57.964000,7.030833 57.754000,7.445667 57.130500,8.525667 57.120667,8.798167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221124100820</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-11-24T10:08:52+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050290</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-11-24T10:00:00+00:00</effective>
+    <onset>2022-11-24T10:00:00+00:00</onset>
+    <expires>2022-11-27T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Skogbrannfare, gult nivå, Ytre strøk av Møre og Romsdal, Trøndelag og Nordland, 2022-11-24T10:00:00+00:00, 2022-11-27T12:00:00+00:00</headline>
+    <description>Lokal gress- og lyngbrannfare i snøfrie områder i lavlandet inntil det kommer nedbør av betydning.</description>
+    <instruction>Vær forsiktig med åpen ild. Følg lokale myndigheters instruksjoner. Behov for forebyggende tiltak og beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetasjon kan lett antennes og store områder kan bli berørt. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Skogbrannfare</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Skogbrannfare, gult nivå, Ytre strøk av Møre og Romsdal, Trøndelag og Nordland, 2022-11-24T10:00:00+00:00, 2022-11-27T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1d4d8033-decc-4297-ac49-51f79eea0103.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre strøk av Møre og Romsdal, Trøndelag og Nordland</areaDesc>
+      
+          <polygon>61.9998,4.95126 61.8905,6.09525 62.1693,6.75271 62.3693,7.1251 62.5899,7.82258 62.766,8.21371 62.8403,8.79194 63.2992,10.5225 63.4453,11.0733 64.0547,11.5856 65.0148,12.9817 68.1257,16.7413 68.4922,18.0877 68.6557,16.7409 68.0558,15.122 66.5669,12.05 64.9905,10.6732 64.4233,10.2119 63.0541,6.76803 62.2567,5.12494 61.9998,4.95126 61.9998,4.95126</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1505;1506;1507;1511;1514;1515;1516;1517;1520;1525;1528;1531;1532;1535;1539;1547;1554;1557;1560;1566;1573;1576;1577;1578;1579;1804;1806;1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1827;1828;1832;1833;1834;1835;1836;1837;1838;1839;1840;1841;1845;1848;1853;1875;4602;4649;5001;5006;5007;5014;5020;5028;5029;5031;5035;5036;5037;5044;5046;5047;5049;5052;5053;5054;5055;5056;5057;5058;5059;5060;5061;5412</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-11-24T10:00:00+00:00</effective>
+    <onset>2022-11-24T10:00:00+00:00</onset>
+    <expires>2022-11-27T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Forest fire danger, yellow level, Outer parts of Møre and Romsdal, Trøndelag and Nordland, 2022-11-24T10:00:00+00:00, 2022-11-27T12:00:00+00:00</headline>
+    <description>Local grass fire danger in areas free of snow in the lowlands until significant precipitation.</description>
+    <instruction>Be careful with open fire. Follow the instructions from the local authorities. Emergency services should assess a necessary level of alertness. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetation is easily ignited and large areas may be affected. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Forest fire danger</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Forest fire danger, yellow level, Outer parts of Møre and Romsdal, Trøndelag and Nordland, 2022-11-24T10:00:00+00:00, 2022-11-27T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1d4d8033-decc-4297-ac49-51f79eea0103.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer parts of Møre and Romsdal, Trøndelag and Nordland</areaDesc>
+      
+          <polygon>61.9998,4.95126 61.8905,6.09525 62.1693,6.75271 62.3693,7.1251 62.5899,7.82258 62.766,8.21371 62.8403,8.79194 63.2992,10.5225 63.4453,11.0733 64.0547,11.5856 65.0148,12.9817 68.1257,16.7413 68.4922,18.0877 68.6557,16.7409 68.0558,15.122 66.5669,12.05 64.9905,10.6732 64.4233,10.2119 63.0541,6.76803 62.2567,5.12494 61.9998,4.95126 61.9998,4.95126</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1505;1506;1507;1511;1514;1515;1516;1517;1520;1525;1528;1531;1532;1535;1539;1547;1554;1557;1560;1566;1573;1576;1577;1578;1579;1804;1806;1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1827;1828;1832;1833;1834;1835;1836;1837;1838;1839;1840;1841;1845;1848;1853;1875;4602;4649;5001;5006;5007;5014;5020;5028;5029;5031;5035;5036;5037;5044;5046;5047;5049;5052;5053;5054;5055;5056;5057;5058;5059;5060;5061;5412</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+</alert>

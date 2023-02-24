@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.201105181707128.4672</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-11-05T18:17:07+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-11-06T10:00:00+00:00</effective>
+    <onset>2020-11-06T10:00:00+00:00</onset>
+    <expires>2020-11-07T03:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Torsvåg - Loppa, 06 November 10:00 UTC til 07 November 03:00 UTC.</headline>
+    <description>Fra sent fredag formiddag vestlig liten storm 22 m/s, sent fredag ettermiddag vestlig full storm 25 m/s. Fredag kveld minkende til vest stiv kuling 15 m/s, natt til lørdag minkende vind.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-11-07T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. Meget høye bølger. Rullingen blir tung og støtende. Synsvidden nedsettes. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>24.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Torsvåg - Loppa</areaDesc>
+      <polygon>70.183167,21.600000 70.462667,21.334667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.039000,19.960167 70.183167,21.600000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-11-06T10:00:00+00:00</effective>
+    <onset>2020-11-06T10:00:00+00:00</onset>
+    <expires>2020-11-07T03:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Torsvaag - Loppa, 06 November 10:00 UTC to 07 November 03:00 UTC.</headline>
+    <description>From late late Friday morning west strong gale force 9, late Friday afternoon west storm force 10 m/s. Friday evening decreasing west near gale force 7, early Saturday morning decreasing wind.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-11-07T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. Very high waves. Considerable tumbling of waves with heavy impact. Reduced visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>24.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Torsvaag - Loppa</areaDesc>
+      <polygon>70.183167,21.600000 70.462667,21.334667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.039000,19.960167 70.183167,21.600000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

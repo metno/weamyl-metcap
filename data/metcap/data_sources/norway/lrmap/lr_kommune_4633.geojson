@@ -1,0 +1,84 @@
+{
+    "_id": "lr_kommune_4633",
+    "objtype": "Kommune",
+    "source": "https://kartverket.no/",
+    "uuid": "no.met:d306d29b-b861-5bde-8da9-f670a28a9527",
+    "administrativeName": [
+        {
+            "navn": "Fedje",
+            "rekkefolge": "",
+            "sprak": "nor"
+        }
+    ],
+    "administrativeId": "4633",
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4.184769302981094,
+                            60.8333540341509
+                        ],
+                        [
+                            4.266134729556998,
+                            60.68782191767203
+                        ],
+                        [
+                            4.661244505065127,
+                            60.7409057406146
+                        ],
+                        [
+                            4.77669583683862,
+                            60.73394224614809
+                        ],
+                        [
+                            4.791178239797226,
+                            60.76352894872037
+                        ],
+                        [
+                            4.686245660584793,
+                            60.83859712037563
+                        ],
+                        [
+                            4.68690415704587,
+                            60.85822012077083
+                        ],
+                        [
+                            4.610651813771106,
+                            60.88722032770974
+                        ],
+                        [
+                            4.184769302981094,
+                            60.8333540341509
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "objtype": "Kommune",
+                "samiskforvaltningsomrade": false,
+                "kommunenummer": "4633",
+                "navn": [
+                    {
+                        "navn": "Fedje",
+                        "rekkefolge": "",
+                        "sprak": "nor"
+                    }
+                ],
+                "bbox": [
+                    4.184769302981094,
+                    60.68782191767203,
+                    4.791178239797226,
+                    60.88722032770974
+                ],
+                "area": 0.0767733194693218,
+                "crs": "epsg:4326"
+            }
+        }
+    ],
+    "comment": "Resampled from kommune_4633 with UUID: no.geonorge:05eae5da-5c4c-53f9-b632-7cc488892b4d"
+}

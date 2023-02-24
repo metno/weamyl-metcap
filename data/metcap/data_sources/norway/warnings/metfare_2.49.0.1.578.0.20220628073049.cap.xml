@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220628073049</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-28T08:02:51+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050058</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-06-28T10:00:00+00:00</effective>
+    <onset>2022-06-28T10:00:00+00:00</onset>
+    <expires>2022-06-28T16:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Deler av Innlandet, 2022-06-28T10:00:00+00:00, 2022-06-28T16:00:00+00:00</headline>
+    <description>Det ventes mye regn, lokalt over 25 mm/6t. Det vil være variasjoner i intensitet og mengde. </description>
+    <instruction>Vurder behov for forebyggende tiltak. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-28T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, Deler av Innlandet, 2022-06-28T10:00:00+00:00, 2022-06-28T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/b1378bf4-1402-4af9-8277-077b0fced16f.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Innlandet</areaDesc>
+      <polygon>62.2905,9.79438 62.2684,9.68523 62.2582,9.62876 62.2811,9.53377 62.2972,9.43191 62.3549,9.19468 62.3799,9.07788 62.3617,9.01754 62.3505,8.93619 61.9908,9.16728 61.3472,9.79575 61.1332,10.6052 60.7868,11.3816 60.4705,11.8967 60.1917,12.5458 60.2634,12.5064 60.3903,12.6014 60.4727,12.6134 60.5209,12.6115 60.5989,12.5341 60.6481,12.5237 60.732,12.409 60.8517,12.3491 60.9007,12.3404 61.0152,12.2379 61.0393,12.3544 61.0547,12.4607 61.0512,12.6026 61.0616,12.6935 61.1471,12.7157 61.2046,12.807 61.2812,12.847 61.3584,12.8808 61.455,12.7491 61.5684,12.5893 61.5696,12.5256 61.5681,12.4342 61.6155,12.3537 61.6371,12.308 61.6877,12.2227 61.7342,12.1461 61.8171,12.1715 61.9627,12.2189 62.1368,12.2724 62.2685,12.2987 62.3313,12.272 62.3317,12.223 62.3117,12.1716 62.3188,12.1149 62.3466,12.0737 62.3805,11.7855 62.3616,11.735 62.3504,11.736 62.3532,11.6923 62.3642,11.6942 62.3795,11.6799 62.3748,11.6268 62.3704,11.5708 62.4463,11.49 62.4775,11.4404 62.4944,11.3785 62.5164,11.3519 62.5295,11.3004 62.5311,11.2678 62.5659,11.2527 62.573,11.2073 62.601,11.2044 62.6121,11.1758 62.6504,11.168 62.6549,11.1484 62.6632,11.1394 62.669,11.0559 62.6973,10.9423 62.6932,10.8491 62.6752,10.7913 62.649,10.7608 62.6535,10.7286 62.6674,10.72 62.6746,10.6943 62.6778,10.667 62.666,10.6121 62.6714,10.5498 62.6792,10.4867 62.6962,10.3539 62.6945,10.2201 62.6889,10.2043 62.6954,10.2024 62.6979,10.1895 62.6943,10.1743 62.6887,10.1745 62.6861,10.1646 62.6893,10.1585 62.681,10.1593 62.6778,10.1475 62.6722,10.1458 62.6669,10.1311 62.6571,10.1199 62.6396,10.1132 62.6289,10.0979 62.6048,10.0862 62.6028,10.0741 62.6006,10.0635 62.5923,10.0514 62.5876,10.0374 62.5703,10.0478 62.5606,10.0197 62.5061,10.0524 62.4716,10.0812 62.4474,10.0981 62.4296,10.1081 62.4162,10.0425 62.4004,9.96565 62.3565,9.94635 62.3476,9.90903 62.363,9.85099 62.3438,9.83158 62.3388,9.85414 62.3338,9.86177 62.3319,9.84614 62.3166,9.84724 62.3003,9.83845 62.2905,9.79438 62.2905,9.79438</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3401;3403;3405;3411;3412;3417;3418;3419;3420;3421;3422;3423;3424;3425;3426;3427;3428;3429;3430;3431;3432;3436;3437;3438;3439;3440;3441</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-06-28T10:00:00+00:00</effective>
+    <onset>2022-06-28T10:00:00+00:00</onset>
+    <expires>2022-06-28T16:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Parts of Innlandet, 2022-06-28T10:00:00+00:00, 2022-06-28T16:00:00+00:00</headline>
+    <description>A lot of rain is expected, locally around 25 mm in 6 hours. There will be variations in intensity and duration.</description>
+    <instruction>Consider the need for preventive measures. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-28T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, Parts of Innlandet, 2022-06-28T10:00:00+00:00, 2022-06-28T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/b1378bf4-1402-4af9-8277-077b0fced16f.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Innlandet</areaDesc>
+      <polygon>62.2905,9.79438 62.2684,9.68523 62.2582,9.62876 62.2811,9.53377 62.2972,9.43191 62.3549,9.19468 62.3799,9.07788 62.3617,9.01754 62.3505,8.93619 61.9908,9.16728 61.3472,9.79575 61.1332,10.6052 60.7868,11.3816 60.4705,11.8967 60.1917,12.5458 60.2634,12.5064 60.3903,12.6014 60.4727,12.6134 60.5209,12.6115 60.5989,12.5341 60.6481,12.5237 60.732,12.409 60.8517,12.3491 60.9007,12.3404 61.0152,12.2379 61.0393,12.3544 61.0547,12.4607 61.0512,12.6026 61.0616,12.6935 61.1471,12.7157 61.2046,12.807 61.2812,12.847 61.3584,12.8808 61.455,12.7491 61.5684,12.5893 61.5696,12.5256 61.5681,12.4342 61.6155,12.3537 61.6371,12.308 61.6877,12.2227 61.7342,12.1461 61.8171,12.1715 61.9627,12.2189 62.1368,12.2724 62.2685,12.2987 62.3313,12.272 62.3317,12.223 62.3117,12.1716 62.3188,12.1149 62.3466,12.0737 62.3805,11.7855 62.3616,11.735 62.3504,11.736 62.3532,11.6923 62.3642,11.6942 62.3795,11.6799 62.3748,11.6268 62.3704,11.5708 62.4463,11.49 62.4775,11.4404 62.4944,11.3785 62.5164,11.3519 62.5295,11.3004 62.5311,11.2678 62.5659,11.2527 62.573,11.2073 62.601,11.2044 62.6121,11.1758 62.6504,11.168 62.6549,11.1484 62.6632,11.1394 62.669,11.0559 62.6973,10.9423 62.6932,10.8491 62.6752,10.7913 62.649,10.7608 62.6535,10.7286 62.6674,10.72 62.6746,10.6943 62.6778,10.667 62.666,10.6121 62.6714,10.5498 62.6792,10.4867 62.6962,10.3539 62.6945,10.2201 62.6889,10.2043 62.6954,10.2024 62.6979,10.1895 62.6943,10.1743 62.6887,10.1745 62.6861,10.1646 62.6893,10.1585 62.681,10.1593 62.6778,10.1475 62.6722,10.1458 62.6669,10.1311 62.6571,10.1199 62.6396,10.1132 62.6289,10.0979 62.6048,10.0862 62.6028,10.0741 62.6006,10.0635 62.5923,10.0514 62.5876,10.0374 62.5703,10.0478 62.5606,10.0197 62.5061,10.0524 62.4716,10.0812 62.4474,10.0981 62.4296,10.1081 62.4162,10.0425 62.4004,9.96565 62.3565,9.94635 62.3476,9.90903 62.363,9.85099 62.3438,9.83158 62.3388,9.85414 62.3338,9.86177 62.3319,9.84614 62.3166,9.84724 62.3003,9.83845 62.2905,9.79438 62.2905,9.79438</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3401;3403;3405;3411;3412;3417;3418;3419;3420;3421;3422;3423;3424;3425;3426;3427;3428;3429;3430;3431;3432;3436;3437;3438;3439;3440;3441</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

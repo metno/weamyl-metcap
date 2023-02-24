@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220522111709089.1596</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-05-22T11:17:09+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-05-23T06:00:00+00:00</effective>
+    <onset>2022-05-23T06:00:00+00:00</onset>
+    <expires>2022-05-23T13:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Åna-Sira - Obrestad, 23 May 06:00 UTC til 23 May 13:00 UTC.</headline>
+    <description>Fra mandag formiddag er det ventet sørøst periodevis stiv kuling 15 m/s. Minkende mandag ettermiddag.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-05-23T13:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. Grov sjø og hvitt skum fra bølgetopper som brekker. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Åna-Sira - Obrestad</areaDesc>
+      <polygon>58.200000,6.302500 58.311167,6.067333 58.411000,5.852667 58.411833,5.850833 58.417833,5.839833 58.418500,5.838667 58.515167,5.677667 58.515667,5.676667 58.543167,5.635000 58.544667,5.633000 58.545500,5.632000 58.645833,5.524833 58.658667,5.595500 58.568667,5.692667 58.498667,5.842167 58.444167,5.970667 58.398833,6.082667 58.359167,6.213667 58.330167,6.318500 58.305833,6.408833 58.200000,6.302500
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO811</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-05-23T06:00:00+00:00</effective>
+    <onset>2022-05-23T06:00:00+00:00</onset>
+    <expires>2022-05-23T13:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Aana-Sira - Obrestad, 23 May 06:00 UTC to 23 May 13:00 UTC.</headline>
+    <description>From late Monday morning southeasterly occasionally near gale force 7 is expected. Decreasing Monday afternoon.</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-05-23T13:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. Sea heaps up. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Aana-Sira - Obrestad</areaDesc>
+      <polygon>58.200000,6.302500 58.311167,6.067333 58.411000,5.852667 58.411833,5.850833 58.417833,5.839833 58.418500,5.838667 58.515167,5.677667 58.515667,5.676667 58.543167,5.635000 58.544667,5.633000 58.545500,5.632000 58.645833,5.524833 58.658667,5.595500 58.568667,5.692667 58.498667,5.842167 58.444167,5.970667 58.398833,6.082667 58.359167,6.213667 58.330167,6.318500 58.305833,6.408833 58.200000,6.302500
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO811</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

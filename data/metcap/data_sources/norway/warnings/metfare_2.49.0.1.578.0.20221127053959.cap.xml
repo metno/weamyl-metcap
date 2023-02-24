@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221127053959</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-11-27T06:43:10+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050294</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snøfokk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-11-27T09:00:00+00:00</effective>
+    <onset>2022-11-27T09:00:00+00:00</onset>
+    <expires>2022-11-28T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftig snøfokk, gult nivå, Høyfjellsoverganger, 2022-11-27T09:00:00+00:00, 2022-11-28T18:00:00+00:00</headline>
+    <description>Søndag og mandag er det i perioder ventet snøfokk i fjellet på grunn av snøvær og kuling fra øst og sørøst. Mest vind og snø i Langfjella og Jotunheimen.</description>
+    <instruction>Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Bruk riktige dekk og kjør etter forholdene. Unngå unødvendig ferdsel på utsatte steder. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/snofokk</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-28T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Redusert sikt. Det kan være lokalt vanskelige kjøreforhold grunnet snø som pakker seg i veibanen. Kolonnekjøring kan bli innført og/eller veier kan bli stengte på kort varsel. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftig snøfokk</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Høyfjellsoverganger</areaDesc>
+      
+          <polygon>63.1837,12.0147 63.0006,11.3565 62.8552,10.564 62.6238,9.70324 62.7196,9.66763 62.8748,9.28819 62.8711,8.84076 62.763,8.73745 62.6811,8.60472 62.4669,8.29917 62.3811,8.03569 62.1989,7.54416 62.0037,7.38687 61.7238,7.41954 61.5097,7.66257 61.3388,7.73015 61.1908,7.79858 61.0632,7.67746 61.0025,7.33772 60.5021,7.11996 60.2697,6.73868 59.9913,6.70504 59.8211,6.99419 59.6933,7.03989 59.2421,6.75369 59.1023,6.87421 58.9628,6.76452 58.7911,7.18654 58.6844,7.64942 58.719,7.75381 59.0007,7.65596 59.1104,7.94106 59.6194,7.78011 59.6474,8.0481 59.9032,8.38921 60.0113,8.6646 60.3522,8.52301 60.5718,8.37979 60.8764,8.96795 60.9501,8.94599 61.0411,8.90573 61.4595,9.17076 61.6301,9.17135 61.8014,8.91793 62.0789,9.11479 61.8539,9.60573 61.726,9.68001 61.5868,9.9882 61.6975,10.4063 61.8464,10.2575 62.0751,10.0849 62.1913,10.3301 62.3795,10.5358 62.5358,10.9962 62.6641,11.3482 62.6948,12.0922 62.8622,12.0626 62.9831,12.1737 63.1837,12.0147 63.1837,12.0147</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1134;1506;1539;1563;1566;1578;3041;3042;3043;3044;3052;3423;3426;3427;3429;3430;3431;3432;3433;3434;3435;3436;3437;3438;3439;3452;3453;3454;3818;3823;3824;3825;4220;4221;4222;4224;4228;4618;4619;4620;4641;4642;4643;4644;5021;5022;5025;5026;5027;5033</value>
+    </geocode>
+    <altitude>2500</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Blowing snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-11-27T09:00:00+00:00</effective>
+    <onset>2022-11-27T09:00:00+00:00</onset>
+    <expires>2022-11-28T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Blowing snow, yellow level, Mountainous areas, 2022-11-27T09:00:00+00:00, 2022-11-28T18:00:00+00:00</headline>
+    <description>Local blowing snow is expected on mountain roads due to strong wind</description>
+    <instruction>Follow advice and check status from transport operators. Check road reports (175.no). Use tires fit for winter conditions and use caution while driving. Avoid unnecessary journeys to exposed places. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/snofokk</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-28T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Reduced visibility. Local driving conditions may become difficult due to snow accumulating on the road. Expect convoys and/or closed roads on short notice. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Blowing snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Mountainous areas</areaDesc>
+      
+          <polygon>63.1837,12.0147 63.0006,11.3565 62.8552,10.564 62.6238,9.70324 62.7196,9.66763 62.8748,9.28819 62.8711,8.84076 62.763,8.73745 62.6811,8.60472 62.4669,8.29917 62.3811,8.03569 62.1989,7.54416 62.0037,7.38687 61.7238,7.41954 61.5097,7.66257 61.3388,7.73015 61.1908,7.79858 61.0632,7.67746 61.0025,7.33772 60.5021,7.11996 60.2697,6.73868 59.9913,6.70504 59.8211,6.99419 59.6933,7.03989 59.2421,6.75369 59.1023,6.87421 58.9628,6.76452 58.7911,7.18654 58.6844,7.64942 58.719,7.75381 59.0007,7.65596 59.1104,7.94106 59.6194,7.78011 59.6474,8.0481 59.9032,8.38921 60.0113,8.6646 60.3522,8.52301 60.5718,8.37979 60.8764,8.96795 60.9501,8.94599 61.0411,8.90573 61.4595,9.17076 61.6301,9.17135 61.8014,8.91793 62.0789,9.11479 61.8539,9.60573 61.726,9.68001 61.5868,9.9882 61.6975,10.4063 61.8464,10.2575 62.0751,10.0849 62.1913,10.3301 62.3795,10.5358 62.5358,10.9962 62.6641,11.3482 62.6948,12.0922 62.8622,12.0626 62.9831,12.1737 63.1837,12.0147 63.1837,12.0147</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1134;1506;1539;1563;1566;1578;3041;3042;3043;3044;3052;3423;3426;3427;3429;3430;3431;3432;3433;3434;3435;3436;3437;3438;3439;3452;3453;3454;3818;3823;3824;3825;4220;4221;4222;4224;4228;4618;4619;4620;4641;4642;4643;4644;5021;5022;5025;5026;5027;5033</value>
+    </geocode>
+    <altitude>2500</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

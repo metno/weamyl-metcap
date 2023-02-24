@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200219114624688.1450</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-02-19T11:46:24+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>3969</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vannstand langs kysten og i fjordene</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>stormSurge</value>
+    </eventCode>
+    <effective>2020-02-21T12:00:00+00:00</effective>
+    <onset>2020-02-21T12:00:00+00:00</onset>
+    <expires>2020-02-21T19:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Høy vannstand, gult nivå, Telemark, 21 February 12:00 UTC til 21 February 19:00 UTC.</headline>
+    <description>Varsel for strekningen Stavern til Risør: Fredag ettermiddag er det ventet høy vannstand, estimert til 75-90 cm over høyden oppgitt i tidevannstabellene. Vannstanden er ventet å være på det høyeste omkring kl 14-17. Mer informasjon om tidevann og vannstand finnes på sehavniva.no</description>
+    <instruction>Vis forsiktighet ved ferdsel i strandsonen. Sjekk fortøyningen til båten og sikre løse gjenstander nederst i strandsonen.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-21T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Lokale oversvømmelser og fare for små ødeleggelser på infrastruktur og bygninger i strandsonen. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Høy vannstand</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>10 cm</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Høy vannstand, gult nivå, Telemark, 21 February 12:00 UTC til 21 February 19:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/b6ec96e4-db6c-480f-94ac-9e1c2ba044fe.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Telemark</areaDesc>
+      <polygon>58.797333,9.222667 58.794500,9.278667 58.775500,9.299167 58.773833,9.310167 58.783333,9.340167 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.942500,9.779667 58.991667,9.765500 59.009667,9.764167 59.011667,9.782167 59.022167,9.790167 58.998500,9.835167 59.014167,9.836667 59.023167,9.833667 59.030667,9.825167 59.034667,9.811167 59.042167,9.836500 59.051667,9.840167 59.072167,9.849667 59.087000,9.854667 59.111000,9.848833 59.129667,9.821833 59.165500,9.832000 59.167333,9.886667 59.180167,9.895500 59.200833,9.870333 59.214833,9.858000 59.218167,9.877500 59.258167,9.861667 59.328167,9.747167 59.350833,9.773667 59.367667,9.764000 59.410333,9.773333 59.415500,9.701833 59.408167,9.655333 59.427667,9.625833 59.453167,9.590000 59.487000,9.561500 59.484167,9.470000 59.505000,9.471833 59.535667,9.516500 59.560333,9.461000 59.581667,9.457500 59.688000,9.397167 59.701333,9.330833 59.782833,9.363333 59.795500,9.343333 59.829167,9.185667 59.867333,9.173500 59.886500,9.181000 59.929167,9.187833 59.944167,9.140333 59.961667,9.108500 59.963167,9.061500 59.987000,9.032000 59.985167,8.991167 59.995833,8.987333 59.998000,8.996000 60.010000,8.983000 60.018000,8.981500 60.078667,8.968667 60.081333,8.966333 60.097333,8.962500 60.117333,8.904167 60.140000,8.852667 60.155333,8.817167 60.158667,8.789500 60.179000,8.732000 60.170667,8.514333 60.165833,8.460500 60.179333,8.374500 60.172167,8.287167 60.185333,8.212500 60.182500,8.105333 60.171500,8.087333 60.154167,8.014833 60.141167,7.923833 60.119500,7.858000 60.105167,7.808833 60.116000,7.775667 60.129000,7.651833 60.100167,7.492167 60.057333,7.437667 60.019333,7.436667 60.002000,7.370333 59.990667,7.329833 59.987667,7.280167 59.963833,7.228000 59.931833,7.188833 59.886167,7.151167 59.846167,7.144500 59.831667,7.158833 59.810833,7.142167 59.782667,7.093333 59.766000,7.102667 59.742000,7.113167 59.703167,7.106833 59.672167,7.213167 59.663167,7.250667 59.654500,7.305500 59.644667,7.327000 59.634667,7.386500 59.657500,7.405000 59.656667,7.438333 59.635333,7.477833 59.604167,7.520167 59.582000,7.532000 59.559833,7.514000 59.527333,7.535333 59.502333,7.584833 59.479833,7.591833 59.462333,7.619167 59.438667,7.575000 59.427500,7.576667 59.410667,7.549667 59.397667,7.539833 59.377833,7.595167 59.330833,7.613833 59.334833,7.661333 59.325500,7.696333 59.271833,7.720167 59.232833,7.754500 59.218833,7.774000 59.208000,7.748667 59.196000,7.752167 59.174000,7.730500 59.149500,7.741000 59.123667,7.797333 59.100000,7.825167 59.047167,7.880000 59.026833,7.903500 59.013000,7.913333 59.013833,7.928833 58.994667,7.941500 58.966333,7.982333 58.961000,8.002500 58.950000,8.048333 58.952167,8.121167 58.965333,8.130833 58.972000,8.071833 58.987167,8.119333 58.971500,8.213333 58.931667,8.296167 58.917833,8.326667 58.913833,8.388333 58.890167,8.469500 58.917167,8.506167 58.932000,8.569667 58.909333,8.620833 58.867000,8.656500 58.850000,8.722000 58.831167,8.741167 58.843667,8.786667 58.853667,8.789333 58.861667,8.786167 58.876167,8.787000 58.914167,8.828833 58.940000,8.751000 58.951167,8.765000 58.971667,8.830833 58.989833,8.831000 58.986500,8.933833 58.992500,8.995167 58.934667,9.031667 58.910333,9.073333 58.890167,9.146333 58.883500,9.156167 58.863833,9.183333 58.845000,9.190333 58.829333,9.190167 58.814833,9.192167 58.812667,9.203667 58.802833,9.195833 58.797333,9.222667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>08</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0805;0806;0807;0811;0814;0815;0817;0819;0821;0822;0826;0827;0828;0829;0830;0831;0833;0834</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-08</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>80</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Water level at the coast and in the fjords</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>stormSurge</value>
+    </eventCode>
+    <effective>2020-02-21T12:00:00+00:00</effective>
+    <onset>2020-02-21T12:00:00+00:00</onset>
+    <expires>2020-02-21T19:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>High water level, yellow level, Telemark, 21 February 12:00 UTC to 21 February 19:00 UTC.</headline>
+    <description>Forecast for the area Stavern to Risør: Friday afternoon high water level is expected, estimated to 75-90 cm above heightes given in the tide tables. The water level is expected at its highest Friday afternoon 14-17. More information about tides and water level at sehavniva.no</description>
+    <instruction>Be careful in coastal areas. Check the mooring of the boat and secure objects near the water in the coastal zone.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-21T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Local flooding and risk of minor damage to infrastructure and buildings in the beach zone. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>High water level</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>10 cm</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>High water level, yellow level, Telemark, 21 February 12:00 UTC to 21 February 19:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/b6ec96e4-db6c-480f-94ac-9e1c2ba044fe.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Telemark</areaDesc>
+      <polygon>58.797333,9.222667 58.794500,9.278667 58.775500,9.299167 58.773833,9.310167 58.783333,9.340167 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.942500,9.779667 58.991667,9.765500 59.009667,9.764167 59.011667,9.782167 59.022167,9.790167 58.998500,9.835167 59.014167,9.836667 59.023167,9.833667 59.030667,9.825167 59.034667,9.811167 59.042167,9.836500 59.051667,9.840167 59.072167,9.849667 59.087000,9.854667 59.111000,9.848833 59.129667,9.821833 59.165500,9.832000 59.167333,9.886667 59.180167,9.895500 59.200833,9.870333 59.214833,9.858000 59.218167,9.877500 59.258167,9.861667 59.328167,9.747167 59.350833,9.773667 59.367667,9.764000 59.410333,9.773333 59.415500,9.701833 59.408167,9.655333 59.427667,9.625833 59.453167,9.590000 59.487000,9.561500 59.484167,9.470000 59.505000,9.471833 59.535667,9.516500 59.560333,9.461000 59.581667,9.457500 59.688000,9.397167 59.701333,9.330833 59.782833,9.363333 59.795500,9.343333 59.829167,9.185667 59.867333,9.173500 59.886500,9.181000 59.929167,9.187833 59.944167,9.140333 59.961667,9.108500 59.963167,9.061500 59.987000,9.032000 59.985167,8.991167 59.995833,8.987333 59.998000,8.996000 60.010000,8.983000 60.018000,8.981500 60.078667,8.968667 60.081333,8.966333 60.097333,8.962500 60.117333,8.904167 60.140000,8.852667 60.155333,8.817167 60.158667,8.789500 60.179000,8.732000 60.170667,8.514333 60.165833,8.460500 60.179333,8.374500 60.172167,8.287167 60.185333,8.212500 60.182500,8.105333 60.171500,8.087333 60.154167,8.014833 60.141167,7.923833 60.119500,7.858000 60.105167,7.808833 60.116000,7.775667 60.129000,7.651833 60.100167,7.492167 60.057333,7.437667 60.019333,7.436667 60.002000,7.370333 59.990667,7.329833 59.987667,7.280167 59.963833,7.228000 59.931833,7.188833 59.886167,7.151167 59.846167,7.144500 59.831667,7.158833 59.810833,7.142167 59.782667,7.093333 59.766000,7.102667 59.742000,7.113167 59.703167,7.106833 59.672167,7.213167 59.663167,7.250667 59.654500,7.305500 59.644667,7.327000 59.634667,7.386500 59.657500,7.405000 59.656667,7.438333 59.635333,7.477833 59.604167,7.520167 59.582000,7.532000 59.559833,7.514000 59.527333,7.535333 59.502333,7.584833 59.479833,7.591833 59.462333,7.619167 59.438667,7.575000 59.427500,7.576667 59.410667,7.549667 59.397667,7.539833 59.377833,7.595167 59.330833,7.613833 59.334833,7.661333 59.325500,7.696333 59.271833,7.720167 59.232833,7.754500 59.218833,7.774000 59.208000,7.748667 59.196000,7.752167 59.174000,7.730500 59.149500,7.741000 59.123667,7.797333 59.100000,7.825167 59.047167,7.880000 59.026833,7.903500 59.013000,7.913333 59.013833,7.928833 58.994667,7.941500 58.966333,7.982333 58.961000,8.002500 58.950000,8.048333 58.952167,8.121167 58.965333,8.130833 58.972000,8.071833 58.987167,8.119333 58.971500,8.213333 58.931667,8.296167 58.917833,8.326667 58.913833,8.388333 58.890167,8.469500 58.917167,8.506167 58.932000,8.569667 58.909333,8.620833 58.867000,8.656500 58.850000,8.722000 58.831167,8.741167 58.843667,8.786667 58.853667,8.789333 58.861667,8.786167 58.876167,8.787000 58.914167,8.828833 58.940000,8.751000 58.951167,8.765000 58.971667,8.830833 58.989833,8.831000 58.986500,8.933833 58.992500,8.995167 58.934667,9.031667 58.910333,9.073333 58.890167,9.146333 58.883500,9.156167 58.863833,9.183333 58.845000,9.190333 58.829333,9.190167 58.814833,9.192167 58.812667,9.203667 58.802833,9.195833 58.797333,9.222667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>08</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0805;0806;0807;0811;0814;0815;0817;0819;0821;0822;0826;0827;0828;0829;0830;0831;0833;0834</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-08</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>80</ceiling>
+    </area>
+  </info>
+</alert>

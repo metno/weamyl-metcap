@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221007082718</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-07T09:22:03+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050211</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-10-07T11:00:00+00:00</effective>
+    <onset>2022-10-07T11:00:00+00:00</onset>
+    <expires>2022-10-08T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Deler av Lofoten, Ofoten, Vesterålen og Sør Troms., 2022-10-07T11:00:00+00:00, 2022-10-08T06:00:00+00:00</headline>
+    <description>Fra fredag ettermiddag er det ventet mye regn på grunn av kraftige regnbyger i deler av Lofoten, Ofoten, Vesterålen og helt sør i Troms. Lokalt kan det komme 40-50 mm på 12 timer. Det vil være store lokale forskjeller i nedbørsmengde og intensitet. Faren avtar lørdag morgen.</description>
+    <instruction>Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-08T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, Deler av Lofoten, Ofoten, Vesterålen og Sør Troms., 2022-10-07T11:00:00+00:00, 2022-10-08T06:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/83c62e8d-258b-485c-a23f-2862de83b183.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Lofoten, Ofoten, Vesterålen og Sør Troms.</areaDesc>
+      <polygon>68.0308,13.4351 68.1014,14.4483 68.1272,14.6441 68.2546,15.3159 68.2619,15.7347 68.1397,15.2412 67.8195,14.5453 67.6807,14.5354 67.6225,15.0085 68.024,15.8688 68.1516,16.1942 68.2185,16.6902 68.3726,16.983 68.4929,16.7514 68.6041,16.2271 68.7998,16.0191 68.8028,15.7265 68.6356,14.7376 68.5155,14.4898 68.4397,14.2463 68.3507,13.4922 68.0308,13.4351 68.0308,13.4351</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1806;1848;1851;1853;1860;1865;1866;1870;1875;5411;5412</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-10-07T11:00:00+00:00</effective>
+    <onset>2022-10-07T11:00:00+00:00</onset>
+    <expires>2022-10-08T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Parts of Lofoten, Ofoten, Vesteraalen and southern Troms., 2022-10-07T11:00:00+00:00, 2022-10-08T06:00:00+00:00</headline>
+    <description>From Friday afternoon a lot of rain is expected due to heavy rain showers in Lofoten, Ofoten, Vesteraalen and southernmost part of Troms. Locally up to 40-50 mm/12h is expected. There will be large local differences in precipitation amounts and intensity. The danger decreases Saturday morning.</description>
+    <instruction>The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-08T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, Parts of Lofoten, Ofoten, Vesteraalen and southern Troms., 2022-10-07T11:00:00+00:00, 2022-10-08T06:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/83c62e8d-258b-485c-a23f-2862de83b183.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Lofoten, Ofoten, Vesteraalen and southern Troms.</areaDesc>
+      <polygon>68.0308,13.4351 68.1014,14.4483 68.1272,14.6441 68.2546,15.3159 68.2619,15.7347 68.1397,15.2412 67.8195,14.5453 67.6807,14.5354 67.6225,15.0085 68.024,15.8688 68.1516,16.1942 68.2185,16.6902 68.3726,16.983 68.4929,16.7514 68.6041,16.2271 68.7998,16.0191 68.8028,15.7265 68.6356,14.7376 68.5155,14.4898 68.4397,14.2463 68.3507,13.4922 68.0308,13.4351 68.0308,13.4351</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1806;1848;1851;1853;1860;1865;1866;1870;1875;5411;5412</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

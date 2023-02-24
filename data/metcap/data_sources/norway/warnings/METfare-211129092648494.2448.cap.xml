@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211129092648494.2448</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-11-29T09:26:48+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48957</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2021-11-29T09:00:00+00:00</effective>
+    <onset>2021-11-29T09:00:00+00:00</onset>
+    <expires>2021-12-01T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Lofoten, 29 November 09:00 UTC til 01 December 12:00 UTC.</headline>
+    <description>I perioden mandag til onsdag ettermiddag ventes det en del snø. Det kan komme 20-40 cm i løpet av 24 timer.</description>
+    <instruction>Beskytt sårbare installasjoner og gjenstander som ikke tåler den ventede snømengden. Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-12-01T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sårbar infrastruktur kan bli rammet som følge av snøtyngden. Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>15 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over snø, gult nivå, Lofoten, 29 November 09:00 UTC til 01 December 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/82ad5ab5-4457-42ae-ac64-703f9110e4d9.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Lofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557167,12.603667 67.646167,12.507167 68.029667,12.908167 68.535000,13.911667 68.483167,14.133167 68.449833,14.183167 68.449833,14.366667 68.416667,14.433167 68.416667,14.533167 68.366667,14.550000 68.349833,14.616667 68.383167,14.683167 68.366667,14.816667 68.333167,14.833167 68.316667,14.933167 68.333167,15.050000 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2021-11-29T09:00:00+00:00</effective>
+    <onset>2021-11-29T09:00:00+00:00</onset>
+    <expires>2021-12-01T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Lofoten, 29 November 09:00 UTC to 01 December 12:00 UTC.</headline>
+    <description>Duering the period Monday to Wednesday afternoon it is expected a lot of snow. It can come 20-40 cm during 24 hours.</description>
+    <instruction>Vulnerable installations and objects should be protected. Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-12-01T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Vulnerable infrastructure can be affected due to accumulation of snow. Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>15 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of snow, yellow level, Lofoten, 29 November 09:00 UTC to 01 December 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/82ad5ab5-4457-42ae-ac64-703f9110e4d9.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Lofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557167,12.603667 67.646167,12.507167 68.029667,12.908167 68.535000,13.911667 68.483167,14.133167 68.449833,14.183167 68.449833,14.366667 68.416667,14.433167 68.416667,14.533167 68.366667,14.550000 68.349833,14.616667 68.383167,14.683167 68.366667,14.816667 68.333167,14.833167 68.316667,14.933167 68.333167,15.050000 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

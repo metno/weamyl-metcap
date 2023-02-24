@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220112105207449.2927</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-01-12T10:52:07+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.220111113343145.2903,2022-01-11T11:33:43+00:00</references>
+  <incidents>49016</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2022-01-12T10:00:00+00:00</effective>
+    <onset>2022-01-12T10:00:00+00:00</onset>
+    <expires>2022-01-14T15:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Vesterålen og Troms, 12 January 10:00 UTC til 14 January 15:00 UTC.</headline>
+    <description>Fra onsdag formiddag til fredag ettermiddag ventes mye sludd og snø, mellom 20-40mm i døgnet. På kysten kan mye av nedbøren komme som regn.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-01-14T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over snø, gult nivå, Vesterålen og Troms, 12 January 10:00 UTC til 14 January 15:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6216286f-5055-4611-afdd-a106ebb1d354.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vesterålen og Troms</areaDesc>
+      <polygon>68.533167,15.616667 68.500000,15.683167 68.466667,15.616667 68.449833,15.649833 68.500000,15.766667 68.533167,15.866667 68.599833,15.949833 68.566667,16.033167 68.633167,16.233167 68.566667,16.466667 68.566667,16.566667 68.550000,16.616667 68.533167,16.549833 68.500000,16.566667 68.516667,16.733167 68.583167,16.866667 68.550000,17.216667 68.550000,17.316667 68.599833,17.533167 68.599833,18.033167 68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.483167,14.133167 68.449833,14.183167 68.449833,14.366667 68.416667,14.433167 68.416667,14.533167 68.366667,14.550000 68.349833,14.616667 68.383167,14.683167 68.366667,14.816667 68.333167,14.833167 68.316667,14.933167 68.333167,15.050000 68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2022-01-12T10:00:00+00:00</effective>
+    <onset>2022-01-12T10:00:00+00:00</onset>
+    <expires>2022-01-14T15:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Vesteraalen and Troms, 12 January 10:00 UTC to 14 January 15:00 UTC.</headline>
+    <description>From late Wednesday morning to Friday afternoon expect a lot of sleet and snow, 20-40mm in 24 hrs. In coastal areas much of the precipitation can fall as rain.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-01-14T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of snow, yellow level, Vesteraalen and Troms, 12 January 10:00 UTC to 14 January 15:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6216286f-5055-4611-afdd-a106ebb1d354.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vesteraalen and Troms</areaDesc>
+      <polygon>68.533167,15.616667 68.500000,15.683167 68.466667,15.616667 68.449833,15.649833 68.500000,15.766667 68.533167,15.866667 68.599833,15.949833 68.566667,16.033167 68.633167,16.233167 68.566667,16.466667 68.566667,16.566667 68.550000,16.616667 68.533167,16.549833 68.500000,16.566667 68.516667,16.733167 68.583167,16.866667 68.550000,17.216667 68.550000,17.316667 68.599833,17.533167 68.599833,18.033167 68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.483167,14.133167 68.449833,14.183167 68.449833,14.366667 68.416667,14.433167 68.416667,14.533167 68.366667,14.550000 68.349833,14.616667 68.383167,14.683167 68.366667,14.816667 68.333167,14.833167 68.316667,14.933167 68.333167,15.050000 68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210223185117795.516</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-02-23T18:51:17+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.210223184321534.514,2021-02-23T18:43:21+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-02-23T21:00:00+00:00</effective>
+    <onset>2021-02-23T21:00:00+00:00</onset>
+    <expires>2021-02-24T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Svinøy - Ona, 23 February 21:00 UTC til 24 February 18:00 UTC.</headline>
+    <description>I kveld, tirsdag, økning til sør og sørvest opp i sterk kuling 20. Fra natt til onsdag sørvest periodevis stiv kuling 15 m/s. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-02-24T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. Grov sjø og hvitt skum fra bølgetopper som brekker. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over kuling, gult nivå, Svinøy - Ona, 23 February 21:00 UTC til 24 February 18:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/7c7d0e44-fdbd-47a0-afe0-49a442014fde.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Svinøy - Ona</areaDesc>
+      <polygon>62.351000,5.244667 62.478167,5.502333 62.608500,5.769500 62.698000,5.955000 62.698167,5.955500 62.825500,6.231167 62.826833,6.233833 62.828000,6.236667 62.828333,6.237667 62.909833,6.475667 62.838167,6.607167 62.776667,6.459167 62.685167,6.253333 62.638000,6.152167 62.577167,6.069167 62.479833,5.948667 62.350333,5.572833 62.265333,5.446000 62.351000,5.244667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-02-23T21:00:00+00:00</effective>
+    <onset>2021-02-23T21:00:00+00:00</onset>
+    <expires>2021-02-24T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Svinoey - Ona, 23 February 21:00 UTC to 24 February 18:00 UTC.</headline>
+    <description>From Tuesday evening south and southwest up to gale force 8. From early Wednesday morning southwest occasionally near gale force 7. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-02-24T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. Sea heaps up. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of gale, yellow level, Svinoey - Ona, 23 February 21:00 UTC to 24 February 18:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/7c7d0e44-fdbd-47a0-afe0-49a442014fde.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Svinoey - Ona</areaDesc>
+      <polygon>62.351000,5.244667 62.478167,5.502333 62.608500,5.769500 62.698000,5.955000 62.698167,5.955500 62.825500,6.231167 62.826833,6.233833 62.828000,6.236667 62.828333,6.237667 62.909833,6.475667 62.838167,6.607167 62.776667,6.459167 62.685167,6.253333 62.638000,6.152167 62.577167,6.069167 62.479833,5.948667 62.350333,5.572833 62.265333,5.446000 62.351000,5.244667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221005100250</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-05T10:02:50+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221005064640,2022-10-05T07:14:22+00:00</references>
+  <incidents>0000050204</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-05T10:02:00+00:00</effective>
+    <onset>2022-10-05T10:02:00+00:00</onset>
+    <expires>2022-10-05T11:02:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Nedgradert varsel for vindkast, Vestland</headline>
+    <description>Farevarselet er nedgradert. Følg med på oppdaterte prognoser for aktuelt varsel.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-05T11:02:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Normale vindkast</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Ingen</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Nedgradert varsel for vindkast, Vestland</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/ea4e1a75-af70-46d0-bf76-e3557b9e8ee5.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vestland</areaDesc>
+      <polygon>60.833356,4.184767 61.032057,4.088687 61.688413,4.154299 62.112538,4.512304 62.382396,4.816595 62.261196,5.217881 62.168625,5.357325 62.12219,5.360894 62.066729,5.503078 62.007919,5.503161 61.974212,5.442862 61.996593,5.926917 61.956651,6.039905 62.009417,6.217178 61.958652,6.311349 61.9817,6.420989 61.923353,6.502265 62.030694,7.19489 62.007674,7.349112 61.992522,7.393388 61.857505,7.41251 61.727374,7.513821 61.743139,7.841856 61.721684,7.908216 61.643652,7.895652 61.556676,7.947318 61.533969,8.262319 61.455883,8.322037 61.426736,8.150354 61.369669,8.159541 61.321382,8.243805 61.234951,8.006731 61.109667,8.133861 61.073932,8.251692 61.053906,8.214417 61.033336,8.282658 61.004299,8.220864 60.968088,8.223106 60.982232,8.153924 60.893214,8.04088 60.919923,7.851514 60.792774,7.704432 60.739124,7.704405 60.744188,7.614689 60.660044,7.438827 60.632912,7.635831 60.55959,7.639567 60.520969,7.732133 60.294334,7.673688 60.098927,7.488251 60.01922,7.43642 59.962725,7.232913 59.782783,7.096292 59.693956,6.704083 59.711422,6.651892 59.831179,6.685321 59.842859,6.538073 59.767427,6.302411 59.639992,6.186046 59.586056,6.18303 59.578977,5.969422 59.647398,5.784456 59.699714,5.764227 59.700327,5.634884 59.753569,5.580728 59.565486,5.550952 59.522495,5.510854 59.47542,5.314708 59.515484,5.187413 59.496126,4.976877 59.558162,4.60368 59.664959,4.672087 60.272212,4.493957 60.833356,4.184767 60.833356,4.184767</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4602;4611;4612;4613;4614;4615;4616;4617;4618;4619;4620;4621;4622;4623;4624;4625;4626;4627;4628;4629;4630;4631;4632;4633;4634;4635;4636;4637;4638;4639;4640;4641;4642;4643;4644;4645;4646;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-05T10:02:00+00:00</effective>
+    <onset>2022-10-05T10:02:00+00:00</onset>
+    <expires>2022-10-05T11:02:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Downgraded alert warning for wind gusts, Vestland</headline>
+    <description>The warning is downgraded. Keep up to date with updated forecasts.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-05T11:02:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Normal wind gusts</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>None</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Downgraded alert warning for wind gusts, Vestland</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/ea4e1a75-af70-46d0-bf76-e3557b9e8ee5.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vestland</areaDesc>
+      <polygon>60.833356,4.184767 61.032057,4.088687 61.688413,4.154299 62.112538,4.512304 62.382396,4.816595 62.261196,5.217881 62.168625,5.357325 62.12219,5.360894 62.066729,5.503078 62.007919,5.503161 61.974212,5.442862 61.996593,5.926917 61.956651,6.039905 62.009417,6.217178 61.958652,6.311349 61.9817,6.420989 61.923353,6.502265 62.030694,7.19489 62.007674,7.349112 61.992522,7.393388 61.857505,7.41251 61.727374,7.513821 61.743139,7.841856 61.721684,7.908216 61.643652,7.895652 61.556676,7.947318 61.533969,8.262319 61.455883,8.322037 61.426736,8.150354 61.369669,8.159541 61.321382,8.243805 61.234951,8.006731 61.109667,8.133861 61.073932,8.251692 61.053906,8.214417 61.033336,8.282658 61.004299,8.220864 60.968088,8.223106 60.982232,8.153924 60.893214,8.04088 60.919923,7.851514 60.792774,7.704432 60.739124,7.704405 60.744188,7.614689 60.660044,7.438827 60.632912,7.635831 60.55959,7.639567 60.520969,7.732133 60.294334,7.673688 60.098927,7.488251 60.01922,7.43642 59.962725,7.232913 59.782783,7.096292 59.693956,6.704083 59.711422,6.651892 59.831179,6.685321 59.842859,6.538073 59.767427,6.302411 59.639992,6.186046 59.586056,6.18303 59.578977,5.969422 59.647398,5.784456 59.699714,5.764227 59.700327,5.634884 59.753569,5.580728 59.565486,5.550952 59.522495,5.510854 59.47542,5.314708 59.515484,5.187413 59.496126,4.976877 59.558162,4.60368 59.664959,4.672087 60.272212,4.493957 60.833356,4.184767 60.833356,4.184767</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4602;4611;4612;4613;4614;4615;4616;4617;4618;4619;4620;4621;4622;4623;4624;4625;4626;4627;4628;4629;4630;4631;4632;4633;4634;4635;4636;4637;4638;4639;4640;4641;4642;4643;4644;4645;4646;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

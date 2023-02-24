@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190204073044442.565</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-02-04T07:30:44+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190203091958842.549,2019-02-03T09:19:58+00:00</references>
+  <incidents>1556</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Ising</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>icing</value>
+    </eventCode>
+    <effective>2019-02-02T03:00:00+00:00</effective>
+    <onset>2019-02-02T03:00:00+00:00</onset>
+    <expires>2019-02-05T05:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Moderat ising på skip, gult nivå, Salten og Ofoten, 02 February 03:00 UTC til 05 February 05:00 UTC.</headline>
+    <description>Lokalt moderat ising på fartøy nær land.</description>
+    <instruction>Fjern is fra båten.</instruction>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-02-05T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask nok isvekst kan føre til at en liten båt mister stabiliteten, velter og synker. For større båter ventes glatte dekk, gelender, stiger og nedisete redningsbåter og annet redningsutstyr. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Moderat ising på skip</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.5 cm/h</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Moderat ising på skip, gult nivå, Salten og Ofoten, 02 February 03:00 UTC til 05 February 05:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/1662af7b-7e5f-4125-99ab-7789afd7195d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Salten og Ofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500 66.949833,13.583167 66.866667,14.016667 66.750000,14.166667 66.800000,14.283167 66.766667,14.416667 66.683167,14.333167 66.666667,14.449833 66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167 68.599833,18.033167 68.599833,17.533167 68.550000,17.316667 68.550000,17.216667 68.583167,16.866667 68.516667,16.733167 68.500000,16.566667 68.533167,16.549833 68.550000,16.616667 68.566667,16.566667 68.566667,16.466667 68.633167,16.233167 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1849</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1805;1850;1851;1852;1853;1854</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Icing</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>icing</value>
+    </eventCode>
+    <effective>2019-02-02T03:00:00+00:00</effective>
+    <onset>2019-02-02T03:00:00+00:00</onset>
+    <expires>2019-02-05T05:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Moderate icing on ships, yellow level, Salten and Ofoten, 02 February 03:00 UTC to 05 February 05:00 UTC.</headline>
+    <description>Locally moderate wessel icing near shore.</description>
+    <instruction>Remove ice from the boat.</instruction>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-02-05T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rapid ice accumulation on a small boat may cause it to lose its stability, tip over and sink. For ships the issue is more directed towards slippery decks, handrailing, ladders, iced down safety boats and safety equipment. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Moderate icing on ships</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.5 cm/h</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Moderate icing on ships, yellow level, Salten and Ofoten, 02 February 03:00 UTC to 05 February 05:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/1662af7b-7e5f-4125-99ab-7789afd7195d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Salten and Ofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500 66.949833,13.583167 66.866667,14.016667 66.750000,14.166667 66.800000,14.283167 66.766667,14.416667 66.683167,14.333167 66.666667,14.449833 66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167 68.599833,18.033167 68.599833,17.533167 68.550000,17.316667 68.550000,17.216667 68.583167,16.866667 68.516667,16.733167 68.500000,16.566667 68.533167,16.549833 68.550000,16.616667 68.566667,16.566667 68.566667,16.466667 68.633167,16.233167 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1849</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1805;1850;1851;1852;1853;1854</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

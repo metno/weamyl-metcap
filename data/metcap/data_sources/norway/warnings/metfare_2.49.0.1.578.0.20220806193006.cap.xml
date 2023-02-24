@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220806193006</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-06T21:13:57+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050119</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-08-07T00:00:00+00:00</effective>
+    <onset>2022-08-07T00:00:00+00:00</onset>
+    <expires>2022-08-07T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Deler av Finnmark, 2022-08-07T00:00:00+00:00, 2022-08-07T09:00:00+00:00</headline>
+    <description>Fra natt til søndag og frem til søndag formiddag ventes lokalt mye regn. Enkelte områder kan få 30 mm i løpet av 6 timer.</description>
+    <instruction>Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-07T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, Deler av Finnmark, 2022-08-07T00:00:00+00:00, 2022-08-07T09:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/522840e8-67d4-4865-89b2-d32a32eaa5d4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Finnmark</areaDesc>
+      <polygon>71.1136,27.7526 70.7222,26.5455 70.2933,25.7124 69.5959,24.3401 68.6838,23.3938 68.5628,24.9434 68.8761,25.7206 69.5921,26.0666 69.9326,26.6519 70.0249,27.5541 69.7459,28.7566 70.0816,29.3667 70.4002,29.5892 70.8208,29.463 70.8208,29.463 71.1136,27.7526 71.1136,27.7526</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5405;5430;5436;5437;5438;5439;5440;5441;5442</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-08-07T00:00:00+00:00</effective>
+    <onset>2022-08-07T00:00:00+00:00</onset>
+    <expires>2022-08-07T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Parts of Finnmark, 2022-08-07T00:00:00+00:00, 2022-08-07T09:00:00+00:00</headline>
+    <description>A lot of rain is expected, locally around 30 mm in 6 hours.</description>
+    <instruction>Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-07T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, Parts of Finnmark, 2022-08-07T00:00:00+00:00, 2022-08-07T09:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/522840e8-67d4-4865-89b2-d32a32eaa5d4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Finnmark</areaDesc>
+      <polygon>71.1136,27.7526 70.7222,26.5455 70.2933,25.7124 69.5959,24.3401 68.6838,23.3938 68.5628,24.9434 68.8761,25.7206 69.5921,26.0666 69.9326,26.6519 70.0249,27.5541 69.7459,28.7566 70.0816,29.3667 70.4002,29.5892 70.8208,29.463 70.8208,29.463 71.1136,27.7526 71.1136,27.7526</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5405;5430;5436;5437;5438;5439;5440;5441;5442</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

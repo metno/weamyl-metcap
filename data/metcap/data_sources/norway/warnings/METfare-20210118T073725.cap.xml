@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210118073725378.89</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-01-18T07:37:25+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48652</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2021-01-18T09:00:00+00:00</effective>
+    <onset>2021-01-18T09:00:00+00:00</onset>
+    <expires>2021-01-19T03:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, B4, B5, 18 January 09:00 UTC til 19 January 03:00 UTC.</headline>
+    <description>Mandag formiddag ventes et polart lavtrykk fra øst inn i B5. Fra mandag ettermiddag også i B4. Senteret av lavtrykket vil tirsdag morgen ligge rett nord for Bjørnøya. Vindstyrken vil komme opp i nordøstlig liten storm 22 m/s. </description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-01-19T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <area>
+      <areaDesc>B4, B5</areaDesc>
+      <polygon>77.500000,20.000000 77.500000,18.357000 76.608167,17.147333 76.547167,16.116667 77.161000,14.199667 77.500000,13.680667 77.500000,10.000000 75.000000,10.000000 75.000000,20.000000 75.000000,30.000000 77.500000,30.000000 77.500000,20.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2021-01-18T09:00:00+00:00</effective>
+    <onset>2021-01-18T09:00:00+00:00</onset>
+    <expires>2021-01-19T03:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, B4, B5, 18 January 09:00 UTC to 19 January 03:00 UTC.</headline>
+    <description>Late Monday morning a polar low is expected from east into in B5. From Monday afternoon also in B4. The center of the low will Tuesday morning be situated right north of Bear Island. Wind up to northeast strong gale force 9. </description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-01-19T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <area>
+      <areaDesc>B4, B5</areaDesc>
+      <polygon>77.500000,20.000000 77.500000,18.357000 76.608167,17.147333 76.547167,16.116667 77.161000,14.199667 77.500000,13.680667 77.500000,10.000000 75.000000,10.000000 75.000000,20.000000 75.000000,30.000000 77.500000,30.000000 77.500000,20.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

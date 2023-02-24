@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220925094743</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-09-25T10:21:15+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050190</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-09-26T07:00:00+00:00</effective>
+    <onset>2022-09-26T07:00:00+00:00</onset>
+    <expires>2022-09-26T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Deler av Helgeland, Salten og Ofoten, 2022-09-26T07:00:00+00:00, 2022-09-26T22:00:00+00:00</headline>
+    <description>Det ventes lokalt kraftige vindkast på 25-35 m/s fra sørøst, og stiv kuling på kysten. Vinden vil øke først i Ofoten og Salten, og minke sist i Nord-Helgeland vest for Svartisen.</description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Vis forsiktighet ved ferdsel i strandsona og på sjøen. På forhånd vurder tiltak for å begrense skade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-26T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftige vindkast, gult nivå, Deler av Helgeland, Salten og Ofoten, 2022-09-26T07:00:00+00:00, 2022-09-26T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/d35d6c69-97c3-4e29-b614-69b24348a405.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Helgeland, Salten og Ofoten</areaDesc>
+      <polygon>68.3812,16.9442 68.1769,16.2485 67.7867,15.9299 67.2404,15.1989 67.2637,14.5923 67.1527,13.6422 66.9747,13.2432 66.5738,12.7509 66.4618,12.715 66.3323,12.8403 66.296,13.1509 66.3268,13.8227 66.421,14.2321 66.4989,14.8153 67.0037,15.9763 67.3318,16.3144 67.482,16.2976 67.5814,16.6088 67.8784,16.7621 67.9674,17.1633 68.1573,17.3739 68.3269,17.2731 68.4156,17.1641 68.3812,16.9442 68.3812,16.9442</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1833;1834;1836;1837;1838;1839;1840;1841;1845;1875</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-09-26T07:00:00+00:00</effective>
+    <onset>2022-09-26T07:00:00+00:00</onset>
+    <expires>2022-09-26T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Parts of Helgeland, Salten and Ofoten, 2022-09-26T07:00:00+00:00, 2022-09-26T22:00:00+00:00</headline>
+    <description>Locally strong wind gusts around 25-35 m/s are expected from southeast, and near gale on the coast. The wind will increase first in Ofoten and Salten, and decrease last in North-Helgeland west of Svartisen.</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no). Be careful in coastal areas. In advance consider measures to limit damage. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-26T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. Some roads may be closed due to trees or other objects in the road. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Strong wind gusts, yellow level, Parts of Helgeland, Salten and Ofoten, 2022-09-26T07:00:00+00:00, 2022-09-26T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/d35d6c69-97c3-4e29-b614-69b24348a405.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Helgeland, Salten and Ofoten</areaDesc>
+      <polygon>68.3812,16.9442 68.1769,16.2485 67.7867,15.9299 67.2404,15.1989 67.2637,14.5923 67.1527,13.6422 66.9747,13.2432 66.5738,12.7509 66.4618,12.715 66.3323,12.8403 66.296,13.1509 66.3268,13.8227 66.421,14.2321 66.4989,14.8153 67.0037,15.9763 67.3318,16.3144 67.482,16.2976 67.5814,16.6088 67.8784,16.7621 67.9674,17.1633 68.1573,17.3739 68.3269,17.2731 68.4156,17.1641 68.3812,16.9442 68.3812,16.9442</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1833;1834;1836;1837;1838;1839;1840;1841;1845;1875</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

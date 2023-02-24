@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.191129085414459.3026</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-11-29T08:54:14+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2971</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-11-29T12:00:00+00:00</effective>
+    <onset>2019-11-29T12:00:00+00:00</onset>
+    <expires>2019-11-30T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Sandnessjøen - Andenes, 29 November 12:00 UTC til 30 November 12:00 UTC.</headline>
+    <description>Fra fredag ettermiddag nord og nordvest stiv og periodevis sterk kuling 20 m/s. Natt til lørdag forbigående minkende til liten kuling 12 m/s. Fra lørdag formiddag nordvestlig stiv kuling 15 m/s.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Ved motorstopp kan man drive raskt mot land, det er farlig å være ute i småbåt. Middels høye bølger. Bølgekammene er ved å brytes opp til sjørokk. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Sandnessjøen - Andenes</areaDesc>
+      <polygon>68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.494000,11.894833 67.438000,11.923167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.301500,13.916167 67.200000,13.700000 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.949833,12.316667 65.949833,12.683167 66.913500,13.760667 66.949833,13.583167 66.913333,13.760667 67.250500,14.612833 67.515833,15.017000 67.616667,14.883167 67.963500,15.327333 68.183167,15.966667 68.216667,16.000000 68.305000,16.225000 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.683167,15.733167 68.766667,15.716667 68.833167,15.766667 68.949833,15.866667 69.033167,16.049833 69.233167,16.333167 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-11-29T12:00:00+00:00</effective>
+    <onset>2019-11-29T12:00:00+00:00</onset>
+    <expires>2019-11-30T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Sandnessjoeen - Andenes, 29 November 12:00 UTC to 30 November 12:00 UTC.</headline>
+    <description>From Friday afternoon north and northwest near gale force 7, at times gale force 8. Early Saturday morning temporary decreasing force 6. From late Saturday morning northwest near gale force 7.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>If the engine stops you can float away from land. Risk of dangerous situations when in a small boat at sea. Moderately high waves with breaking crests forming spindrift. Considerable airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Sandnessjoeen - Andenes</areaDesc>
+      <polygon>68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.494000,11.894833 67.438000,11.923167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.301500,13.916167 67.200000,13.700000 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.949833,12.316667 65.949833,12.683167 66.913500,13.760667 66.949833,13.583167 66.913333,13.760667 67.250500,14.612833 67.515833,15.017000 67.616667,14.883167 67.963500,15.327333 68.183167,15.966667 68.216667,16.000000 68.305000,16.225000 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.683167,15.733167 68.766667,15.716667 68.833167,15.766667 68.949833,15.866667 69.033167,16.049833 69.233167,16.333167 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

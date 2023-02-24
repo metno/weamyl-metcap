@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.191228075332570.3516</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-12-28T07:53:32+00:00</sent>
+  <status>Actual</status>
+  <msgType>Cancel</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.191227084109163.3479,2019-12-27T08:41:09+00:00</references>
+  <incidents>3222</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-12-27T12:00:00+00:00</effective>
+    <onset>2019-12-27T12:00:00+00:00</onset>
+    <expires>2019-12-28T07:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Fedje - Bulandet, 27 December 12:00 UTC til 28 December 07:00 UTC.</headline>
+    <description>Fredag ettermiddag økning til sørlig stiv kuling 15 m/s, fra fredag kveld sterk kuling 20 m/s.</description>
+    <instruction></instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fedje - Bulandet</areaDesc>
+      <polygon>60.773667,4.605000 60.830167,4.574333 61.003500,4.478667 61.024167,4.467333 61.025833,4.466500 61.027667,4.466167 61.033333,4.465500 61.034000,4.465500 61.073167,4.464833 61.074167,4.464833 61.253333,4.485333 61.298000,4.490333 61.302667,4.691667 61.156500,4.695167 61.052167,4.674667 60.949000,4.696667 60.853167,4.702667 60.786667,4.694500 60.773667,4.605000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-12-27T12:00:00+00:00</effective>
+    <onset>2019-12-27T12:00:00+00:00</onset>
+    <expires>2019-12-28T07:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Fedje - Bulandet, 27 December 12:00 UTC to 28 December 07:00 UTC.</headline>
+    <description>Friday afternoon increasing south near gale force 7, from Friday evening gale force 8.</description>
+    <instruction></instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fedje - Bulandet</areaDesc>
+      <polygon>60.773667,4.605000 60.830167,4.574333 61.003500,4.478667 61.024167,4.467333 61.025833,4.466500 61.027667,4.466167 61.033333,4.465500 61.034000,4.465500 61.073167,4.464833 61.074167,4.464833 61.253333,4.485333 61.298000,4.490333 61.302667,4.691667 61.156500,4.695167 61.052167,4.674667 60.949000,4.696667 60.853167,4.702667 60.786667,4.694500 60.773667,4.605000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

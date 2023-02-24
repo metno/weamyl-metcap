@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220720080412</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-20T08:17:10+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220720050030,2022-07-20T05:22:14+00:00</references>
+  <incidents>0000050092</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-07-20T05:15:00+00:00</effective>
+    <onset>2022-07-20T05:15:00+00:00</onset>
+    <expires>2022-07-21T01:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn, gult nivå, Vestlandet sør for Stad, indre strøk av Midt-Norge og nordlige Innlandet, 2022-07-20T05:15:00+00:00, 2022-07-21T01:00:00+00:00</headline>
+    <description>I dag, ondag, er det fare for mye lyn og torden. Det vil være store lokale forskjeller i intensitet. Noen steder vil ikke få tordenvær. Tordenværet beveger seg østover utover dagen. Natt til torsdag er faren ventet å avta. </description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-21T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Tordenværet kan føre med seg lokalt kraftige vindkast. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn, gult nivå, Vestlandet sør for Stad, indre strøk av Midt-Norge og nordlige Innlandet, 2022-07-20T05:15:00+00:00, 2022-07-21T01:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1ac8e334-6def-4ddd-87b3-2ad70ade04ad.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vestlandet sør for Stad, indre strøk av Midt-Norge og nordlige Innlandet</areaDesc>
+      <polygon>64.937,13.165 63.7503,10.705 62.7942,8.28467 61.1852,5.24079 59.2191,4.75088 58.5251,5.78865 59.5843,8.13373 60.9298,10.3887 62.0479,12.5256 63.8528,13.9149 64.937,13.165 64.937,13.165</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1103;1106;1108;1114;1119;1120;1121;1122;1124;1127;1130;1133;1134;1135;1144;1145;1146;1149;1151;1160;1506;1525;1539;1563;1566;1578;3039;3040;3041;3042;3043;3044;3045;3052;3405;3407;3411;3423;3424;3425;3426;3427;3428;3429;3430;3431;3432;3433;3434;3435;3436;3437;3438;3439;3440;3441;3448;3449;3450;3451;3452;3453;3454;3818;3820;3824;3825;4221;4222;4228;4601;4611;4612;4613;4614;4615;4616;4617;4618;4619;4620;4621;4622;4623;4624;4625;4626;4627;4628;4629;4630;4631;4634;4635;4637;4638;4639;4640;4641;4642;4643;4644;4646;4647;4650;4651;5001;5006;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5041;5042;5043;5044;5045;5047;5053;5054;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-07-20T05:15:00+00:00</effective>
+    <onset>2022-07-20T05:15:00+00:00</onset>
+    <expires>2022-07-21T01:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning, yellow level, Western Norway south of Stad, inland Mid-Norway and northern part of Innlandet, 2022-07-20T05:15:00+00:00, 2022-07-21T01:00:00+00:00</headline>
+    <description>Today, Wednesday, there is a risk of frequent lightning. There will be large local differences in intensity. Some places will not experience any lightning. The thunderstorm will move east during the day. Early Thursday morning the danger decreases. </description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-21T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Thunderstorms can lead to locally strong wind gusts.  Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning, yellow level, Western Norway south of Stad, inland Mid-Norway and northern part of Innlandet, 2022-07-20T05:15:00+00:00, 2022-07-21T01:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1ac8e334-6def-4ddd-87b3-2ad70ade04ad.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Western Norway south of Stad, inland Mid-Norway and northern part of Innlandet</areaDesc>
+      <polygon>64.937,13.165 63.7503,10.705 62.7942,8.28467 61.1852,5.24079 59.2191,4.75088 58.5251,5.78865 59.5843,8.13373 60.9298,10.3887 62.0479,12.5256 63.8528,13.9149 64.937,13.165 64.937,13.165</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1103;1106;1108;1114;1119;1120;1121;1122;1124;1127;1130;1133;1134;1135;1144;1145;1146;1149;1151;1160;1506;1525;1539;1563;1566;1578;3039;3040;3041;3042;3043;3044;3045;3052;3405;3407;3411;3423;3424;3425;3426;3427;3428;3429;3430;3431;3432;3433;3434;3435;3436;3437;3438;3439;3440;3441;3448;3449;3450;3451;3452;3453;3454;3818;3820;3824;3825;4221;4222;4228;4601;4611;4612;4613;4614;4615;4616;4617;4618;4619;4620;4621;4622;4623;4624;4625;4626;4627;4628;4629;4630;4631;4634;4635;4637;4638;4639;4640;4641;4642;4643;4644;4646;4647;4650;4651;5001;5006;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5041;5042;5043;5044;5045;5047;5053;5054;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

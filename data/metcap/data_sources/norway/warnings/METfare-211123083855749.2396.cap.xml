@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211123083855749.2396</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-11-23T08:38:55+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48945</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-11-23T10:00:00+00:00</effective>
+    <onset>2021-11-23T10:00:00+00:00</onset>
+    <expires>2021-11-24T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Nordmøre, 23 November 10:00 UTC til 24 November 10:00 UTC.</headline>
+    <description>Fra tirsdag formiddag til onsdag formiddag er det ventet lokalt mye nedbør på Nordmøre. Totalt kan det komme 50-80 mm/24 timer. Det er ventet mest regn tirsdag kveld og onsdag formiddag.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/oransje-farevarsel-om-svaert-mye-regn-sor-i-trondelag</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-24T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye regn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over mye regn, gult nivå, Nordmøre, 23 November 10:00 UTC til 24 November 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6c39e69d-426b-4076-98e8-3a299b509525.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordmøre</areaDesc>
+      <polygon>63.148833,7.006167 63.165667,7.057000 63.220833,7.147833 63.237667,7.175500 63.262000,7.211167 63.309500,7.294667 63.354167,7.369167 63.381333,7.414500 63.453000,7.534833 63.475167,7.572333 63.500333,7.601500 63.504167,7.606333 63.504833,7.607167 63.571500,7.700333 63.575167,7.705833 63.576167,7.707333 63.648000,7.828000 63.688833,7.897167 63.618000,8.049833 63.596167,8.112167 63.507333,8.174333 63.413833,8.263667 63.373167,8.363500 63.361333,8.398833 63.387500,8.466833 63.429167,8.616167 63.443500,8.735667 63.425000,8.743833 63.403000,8.799333 63.370167,8.799500 63.371333,8.827000 63.366000,8.853500 63.370167,8.868833 63.365833,8.869167 63.354667,8.891500 63.356000,8.909333 63.348000,8.904333 63.344000,8.883500 63.335500,8.881167 63.327333,8.866500 63.316667,8.864000 63.294500,8.866333 63.290667,8.851000 63.266167,8.816500 63.243833,8.827333 63.231833,8.864667 63.218667,8.861500 63.215667,8.835667 63.198333,8.834500 63.190500,8.758667 63.187167,8.763500 63.171333,8.769333 63.166333,8.785667 63.155333,8.805500 63.150167,8.823167 63.133667,8.804000 63.130500,8.805500 63.126167,8.809500 63.124667,8.836500 63.114667,8.857167 63.121333,8.888500 63.116000,8.916500 63.138667,8.975000 63.142000,8.999500 63.142000,9.047167 63.137000,9.101833 63.127333,9.136000 63.130167,9.155667 63.140000,9.178167 63.147000,9.179000 63.172167,9.141833 63.186333,9.191167 63.196500,9.201167 63.203833,9.224333 63.206000,9.244667 63.198667,9.255833 63.194833,9.296167 63.202000,9.312667 63.209333,9.335167 63.211333,9.360000 63.202500,9.364167 63.189333,9.376500 63.184167,9.400167 63.182833,9.428833 63.180500,9.448333 63.179500,9.466500 63.162667,9.449333 63.143000,9.455667 63.129333,9.458833 63.107667,9.446667 63.094333,9.439833 63.061000,9.447667 63.057167,9.432833 63.043500,9.447167 63.037333,9.475667 63.015667,9.492167 63.013667,9.570500 63.008833,9.583833 62.994500,9.493833 62.986167,9.490833 62.953333,9.430167 62.929667,9.423000 62.897833,9.446000 62.846833,9.460000 62.815833,9.420500 62.793333,9.366500 62.739833,8.981000 62.713167,8.920333 62.678333,8.962333 62.662333,8.981167 62.656167,9.020667 62.572667,9.154500 62.578000,9.192500 62.572833,9.220833 62.555333,9.234000 62.529667,9.223500 62.512500,9.199500 62.492000,9.203500 62.460333,9.180500 62.444667,9.193333 62.394500,9.135167 62.373000,9.052000 62.359667,9.012167 62.355333,8.974167 62.358667,8.909500 62.373000,8.887167 62.379833,8.858667 62.380833,8.777000 62.379667,8.713167 62.371333,8.628167 62.426500,8.589500 62.460333,8.538167 62.490167,8.459167 62.521833,8.393833 62.558000,8.329833 62.587167,8.279833 62.622833,8.244833 62.674333,8.221500 62.715667,8.218000 62.752500,8.233000 62.778833,8.248000 62.800833,8.258167 62.815667,8.196500 62.833500,8.155667 62.859000,8.137000 62.894167,8.131500 62.893167,8.101167 62.884000,8.031667 62.874500,7.968833 62.865667,7.866333 62.854167,7.783167 62.849333,7.665500 62.847667,7.568667 62.844000,7.481333 62.845833,7.372333 62.852333,7.261333 62.883333,7.223500 62.925167,7.205333 62.967500,7.180333 63.015167,7.143500 63.095167,7.065333 63.148833,7.006167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1511;1576;1507;1579;1566;1516;1578;1525;1532;1577;1506;1573;1520;1505;1535;1557;1514;1554;1539;1515;1528;1563;1531;1547;1517;1560;5055;5061</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-11-23T10:00:00+00:00</effective>
+    <onset>2021-11-23T10:00:00+00:00</onset>
+    <expires>2021-11-24T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Nordmøre, 23 November 10:00 UTC to 24 November 10:00 UTC.</headline>
+    <description>From late Tuesday morning to late Wednesday morning it is expected locally much precipitation in Northmøre, in total 50-80 mm/24 hours. Most rain is expected Tuesday evening and late Wednesday morning.</description>
+    <instruction>Consider the need for preventive measures. The need for emergency preparedness shall be assessed continuously by emergency response actors. Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/oransje-farevarsel-om-svaert-mye-regn-sor-i-trondelag</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-24T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rain</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of heavy rain, yellow level, Nordmøre, 23 November 10:00 UTC to 24 November 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6c39e69d-426b-4076-98e8-3a299b509525.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordmøre</areaDesc>
+      <polygon>63.148833,7.006167 63.165667,7.057000 63.220833,7.147833 63.237667,7.175500 63.262000,7.211167 63.309500,7.294667 63.354167,7.369167 63.381333,7.414500 63.453000,7.534833 63.475167,7.572333 63.500333,7.601500 63.504167,7.606333 63.504833,7.607167 63.571500,7.700333 63.575167,7.705833 63.576167,7.707333 63.648000,7.828000 63.688833,7.897167 63.618000,8.049833 63.596167,8.112167 63.507333,8.174333 63.413833,8.263667 63.373167,8.363500 63.361333,8.398833 63.387500,8.466833 63.429167,8.616167 63.443500,8.735667 63.425000,8.743833 63.403000,8.799333 63.370167,8.799500 63.371333,8.827000 63.366000,8.853500 63.370167,8.868833 63.365833,8.869167 63.354667,8.891500 63.356000,8.909333 63.348000,8.904333 63.344000,8.883500 63.335500,8.881167 63.327333,8.866500 63.316667,8.864000 63.294500,8.866333 63.290667,8.851000 63.266167,8.816500 63.243833,8.827333 63.231833,8.864667 63.218667,8.861500 63.215667,8.835667 63.198333,8.834500 63.190500,8.758667 63.187167,8.763500 63.171333,8.769333 63.166333,8.785667 63.155333,8.805500 63.150167,8.823167 63.133667,8.804000 63.130500,8.805500 63.126167,8.809500 63.124667,8.836500 63.114667,8.857167 63.121333,8.888500 63.116000,8.916500 63.138667,8.975000 63.142000,8.999500 63.142000,9.047167 63.137000,9.101833 63.127333,9.136000 63.130167,9.155667 63.140000,9.178167 63.147000,9.179000 63.172167,9.141833 63.186333,9.191167 63.196500,9.201167 63.203833,9.224333 63.206000,9.244667 63.198667,9.255833 63.194833,9.296167 63.202000,9.312667 63.209333,9.335167 63.211333,9.360000 63.202500,9.364167 63.189333,9.376500 63.184167,9.400167 63.182833,9.428833 63.180500,9.448333 63.179500,9.466500 63.162667,9.449333 63.143000,9.455667 63.129333,9.458833 63.107667,9.446667 63.094333,9.439833 63.061000,9.447667 63.057167,9.432833 63.043500,9.447167 63.037333,9.475667 63.015667,9.492167 63.013667,9.570500 63.008833,9.583833 62.994500,9.493833 62.986167,9.490833 62.953333,9.430167 62.929667,9.423000 62.897833,9.446000 62.846833,9.460000 62.815833,9.420500 62.793333,9.366500 62.739833,8.981000 62.713167,8.920333 62.678333,8.962333 62.662333,8.981167 62.656167,9.020667 62.572667,9.154500 62.578000,9.192500 62.572833,9.220833 62.555333,9.234000 62.529667,9.223500 62.512500,9.199500 62.492000,9.203500 62.460333,9.180500 62.444667,9.193333 62.394500,9.135167 62.373000,9.052000 62.359667,9.012167 62.355333,8.974167 62.358667,8.909500 62.373000,8.887167 62.379833,8.858667 62.380833,8.777000 62.379667,8.713167 62.371333,8.628167 62.426500,8.589500 62.460333,8.538167 62.490167,8.459167 62.521833,8.393833 62.558000,8.329833 62.587167,8.279833 62.622833,8.244833 62.674333,8.221500 62.715667,8.218000 62.752500,8.233000 62.778833,8.248000 62.800833,8.258167 62.815667,8.196500 62.833500,8.155667 62.859000,8.137000 62.894167,8.131500 62.893167,8.101167 62.884000,8.031667 62.874500,7.968833 62.865667,7.866333 62.854167,7.783167 62.849333,7.665500 62.847667,7.568667 62.844000,7.481333 62.845833,7.372333 62.852333,7.261333 62.883333,7.223500 62.925167,7.205333 62.967500,7.180333 63.015167,7.143500 63.095167,7.065333 63.148833,7.006167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1511;1576;1507;1579;1566;1516;1578;1525;1532;1577;1506;1573;1520;1505;1535;1557;1514;1554;1539;1515;1528;1563;1531;1547;1517;1560;5055;5061</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

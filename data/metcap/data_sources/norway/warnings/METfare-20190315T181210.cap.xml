@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190315181210502.1210</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-15T18:12:10+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1954</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vind</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-03-17T00:00:00+00:00</effective>
+    <onset>2019-03-17T00:00:00+00:00</onset>
+    <expires>2019-03-17T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Etne, 17 March 00:00 UTC til 17 March 09:00 UTC.</headline>
+    <description>Natt til søndag og søndag morgon er det utsette stader venta vindkast frå søraust på 27-30 m/s.</description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-17T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Løse gjenstander kan blåse avgårde. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kraftige vindkast, gult nivå, Etne, 17 March 00:00 UTC til 17 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/ad66ac8c-247d-4151-911d-1c017e0974d9.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Etne</areaDesc>
+      <polygon>59.837667,6.525333 59.806333,6.441833 59.789833,6.425333 59.781500,6.327833 59.772333,6.327833 59.767333,6.302333 59.740000,6.274000 59.703167,6.268333 59.693500,6.228333 59.685167,6.226000 59.646667,6.207000 59.640667,6.199167 59.644000,6.194000 59.639833,6.185833 59.621333,6.187333 59.614667,6.178000 59.601000,6.190000 59.586000,6.183000 59.585333,6.165333 59.584833,6.120833 59.595000,6.089167 59.598167,6.059000 59.591000,6.042333 59.595333,6.008167 59.585000,6.004500 59.579000,5.969333 59.597667,5.969500 59.601000,5.962833 59.609833,5.924000 59.607833,5.906833 59.625667,5.891333 59.631667,5.834000 59.640500,5.822500 59.648333,5.823833 59.647333,5.784333 59.656667,5.774333 59.699667,5.764167 59.735667,5.824667 59.749500,5.882833 59.781333,5.927500 59.781667,5.936333 59.752000,5.982833 59.746500,6.016833 59.750333,6.042167 59.749500,6.086000 59.785333,6.135000 59.792667,6.162500 59.820167,6.125333 59.831000,6.124500 59.836667,6.135000 59.855667,6.121667 59.864000,6.130333 59.865000,6.147000 59.881667,6.197833 59.884667,6.209333 59.904500,6.227000 59.920167,6.213667 59.922667,6.226000 59.914333,6.261667 59.927500,6.264167 59.955833,6.298000 59.994667,6.309167 60.018167,6.332167 59.982667,6.420833 59.957167,6.453333 59.947500,6.478667 59.936000,6.492500 59.923333,6.500333 59.913667,6.493667 59.905167,6.506833 59.881500,6.504167 59.877500,6.512167 59.837667,6.525333
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1201;1211;1214;1216;1219;1221;1222;1223;1224;1227;1228;1231;1232;1233;1234;1235;1238;1241;1242;1243;1244;1245;1246;1247;1251;1252;1253;1256;1259;1260;1263;1264;1265;1266</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-12</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-03-17T00:00:00+00:00</effective>
+    <onset>2019-03-17T00:00:00+00:00</onset>
+    <expires>2019-03-17T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Etne, 17 March 00:00 UTC to 17 March 09:00 UTC.</headline>
+    <description>First part of Sunday it is expected wind gust from southeast around 27-30 m/s.</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-17T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Loose items may be taken by the wind. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Strong wind gusts, yellow level, Etne, 17 March 00:00 UTC to 17 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/ad66ac8c-247d-4151-911d-1c017e0974d9.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Etne</areaDesc>
+      <polygon>59.837667,6.525333 59.806333,6.441833 59.789833,6.425333 59.781500,6.327833 59.772333,6.327833 59.767333,6.302333 59.740000,6.274000 59.703167,6.268333 59.693500,6.228333 59.685167,6.226000 59.646667,6.207000 59.640667,6.199167 59.644000,6.194000 59.639833,6.185833 59.621333,6.187333 59.614667,6.178000 59.601000,6.190000 59.586000,6.183000 59.585333,6.165333 59.584833,6.120833 59.595000,6.089167 59.598167,6.059000 59.591000,6.042333 59.595333,6.008167 59.585000,6.004500 59.579000,5.969333 59.597667,5.969500 59.601000,5.962833 59.609833,5.924000 59.607833,5.906833 59.625667,5.891333 59.631667,5.834000 59.640500,5.822500 59.648333,5.823833 59.647333,5.784333 59.656667,5.774333 59.699667,5.764167 59.735667,5.824667 59.749500,5.882833 59.781333,5.927500 59.781667,5.936333 59.752000,5.982833 59.746500,6.016833 59.750333,6.042167 59.749500,6.086000 59.785333,6.135000 59.792667,6.162500 59.820167,6.125333 59.831000,6.124500 59.836667,6.135000 59.855667,6.121667 59.864000,6.130333 59.865000,6.147000 59.881667,6.197833 59.884667,6.209333 59.904500,6.227000 59.920167,6.213667 59.922667,6.226000 59.914333,6.261667 59.927500,6.264167 59.955833,6.298000 59.994667,6.309167 60.018167,6.332167 59.982667,6.420833 59.957167,6.453333 59.947500,6.478667 59.936000,6.492500 59.923333,6.500333 59.913667,6.493667 59.905167,6.506833 59.881500,6.504167 59.877500,6.512167 59.837667,6.525333
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1201;1211;1214;1216;1219;1221;1222;1223;1224;1227;1228;1231;1232;1233;1234;1235;1238;1241;1242;1243;1244;1245;1246;1247;1251;1252;1253;1256;1259;1260;1263;1264;1265;1266</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-12</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

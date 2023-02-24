@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.191202102204201.3117</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-12-02T10:22:04+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>3015</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-12-04T18:00:00+00:00</effective>
+    <onset>2019-12-04T18:00:00+00:00</onset>
+    <expires>2019-12-05T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Nordenskiöld Land på Spitsbergen, 04 December 18:00 UTC til 05 December 06:00 UTC.</headline>
+    <description>Fra onsdag kveld ventes østlig full storm med kraftige vindkast på opp til 35-40 m/s.</description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-12-05T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Enkelte reiser vil kunne få lenger reisetid. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Nordenskiöld Land på Spitsbergen</areaDesc>
+      <polygon>78.050000,13.380000 77.629833,13.750000 77.870000,17.500000 78.529833,18.000000 78.349833,15.680000 78.050000,13.380000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>21</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2111</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-21</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-12-04T18:00:00+00:00</effective>
+    <onset>2019-12-04T18:00:00+00:00</onset>
+    <expires>2019-12-05T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Nordenskiöld Land på Spitsbergen, 04 December 18:00 UTC to 05 December 06:00 UTC.</headline>
+    <description>From Wednesday evening expected easterly storm force 10 with gust of up to 35-40 m/s.</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-12-05T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Some journeys may have longer travel times. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Nordenskiöld Land på Spitsbergen</areaDesc>
+      <polygon>78.050000,13.380000 77.629833,13.750000 77.870000,17.500000 78.529833,18.000000 78.349833,15.680000 78.050000,13.380000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>21</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2111</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-21</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -60,3 +60,26 @@ The user name is "admin" and the password is "password". You should see
 ![METCAP API database](./images/01.png?raw=true "METCAP API database")
 
 * Other examples of API use are found in the [./local-dev/demo](local-dev/demo/README.md) directory. 
+
+* Removing the software
+
+To completely remove the software, 
+the docker containers must be stopped and all Docker resources
+must be deleted. 
+
+Data pesistance across sessions is achieved by
+storing CouchDB under $HOME/couchdb on first installation. This 
+directory and its subdirectories must also be deleted for a 
+complete removal of METCAP API.
+
+### CAUTION: These command will remove ALL Docker resources
+
+The following commands are provided as examples only. Use them with caution.
+
+```
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+docker system prune -a --force --volumes
+rm -rf $HOME/couchdb
+```
+

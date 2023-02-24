@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220121134111803.3126</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-01-21T13:41:11+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>49047</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2022-01-23T15:00:00+00:00</effective>
+    <onset>2022-01-23T15:00:00+00:00</onset>
+    <expires>2022-01-24T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Svært kraftige vindkast, oransje nivå, Finnmark, 23 January 15:00 UTC til 24 January 06:00 UTC.</headline>
+    <description>Fra søndag ettermiddag sørvestlig liten og periodevis full storm 25 m/s, med lokale svært kraftige vindkast på 27-40 m/s. Minkende vind mandag morgen eller formiddag.</description>
+    <instruction>Fest alle løse gjenstander. Unngå ferdsel på utsatte steder. Beregn ekstra tid til transport og kjøring. Vurder om reisen er nødvendig. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Vis forsiktighet ved ferdsel i strandsona og på sjøen. På forhånd vurder tiltak for å begrense skade.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-01-24T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Gjenstander kan bli tatt av vinden eller blåse over. Fare for skade på bygninger og infrastruktur. Kansellerte avganger for ferje, fly eller annen transport forventes. Broer kan bli stengt. Mange reiser vil kunne få lenger reisetid. Strømforsyningen vil bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Høye bølger kan gi skade på infrastruktur og bygninger i standsonen. Den sterke vinden kan gi lokalt høye bølger i fjordstrøk og innsjøer. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Svært kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Alvorlig situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Vær forberedt</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over svært kraftige vindkast, oransje nivå, Finnmark, 23 January 15:00 UTC til 24 January 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/82feab4b-80e5-4811-9a24-5f557096f66c.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmark</areaDesc>
+      <polygon>69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.650000,22.883167 69.599833,22.783167 69.533167,22.716667 69.483167,22.283167 69.349833,22.350000 69.233167,22.500000 69.116667,22.483167 69.083167,22.299833 69.066667,22.000000 68.933167,22.183167 68.816667,22.299833 68.716667,22.383167 68.733167,22.600000 68.683167,22.783167 68.699833,23.049833 68.633167,23.216667 68.683167,23.466667 68.699833,23.666667 68.800000,23.783167 68.816667,24.000000 68.733167,24.250000 68.650000,24.716667 68.566667,24.899833 68.633167,25.100000 68.800000,25.166667 68.883167,25.416667 68.900000,25.633167 69.033167,25.733167 69.266667,25.716667 69.400000,25.816667 69.533167,25.850000 69.599833,25.966667 69.666667,25.899833 69.733167,26.049833 69.816667,26.299833 69.900000,26.433167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5430;5437</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2022-01-23T15:00:00+00:00</effective>
+    <onset>2022-01-23T15:00:00+00:00</onset>
+    <expires>2022-01-24T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Very strong wind gusts, orange level, Finnmark, 23 January 15:00 UTC to 24 January 06:00 UTC.</headline>
+    <description>From Sunday afternoon southwest severe gale force 9 or occasionally storm force 10, with local extremely strong gust 27-40 m/s. Decreasing wind Monday morning or late morning.</description>
+    <instruction>Secure all loose objects. Avoid exposed places. Allow a lot of extra time for transportation and driving. Consider whether the journey is necessary. Follow advice and check status from transport operators. Check road reports (175.no). The need for emergency preparedness shall be assessed continuously by emergency response actors. Be careful in coastal areas. In advance consider measures to limit damage.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-01-24T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Larger loose items may be taken by the wind. Risk of damage to buildings and infrastructure. Cancelled departures for ferry, plane, or other transport expected. Bridges may be closed. Many journeys may have longer travel times. The power supply will be impacted, due to tree(s) falling over. Roads may be closed due to trees or other objects in the road. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. High waves may cause damage to infrastructure and buildings in the coastal zone. The strong wind may cause locally high waves in fjords and lakes. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Very strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Severe situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be prepared</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of very strong wind gusts, orange level, Finnmark, 23 January 15:00 UTC to 24 January 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/82feab4b-80e5-4811-9a24-5f557096f66c.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmark</areaDesc>
+      <polygon>69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.650000,22.883167 69.599833,22.783167 69.533167,22.716667 69.483167,22.283167 69.349833,22.350000 69.233167,22.500000 69.116667,22.483167 69.083167,22.299833 69.066667,22.000000 68.933167,22.183167 68.816667,22.299833 68.716667,22.383167 68.733167,22.600000 68.683167,22.783167 68.699833,23.049833 68.633167,23.216667 68.683167,23.466667 68.699833,23.666667 68.800000,23.783167 68.816667,24.000000 68.733167,24.250000 68.650000,24.716667 68.566667,24.899833 68.633167,25.100000 68.800000,25.166667 68.883167,25.416667 68.900000,25.633167 69.033167,25.733167 69.266667,25.716667 69.400000,25.816667 69.533167,25.850000 69.599833,25.966667 69.666667,25.899833 69.733167,26.049833 69.816667,26.299833 69.900000,26.433167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5430;5437</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

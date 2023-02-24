@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220228125312376.980</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-02-28T12:53:12+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.220227180736168.969,2022-02-27T18:07:36+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-02-26T02:00:00+00:00</effective>
+    <onset>2022-02-26T02:00:00+00:00</onset>
+    <expires>2022-02-28T23:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Fedje - Måløy, 26 February 02:00 UTC til 28 February 23:00 UTC.</headline>
+    <description>Mandag ettermiddag fortsatt sørlig sterk kuling 20 m/s, kan hende forbigående liten storm 22 m/s, minkende til frisk bris 10 sent mandag kveld.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-28T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. Middels høye bølger. Bølgekammene er ved å brytes opp til sjørokk. Høye bølger. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fedje - Måløy</areaDesc>
+      <polygon>61.297000,4.451833 61.146667,4.455833 61.048500,4.451333 60.976000,4.456667 60.851000,4.484167 60.760000,4.511500 60.786833,4.694500 60.853333,4.702833 60.949000,4.696667 61.052167,4.674667 61.156500,4.695167 61.302667,4.691667 61.403167,4.740333 61.563167,4.776833 61.702667,4.844833 62.021667,5.019333 62.043000,4.760167 61.833833,4.645000 61.651000,4.556167 61.454167,4.486000 61.297000,4.451833
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-02-26T02:00:00+00:00</effective>
+    <onset>2022-02-26T02:00:00+00:00</onset>
+    <expires>2022-02-28T23:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Fedje - Maaloey, 26 February 02:00 UTC to 28 February 23:00 UTC.</headline>
+    <description>Monday afternoon still south gale force 8, possibly temporary strong gale force 9 m/s, decreasing to force 5 late Monday evening.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-28T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. Moderately high waves with breaking crests forming spindrift. Considerable airborne spray. High waves whose crests sometimes roll over. Airborne spray may reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fedje - Maaloey</areaDesc>
+      <polygon>61.297000,4.451833 61.146667,4.455833 61.048500,4.451333 60.976000,4.456667 60.851000,4.484167 60.760000,4.511500 60.786833,4.694500 60.853333,4.702833 60.949000,4.696667 61.052167,4.674667 61.156500,4.695167 61.302667,4.691667 61.403167,4.740333 61.563167,4.776833 61.702667,4.844833 62.021667,5.019333 62.043000,4.760167 61.833833,4.645000 61.651000,4.556167 61.454167,4.486000 61.297000,4.451833
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

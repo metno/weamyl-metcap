@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190331213552509.1566</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-31T21:35:52+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190331111323954.1552,2019-03-31T11:13:23+00:00</references>
+  <incidents>2138</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polare lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-03-31T21:00:00+00:00</effective>
+    <onset>2019-03-31T21:00:00+00:00</onset>
+    <expires>2019-04-01T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, Tromsøflaket og Bankene utenfor Finnmark, 31 March 21:00 UTC til 01 April 10:00 UTC.</headline>
+    <description>Polart lavtrykk ligger nå søndag kl. 21 UTC rett nord for Tromsøflaket/Hjelmsøybanken, og ventes fram til mandag kl. 10 UTC å gå gjennom følgende områder: Tromsøflaket, Hjelmsøybanken, Nordkappbanken, Nordbanken og Kildinbanken.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-04-01T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. Liten storm er ventet nært lavtrykksenteret.</value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <area>
+      <areaDesc>Tromsøflaket og Bankene utenfor Finnmark</areaDesc>
+      <polygon>70.840000,22.685667 71.104167,23.988500 71.194167,25.814167 71.116667,26.783167 71.150167,27.643167 71.105667,28.237667 70.711167,30.158167 70.422500,31.144500 69.250000,35.400000 70.000000,36.333333 70.500000,37.000000 71.099833,35.750000 72.500000,32.312500 72.500000,30.000000 72.500000,29.052000 72.500000,25.000000 72.500000,24.607833 72.500000,20.000000 72.500000,19.650000 72.500000,15.750000 72.000000,15.750000 70.716833,16.780000 70.462667,21.334667 70.680833,21.941167 70.840000,22.685667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-03-31T21:00:00+00:00</effective>
+    <onset>2019-03-31T21:00:00+00:00</onset>
+    <expires>2019-04-01T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, Tromsoeflaket and Banks outside Finnmark, 31 March 21:00 UTC to 01 April 10:00 UTC.</headline>
+    <description>Polar low is situated now Sunday at 21 UTC just north of Tromsoeflaket/Hjelmsoey bank, and is expected until Monday at 10 UTC to pass trhough the following areas: Tromsoeflaket, Hjelmsoeybanken, North Cape bank, North bank, and Kildinbank.</description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-04-01T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. Severe gale force 9 is expected near the centre of the low.</value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <area>
+      <areaDesc>Tromsoeflaket and Banks outside Finnmark</areaDesc>
+      <polygon>70.840000,22.685667 71.104167,23.988500 71.194167,25.814167 71.116667,26.783167 71.150167,27.643167 71.105667,28.237667 70.711167,30.158167 70.422500,31.144500 69.250000,35.400000 70.000000,36.333333 70.500000,37.000000 71.099833,35.750000 72.500000,32.312500 72.500000,30.000000 72.500000,29.052000 72.500000,25.000000 72.500000,24.607833 72.500000,20.000000 72.500000,19.650000 72.500000,15.750000 72.000000,15.750000 70.716833,16.780000 70.462667,21.334667 70.680833,21.941167 70.840000,22.685667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

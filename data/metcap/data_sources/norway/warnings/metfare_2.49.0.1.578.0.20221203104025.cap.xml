@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221203104025</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-03T10:53:19+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221201081650,2022-12-01T08:44:02+00:00</references>
+  <incidents>0000050290</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-12-03T12:00:00+00:00</effective>
+    <onset>2022-12-03T12:00:00+00:00</onset>
+    <expires>2022-12-04T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Skogbrannfare ventes, gult nivå, Ytre strøk av Helgeland og Sør-Salten, 2022-12-03T12:00:00+00:00, 2022-12-04T12:00:00+00:00</headline>
+    <description>Lokal gress- og lyngbrannfare i snøfrie områder i lavlandet inntil det kommer nedbør av betydning.</description>
+    <instruction>Vær svært forsiktig med åpen ild. Følg lokale myndigheters instruksjoner. Behov for forebyggende tiltak og beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetasjon kan svært lett antennes og veldig store områder kan bli berørt. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Skogbrannfare ventes</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Skogbrannfare ventes, gult nivå, Ytre strøk av Helgeland og Sør-Salten, 2022-12-03T12:00:00+00:00, 2022-12-04T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/85f28351-9ae0-4267-9de4-71157826d376.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre strøk av Helgeland og Sør-Salten</areaDesc>
+      
+          <polygon>65.1294,13.1074 67.33,15.6769 67.6621,14.2581 66.5668,12.0507 65.4067,11.0275 65.308,11.4063 65.2384,11.5006 65.1935,11.7016 65.1705,11.8397 65.1595,11.9585 65.1202,11.9799 65.0934,11.9391 65.0714,11.9221 65.0742,11.943 65.0863,11.952 65.0769,12.003 65.0714,12.0703 65.0249,12.0687 65.0124,12.1021 65.0285,12.1077 65.0221,12.1851 64.982,12.2788 65.0079,12.3925 64.9945,12.4986 65.0027,12.5792 64.9669,12.637 64.9658,12.7113 64.9838,12.7468 64.9935,12.8872 65.0292,12.885 65.1294,13.1074 65.1294,13.1074</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1827;1828;1832;1833;1834;1835;1836;1837;1838;1839;1840;1841</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-12-03T12:00:00+00:00</effective>
+    <onset>2022-12-03T12:00:00+00:00</onset>
+    <expires>2022-12-04T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Forest fire danger expected, yellow level, Outer parts of Helgeland and Southern Salten, 2022-12-03T12:00:00+00:00, 2022-12-04T12:00:00+00:00</headline>
+    <description>Local forest and heathland fire danger in areas free of snow in the lowlands until significant precipitation is observed.</description>
+    <instruction>Be very careful with open fire. Follow the instructions from the local authorities. Emergency services should assess a necessary level of alertness. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetation is very easily ignited and very large areas may be affected. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Forest fire danger expected</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Forest fire danger expected, yellow level, Outer parts of Helgeland and Southern Salten, 2022-12-03T12:00:00+00:00, 2022-12-04T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/85f28351-9ae0-4267-9de4-71157826d376.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer parts of Helgeland and Southern Salten</areaDesc>
+      
+          <polygon>65.1294,13.1074 67.33,15.6769 67.6621,14.2581 66.5668,12.0507 65.4067,11.0275 65.308,11.4063 65.2384,11.5006 65.1935,11.7016 65.1705,11.8397 65.1595,11.9585 65.1202,11.9799 65.0934,11.9391 65.0714,11.9221 65.0742,11.943 65.0863,11.952 65.0769,12.003 65.0714,12.0703 65.0249,12.0687 65.0124,12.1021 65.0285,12.1077 65.0221,12.1851 64.982,12.2788 65.0079,12.3925 64.9945,12.4986 65.0027,12.5792 64.9669,12.637 64.9658,12.7113 64.9838,12.7468 64.9935,12.8872 65.0292,12.885 65.1294,13.1074 65.1294,13.1074</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1827;1828;1832;1833;1834;1835;1836;1837;1838;1839;1840;1841</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+</alert>

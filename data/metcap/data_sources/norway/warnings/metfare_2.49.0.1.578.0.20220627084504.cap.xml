@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220627084504</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-27T09:16:57+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050054</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-06-27T10:00:00+00:00</effective>
+    <onset>2022-06-27T10:00:00+00:00</onset>
+    <expires>2022-07-02T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Skogbrannfare ventes, gult nivå, Finnmark og deler av Nord-Troms, 2022-06-27T10:00:00+00:00, 2022-07-02T12:00:00+00:00</headline>
+    <description>Lokal skog- og lyngbrannfare i snøfrie områder inntil det kommer nedbør av betydning.</description>
+    <instruction>Vær forsiktig med åpen ild. Følg lokale myndigheters instruksjoner. Behov for forebyggende tiltak og beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-02T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetasjon kan lett antennes og store områder kan bli berørt. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Skogbrannfare ventes</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Skogbrannfare ventes, gult nivå, Finnmark og deler av Nord-Troms, 2022-06-27T10:00:00+00:00, 2022-07-02T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/84940f1f-082c-470e-ab44-50fc64865c44.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmark og deler av Nord-Troms</areaDesc>
+      <polygon>69.9149,26.5555 69.8697,27.2352 69.9339,27.9052 69.7079,28.7549 69.497,28.9459 69.0435,28.69 68.9583,29.1823 69.26,29.4825 69.3315,30.0588 69.5268,30.2742 69.4477,30.7182 69.573,31.1499 69.9794,30.8249 70.3995,31.3476 71.191,28.3608 71.1414,26.6003 71.2976,26.158 70.8931,22.6995 70.7046,21.8188 70.2215,22.0818 69.2679,21.4239 68.6331,22.4091 68.6273,23.6646 68.5163,25.1251 68.9005,25.8947 69.3823,25.9063 69.9149,26.5555 69.9149,26.5555</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5403;5404;5405;5406;5428;5429;5430;5432;5433;5434;5435;5436;5437;5438;5439;5440;5441;5442;5443;5444</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-06-27T10:00:00+00:00</effective>
+    <onset>2022-06-27T10:00:00+00:00</onset>
+    <expires>2022-07-02T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Forest fire danger expected, yellow level, Finnmark and parts of Northern Troms, 2022-06-27T10:00:00+00:00, 2022-07-02T12:00:00+00:00</headline>
+    <description>Local forest and heathland fire danger in areas free of snow until significant precipitation.</description>
+    <instruction>Be careful with open fire. Follow the instructions from the local authorities. Emergency services should assess a necessary level of alertness. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-02T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetation is easily ignited and large areas may be affected. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Forest fire danger expected</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Forest fire danger expected, yellow level, Finnmark and parts of Northern Troms, 2022-06-27T10:00:00+00:00, 2022-07-02T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/84940f1f-082c-470e-ab44-50fc64865c44.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmark and parts of Northern Troms</areaDesc>
+      <polygon>69.9149,26.5555 69.8697,27.2352 69.9339,27.9052 69.7079,28.7549 69.497,28.9459 69.0435,28.69 68.9583,29.1823 69.26,29.4825 69.3315,30.0588 69.5268,30.2742 69.4477,30.7182 69.573,31.1499 69.9794,30.8249 70.3995,31.3476 71.191,28.3608 71.1414,26.6003 71.2976,26.158 70.8931,22.6995 70.7046,21.8188 70.2215,22.0818 69.2679,21.4239 68.6331,22.4091 68.6273,23.6646 68.5163,25.1251 68.9005,25.8947 69.3823,25.9063 69.9149,26.5555 69.9149,26.5555</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5403;5404;5405;5406;5428;5429;5430;5432;5433;5434;5435;5436;5437;5438;5439;5440;5441;5442;5443;5444</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

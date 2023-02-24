@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221010084238</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-10T09:27:54+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050215</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-10-11T00:00:00+00:00</effective>
+    <onset>2022-10-11T00:00:00+00:00</onset>
+    <expires>2022-10-11T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Fjellet i Møre og Romsdal og sørlig Trøndelag, 2022-10-11T00:00:00+00:00, 2022-10-11T18:00:00+00:00</headline>
+    <description>Fra natt til tirsdag frem til tirsdag kveld er det ventet snøbyger over 600-800 m. Det er ventet lokalt 5-20 cm snø, i høyere fjellområder kan det komme mer. 
+</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-11T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Fjellet i Møre og Romsdal og sørlig Trøndelag, 2022-10-11T00:00:00+00:00, 2022-10-11T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/f89acc8a-a853-46ed-8b7d-67a4b0559ea4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Fjellet i Møre og Romsdal og sørlig Trøndelag</areaDesc>
+      <polygon>62.1989,5.90444 61.9376,6.62481 61.9879,7.02404 62.032,7.40401 62.1905,7.78646 62.1824,8.0054 62.4794,8.65589 62.9134,9.45215 63.3489,9.61376 63.4104,8.76769 63.1375,8.03956 62.1989,5.90444 62.1989,5.90444</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1507;1520;1525;1528;1535;1539;1557;1560;1563;1566;1576;1577;1578;5055;5059;5061</value>
+    </geocode>
+    <altitude>1500</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-10-11T00:00:00+00:00</effective>
+    <onset>2022-10-11T00:00:00+00:00</onset>
+    <expires>2022-10-11T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Mountain areas in Møre og Romsdag and southern part of Trøndelag, 2022-10-11T00:00:00+00:00, 2022-10-11T18:00:00+00:00</headline>
+    <description>From early Tuesday morning until Tuesday evening snow showers are expected above 600-800 m. Locally 5-20 cm snow is expected, in the higher mountain areas more snow is expected. </description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-11T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Mountain areas in Møre og Romsdag and southern part of Trøndelag, 2022-10-11T00:00:00+00:00, 2022-10-11T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/f89acc8a-a853-46ed-8b7d-67a4b0559ea4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Mountain areas in Møre og Romsdag and southern part of Trøndelag</areaDesc>
+      <polygon>62.1989,5.90444 61.9376,6.62481 61.9879,7.02404 62.032,7.40401 62.1905,7.78646 62.1824,8.0054 62.4794,8.65589 62.9134,9.45215 63.3489,9.61376 63.4104,8.76769 63.1375,8.03956 62.1989,5.90444 62.1989,5.90444</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1507;1520;1525;1528;1535;1539;1557;1560;1563;1566;1576;1577;1578;5055;5059;5061</value>
+    </geocode>
+    <altitude>1500</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

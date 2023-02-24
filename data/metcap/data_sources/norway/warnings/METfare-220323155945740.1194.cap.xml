@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220323155945740.1194</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-03-23T15:59:45+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-03-24T11:00:00+00:00</effective>
+    <onset>2022-03-24T11:00:00+00:00</onset>
+    <expires>2022-03-25T03:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Fruholmen - Vardø, 24 March 11:00 UTC til 25 March 03:00 UTC.</headline>
+    <description>Torsdag formiddag økning til sørvest stiv kuling 15 m/s, først i vest, torsdag ettermiddag dreiende vestlig, og økende til sterk kuling 20 øst for Nordkapp. Fra sent torsdag kveld gradvis minkende, først i vest.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-03-25T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fruholmen - Vardø</areaDesc>
+      <polygon>71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333 70.733167,28.183167 70.683167,28.716667 70.550000,29.466667 70.349833,30.033167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-03-24T11:00:00+00:00</effective>
+    <onset>2022-03-24T11:00:00+00:00</onset>
+    <expires>2022-03-25T03:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Fruholmen - Vardoe, 24 March 11:00 UTC to 25 March 03:00 UTC.</headline>
+    <description>Late Thursday morning increasing southwest near gale force 7, first in western part, Thursday afternoon veering west, and increasing gale force 8 east of North Cape. From late Thursday evening gradually decreasing, first in western part.</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-03-25T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fruholmen - Vardoe</areaDesc>
+      <polygon>71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333 70.733167,28.183167 70.683167,28.716667 70.550000,29.466667 70.349833,30.033167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200221104551267.1585</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-02-21T10:45:51+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200221090208374.1567,2020-02-21T09:02:08+00:00</references>
+  <incidents>4008</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-02-21T12:00:00+00:00</effective>
+    <onset>2020-02-21T12:00:00+00:00</onset>
+    <expires>2020-02-22T13:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Andenes - Torsvåg, 21 February 12:00 UTC til 22 February 13:00 UTC.</headline>
+    <description>Fredag ettermiddag økning til sørlig stiv kuling 15 m/s, fra sent fredag kveld sterk kuling 20, lørdag morgen forbigående sørvestlig liten storm 22</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Ved motorstopp kan man drive raskt mot land, det er farlig å være ute i småbåt. Høye bølger. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Andenes - Torsvåg</areaDesc>
+      <polygon>69.687167,17.759667 69.332000,16.062833 69.283500,16.208000 69.064667,16.030167 69.100833,16.655500 69.316500,16.864500 69.516667,18.099833 69.516667,18.100000 69.915667,19.179667 70.039000,19.960167 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.687167,17.759667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-02-21T12:00:00+00:00</effective>
+    <onset>2020-02-21T12:00:00+00:00</onset>
+    <expires>2020-02-22T13:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Andenes - Torsvaag, 21 February 12:00 UTC to 22 February 13:00 UTC.</headline>
+    <description>Friday afternoon increasing south near gale force 7, from late Friday evening force gale 8, Saturday morning brief southwest severe gale force 9</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>If the engine stops you can float away from land. Risk of dangerous situations when in a small boat at sea. High waves whose crests sometimes roll over. Airborne spray may reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Andenes - Torsvaag</areaDesc>
+      <polygon>69.687167,17.759667 69.332000,16.062833 69.283500,16.208000 69.064667,16.030167 69.100833,16.655500 69.316500,16.864500 69.516667,18.099833 69.516667,18.100000 69.915667,19.179667 70.039000,19.960167 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.687167,17.759667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

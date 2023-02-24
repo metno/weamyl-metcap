@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190827084847216.2267</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-08-27T08:48:47+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2520</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2019-08-28T15:00:00+00:00</effective>
+    <onset>2019-08-28T15:00:00+00:00</onset>
+    <expires>2019-08-29T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige regnbyger, gult nivå, Nord-Rogaland, 28 August 15:00 UTC til 29 August 06:00 UTC.</headline>
+    <description>Fra seint onsdag ettermiddag til torsdag morgen er det ventet kraftige byger nord for Boknafjorden, lokalt 15-35 mm/3t.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-08-29T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det er fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige regnbyger</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kraftige regnbyger, gult nivå, Nord-Rogaland, 28 August 15:00 UTC til 29 August 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/218d8fea-debd-46b7-b673-37ccdaf112ac.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Rogaland</areaDesc>
+      <polygon>59.782667,7.093333 59.766000,7.102667 59.742000,7.113167 59.703167,7.106833 59.672167,7.213167 59.653333,7.097667 59.644333,7.099833 59.623167,7.089833 59.613833,7.079167 59.602667,7.064833 59.588167,7.050000 59.596333,6.989333 59.559333,6.982500 59.512667,6.967667 59.505333,6.999000 59.480333,7.023333 59.447500,6.965167 59.428167,6.882167 59.413500,6.907667 59.402000,6.928333 59.393667,6.921000 59.393500,6.906167 59.397833,6.889833 59.371333,6.861000 59.335667,6.846833 59.318833,6.833000 59.320333,6.642833 59.314333,6.401167 59.275500,6.257667 59.250000,6.141667 59.235167,6.064167 59.226333,6.006833 59.213167,5.985333 59.189667,5.991333 59.169833,5.994667 59.151667,5.981000 59.134333,5.955167 59.120833,5.937167 59.111000,5.902500 59.101167,5.866000 59.098667,5.843000 59.111000,5.810667 59.130667,5.771000 59.151000,5.679500 59.145333,5.588500 59.123333,5.524167 59.105167,5.453500 59.090000,5.394167 59.074500,5.300000 59.056500,5.176333 59.052500,5.144667 59.094167,5.085833 59.149000,4.946667 59.182333,4.891500 59.210333,4.860333 59.255500,4.832167 59.300667,4.811333 59.352500,4.794833 59.382167,4.785667 59.412167,4.789000 59.447000,4.811667 59.475833,4.830667 59.482833,4.835333 59.500000,4.967000 59.513000,5.134667 59.523667,5.181667 59.511667,5.208667 59.477167,5.309000 59.491500,5.368000 59.491333,5.407500 59.502333,5.471833 59.515500,5.466333 59.517333,5.491333 59.520500,5.511500 59.527333,5.521667 59.535667,5.522333 59.544500,5.541667 59.556000,5.546333 59.572333,5.553500 59.589500,5.544667 59.613000,5.542000 59.638500,5.538667 59.661167,5.553667 59.684667,5.562667 59.707833,5.569667 59.747500,5.574333 59.742500,5.590667 59.735333,5.605333 59.722833,5.620167 59.712333,5.621667 59.702333,5.635667 59.688333,5.671833 59.690833,5.702167 59.693167,5.735500 59.691000,5.755833 59.645000,5.793667 59.648000,5.824500 59.635667,5.830000 59.627500,5.855500 59.624000,5.889667 59.603167,5.906667 59.610833,5.926000 59.599667,5.968333 59.582333,5.971500 59.586500,6.011000 59.593667,6.015167 59.595000,6.049833 59.600333,6.073333 59.590333,6.111667 59.591833,6.187833 59.623500,6.175833 59.640167,6.182167 59.643333,6.201000 59.692167,6.229167 59.704833,6.270500 59.732833,6.268500 59.766833,6.304333 59.771500,6.330500 59.783167,6.334000 59.787167,6.418333 59.809500,6.443833 59.844167,6.533500 59.832500,6.590167 59.840333,6.670667 59.820833,6.690000 59.796167,6.672833 59.767167,6.683667 59.715000,6.645000 59.697500,6.697500 59.703667,6.763833 59.730167,6.839167 59.741667,6.881500 59.774000,6.998000 59.782667,7.093333
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1101;1102;1103;1106;1111;1112;1114;1119;1120;1121;1122;1124;1127;1129;1130;1133;1134;1135;1141;1142;1144;1145;1146;1149;1151;1154;1159;1160</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO043</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2019-08-28T15:00:00+00:00</effective>
+    <onset>2019-08-28T15:00:00+00:00</onset>
+    <expires>2019-08-29T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Nord-Rogaland, 28 August 15:00 UTC to 29 August 06:00 UTC.</headline>
+    <description>From late Wednesday afternoon to Thursday morning is expected heavy showers north of Boknafjord, locally 15-35 mm/3t.</description>
+    <instruction>Consider the need for preventive measures. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-08-29T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Heavy rainshowers, yellow level, Nord-Rogaland, 28 August 15:00 UTC to 29 August 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/218d8fea-debd-46b7-b673-37ccdaf112ac.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Rogaland</areaDesc>
+      <polygon>59.782667,7.093333 59.766000,7.102667 59.742000,7.113167 59.703167,7.106833 59.672167,7.213167 59.653333,7.097667 59.644333,7.099833 59.623167,7.089833 59.613833,7.079167 59.602667,7.064833 59.588167,7.050000 59.596333,6.989333 59.559333,6.982500 59.512667,6.967667 59.505333,6.999000 59.480333,7.023333 59.447500,6.965167 59.428167,6.882167 59.413500,6.907667 59.402000,6.928333 59.393667,6.921000 59.393500,6.906167 59.397833,6.889833 59.371333,6.861000 59.335667,6.846833 59.318833,6.833000 59.320333,6.642833 59.314333,6.401167 59.275500,6.257667 59.250000,6.141667 59.235167,6.064167 59.226333,6.006833 59.213167,5.985333 59.189667,5.991333 59.169833,5.994667 59.151667,5.981000 59.134333,5.955167 59.120833,5.937167 59.111000,5.902500 59.101167,5.866000 59.098667,5.843000 59.111000,5.810667 59.130667,5.771000 59.151000,5.679500 59.145333,5.588500 59.123333,5.524167 59.105167,5.453500 59.090000,5.394167 59.074500,5.300000 59.056500,5.176333 59.052500,5.144667 59.094167,5.085833 59.149000,4.946667 59.182333,4.891500 59.210333,4.860333 59.255500,4.832167 59.300667,4.811333 59.352500,4.794833 59.382167,4.785667 59.412167,4.789000 59.447000,4.811667 59.475833,4.830667 59.482833,4.835333 59.500000,4.967000 59.513000,5.134667 59.523667,5.181667 59.511667,5.208667 59.477167,5.309000 59.491500,5.368000 59.491333,5.407500 59.502333,5.471833 59.515500,5.466333 59.517333,5.491333 59.520500,5.511500 59.527333,5.521667 59.535667,5.522333 59.544500,5.541667 59.556000,5.546333 59.572333,5.553500 59.589500,5.544667 59.613000,5.542000 59.638500,5.538667 59.661167,5.553667 59.684667,5.562667 59.707833,5.569667 59.747500,5.574333 59.742500,5.590667 59.735333,5.605333 59.722833,5.620167 59.712333,5.621667 59.702333,5.635667 59.688333,5.671833 59.690833,5.702167 59.693167,5.735500 59.691000,5.755833 59.645000,5.793667 59.648000,5.824500 59.635667,5.830000 59.627500,5.855500 59.624000,5.889667 59.603167,5.906667 59.610833,5.926000 59.599667,5.968333 59.582333,5.971500 59.586500,6.011000 59.593667,6.015167 59.595000,6.049833 59.600333,6.073333 59.590333,6.111667 59.591833,6.187833 59.623500,6.175833 59.640167,6.182167 59.643333,6.201000 59.692167,6.229167 59.704833,6.270500 59.732833,6.268500 59.766833,6.304333 59.771500,6.330500 59.783167,6.334000 59.787167,6.418333 59.809500,6.443833 59.844167,6.533500 59.832500,6.590167 59.840333,6.670667 59.820833,6.690000 59.796167,6.672833 59.767167,6.683667 59.715000,6.645000 59.697500,6.697500 59.703667,6.763833 59.730167,6.839167 59.741667,6.881500 59.774000,6.998000 59.782667,7.093333
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1101;1102;1103;1106;1111;1112;1114;1119;1120;1121;1122;1124;1127;1129;1130;1133;1134;1135;1141;1142;1144;1145;1146;1149;1151;1154;1159;1160</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO043</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

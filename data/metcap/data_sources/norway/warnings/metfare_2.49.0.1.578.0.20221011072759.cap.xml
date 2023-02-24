@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221011072759</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-11T07:31:40+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221010070434,2022-10-10T10:09:19+00:00</references>
+  <incidents>0000050214</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-10-11T18:00:00+00:00</effective>
+    <onset>2022-10-11T18:00:00+00:00</onset>
+    <expires>2022-10-12T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Fjellet sør i Nordland, 2022-10-11T18:00:00+00:00, 2022-10-12T09:00:00+00:00</headline>
+    <description>Fra tirsdag kveld ventes det snøbyger over 500-600 moh. i fjellområder sør i Nordland. Det er fare for at snøen legger seg i veibanen. På grunn av kraftig vind natt til onsdag er det også for lokal snøfokk. Snøgrensen stiger onsdag morgen og faren avtar.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-12T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Fjellet sør i Nordland, 2022-10-11T18:00:00+00:00, 2022-10-12T09:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/f7d1220e-b349-4879-8c6a-baaf49e555af.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Fjellet sør i Nordland</areaDesc>
+      <polygon>66.4893,15.4427 66.5518,15.5619 66.6386,15.699 66.7272,15.8259 66.8135,15.9592 66.8526,15.6701 66.9251,15.578 67.0661,15.5107 67.0918,14.8664 66.7343,14.4476 66.6057,14.5526 66.5028,14.4584 66.0871,14.0526 65.4055,13.7816 65.5452,14.5283 65.6857,14.5763 65.7937,14.6335 65.8952,14.6237 66.1262,14.5832 66.1366,14.7013 66.1532,15.0306 66.2062,15.2304 66.2426,15.3351 66.2777,15.4875 66.4893,15.4427 66.4893,15.4427</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1826;1832;1833;1839;1840</value>
+    </geocode>
+    <altitude>1500</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-10-11T18:00:00+00:00</effective>
+    <onset>2022-10-11T18:00:00+00:00</onset>
+    <expires>2022-10-12T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Mountain areas in southern Nordland, 2022-10-11T18:00:00+00:00, 2022-10-12T09:00:00+00:00</headline>
+    <description>From Tuesday evening showers of snow are expected above 500-600 msl. in mountain areas in southern parts of Nordland.  Due to strong winds late evening and early Wednesday morning , local blowing snow is also expected. During Wednesday morning the snowline will increase and the danger decreases.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-12T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Mountain areas in southern Nordland, 2022-10-11T18:00:00+00:00, 2022-10-12T09:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/f7d1220e-b349-4879-8c6a-baaf49e555af.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Mountain areas in southern Nordland</areaDesc>
+      <polygon>66.4893,15.4427 66.5518,15.5619 66.6386,15.699 66.7272,15.8259 66.8135,15.9592 66.8526,15.6701 66.9251,15.578 67.0661,15.5107 67.0918,14.8664 66.7343,14.4476 66.6057,14.5526 66.5028,14.4584 66.0871,14.0526 65.4055,13.7816 65.5452,14.5283 65.6857,14.5763 65.7937,14.6335 65.8952,14.6237 66.1262,14.5832 66.1366,14.7013 66.1532,15.0306 66.2062,15.2304 66.2426,15.3351 66.2777,15.4875 66.4893,15.4427 66.4893,15.4427</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1826;1832;1833;1839;1840</value>
+    </geocode>
+    <altitude>1500</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

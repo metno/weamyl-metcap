@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221123065620</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-11-23T08:22:09+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050292</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-11-23T18:00:00+00:00</effective>
+    <onset>2022-11-23T18:00:00+00:00</onset>
+    <expires>2022-11-24T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Deler av Telemark og Agder, 2022-11-23T18:00:00+00:00, 2022-11-24T18:00:00+00:00</headline>
+    <description>Fra onsdag kveld til torsdag kveld ventes omkring 60 mm/24t. Mest nedbør ventes i områder litt innenfor kysten i grensetraktene mellom Telemark og Agder. Det ventes jevn intensitet i nedbøren hele perioden. I høyereliggende strøk kommer nedbøren som sludd og snø.</description>
+    <instruction>Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-24T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Veibanen kan lokalt bli dekket av våt is. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, Deler av Telemark og Agder, 2022-11-23T18:00:00+00:00, 2022-11-24T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/91c5aad5-d723-4e61-944e-20a91fc89c1e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Telemark og Agder</areaDesc>
+      
+          <polygon>59.2094,9.13307 59.1663,8.84072 58.7615,8.27072 58.6486,8.25307 58.5826,8.44712 58.7073,8.87773 58.9041,9.21576 59.0369,9.52345 59.2094,9.13307 59.2094,9.13307</polygon>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3807;3813;3815;3822;4211;4212;4214;4217</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-11-23T18:00:00+00:00</effective>
+    <onset>2022-11-23T18:00:00+00:00</onset>
+    <expires>2022-11-24T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Parts of Telemark and Agder, 2022-11-23T18:00:00+00:00, 2022-11-24T18:00:00+00:00</headline>
+    <description>From Wednesday evening to Thursday evening expect 60mm/24h. In mountainous areas the precipitation is expected as sleet and snow.</description>
+    <instruction>The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-24T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. The road surface can locally be covered by wet ice. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, Parts of Telemark and Agder, 2022-11-23T18:00:00+00:00, 2022-11-24T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/91c5aad5-d723-4e61-944e-20a91fc89c1e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Telemark and Agder</areaDesc>
+      
+          <polygon>59.2094,9.13307 59.1663,8.84072 58.7615,8.27072 58.6486,8.25307 58.5826,8.44712 58.7073,8.87773 58.9041,9.21576 59.0369,9.52345 59.2094,9.13307 59.2094,9.13307</polygon>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3807;3813;3815;3822;4211;4212;4214;4217</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+</alert>

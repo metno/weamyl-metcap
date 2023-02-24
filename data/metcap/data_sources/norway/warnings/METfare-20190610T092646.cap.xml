@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190610092646917.2008</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-06-10T09:26:46+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190608181452967.1993,2019-06-08T18:14:52+00:00</references>
+  <incidents>2375</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-06-10T10:00:00+00:00</effective>
+    <onset>2019-06-10T10:00:00+00:00</onset>
+    <expires>2019-06-10T17:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Skomvær - Torsvåg, 10 June 10:00 UTC til 10 June 17:00 UTC.</headline>
+    <description>I dag mandag nordaust stiv kuling 15 m/s, minkende mandag kveld.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-06-10T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. Middels høye bølger. Bølgekammene er ved å brytes opp til sjørokk. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Skomvær - Torsvåg</areaDesc>
+      <polygon>68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667 68.683167,15.733167 68.766667,15.716667 68.833167,15.766667 68.949833,15.866667 69.033167,16.049833 69.064667,16.030167 69.100833,16.655500 69.316500,16.864500 69.516667,18.099833 69.516667,18.100000 69.915667,19.179667 70.039000,19.960167 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.687167,17.759667 69.332000,16.062833 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.494000,11.894833 67.438000,11.923167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.266667,15.183167 68.300000,15.116667 68.349833,15.266667 68.366667,15.133167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-06-10T10:00:00+00:00</effective>
+    <onset>2019-06-10T10:00:00+00:00</onset>
+    <expires>2019-06-10T17:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Skomvaer - Torsvaag, 10 June 10:00 UTC to 10 June 17:00 UTC.</headline>
+    <description>Today Monday northeast near gale force 7, Monday evening decreasing. </description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-06-10T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. Moderately high waves with breaking crests forming spindrift. Considerable airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Skomvaer - Torsvaag</areaDesc>
+      <polygon>68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667 68.683167,15.733167 68.766667,15.716667 68.833167,15.766667 68.949833,15.866667 69.033167,16.049833 69.064667,16.030167 69.100833,16.655500 69.316500,16.864500 69.516667,18.099833 69.516667,18.100000 69.915667,19.179667 70.039000,19.960167 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.687167,17.759667 69.332000,16.062833 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.494000,11.894833 67.438000,11.923167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.266667,15.183167 68.300000,15.116667 68.349833,15.266667 68.366667,15.133167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

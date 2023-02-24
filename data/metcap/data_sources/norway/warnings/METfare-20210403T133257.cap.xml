@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210403133257997.899</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-04-03T13:32:57+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.210403132600855.898,2021-04-03T13:26:00+00:00</references>
+  <incidents>48770</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snøfokk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2021-04-04T09:00:00+00:00</effective>
+    <onset>2021-04-04T09:00:00+00:00</onset>
+    <expires>2021-04-05T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftig snøfokk, gult nivå, Fjellstrøkene Trollheimen - Strynefjellet og Jotunheimen, 04 April 09:00 UTC til 05 April 09:00 UTC.</headline>
+    <description>Snø og kuling ventes å gi snøfokk på fjellovergangene mot vest i Sør-Norge fra søndag formiddag. </description>
+    <instruction>Beregn ekstra tid til transport og kjøring. Sjekk veimeldinger (175.no). Bruk riktige dekk og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Redusert sikt. Det kan være lokalt vanskelige kjøreforhold grunnet snø som pakker seg i veibanen. Kolonnekjøring kan bli innført og/eller veier kan bli stengte på kort varsel. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftig snøfokk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over kraftig snøfokk, gult nivå, Fjellstrøkene Trollheimen - Strynefjellet og Jotunheimen, 04 April 09:00 UTC til 05 April 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/8ed07254-de36-4c01-b578-84e05e998fbd.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Fjellstrøkene Trollheimen - Strynefjellet og Jotunheimen</areaDesc>
+      <polygon>61.972667,7.654167 61.865000,7.889333 61.533833,7.621333 61.460333,7.721333 61.347833,7.706333 61.199500,7.807500 61.134667,8.330667 61.196500,8.360833 61.474667,9.178667 61.634833,9.156167 61.847667,8.814667 61.976833,8.996000 62.105333,9.074333 62.366333,9.076167 62.493833,9.226500 62.526667,9.601333 62.599333,9.717000 62.700167,9.683333 62.851667,9.416833 62.902500,9.120833 62.877333,8.843000 62.783500,8.784167 62.435000,8.218667 62.304667,7.845667 62.198667,7.526833 62.001833,7.359000 61.972667,7.654167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>50</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1506;1539;1563;1566;1578;3432;3433;3434;5021</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3454;3434;3435;3453;3436;3433;4643;4644</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO061</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <altitude>1200</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Blowing snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2021-04-04T09:00:00+00:00</effective>
+    <onset>2021-04-04T09:00:00+00:00</onset>
+    <expires>2021-04-05T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Blowing snow, yellow level, Fjellstroekene Trollheimen - Strynefjellet and Jotunheimen, 04 April 09:00 UTC to 05 April 09:00 UTC.</headline>
+    <description>Snow and gale force wind is xpected to give blowing snow on mountain passes in Southern Norway from late Sunday morning. </description>
+    <instruction>Allow extra time for transportation and driving. Check road reports (175.no). Use tires fit for winter conditions and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Reduced visibility. Local driving conditions may become difficult due to snow accumulating on the road. Expect convoys and/or closed roads on short notice. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Blowing snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of blowing snow, yellow level, Fjellstroekene Trollheimen - Strynefjellet and Jotunheimen, 04 April 09:00 UTC to 05 April 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/8ed07254-de36-4c01-b578-84e05e998fbd.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Fjellstroekene Trollheimen - Strynefjellet and Jotunheimen</areaDesc>
+      <polygon>61.972667,7.654167 61.865000,7.889333 61.533833,7.621333 61.460333,7.721333 61.347833,7.706333 61.199500,7.807500 61.134667,8.330667 61.196500,8.360833 61.474667,9.178667 61.634833,9.156167 61.847667,8.814667 61.976833,8.996000 62.105333,9.074333 62.366333,9.076167 62.493833,9.226500 62.526667,9.601333 62.599333,9.717000 62.700167,9.683333 62.851667,9.416833 62.902500,9.120833 62.877333,8.843000 62.783500,8.784167 62.435000,8.218667 62.304667,7.845667 62.198667,7.526833 62.001833,7.359000 61.972667,7.654167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>50</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1506;1539;1563;1566;1578;3432;3433;3434;5021</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3454;3434;3435;3453;3436;3433;4643;4644</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO061</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <altitude>1200</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

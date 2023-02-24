@@ -1,14 +1,14 @@
 version: "3.3"
 
 services:
-  database:
-    image: database
-    container_name: database
+  metcap-db:
+    image: metcap-db
+    container_name: metcap-db
     build:
       context: ./local-dev/database/
       dockerfile: Dockerfile
     volumes:
-      - ${HOME}/couchdb/data:/opt/couchdb/data
+      - ${HOME}/metcap/couchdb/data:/opt/metcap/couchdb/data
     network_mode: "host"
   metcap-api:
     image: metcap-api
@@ -18,5 +18,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ${PWD}/local-dev/database/config:/opt/metcap/etc
+      - ${HOME}/metcap/data_sources:/opt/metcap/data_sources
       - ${PWD}:/app/metcap-api
     network_mode: "host"

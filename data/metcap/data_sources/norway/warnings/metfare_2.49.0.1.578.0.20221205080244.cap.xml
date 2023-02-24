@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221205080244</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-05T08:02:44+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221204164642,2022-12-04T17:03:29+00:00</references>
+  <incidents>0000050298</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Is</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>ice</value>
+    </eventCode>
+    <effective>2022-12-05T08:02:00+00:00</effective>
+    <onset>2022-12-05T08:02:00+00:00</onset>
+    <expires>2022-12-05T09:02:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Nedgradert varsel for is, Ytre strøk av Vestland fylke</headline>
+    <description>Farevarselet er nedgradert. Følg med på oppdaterte prognoser for aktuelt varsel.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/is</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-05T09:02:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Lite is</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Ingen</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Nedgradert varsel for is, Ytre strøk av Vestland fylke</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0590c076-9ce7-40c3-9694-7aa015dc0086.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre strøk av Vestland fylke</areaDesc>
+      
+          <polygon>61.9472,4.98443 61.1212,4.78427 60.258,4.95897 60.3263,5.53235 61.5171,5.86876 61.9854,5.49181 61.9472,4.98443 61.9472,4.98443</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4602;4626;4627;4630;4631;4632;4634;4635;4636;4637;4638;4645;4646;4647;4648</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Ice</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>ice</value>
+    </eventCode>
+    <effective>2022-12-05T08:02:00+00:00</effective>
+    <onset>2022-12-05T08:02:00+00:00</onset>
+    <expires>2022-12-05T09:02:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Downgraded alert warning for ice, Outer regions in Vestland county</headline>
+    <description>The warning is downgraded. Keep up to date with updated forecasts.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/is</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-05T09:02:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Little ice</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>None</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Downgraded alert warning for ice, Outer regions in Vestland county</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0590c076-9ce7-40c3-9694-7aa015dc0086.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer regions in Vestland county</areaDesc>
+      
+          <polygon>61.9472,4.98443 61.1212,4.78427 60.258,4.95897 60.3263,5.53235 61.5171,5.86876 61.9854,5.49181 61.9472,4.98443 61.9472,4.98443</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4602;4626;4627;4630;4631;4632;4634;4635;4636;4637;4638;4645;4646;4647;4648</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+</alert>

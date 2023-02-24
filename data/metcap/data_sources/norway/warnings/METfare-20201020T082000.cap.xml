@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.201020082000692.4498</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-10-20T08:20:00+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.201019101829247.4494,2020-10-19T10:18:29+00:00</references>
+  <incidents>4803</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-10-19T23:00:00+00:00</effective>
+    <onset>2020-10-19T23:00:00+00:00</onset>
+    <expires>2020-10-21T02:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Sogn og Fjordane, 19 October 23:00 UTC til 21 October 02:00 UTC.</headline>
+    <description>Tirsdag ventes snø i midtre og indre strøk over 300-500 m, utover tirsdag ettermiddag og kveld vil snøgrensen gå opp til 800-1000 m, først i sør.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-10-21T02:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over snø, gult nivå, Sogn og Fjordane, 19 October 23:00 UTC til 21 October 02:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/b7371706-8bed-46e8-b4e7-00e177866ea4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Sogn og Fjordane</areaDesc>
+      <polygon>61.976333,6.000000 61.973167,6.007833 61.957500,6.037333 61.967167,6.063333 61.961500,6.092500 61.971667,6.138000 61.986167,6.132167 61.991000,6.169667 62.009833,6.179500 62.006167,6.255333 61.991000,6.234667 61.975333,6.281333 61.961000,6.316833 61.962833,6.349833 61.987167,6.405333 62.005500,6.399000 62.014167,6.422167 62.011500,6.460333 62.017000,6.469167 62.015667,6.495500 62.021333,6.500500 62.037500,6.495167 62.041500,6.528500 62.055000,6.535167 62.053667,6.559333 62.059333,6.575167 62.052500,6.603000 62.051333,6.621500 62.064333,6.636000 62.070667,6.659167 62.062000,6.685500 62.045833,6.694667 62.002833,6.748667 61.996500,6.764500 61.980167,6.788000 61.965000,6.795333 61.963500,6.839167 61.978667,6.891833 61.986667,6.952000 61.983000,6.980500 61.984167,7.020167 61.984000,7.058667 62.007667,7.071000 62.011500,7.169000 62.017500,7.201667 62.029667,7.199500 62.034667,7.235667 62.019000,7.245833 62.017500,7.311167 62.007833,7.352000 62.000833,7.389833 61.933833,7.389167 61.898167,7.408833 61.857000,7.414833 61.812500,7.459667 61.786833,7.481500 61.762000,7.512333 61.729000,7.513833 61.738333,7.598000 61.741000,7.683000 61.754000,7.754000 61.743333,7.829000 61.725000,7.909167 61.679000,7.906667 61.648333,7.890833 61.600000,7.934167 61.555667,7.945000 61.539333,8.012333 61.523167,8.117667 61.546667,8.193167 61.533667,8.260333 61.513833,8.273500 61.487333,8.287500 61.479833,8.303000 61.455500,8.321667 61.446333,8.303167 61.431833,8.277167 61.428167,8.215333 61.437167,8.190500 61.425333,8.150667 61.379333,8.154833 61.361000,8.167500 61.353167,8.199167 61.354667,8.214667 61.346167,8.220000 61.336000,8.246833 61.332167,8.246167 61.318000,8.232500 61.304000,8.211000 61.303167,8.177667 61.279333,8.141333 61.267500,8.135833 61.247667,8.067667 61.234000,8.051500 61.234667,8.005167 61.229000,8.008500 61.223667,8.025667 61.220500,8.051333 61.193667,8.057833 61.181333,8.043167 61.174167,8.047333 61.178500,8.069167 61.109500,8.137000 61.100333,8.178000 61.076167,8.252167 61.057333,8.220500 61.032000,8.280000 61.009333,8.261500 61.008833,8.234667 61.000333,8.221000 60.993667,8.231333 60.967833,8.223333 60.969500,8.184333 60.981833,8.151333 60.899000,8.044333 60.896167,8.012833 60.898833,7.937500 60.923833,7.881000 60.919333,7.849167 60.895833,7.804500 60.870833,7.782333 60.844000,7.753167 60.793333,7.704333 60.787833,7.718833 60.760500,7.725167 60.731833,7.688667 60.745833,7.620833 60.673667,7.462833 60.685167,7.333000 60.693500,7.316500 60.704000,7.190667 60.694500,7.163667 60.695667,7.122667 60.714167,7.086833 60.710333,7.023333 60.717333,6.990333 60.744833,6.978000 60.771667,6.978333 60.775333,6.929500 60.769667,6.870167 60.811000,6.894833 60.826833,6.874000 60.827167,6.933333 60.839667,6.944500 60.855667,6.871500 60.837333,6.829500 60.831000,6.778167 60.836333,6.732833 60.847167,6.724167 60.879000,6.757833 60.886500,6.799500 60.894167,6.825333 60.911333,6.819500 60.914000,6.806667 60.921333,6.802667 60.923667,6.788000 60.913833,6.774000 60.909000,6.753000 60.934500,6.744500 60.930667,6.711833 60.955000,6.694500 60.964667,6.662333 60.930167,6.664833 60.919833,6.643333 60.916667,6.605500 60.894667,6.575500 60.890833,6.542167 60.909500,6.501500 60.925167,6.509500 60.945333,6.499000 60.946833,6.483167 60.922667,6.446000 60.923167,6.414333 60.931167,6.388833 60.880000,6.301000 60.910667,6.212833 60.914333,6.200500 60.922500,6.155000 60.939167,6.136000 60.971167,6.140833 60.984167,6.148667 60.999167,6.074167 61.027000,6.049333 61.034500,6.017667 61.028333,6.000000 61.976333,6.000000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4646;4651;4602;4643;4648;4638;4636;4645;4644;4647;4639;4635;4640;4649;4641;1577;4637;4642;4650</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-14</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <altitude>800</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-10-19T23:00:00+00:00</effective>
+    <onset>2020-10-19T23:00:00+00:00</onset>
+    <expires>2020-10-21T02:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Sogn og Fjordane, 19 October 23:00 UTC to 21 October 02:00 UTC.</headline>
+    <description>Snow are expected above 300-500 m in central part and inner part on Tuesday, during Tuesday afternoon and evening the precipitation becomes rain below 800-1000 m, first in southern part.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-10-21T02:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Travel time may increase on some journeys. Local driving conditions may become difficult. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of snow, yellow level, Sogn og Fjordane, 19 October 23:00 UTC to 21 October 02:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/b7371706-8bed-46e8-b4e7-00e177866ea4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Sogn og Fjordane</areaDesc>
+      <polygon>61.976333,6.000000 61.973167,6.007833 61.957500,6.037333 61.967167,6.063333 61.961500,6.092500 61.971667,6.138000 61.986167,6.132167 61.991000,6.169667 62.009833,6.179500 62.006167,6.255333 61.991000,6.234667 61.975333,6.281333 61.961000,6.316833 61.962833,6.349833 61.987167,6.405333 62.005500,6.399000 62.014167,6.422167 62.011500,6.460333 62.017000,6.469167 62.015667,6.495500 62.021333,6.500500 62.037500,6.495167 62.041500,6.528500 62.055000,6.535167 62.053667,6.559333 62.059333,6.575167 62.052500,6.603000 62.051333,6.621500 62.064333,6.636000 62.070667,6.659167 62.062000,6.685500 62.045833,6.694667 62.002833,6.748667 61.996500,6.764500 61.980167,6.788000 61.965000,6.795333 61.963500,6.839167 61.978667,6.891833 61.986667,6.952000 61.983000,6.980500 61.984167,7.020167 61.984000,7.058667 62.007667,7.071000 62.011500,7.169000 62.017500,7.201667 62.029667,7.199500 62.034667,7.235667 62.019000,7.245833 62.017500,7.311167 62.007833,7.352000 62.000833,7.389833 61.933833,7.389167 61.898167,7.408833 61.857000,7.414833 61.812500,7.459667 61.786833,7.481500 61.762000,7.512333 61.729000,7.513833 61.738333,7.598000 61.741000,7.683000 61.754000,7.754000 61.743333,7.829000 61.725000,7.909167 61.679000,7.906667 61.648333,7.890833 61.600000,7.934167 61.555667,7.945000 61.539333,8.012333 61.523167,8.117667 61.546667,8.193167 61.533667,8.260333 61.513833,8.273500 61.487333,8.287500 61.479833,8.303000 61.455500,8.321667 61.446333,8.303167 61.431833,8.277167 61.428167,8.215333 61.437167,8.190500 61.425333,8.150667 61.379333,8.154833 61.361000,8.167500 61.353167,8.199167 61.354667,8.214667 61.346167,8.220000 61.336000,8.246833 61.332167,8.246167 61.318000,8.232500 61.304000,8.211000 61.303167,8.177667 61.279333,8.141333 61.267500,8.135833 61.247667,8.067667 61.234000,8.051500 61.234667,8.005167 61.229000,8.008500 61.223667,8.025667 61.220500,8.051333 61.193667,8.057833 61.181333,8.043167 61.174167,8.047333 61.178500,8.069167 61.109500,8.137000 61.100333,8.178000 61.076167,8.252167 61.057333,8.220500 61.032000,8.280000 61.009333,8.261500 61.008833,8.234667 61.000333,8.221000 60.993667,8.231333 60.967833,8.223333 60.969500,8.184333 60.981833,8.151333 60.899000,8.044333 60.896167,8.012833 60.898833,7.937500 60.923833,7.881000 60.919333,7.849167 60.895833,7.804500 60.870833,7.782333 60.844000,7.753167 60.793333,7.704333 60.787833,7.718833 60.760500,7.725167 60.731833,7.688667 60.745833,7.620833 60.673667,7.462833 60.685167,7.333000 60.693500,7.316500 60.704000,7.190667 60.694500,7.163667 60.695667,7.122667 60.714167,7.086833 60.710333,7.023333 60.717333,6.990333 60.744833,6.978000 60.771667,6.978333 60.775333,6.929500 60.769667,6.870167 60.811000,6.894833 60.826833,6.874000 60.827167,6.933333 60.839667,6.944500 60.855667,6.871500 60.837333,6.829500 60.831000,6.778167 60.836333,6.732833 60.847167,6.724167 60.879000,6.757833 60.886500,6.799500 60.894167,6.825333 60.911333,6.819500 60.914000,6.806667 60.921333,6.802667 60.923667,6.788000 60.913833,6.774000 60.909000,6.753000 60.934500,6.744500 60.930667,6.711833 60.955000,6.694500 60.964667,6.662333 60.930167,6.664833 60.919833,6.643333 60.916667,6.605500 60.894667,6.575500 60.890833,6.542167 60.909500,6.501500 60.925167,6.509500 60.945333,6.499000 60.946833,6.483167 60.922667,6.446000 60.923167,6.414333 60.931167,6.388833 60.880000,6.301000 60.910667,6.212833 60.914333,6.200500 60.922500,6.155000 60.939167,6.136000 60.971167,6.140833 60.984167,6.148667 60.999167,6.074167 61.027000,6.049333 61.034500,6.017667 61.028333,6.000000 61.976333,6.000000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4646;4651;4602;4643;4648;4638;4636;4645;4644;4647;4639;4635;4640;4649;4641;1577;4637;4642;4650</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-14</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <altitude>800</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

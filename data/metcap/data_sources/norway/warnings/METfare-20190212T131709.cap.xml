@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190212131709561.699</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-02-12T13:17:09+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1665</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-12T18:00:00+00:00</effective>
+    <onset>2019-02-12T18:00:00+00:00</onset>
+    <expires>2019-02-13T15:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Halten - Rørvik, 12 February 18:00 UTC til 13 February 15:00 UTC.</headline>
+    <description>I kveld, tysdag, auking til sørvest sterk kuling 20 m/s, frå natt til onsdag periodevis liten storm 22, onsdag føremiddag dreiande vestleg, om ettermiddagen minkande.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-02-13T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Middels høye bølger av større lengde. Bølgekammene er ved å brytes opp til sjørokk, som driver i tydelige markerte strimer med vinden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Halten - Rørvik</areaDesc>
+      <polygon>64.182833,9.445667 64.226833,9.241167 64.361500,9.509833 64.495500,9.785833 64.629000,10.064667 64.761833,10.346167 64.788333,10.402667 64.834000,10.418167 64.919333,10.484333 65.000000,10.567000 64.758167,11.238667 64.607667,10.938167 64.406667,10.593667 64.273667,10.381500 64.147000,10.225667 63.994333,10.030167 64.182833,9.445667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-12T18:00:00+00:00</effective>
+    <onset>2019-02-12T18:00:00+00:00</onset>
+    <expires>2019-02-13T15:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Halten - Rørvik, 12 February 18:00 UTC to 13 February 15:00 UTC.</headline>
+    <description>This evening, Tuesday, increasing southwest gale force 8, from early Wednesday morning occasionally strong gale force 9, late Wednesday morning veering west, Wednesday afternoon decreasing.</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-02-13T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderately high waves with breaking crests forming spindrift. Well-marked streaks of foam are blown along wind direction. Considerable airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Halten - Rørvik</areaDesc>
+      <polygon>64.182833,9.445667 64.226833,9.241167 64.361500,9.509833 64.495500,9.785833 64.629000,10.064667 64.761833,10.346167 64.788333,10.402667 64.834000,10.418167 64.919333,10.484333 65.000000,10.567000 64.758167,11.238667 64.607667,10.938167 64.406667,10.593667 64.273667,10.381500 64.147000,10.225667 63.994333,10.030167 64.182833,9.445667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

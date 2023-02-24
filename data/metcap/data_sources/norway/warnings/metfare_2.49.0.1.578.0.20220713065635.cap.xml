@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220713065635</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-13T07:44:04+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050082</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-07-13T16:00:00+00:00</effective>
+    <onset>2022-07-13T16:00:00+00:00</onset>
+    <expires>2022-07-14T03:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn, gult nivå, Øst-Finnmark, 2022-07-13T16:00:00+00:00, 2022-07-14T03:00:00+00:00</headline>
+    <description>Onsdag kveld og natt til torsdag er det fare for tordenvær med mye lyn i Øst-Finnmark. Det vil være store lokale forskjeller i intensitet. Noen steder vil ikke få tordenvær</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-14T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Tordenværet kan føre med seg lokalt kraftige vindkast. Lokalt kraftige regnbyger. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn, gult nivå, Øst-Finnmark, 2022-07-13T16:00:00+00:00, 2022-07-14T03:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/5404df42-1a26-4ee6-a18b-364290642a6c.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Øst-Finnmark</areaDesc>
+      <polygon>71.0041,29.0808 71.148,27.7111 70.9249,26.2351 69.8577,24.2394 68.5276,24.8762 68.9439,25.7619 69.5637,25.9091 69.9045,26.5167 69.9158,27.204 70.0125,27.7768 69.7404,28.6162 69.5143,29.2722 69.1211,28.6913 68.9691,29.119 69.3895,30.0608 69.5607,31.1222 70.5001,31.2984 71.0041,29.0808 71.0041,29.0808</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5404;5405;5430;5435;5436;5437;5438;5439;5440;5441;5442;5443;5444</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-07-13T16:00:00+00:00</effective>
+    <onset>2022-07-13T16:00:00+00:00</onset>
+    <expires>2022-07-14T03:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning, yellow level, East Finnmark, 2022-07-13T16:00:00+00:00, 2022-07-14T03:00:00+00:00</headline>
+    <description>There is a risk of frequent lightning Wednesday evening unto early Thursday morning. There will be large local differences in intensity. Some places will not experience any lightning</description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-14T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Thunderstorms can lead to locally strong wind gusts.  Locally heavy rain showers. Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning, yellow level, East Finnmark, 2022-07-13T16:00:00+00:00, 2022-07-14T03:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/5404df42-1a26-4ee6-a18b-364290642a6c.png</uri>
+    </resource>
+    <area>
+      <areaDesc>East Finnmark</areaDesc>
+      <polygon>71.0041,29.0808 71.148,27.7111 70.9249,26.2351 69.8577,24.2394 68.5276,24.8762 68.9439,25.7619 69.5637,25.9091 69.9045,26.5167 69.9158,27.204 70.0125,27.7768 69.7404,28.6162 69.5143,29.2722 69.1211,28.6913 68.9691,29.119 69.3895,30.0608 69.5607,31.1222 70.5001,31.2984 71.0041,29.0808 71.0041,29.0808</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5404;5405;5430;5435;5436;5437;5438;5439;5440;5441;5442;5443;5444</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

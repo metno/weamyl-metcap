@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.201019100538041.4490</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-10-19T10:05:38+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>4802</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-10-19T15:00:00+00:00</effective>
+    <onset>2020-10-19T15:00:00+00:00</onset>
+    <expires>2020-10-21T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Hordaland, øst for 06° Ø, 19 October 15:00 UTC til 21 October 06:00 UTC.</headline>
+    <description>Fra mandag kveld ventes sludd og snø i midtre og indre strøk, etter hvert blir det regn under 300- 500 m. Utover tirsdag vil snøgrensen gå ytterligere opp, til 800-1000 m, først i sør.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-10-21T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over snø, gult nivå, Hordaland, øst for 06° Ø, 19 October 15:00 UTC til 21 October 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/2dec5cfa-b4f0-4488-8937-230470dcd3b2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Hordaland, øst for 06° Ø</areaDesc>
+      <polygon>60.673667,7.462833 60.660333,7.546833 60.633833,7.633833 60.594000,7.617000 60.564167,7.629667 60.543333,7.661667 60.528833,7.710833 60.412833,7.684000 60.293333,7.672833 60.247500,7.610333 60.177333,7.581167 60.100000,7.492000 60.057333,7.437667 60.019167,7.436500 60.001833,7.370167 59.990500,7.329833 59.987667,7.280000 59.963667,7.228000 59.931833,7.188667 59.886000,7.151000 59.846167,7.144333 59.831500,7.158833 59.810667,7.142000 59.782500,7.093167 59.773833,6.998000 59.741500,6.881500 59.730167,6.839167 59.703667,6.763833 59.697333,6.697500 59.715000,6.645000 59.767000,6.683667 59.796000,6.672833 59.820833,6.690000 59.840167,6.670667 59.832500,6.590000 59.844000,6.533500 59.809500,6.443833 59.787000,6.418333 59.783000,6.334000 59.771333,6.330500 59.766833,6.304167 59.732833,6.268333 59.704833,6.270500 59.692000,6.229000 59.643333,6.201000 59.640167,6.182000 59.623500,6.175667 59.591833,6.187667 59.590167,6.111667 59.600333,6.073167 59.595000,6.049667 59.593500,6.015167 59.586333,6.011000 59.585333,6.000000 61.028333,6.000000 61.034500,6.017667 61.027000,6.049333 60.999167,6.074167 60.984167,6.148667 60.971167,6.140833 60.939167,6.136000 60.922500,6.155000 60.914333,6.200500 60.910667,6.212833 60.880000,6.301000 60.931167,6.388833 60.923167,6.414333 60.922667,6.446000 60.946833,6.483167 60.945333,6.499000 60.925167,6.509500 60.909500,6.501500 60.890833,6.542167 60.894667,6.575500 60.916667,6.605500 60.919833,6.643333 60.930167,6.664833 60.964667,6.662333 60.955000,6.694500 60.930667,6.711833 60.934500,6.744500 60.909000,6.753000 60.913833,6.774000 60.923667,6.788000 60.921333,6.802667 60.914000,6.806667 60.911333,6.819500 60.894167,6.825333 60.886500,6.799500 60.879000,6.757833 60.847167,6.724167 60.836333,6.732833 60.831000,6.778167 60.837333,6.829500 60.855667,6.871500 60.839667,6.944500 60.827167,6.933333 60.826833,6.874000 60.811000,6.894833 60.769667,6.870167 60.775333,6.929500 60.771667,6.978333 60.744833,6.978000 60.717333,6.990333 60.710333,7.023333 60.714167,7.086833 60.695667,7.122667 60.694500,7.163667 60.704000,7.190667 60.693500,7.316500 60.685167,7.333000 60.673667,7.462833
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4622;4621;4619;4627;4625;4615;4614;4633;4613;4611;4623;4618;4616;4617;4612;4632;4634;4630;4626;4629;4631;4620;4628;4601;4624</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-12</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <altitude>200</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-10-19T15:00:00+00:00</effective>
+    <onset>2020-10-19T15:00:00+00:00</onset>
+    <expires>2020-10-21T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Hordaland, øst for 06° Ø, 19 October 15:00 UTC to 21 October 06:00 UTC.</headline>
+    <description>From Monday evening sleet and snow are expected in central part and inner part, later the precipitation becomes rain below 300-500 m and during Tuesday below 800-1000 m, first in southern part.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-10-21T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Travel time may increase on some journeys. Local driving conditions may become difficult. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of snow, yellow level, Hordaland, øst for 06° Ø, 19 October 15:00 UTC to 21 October 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/2dec5cfa-b4f0-4488-8937-230470dcd3b2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Hordaland, øst for 06° Ø</areaDesc>
+      <polygon>60.673667,7.462833 60.660333,7.546833 60.633833,7.633833 60.594000,7.617000 60.564167,7.629667 60.543333,7.661667 60.528833,7.710833 60.412833,7.684000 60.293333,7.672833 60.247500,7.610333 60.177333,7.581167 60.100000,7.492000 60.057333,7.437667 60.019167,7.436500 60.001833,7.370167 59.990500,7.329833 59.987667,7.280000 59.963667,7.228000 59.931833,7.188667 59.886000,7.151000 59.846167,7.144333 59.831500,7.158833 59.810667,7.142000 59.782500,7.093167 59.773833,6.998000 59.741500,6.881500 59.730167,6.839167 59.703667,6.763833 59.697333,6.697500 59.715000,6.645000 59.767000,6.683667 59.796000,6.672833 59.820833,6.690000 59.840167,6.670667 59.832500,6.590000 59.844000,6.533500 59.809500,6.443833 59.787000,6.418333 59.783000,6.334000 59.771333,6.330500 59.766833,6.304167 59.732833,6.268333 59.704833,6.270500 59.692000,6.229000 59.643333,6.201000 59.640167,6.182000 59.623500,6.175667 59.591833,6.187667 59.590167,6.111667 59.600333,6.073167 59.595000,6.049667 59.593500,6.015167 59.586333,6.011000 59.585333,6.000000 61.028333,6.000000 61.034500,6.017667 61.027000,6.049333 60.999167,6.074167 60.984167,6.148667 60.971167,6.140833 60.939167,6.136000 60.922500,6.155000 60.914333,6.200500 60.910667,6.212833 60.880000,6.301000 60.931167,6.388833 60.923167,6.414333 60.922667,6.446000 60.946833,6.483167 60.945333,6.499000 60.925167,6.509500 60.909500,6.501500 60.890833,6.542167 60.894667,6.575500 60.916667,6.605500 60.919833,6.643333 60.930167,6.664833 60.964667,6.662333 60.955000,6.694500 60.930667,6.711833 60.934500,6.744500 60.909000,6.753000 60.913833,6.774000 60.923667,6.788000 60.921333,6.802667 60.914000,6.806667 60.911333,6.819500 60.894167,6.825333 60.886500,6.799500 60.879000,6.757833 60.847167,6.724167 60.836333,6.732833 60.831000,6.778167 60.837333,6.829500 60.855667,6.871500 60.839667,6.944500 60.827167,6.933333 60.826833,6.874000 60.811000,6.894833 60.769667,6.870167 60.775333,6.929500 60.771667,6.978333 60.744833,6.978000 60.717333,6.990333 60.710333,7.023333 60.714167,7.086833 60.695667,7.122667 60.694500,7.163667 60.704000,7.190667 60.693500,7.316500 60.685167,7.333000 60.673667,7.462833
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4622;4621;4619;4627;4625;4615;4614;4633;4613;4611;4623;4618;4616;4617;4612;4632;4634;4630;4626;4629;4631;4620;4628;4601;4624</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-12</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <altitude>200</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200821130108112.4049</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-08-21T13:01:08+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200820085453256.4038,2020-08-20T08:54:53+00:00</references>
+  <incidents>4758</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2020-08-21T07:00:00+00:00</effective>
+    <onset>2020-08-21T07:00:00+00:00</onset>
+    <expires>2020-08-21T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Østfold, Akershus, Oslo og Buskerud, 21 August 07:00 UTC til 21 August 18:00 UTC.</headline>
+    <description>Fra fredag formiddag til fredag kveld ventes kraftige regnbyger i ditt område. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Koble fra elektriske apparater. Unngå å være det høyeste punktet, og ikke opphold deg i nærheten av enkeltstående trær, tårn eller master.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-08-21T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Hagl, lyn og torden, og kraftige vindkast. Skader på elektriske anlegg/apparater grunnet lynnedslag. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Styrtregn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over styrtregn, gult nivå, Østfold, Akershus, Oslo og Buskerud, 21 August 07:00 UTC til 21 August 18:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6a78d3a6-3b3a-4f6e-9684-a522a71fddb2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Østfold, Akershus, Oslo og Buskerud</areaDesc>
+      <polygon>59.503667,10.584000 59.531167,10.605167 59.521833,10.645667 59.508667,10.664167 59.522000,10.645667 59.531167,10.605333 59.503667,10.584000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>02</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>03</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>01</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>06</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3032;3029;3022;3019;3023;3035;3025;3033;3028;3034;3020;3036;3037;3024;3021;3031;3026;3027;3030</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0301</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3015;3011;3001;3002;3003;3012;3017;3014;3016;3013;3018;3026;3004</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3052;3006;3045;3046;3043;3047;3048;3025;3050;3038;3049;3039;3007;3041;3040;3005;3051;3044;3042</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-02</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-03</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-01</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-06</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO012</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO011</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO031</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO010</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2020-08-21T07:00:00+00:00</effective>
+    <onset>2020-08-21T07:00:00+00:00</onset>
+    <expires>2020-08-21T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Oestfold, Akershus, Oslo and Buskerud, 21 August 07:00 UTC to 21 August 18:00 UTC.</headline>
+    <description>From late Friday morning to Friday evening heavy rain showers are expected in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly.</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Unplug electrical equipment. Avoid being the highest object, and keep away from lone trees, towers, or masts.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-08-21T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Hail, thunder and lightning, and strong wind gusts. Damage to electrical systems and equipment due to lightning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of heavy rainshowers, yellow level, Oestfold, Akershus, Oslo and Buskerud, 21 August 07:00 UTC to 21 August 18:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6a78d3a6-3b3a-4f6e-9684-a522a71fddb2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Oestfold, Akershus, Oslo and Buskerud</areaDesc>
+      <polygon>59.503667,10.584000 59.531167,10.605167 59.521833,10.645667 59.508667,10.664167 59.522000,10.645667 59.531167,10.605333 59.503667,10.584000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>02</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>03</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>01</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>06</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3032;3029;3022;3019;3023;3035;3025;3033;3028;3034;3020;3036;3037;3024;3021;3031;3026;3027;3030</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0301</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3015;3011;3001;3002;3003;3012;3017;3014;3016;3013;3018;3026;3004</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3052;3006;3045;3046;3043;3047;3048;3025;3050;3038;3049;3039;3007;3041;3040;3005;3051;3044;3042</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-02</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-03</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-01</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-06</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO012</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO011</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO031</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO010</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

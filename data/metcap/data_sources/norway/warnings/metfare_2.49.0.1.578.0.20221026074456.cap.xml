@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221026074456</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-26T08:40:22+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050249</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Is</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>ice</value>
+    </eventCode>
+    <effective>2022-10-26T21:00:00+00:00</effective>
+    <onset>2022-10-26T21:00:00+00:00</onset>
+    <expires>2022-10-27T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Is, gult nivå, Deler av Troms og Nordland, 2022-10-26T21:00:00+00:00, 2022-10-27T06:00:00+00:00</headline>
+    <description>Det er lokalt fare for is, på grunn av overgang til mildvær og nedbør som regn. Det vil lokalt komme regn opp mot 400-600 m og dette kan føre til glatte veier. </description>
+    <instruction>Vurder bruk av brodder. Beregn ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Sjekk veimeldinger (175.no). </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/is</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-27T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Det kan være lokalt vanskelige kjøreforhold. Transporttjenester kan bli påvirket. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Is</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Is, gult nivå, Deler av Troms og Nordland, 2022-10-26T21:00:00+00:00, 2022-10-27T06:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/77feac24-3ce2-4a1f-b34f-5a2ae81b7986.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Troms og Nordland</areaDesc>
+      
+          <polygon>70.3015,20.9399 70.4611,19.2227 69.4737,16.0978 69.1125,15.4255 68.6426,15.1755 68.605,16.225 68.7434,17.0627 68.8528,18.0418 68.9601,18.4712 69.1059,19.1821 69.2272,19.8881 69.3161,20.4196 69.4774,21.03 69.6737,22.0506 69.7525,22.0677 69.7814,21.9749 69.8148,21.922 69.8874,21.8057 69.9177,21.6143 70.0469,21.4505 70.3015,20.9399 70.3015,20.9399</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1870;1871;5401;5402;5411;5413;5414;5415;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Ice</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>ice</value>
+    </eventCode>
+    <effective>2022-10-26T21:00:00+00:00</effective>
+    <onset>2022-10-26T21:00:00+00:00</onset>
+    <expires>2022-10-27T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Ice, yellow level, Parts of Troms and Nordland, 2022-10-26T21:00:00+00:00, 2022-10-27T06:00:00+00:00</headline>
+    <description>There is risk of ice, due to mild weather coming in and rain as precipitation. Locally the the freezing line will rise up to 400-600 m and rain can cause slippery roads.</description>
+    <instruction>Consider wearing traction cleats. Allow extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. Check road reports (175.no). </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/is</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-27T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Local driving conditions may become difficult. Transport services may be impacted. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Ice</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Ice, yellow level, Parts of Troms and Nordland, 2022-10-26T21:00:00+00:00, 2022-10-27T06:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/77feac24-3ce2-4a1f-b34f-5a2ae81b7986.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Troms and Nordland</areaDesc>
+      
+          <polygon>70.3015,20.9399 70.4611,19.2227 69.4737,16.0978 69.1125,15.4255 68.6426,15.1755 68.605,16.225 68.7434,17.0627 68.8528,18.0418 68.9601,18.4712 69.1059,19.1821 69.2272,19.8881 69.3161,20.4196 69.4774,21.03 69.6737,22.0506 69.7525,22.0677 69.7814,21.9749 69.8148,21.922 69.8874,21.8057 69.9177,21.6143 70.0469,21.4505 70.3015,20.9399 70.3015,20.9399</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1870;1871;5401;5402;5411;5413;5414;5415;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

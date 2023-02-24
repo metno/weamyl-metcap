@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220713145842</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-13T14:58:59+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220713060150,2022-07-13T06:12:21+00:00</references>
+  <incidents>0000050079</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-07-13T10:00:00+00:00</effective>
+    <onset>2022-07-13T10:00:00+00:00</onset>
+    <expires>2022-07-13T15:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Deler av Østlandet, 2022-07-13T10:00:00+00:00, 2022-07-13T15:00:00+00:00</headline>
+    <description>Onsdag ettermiddag kan vi få lokalt kraftige vindkast på over 17 m/s i forbindelse med kraftige tordenbyger som beveger seg fra vest mot øst over Østlandet.</description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Vis forsiktighet ved ferdsel i strandsona og på sjøen. På forhånd vurder tiltak for å begrense skade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-13T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Løse gjenstander kan blåse avgårde. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftige vindkast, gult nivå, Deler av Østlandet, 2022-07-13T10:00:00+00:00, 2022-07-13T15:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/7e11696b-1c35-4a4a-b27d-ff02ca1dc6a8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Østlandet</areaDesc>
+      <polygon>61.086,12.0588 60.7911,10.7241 60.2218,9.52828 59.6213,8.72587 59.0554,8.47209 58.9441,8.61024 58.833,9.35389 58.9956,10.6166 58.9059,11.6243 59.3099,11.8155 59.6095,11.7184 59.6924,11.9284 59.8481,11.8798 59.8981,12.1871 60.0134,12.4511 60.2303,12.5732 60.539,12.6219 60.9302,12.327 61.086,12.0588 61.086,12.0588</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>03</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>0301;3001;3002;3003;3004;3005;3006;3007;3011;3012;3013;3014;3015;3016;3017;3018;3019;3020;3021;3022;3023;3024;3025;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3038;3045;3046;3047;3048;3049;3050;3051;3053;3054;3401;3403;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3442;3443;3446;3447;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3819;3820;3821;3822;4211</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-07-13T10:00:00+00:00</effective>
+    <onset>2022-07-13T10:00:00+00:00</onset>
+    <expires>2022-07-13T15:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Parts of Østlandet , 2022-07-13T10:00:00+00:00, 2022-07-13T15:00:00+00:00</headline>
+    <description>Locally strong wind gusts around 17 m/s are expected Wednesday.</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Be careful in coastal areas. In advance consider measures to limit damage. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-13T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Loose items may be taken by the wind. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Strong wind gusts, yellow level, Parts of Østlandet , 2022-07-13T10:00:00+00:00, 2022-07-13T15:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/7e11696b-1c35-4a4a-b27d-ff02ca1dc6a8.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Østlandet </areaDesc>
+      <polygon>61.086,12.0588 60.7911,10.7241 60.2218,9.52828 59.6213,8.72587 59.0554,8.47209 58.9441,8.61024 58.833,9.35389 58.9956,10.6166 58.9059,11.6243 59.3099,11.8155 59.6095,11.7184 59.6924,11.9284 59.8481,11.8798 59.8981,12.1871 60.0134,12.4511 60.2303,12.5732 60.539,12.6219 60.9302,12.327 61.086,12.0588 61.086,12.0588</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>03</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>0301;3001;3002;3003;3004;3005;3006;3007;3011;3012;3013;3014;3015;3016;3017;3018;3019;3020;3021;3022;3023;3024;3025;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3038;3045;3046;3047;3048;3049;3050;3051;3053;3054;3401;3403;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3442;3443;3446;3447;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3819;3820;3821;3822;4211</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

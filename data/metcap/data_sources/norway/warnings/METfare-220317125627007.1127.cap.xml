@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220317125627007.1127</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-03-17T12:56:27+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.220317112817326.1117,2022-03-17T11:28:17+00:00</references>
+  <incidents>49134</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2022-03-19T00:00:00+00:00</effective>
+    <onset>2022-03-19T00:00:00+00:00</onset>
+    <expires>2022-03-19T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Lofoten og Vesterålen, 19 March 00:00 UTC til 19 March 09:00 UTC.</headline>
+    <description>Fra natt til lørdag er det ventet sørvest opp liten til full storm 22 m/s med lokalt kraftig vindkast 27-35 m/s. Minkende vind lørdag formiddag. </description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Vis forsiktighet ved ferdsel i strandsonen og på sjøen. På forhånd vurder tiltak for å begrense skade.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-03-19T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Den sterke vinden kan gi lokalt høye bølger i fjordstrøk og innsjøer. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over kraftige vindkast, gult nivå, Lofoten og Vesterålen, 19 March 00:00 UTC til 19 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/e7039e81-06e2-440c-8f5c-d713d3924906.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Lofoten og Vesterålen</areaDesc>
+      <polygon>68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.266667,15.183167 68.300000,15.116667 68.349833,15.266667 68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667 68.683167,15.733167 68.766667,15.716667 68.833167,15.766667 68.949833,15.866667 69.033167,16.049833 69.233167,16.333167 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2022-03-19T00:00:00+00:00</effective>
+    <onset>2022-03-19T00:00:00+00:00</onset>
+    <expires>2022-03-19T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Lofoten and Vesteraalen, 19 March 00:00 UTC to 19 March 09:00 UTC.</headline>
+    <description>From early Saturday morning expected southwest up storm force with local strong gusts 27-35 m/s. Decreasing wind late Saturday morning. </description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no). Be careful in coastal areas. In advance consider measures to limit damage.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-03-19T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. Some roads may be closed due to trees or other objects in the road. The strong wind may cause locally high waves in fjords and lakes. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of strong wind gusts, yellow level, Lofoten and Vesteraalen, 19 March 00:00 UTC to 19 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/e7039e81-06e2-440c-8f5c-d713d3924906.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Lofoten and Vesteraalen</areaDesc>
+      <polygon>68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.266667,15.183167 68.300000,15.116667 68.349833,15.266667 68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667 68.683167,15.733167 68.766667,15.716667 68.833167,15.766667 68.949833,15.866667 69.033167,16.049833 69.233167,16.333167 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

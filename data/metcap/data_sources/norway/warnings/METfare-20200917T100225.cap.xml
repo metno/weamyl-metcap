@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200917100225942.4230</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-09-17T10:02:25+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200917083252599.4229,2020-09-17T08:32:52+00:00</references>
+  <incidents>4766</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vannstand langs kysten og i fjordene</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>stormSurge</value>
+    </eventCode>
+    <effective>2020-09-18T14:00:00+00:00</effective>
+    <onset>2020-09-18T14:00:00+00:00</onset>
+    <expires>2020-09-19T07:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Høy vannstand, gult nivå, Kyst- og fjordstrøkene i Finnmark, 18 September 14:00 UTC til 19 September 07:00 UTC.</headline>
+    <description>Varsel for strekningen Fruholmen til Grense Jakobselv: Fredag ettermiddag og natt til lørdag er det ventet høy vannstand, estimert til 25-35 cm over høyden oppgitt i tidevannstabellene. Vannstanden er ventet å være på det høyeste fredag kl 15-18 og natt til lørdag 03-06. Den høyeste toppen er ventet natt til lørdag. </description>
+    <instruction>Vis forsiktighet ved ferdsel i strandsonen. Sjekk fortøyningen til båten og sikre løse gjenstander nederst i strandsonen.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-09-19T07:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Lokale oversvømmelser og fare for små ødeleggelser på infrastruktur og bygninger i strandsonen. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Høy vannstand</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>30 cm</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over høy vannstand, gult nivå, Kyst- og fjordstrøkene i Finnmark, 18 September 14:00 UTC til 19 September 07:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/ffe36395-ec6f-45e8-a7e2-abeeec928622.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Kyst- og fjordstrøkene i Finnmark</areaDesc>
+      <polygon>69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>80</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Water level at the coast and in the fjords</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>stormSurge</value>
+    </eventCode>
+    <effective>2020-09-18T14:00:00+00:00</effective>
+    <onset>2020-09-18T14:00:00+00:00</onset>
+    <expires>2020-09-19T07:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>High water level, yellow level, Kyst- and fjordstroekene i Finnmark, 18 September 14:00 UTC to 19 September 07:00 UTC.</headline>
+    <description>Forecast for the area Fruholmen to Grense Jakobselv: Friday afternoon and early Saturday high water level is expected, estimated to 25-35 cm above the height given in the tide tables. The water level is expected at its highest Friday afternoon from 15-18 and early Saturday morning from 03-06. The highest top is expected early Saturday. </description>
+    <instruction>Be careful in coastal areas. Check the mooring of the boat and secure objects near the water in the coastal zone.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-09-19T07:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Local flooding and risk of minor damage to infrastructure and buildings in the beach zone. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>High water level</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>30 cm</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of high water level, yellow level, Kyst- and fjordstroekene i Finnmark, 18 September 14:00 UTC to 19 September 07:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/ffe36395-ec6f-45e8-a7e2-abeeec928622.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Kyst- and fjordstroekene i Finnmark</areaDesc>
+      <polygon>69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>80</ceiling>
+    </area>
+  </info>
+</alert>

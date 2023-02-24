@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190830105514385.2288</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-08-30T10:55:14+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190830092211314.2287,2019-08-30T09:22:11+00:00</references>
+  <incidents>2530</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2019-08-30T21:00:00+00:00</effective>
+    <onset>2019-08-30T21:00:00+00:00</onset>
+    <expires>2019-08-31T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Nordenskiöld Land på Spitsbergen, 30 August 21:00 UTC til 31 August 12:00 UTC.</headline>
+    <description>Fra fredag kveld ventes lokalt mye nedbør, 10-25 mm/12 timer.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-08-31T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder. Fare for stengte veier og/eller overvann ved bekke- og elveløp. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye regn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Mye regn, gult nivå, Nordenskiöld Land på Spitsbergen, 30 August 21:00 UTC til 31 August 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/8e08824d-0140-4a90-ba59-bc844406d793.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordenskiöld Land på Spitsbergen</areaDesc>
+      <polygon>78.050000,13.380000 77.629833,13.750000 77.870000,17.500000 78.529833,18.000000 78.349833,15.680000 78.050000,13.380000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>21</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2111</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-21</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2019-08-30T21:00:00+00:00</effective>
+    <onset>2019-08-30T21:00:00+00:00</onset>
+    <expires>2019-08-31T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Nordenskiöld Land på Spitsbergen, 30 August 21:00 UTC to 31 August 12:00 UTC.</headline>
+    <description>From Friday evening locally heavy precipitation, 10-25 mm/12 hours.</description>
+    <instruction>Consider the need for preventive measures. Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-08-31T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of flooding of low-lying areas in densely populated areas. Locally difficult driving conditions, especially at waterways. Roads may be closed. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rain</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Heavy rain, yellow level, Nordenskiöld Land på Spitsbergen, 30 August 21:00 UTC to 31 August 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/8e08824d-0140-4a90-ba59-bc844406d793.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordenskiöld Land på Spitsbergen</areaDesc>
+      <polygon>78.050000,13.380000 77.629833,13.750000 77.870000,17.500000 78.529833,18.000000 78.349833,15.680000 78.050000,13.380000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>21</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2111</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-21</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

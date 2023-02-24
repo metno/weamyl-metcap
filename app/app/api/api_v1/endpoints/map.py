@@ -63,6 +63,12 @@ async def search_lowres_fylke(administrativeId):
     """
     return ms.mapSearchLowres(administrativeId, 'fylke')
 
+@router.get("/lowres/county/{administrativeId}")
+async def search_lowres_county(administrativeId):
+    """
+    Returns low resolution GeoJSON of administrative unit.
+    """
+    return ms.mapSearchLowres(administrativeId, 'county')
 
 @router.get("/lowres/fylke/list/")
 async def get_lowres_fylke_list():

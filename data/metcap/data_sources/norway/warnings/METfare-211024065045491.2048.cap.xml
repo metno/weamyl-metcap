@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211024065045491.2048</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-10-24T06:50:45+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-10-24T07:00:00+00:00</effective>
+    <onset>2021-10-24T07:00:00+00:00</onset>
+    <expires>2021-10-24T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Rørvik - Sandnessjøen, 24 October 07:00 UTC til 24 October 10:00 UTC.</headline>
+    <description>Søndag morgen blåser det sørlig til sørøstlig stiv kuling 15 m/s, stedvis sterk kuling 20 m/s, vinden avtar i løpet av morgenen</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-10-24T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Middels høye bølger. Bølgekammene er ved å brytes opp til sjørokk. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Rørvik - Sandnessjøen</areaDesc>
+      <polygon>65.050000,12.033167 65.949667,12.683167 65.949667,12.316667 65.983000,11.873167 65.900000,11.800000 65.266667,11.433167 65.037000,10.722167 65.005667,10.635333 64.758167,11.238667 65.050000,12.033167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-10-24T07:00:00+00:00</effective>
+    <onset>2021-10-24T07:00:00+00:00</onset>
+    <expires>2021-10-24T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Roervik - Sandnessjoeen, 24 October 07:00 UTC to 24 October 10:00 UTC.</headline>
+    <description>Sunday morning it is blowing south to southeast near gale force 7 winds, locally gale force 8, the wind decreases before the afternoon</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-10-24T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderately high waves with breaking crests forming spindrift. Considerable airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Roervik - Sandnessjoeen</areaDesc>
+      <polygon>65.050000,12.033167 65.949667,12.683167 65.949667,12.316667 65.983000,11.873167 65.900000,11.800000 65.266667,11.433167 65.037000,10.722167 65.005667,10.635333 64.758167,11.238667 65.050000,12.033167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

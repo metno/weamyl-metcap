@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220811110842</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-11T16:25:04+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050125</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-08-12T00:00:00+00:00</effective>
+    <onset>2022-08-12T00:00:00+00:00</onset>
+    <expires>2022-08-12T16:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Kyststrøk i Vest-Finnmark, 2022-08-12T00:00:00+00:00, 2022-08-12T16:00:00+00:00</headline>
+    <description>Frem til fredag kveld ventes kraftige vindkast på ca. 27 m/s fra sørvest, og på kysten sterk kuling til liten storm 22 m/s. </description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Vis forsiktighet ved ferdsel i strandsona og på sjøen. På forhånd vurder tiltak for å begrense skade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-12T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Den sterke vinden kan gi lokalt høye bølger i fjordstrøk og innsjøer. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftige vindkast, gult nivå, Kyststrøk i Vest-Finnmark, 2022-08-12T00:00:00+00:00, 2022-08-12T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/cf7c523d-c31e-4dcd-ac8f-e9800551a7dc.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Kyststrøk i Vest-Finnmark</areaDesc>
+      <polygon>70.8562,23.3356 70.6592,22.2723 70.2481,21.8101 69.7561,22.9125 70.3375,23.4693 70.6236,25.4844 70.8666,25.3392 70.892,24.8129 70.781,24.036 70.8562,23.3356 70.8562,23.3356</polygon>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5403;5406;5432;5433;5434</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-08-12T00:00:00+00:00</effective>
+    <onset>2022-08-12T00:00:00+00:00</onset>
+    <expires>2022-08-12T16:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Coastal areas of Vest-Finnmark, 2022-08-12T00:00:00+00:00, 2022-08-12T16:00:00+00:00</headline>
+    <description>Until Friday evening locally strong wind gusts around 27 m/s are expected from southwest, and on the coast strong to severe gale 22 m/s.
+</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no). Be careful in coastal areas. In advance consider measures to limit damage. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-12T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. The strong wind may cause locally high waves in fjords and lakes. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Strong wind gusts, yellow level, Coastal areas of Vest-Finnmark, 2022-08-12T00:00:00+00:00, 2022-08-12T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/cf7c523d-c31e-4dcd-ac8f-e9800551a7dc.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Coastal areas of Vest-Finnmark</areaDesc>
+      <polygon>70.8562,23.3356 70.6592,22.2723 70.2481,21.8101 69.7561,22.9125 70.3375,23.4693 70.6236,25.4844 70.8666,25.3392 70.892,24.8129 70.781,24.036 70.8562,23.3356 70.8562,23.3356</polygon>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5403;5406;5432;5433;5434</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

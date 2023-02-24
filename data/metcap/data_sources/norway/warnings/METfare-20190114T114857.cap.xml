@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190114114857448.275</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-14T11:48:57+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1422</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vanskelige kjøreforhold</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>drivingConditions</value>
+    </eventCode>
+    <effective>2019-01-15T08:00:00+00:00</effective>
+    <onset>2019-01-15T08:00:00+00:00</onset>
+    <expires>2019-01-15T11:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Vanskelige kjøreforhold, gult nivå, Vest-Agder, 15 January 08:00 UTC til 15 January 11:00 UTC.</headline>
+    <description>Tirsdag formiddag lokalt fare for regn som fryser på bakken i Vest-Agder.</description>
+    <instruction>Bruk dekk som passer forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-15T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Vanskelige kjøreforhold og lokale forsinkelser. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Vanskelige kjøreforhold</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Vest-Agder</areaDesc>
+      <polygon>58.314500,6.533500 58.303333,6.468667 58.277667,6.377000 58.266667,6.364167 58.022333,6.566833 57.972167,7.040833 57.957167,7.568500 58.063500,8.052000 58.089167,8.215333 58.111000,8.189500 58.132833,8.189000 58.148333,8.170333 58.173167,8.146667 58.194667,8.159667 58.205667,8.184667 58.222833,8.186667 58.247500,8.205667 58.248000,8.195167 58.257667,8.158167 58.271667,8.174500 58.283667,8.147167 58.272167,8.115667 58.283167,8.102833 58.282167,8.038167 58.294667,8.055000 58.305000,8.082667 58.311500,8.057000 58.340167,8.057333 58.351667,8.040667 58.372167,8.046667 58.370833,8.018667 58.362167,8.010333 58.349833,7.996667 58.339167,7.969667 58.310000,7.967167 58.317500,7.941667 58.330667,7.930167 58.344667,7.902167 58.354000,7.914167 58.358667,7.898167 58.369167,7.906667 58.385167,7.905167 58.393667,7.879667 58.389167,7.859667 58.406167,7.841333 58.414000,7.791667 58.426667,7.808667 58.444833,7.814667 58.462000,7.796167 58.456667,7.749167 58.462500,7.699667 58.448167,7.680500 58.452167,7.652500 58.457167,7.615667 58.446333,7.570667 58.475167,7.525000 58.515333,7.519667 58.536833,7.517000 58.546667,7.562167 58.563333,7.586833 58.573667,7.605667 58.596167,7.611667 58.609167,7.588667 58.624667,7.542167 58.682167,7.546667 58.681167,7.621167 58.718667,7.639667 58.734000,7.647833 58.764833,7.665667 58.793167,7.622667 58.823167,7.596167 58.857667,7.571667 58.865667,7.513667 58.862667,7.463167 58.876167,7.464333 58.879167,7.444667 58.865500,7.413667 58.861000,7.365667 58.853500,7.360000 58.852167,7.318667 58.845667,7.277667 58.836167,7.165167 58.826167,7.153500 58.821833,7.122667 58.818667,7.059667 58.819833,7.028500 58.833833,7.057167 58.849833,7.084167 58.867000,7.095333 58.868667,7.069167 58.881167,7.066833 58.891667,7.131667 58.907000,7.154167 58.941500,7.159167 58.988667,7.108167 59.002167,7.112167 58.999667,7.168167 59.019667,7.172167 59.041833,7.139167 59.115500,7.170167 59.134167,7.163667 59.140667,7.203833 59.161667,7.178833 59.183333,7.019667 59.193667,7.007167 59.189667,6.992667 59.188167,6.954167 59.188167,6.936500 59.140833,6.881667 59.137167,6.899333 59.112333,6.901000 59.053500,6.787333 59.039167,6.780167 59.020167,6.730000 59.006667,6.710000 58.992667,6.703333 58.985167,6.663667 58.967667,6.651667 58.939667,6.633167 58.911167,6.563167 58.900667,6.561167 58.885167,6.569333 58.874667,6.607500 58.840167,6.561833 58.807167,6.542167 58.766667,6.518333 58.764167,6.574833 58.741167,6.574167 58.715167,6.617333 58.694000,6.618667 58.669167,6.508833 58.671500,6.466167 58.650500,6.435667 58.637667,6.474500 58.616167,6.493500 58.614667,6.495667 58.627667,6.532667 58.616667,6.583000 58.624667,6.613833 58.605667,6.596333 58.594667,6.589667 58.585833,6.594833 58.578667,6.610167 58.563167,6.608500 58.561667,6.613833 58.533667,6.606833 58.501667,6.586833 58.448500,6.630667 58.419667,6.591167 58.377333,6.606500 58.355667,6.592833 58.330667,6.567167 58.314500,6.533500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>10</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1001;1002;1003;1004;1014;1017;1018;1021;1026;1027;1029;1032;1034;1037;1046</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-10</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Difficult driving conditions</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>drivingConditions</value>
+    </eventCode>
+    <effective>2019-01-15T08:00:00+00:00</effective>
+    <onset>2019-01-15T08:00:00+00:00</onset>
+    <expires>2019-01-15T11:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Difficult driving conditions, yellow level, Vest-Agder, 15 January 08:00 UTC to 15 January 11:00 UTC.</headline>
+    <description>From late tuesday morning locally risk of rain freezing at the ground in Vest-Agder.</description>
+    <instruction>Use tyres suitable for the conditions.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-15T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Expect difficult driving conditions and local delays. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Difficult driving conditions</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Vest-Agder</areaDesc>
+      <polygon>58.314500,6.533500 58.303333,6.468667 58.277667,6.377000 58.266667,6.364167 58.022333,6.566833 57.972167,7.040833 57.957167,7.568500 58.063500,8.052000 58.089167,8.215333 58.111000,8.189500 58.132833,8.189000 58.148333,8.170333 58.173167,8.146667 58.194667,8.159667 58.205667,8.184667 58.222833,8.186667 58.247500,8.205667 58.248000,8.195167 58.257667,8.158167 58.271667,8.174500 58.283667,8.147167 58.272167,8.115667 58.283167,8.102833 58.282167,8.038167 58.294667,8.055000 58.305000,8.082667 58.311500,8.057000 58.340167,8.057333 58.351667,8.040667 58.372167,8.046667 58.370833,8.018667 58.362167,8.010333 58.349833,7.996667 58.339167,7.969667 58.310000,7.967167 58.317500,7.941667 58.330667,7.930167 58.344667,7.902167 58.354000,7.914167 58.358667,7.898167 58.369167,7.906667 58.385167,7.905167 58.393667,7.879667 58.389167,7.859667 58.406167,7.841333 58.414000,7.791667 58.426667,7.808667 58.444833,7.814667 58.462000,7.796167 58.456667,7.749167 58.462500,7.699667 58.448167,7.680500 58.452167,7.652500 58.457167,7.615667 58.446333,7.570667 58.475167,7.525000 58.515333,7.519667 58.536833,7.517000 58.546667,7.562167 58.563333,7.586833 58.573667,7.605667 58.596167,7.611667 58.609167,7.588667 58.624667,7.542167 58.682167,7.546667 58.681167,7.621167 58.718667,7.639667 58.734000,7.647833 58.764833,7.665667 58.793167,7.622667 58.823167,7.596167 58.857667,7.571667 58.865667,7.513667 58.862667,7.463167 58.876167,7.464333 58.879167,7.444667 58.865500,7.413667 58.861000,7.365667 58.853500,7.360000 58.852167,7.318667 58.845667,7.277667 58.836167,7.165167 58.826167,7.153500 58.821833,7.122667 58.818667,7.059667 58.819833,7.028500 58.833833,7.057167 58.849833,7.084167 58.867000,7.095333 58.868667,7.069167 58.881167,7.066833 58.891667,7.131667 58.907000,7.154167 58.941500,7.159167 58.988667,7.108167 59.002167,7.112167 58.999667,7.168167 59.019667,7.172167 59.041833,7.139167 59.115500,7.170167 59.134167,7.163667 59.140667,7.203833 59.161667,7.178833 59.183333,7.019667 59.193667,7.007167 59.189667,6.992667 59.188167,6.954167 59.188167,6.936500 59.140833,6.881667 59.137167,6.899333 59.112333,6.901000 59.053500,6.787333 59.039167,6.780167 59.020167,6.730000 59.006667,6.710000 58.992667,6.703333 58.985167,6.663667 58.967667,6.651667 58.939667,6.633167 58.911167,6.563167 58.900667,6.561167 58.885167,6.569333 58.874667,6.607500 58.840167,6.561833 58.807167,6.542167 58.766667,6.518333 58.764167,6.574833 58.741167,6.574167 58.715167,6.617333 58.694000,6.618667 58.669167,6.508833 58.671500,6.466167 58.650500,6.435667 58.637667,6.474500 58.616167,6.493500 58.614667,6.495667 58.627667,6.532667 58.616667,6.583000 58.624667,6.613833 58.605667,6.596333 58.594667,6.589667 58.585833,6.594833 58.578667,6.610167 58.563167,6.608500 58.561667,6.613833 58.533667,6.606833 58.501667,6.586833 58.448500,6.630667 58.419667,6.591167 58.377333,6.606500 58.355667,6.592833 58.330667,6.567167 58.314500,6.533500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>10</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1001;1002;1003;1004;1014;1017;1018;1021;1026;1027;1029;1032;1034;1037;1046</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-10</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

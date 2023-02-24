@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221017093848</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-17T09:39:50+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221017073356,2022-10-17T09:12:03+00:00</references>
+  <incidents>0000050229</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-10-18T10:00:00+00:00</effective>
+    <onset>2022-10-18T10:00:00+00:00</onset>
+    <expires>2022-10-19T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Deler av Møre og Romsdal og Trøndelag, 2022-10-18T10:00:00+00:00, 2022-10-19T10:00:00+00:00</headline>
+    <description>Fra tirsdag ettermiddag til onsdag ettermiddag er det ventet 5-10 cm snø over 600-700m i deler av Møre og Romsdal og Trøndelag. </description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-19T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Deler av Møre og Romsdal og Trøndelag, 2022-10-18T10:00:00+00:00, 2022-10-19T10:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/2b9dc10e-9228-47de-b78d-517cc98449d1.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Møre og Romsdal og Trøndelag</areaDesc>
+      <polygon>62.0176,7.21188 61.9998,7.3377 62.0859,7.43781 62.0514,7.58098 62.0682,7.64034 62.1192,7.64401 62.1815,7.79354 62.1587,7.90749 62.1768,8.02262 62.3249,8.18895 62.3636,9.09765 62.2613,9.5597 62.2628,9.67085 62.285,9.84504 62.4334,10.1124 62.5525,10.0464 62.6834,10.1532 62.6651,10.6751 62.6435,10.745 62.694,10.8787 62.6536,11.0985 62.9048,12.1307 63.0746,12.1645 63.1291,11.7687 62.661,9.77082 62.8917,9.35536 62.8939,8.88772 62.5064,7.48955 62.0176,7.21188 62.0176,7.21188</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1525;1539;1563;1566;1578;5021;5022;5026;5027;5033;5061</value>
+    </geocode>
+    <altitude>2000</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-10-18T10:00:00+00:00</effective>
+    <onset>2022-10-18T10:00:00+00:00</onset>
+    <expires>2022-10-19T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Parts of Møre and Romsdal and Trøndelag, 2022-10-18T10:00:00+00:00, 2022-10-19T10:00:00+00:00</headline>
+    <description>From Tuesday afternoon to Wednesday afternoon, 5-10 cm of snow is expected above 600-700m in parts of Møre and Romsdal and Trøndelag.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-19T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Parts of Møre and Romsdal and Trøndelag, 2022-10-18T10:00:00+00:00, 2022-10-19T10:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/2b9dc10e-9228-47de-b78d-517cc98449d1.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Møre and Romsdal and Trøndelag</areaDesc>
+      <polygon>62.0176,7.21188 61.9998,7.3377 62.0859,7.43781 62.0514,7.58098 62.0682,7.64034 62.1192,7.64401 62.1815,7.79354 62.1587,7.90749 62.1768,8.02262 62.3249,8.18895 62.3636,9.09765 62.2613,9.5597 62.2628,9.67085 62.285,9.84504 62.4334,10.1124 62.5525,10.0464 62.6834,10.1532 62.6651,10.6751 62.6435,10.745 62.694,10.8787 62.6536,11.0985 62.9048,12.1307 63.0746,12.1645 63.1291,11.7687 62.661,9.77082 62.8917,9.35536 62.8939,8.88772 62.5064,7.48955 62.0176,7.21188 62.0176,7.21188</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1525;1539;1563;1566;1578;5021;5022;5026;5027;5033;5061</value>
+    </geocode>
+    <altitude>2000</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

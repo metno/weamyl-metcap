@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210907100409573.1649</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-09-07T10:04:09+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48885</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-09-08T10:00:00+00:00</effective>
+    <onset>2021-09-08T10:00:00+00:00</onset>
+    <expires>2021-09-09T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Møre og Romsdal, 08 September 10:00 UTC til 09 September 10:00 UTC.</headline>
+    <description>Fra onsdag ettermiddag frem til sent torsdag formiddag er det ventet lokalt 60-100 mm regn på 24 timer i Romsdal og Nordmøre. Det er ventet mest regn onsdag kveld og torsdag morgen. </description>
+    <instruction>Vurder behov for forebyggende tiltak. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-09-09T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye regn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>30 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over mye regn, gult nivå, Møre og Romsdal, 08 September 10:00 UTC til 09 September 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/0260dede-f4bb-4fa3-a54a-f956f358eff2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Møre og Romsdal</areaDesc>
+      <polygon>62.371333,8.628167 62.379667,8.713167 62.380833,8.777000 62.379833,8.858667 62.373000,8.887167 62.358667,8.909500 62.355333,8.974167 62.359667,9.012167 62.373000,9.052000 62.394500,9.135167 62.444667,9.193333 62.460333,9.180500 62.492000,9.203500 62.512500,9.199500 62.529667,9.223500 62.555333,9.234000 62.572833,9.220833 62.578000,9.192500 62.572667,9.154500 62.656167,9.020667 62.662333,8.981167 62.678333,8.962333 62.713167,8.920333 62.739833,8.981000 62.793333,9.366500 62.815833,9.420500 62.846833,9.460000 62.897833,9.446000 62.929667,9.423000 62.953333,9.430167 62.986167,9.490833 62.994500,9.493833 63.008833,9.583833 63.013667,9.570500 63.015667,9.492167 63.037333,9.475667 63.043500,9.447167 63.057167,9.432833 63.061000,9.447667 63.094333,9.439833 63.107667,9.446667 63.129333,9.458833 63.143000,9.455667 63.162667,9.449333 63.179500,9.466500 63.180500,9.448333 63.182833,9.428833 63.184167,9.400167 63.189333,9.376500 63.202500,9.364167 63.211333,9.360000 63.209333,9.335167 63.202000,9.312667 63.194833,9.296167 63.198667,9.255833 63.206000,9.244667 63.203833,9.224333 63.196500,9.201167 63.186333,9.191167 63.172167,9.141833 63.147000,9.179000 63.140000,9.178167 63.130167,9.155667 63.127333,9.136000 63.137000,9.101833 63.142000,9.047167 63.142000,8.999500 63.138667,8.975000 63.116000,8.916500 63.121333,8.888500 63.114667,8.857167 63.124667,8.836500 63.126167,8.809500 63.130500,8.805500 63.133667,8.804000 63.150167,8.823167 63.155333,8.805500 63.166333,8.785667 63.171333,8.769333 63.187167,8.763500 63.190500,8.758667 63.198333,8.834500 63.215667,8.835667 63.218667,8.861500 63.231833,8.864667 63.243833,8.827333 63.266167,8.816500 63.290667,8.851000 63.294500,8.866333 63.316667,8.864000 63.327333,8.866500 63.335500,8.881167 63.344000,8.883500 63.348000,8.904333 63.356000,8.909333 63.354667,8.891500 63.365833,8.869167 63.370167,8.868833 63.366000,8.853500 63.371333,8.827000 63.370167,8.799500 63.403000,8.799333 63.425000,8.743833 63.443500,8.735667 63.429167,8.616167 63.387500,8.466833 63.361333,8.398833 63.373167,8.363500 63.413833,8.263667 63.507333,8.174333 63.596167,8.112167 63.618000,8.049833 63.688833,7.897167 63.648000,7.828000 63.576167,7.707333 63.575167,7.705833 63.571500,7.700333 63.504833,7.607167 63.504167,7.606333 63.500333,7.601500 63.475167,7.572333 63.453000,7.534833 63.381333,7.414500 63.354167,7.369167 63.309500,7.294667 63.262000,7.211167 63.237667,7.175500 63.220833,7.147833 63.165667,7.057000 63.148833,7.006167 63.135667,6.967000 63.082500,6.807500 63.029000,6.648667 63.013000,6.601167 62.975333,6.490500 62.973500,6.485000 62.921667,6.332833 62.867667,6.175833 62.867000,6.174167 62.864167,6.166500 62.861000,6.159500 62.859500,6.156000 62.837333,6.108833 62.795167,6.019167 62.752833,6.157333 62.736667,6.212833 62.735500,6.235667 62.733500,6.274667 62.729500,6.323167 62.732500,6.383333 62.731833,6.396333 62.717667,6.435667 62.709667,6.446833 62.693667,6.462667 62.662667,6.478167 62.641167,6.486000 62.631333,6.500000 62.637667,6.550833 62.643500,6.585167 62.644333,6.624833 62.625333,6.669333 62.594833,6.730500 62.562000,6.781000 62.533667,6.826167 62.509500,6.882000 62.503833,6.955833 62.499833,7.026667 62.495833,7.123833 62.489833,7.226833 62.490833,7.312333 62.480167,7.387833 62.465667,7.403333 62.451167,7.419000 62.426667,7.448000 62.411333,7.502500 62.391833,7.572000 62.366833,7.636500 62.302167,7.679667 62.239667,7.710167 62.185833,7.735500 62.189333,7.827333 62.171333,7.872500 62.180500,7.981667 62.182333,7.983167 62.274333,8.106833 62.292167,8.133167 62.318000,8.179833 62.341167,8.202000 62.351167,8.300000 62.364500,8.459333 62.366167,8.536000 62.371333,8.628167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1511;1576;1507;1579;1566;1516;1578;1525;1532;1577;1506;1573;1520;1505;1535;1557;1514;1554;1539;1515;1528;1563;1531;1547;1517;1560;5055;5061</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-09-08T10:00:00+00:00</effective>
+    <onset>2021-09-08T10:00:00+00:00</onset>
+    <expires>2021-09-09T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Møre og Romsdal, 08 September 10:00 UTC to 09 September 10:00 UTC.</headline>
+    <description>From Wednesday afternoon until late Thursday morning is the expected locally 60-100 mm rain on 24 hours in Romsdal and Nordmøre. Most rain is expected Wednesday evening and Thursday morning. </description>
+    <instruction>Consider the need for preventive measures. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-09-09T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rain</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>30 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of heavy rain, yellow level, Møre og Romsdal, 08 September 10:00 UTC to 09 September 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/0260dede-f4bb-4fa3-a54a-f956f358eff2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Møre og Romsdal</areaDesc>
+      <polygon>62.371333,8.628167 62.379667,8.713167 62.380833,8.777000 62.379833,8.858667 62.373000,8.887167 62.358667,8.909500 62.355333,8.974167 62.359667,9.012167 62.373000,9.052000 62.394500,9.135167 62.444667,9.193333 62.460333,9.180500 62.492000,9.203500 62.512500,9.199500 62.529667,9.223500 62.555333,9.234000 62.572833,9.220833 62.578000,9.192500 62.572667,9.154500 62.656167,9.020667 62.662333,8.981167 62.678333,8.962333 62.713167,8.920333 62.739833,8.981000 62.793333,9.366500 62.815833,9.420500 62.846833,9.460000 62.897833,9.446000 62.929667,9.423000 62.953333,9.430167 62.986167,9.490833 62.994500,9.493833 63.008833,9.583833 63.013667,9.570500 63.015667,9.492167 63.037333,9.475667 63.043500,9.447167 63.057167,9.432833 63.061000,9.447667 63.094333,9.439833 63.107667,9.446667 63.129333,9.458833 63.143000,9.455667 63.162667,9.449333 63.179500,9.466500 63.180500,9.448333 63.182833,9.428833 63.184167,9.400167 63.189333,9.376500 63.202500,9.364167 63.211333,9.360000 63.209333,9.335167 63.202000,9.312667 63.194833,9.296167 63.198667,9.255833 63.206000,9.244667 63.203833,9.224333 63.196500,9.201167 63.186333,9.191167 63.172167,9.141833 63.147000,9.179000 63.140000,9.178167 63.130167,9.155667 63.127333,9.136000 63.137000,9.101833 63.142000,9.047167 63.142000,8.999500 63.138667,8.975000 63.116000,8.916500 63.121333,8.888500 63.114667,8.857167 63.124667,8.836500 63.126167,8.809500 63.130500,8.805500 63.133667,8.804000 63.150167,8.823167 63.155333,8.805500 63.166333,8.785667 63.171333,8.769333 63.187167,8.763500 63.190500,8.758667 63.198333,8.834500 63.215667,8.835667 63.218667,8.861500 63.231833,8.864667 63.243833,8.827333 63.266167,8.816500 63.290667,8.851000 63.294500,8.866333 63.316667,8.864000 63.327333,8.866500 63.335500,8.881167 63.344000,8.883500 63.348000,8.904333 63.356000,8.909333 63.354667,8.891500 63.365833,8.869167 63.370167,8.868833 63.366000,8.853500 63.371333,8.827000 63.370167,8.799500 63.403000,8.799333 63.425000,8.743833 63.443500,8.735667 63.429167,8.616167 63.387500,8.466833 63.361333,8.398833 63.373167,8.363500 63.413833,8.263667 63.507333,8.174333 63.596167,8.112167 63.618000,8.049833 63.688833,7.897167 63.648000,7.828000 63.576167,7.707333 63.575167,7.705833 63.571500,7.700333 63.504833,7.607167 63.504167,7.606333 63.500333,7.601500 63.475167,7.572333 63.453000,7.534833 63.381333,7.414500 63.354167,7.369167 63.309500,7.294667 63.262000,7.211167 63.237667,7.175500 63.220833,7.147833 63.165667,7.057000 63.148833,7.006167 63.135667,6.967000 63.082500,6.807500 63.029000,6.648667 63.013000,6.601167 62.975333,6.490500 62.973500,6.485000 62.921667,6.332833 62.867667,6.175833 62.867000,6.174167 62.864167,6.166500 62.861000,6.159500 62.859500,6.156000 62.837333,6.108833 62.795167,6.019167 62.752833,6.157333 62.736667,6.212833 62.735500,6.235667 62.733500,6.274667 62.729500,6.323167 62.732500,6.383333 62.731833,6.396333 62.717667,6.435667 62.709667,6.446833 62.693667,6.462667 62.662667,6.478167 62.641167,6.486000 62.631333,6.500000 62.637667,6.550833 62.643500,6.585167 62.644333,6.624833 62.625333,6.669333 62.594833,6.730500 62.562000,6.781000 62.533667,6.826167 62.509500,6.882000 62.503833,6.955833 62.499833,7.026667 62.495833,7.123833 62.489833,7.226833 62.490833,7.312333 62.480167,7.387833 62.465667,7.403333 62.451167,7.419000 62.426667,7.448000 62.411333,7.502500 62.391833,7.572000 62.366833,7.636500 62.302167,7.679667 62.239667,7.710167 62.185833,7.735500 62.189333,7.827333 62.171333,7.872500 62.180500,7.981667 62.182333,7.983167 62.274333,8.106833 62.292167,8.133167 62.318000,8.179833 62.341167,8.202000 62.351167,8.300000 62.364500,8.459333 62.366167,8.536000 62.371333,8.628167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1511;1576;1507;1579;1566;1516;1578;1525;1532;1577;1506;1573;1520;1505;1535;1557;1514;1554;1539;1515;1528;1563;1531;1547;1517;1560;5055;5061</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

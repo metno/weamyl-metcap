@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190930233710776.2578</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-09-30T23:37:10+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190930081149884.2569,2019-09-30T08:11:49+00:00</references>
+  <incidents>2687</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-09-30T08:00:00+00:00</effective>
+    <onset>2019-09-30T08:00:00+00:00</onset>
+    <expires>2019-10-01T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Slåtterøy - Bulandet, 30 September 08:00 UTC til 01 October 18:00 UTC.</headline>
+    <description>I dag, tysdag nordvest periodevis stiv kuling 15 m/s. I ettermiddag auking til nordvest stiv og til dels sterk kuling 20 m/s, først i nord. I kveld minkande, først i nord. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-10-01T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. Høye bølger. Det er farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Slåtterøy - Bulandet</areaDesc>
+      <polygon>60.760000,4.511500 60.529000,4.637667 60.309167,4.755333 60.235500,4.795000 60.009333,4.874000 59.918833,4.893833 59.924333,5.079000 60.014333,5.067833 60.123667,5.057333 60.223167,5.023000 60.347167,4.984500 60.447500,4.960833 60.570667,4.849500 60.661333,4.795833 60.786833,4.694500 60.853333,4.702833 60.949000,4.696667 61.052167,4.674667 61.156500,4.695167 61.302667,4.691667 61.297000,4.451833 61.146667,4.455833 61.048500,4.451333 60.976000,4.456667 60.851000,4.484167 60.760000,4.511500
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-09-30T08:00:00+00:00</effective>
+    <onset>2019-09-30T08:00:00+00:00</onset>
+    <expires>2019-10-01T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Slaatteroey -  Bulandet, 30 September 08:00 UTC to 01 October 18:00 UTC.</headline>
+    <description>Today, Tuesday, northwest occasionally near gale force 7. This afternoon increasing to northwest near gale force 7, at times gale force 8, first in the northern part. This evening decreasing, first in the northern part. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-10-01T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. Large waves. High risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Slaatteroey -  Bulandet</areaDesc>
+      <polygon>60.760000,4.511500 60.529000,4.637667 60.309167,4.755333 60.235500,4.795000 60.009333,4.874000 59.918833,4.893833 59.924333,5.079000 60.014333,5.067833 60.123667,5.057333 60.223167,5.023000 60.347167,4.984500 60.447500,4.960833 60.570667,4.849500 60.661333,4.795833 60.786833,4.694500 60.853333,4.702833 60.949000,4.696667 61.052167,4.674667 61.156500,4.695167 61.302667,4.691667 61.297000,4.451833 61.146667,4.455833 61.048500,4.451333 60.976000,4.456667 60.851000,4.484167 60.760000,4.511500
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

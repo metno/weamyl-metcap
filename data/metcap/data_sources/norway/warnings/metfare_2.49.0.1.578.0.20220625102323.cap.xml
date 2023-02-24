@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220625102323</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-25T14:26:59+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050044</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-25T14:30:00+00:00</effective>
+    <onset>2022-06-25T14:30:00+00:00</onset>
+    <expires>2022-06-25T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn pågår, gult nivå, Deler av Viken og Innlandet fylke , 2022-06-25T14:30:00+00:00, 2022-06-25T22:00:00+00:00</headline>
+    <description>Fra lørdag ettermiddag er det fare for tordenvær med mye lyn. Det vil være store lokale forskjeller i intensitet. Noen steder vil ikke få tordenvær. Faren avtar utover kvelden.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-25T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Tordenværet kan føre med seg lokalt kraftige vindkast. Lokalt kraftige regnbyger. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn pågår</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn pågår, gult nivå, Deler av Viken og Innlandet fylke , 2022-06-25T14:30:00+00:00, 2022-06-25T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/7c8762e4-12a7-465c-9d69-f82ff3822759.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Viken og Innlandet fylke </areaDesc>
+      <polygon>61.7026,10.3907 61.3741,10.2778 60.9064,10.5041 59.5559,11.1776 59.1289,11.2468 58.9903,11.5418 59.2308,11.7081 59.6341,11.6474 59.7758,11.789 59.9062,11.8672 59.9512,12.235 60.2648,12.4086 60.4836,12.5676 60.9892,12.1499 61.1022,12.2879 61.4386,12.1491 61.8386,11.675 61.8472,10.7415 61.7026,10.3907 61.7026,10.3907</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3001;3003;3012;3013;3014;3015;3016;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3401;3403;3405;3407;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3421;3422;3423;3424;3425;3439;3440;3442;3443;3446</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-25T14:30:00+00:00</effective>
+    <onset>2022-06-25T14:30:00+00:00</onset>
+    <expires>2022-06-25T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning ongoing, yellow level, Parts of Viken and Innlandet county, 2022-06-25T14:30:00+00:00, 2022-06-25T22:00:00+00:00</headline>
+    <description>From Saturday afternoon there is a risk of frequent lightning. There will be large local differences in intensity. Some places will not experience any lightning. The danger decreases late Saturday evening.</description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-25T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Thunderstorms can lead to locally strong wind gusts.  Locally heavy rain showers. Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning ongoing</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning ongoing, yellow level, Parts of Viken and Innlandet county, 2022-06-25T14:30:00+00:00, 2022-06-25T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/7c8762e4-12a7-465c-9d69-f82ff3822759.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Viken and Innlandet county</areaDesc>
+      <polygon>61.7026,10.3907 61.3741,10.2778 60.9064,10.5041 59.5559,11.1776 59.1289,11.2468 58.9903,11.5418 59.2308,11.7081 59.6341,11.6474 59.7758,11.789 59.9062,11.8672 59.9512,12.235 60.2648,12.4086 60.4836,12.5676 60.9892,12.1499 61.1022,12.2879 61.4386,12.1491 61.8386,11.675 61.8472,10.7415 61.7026,10.3907 61.7026,10.3907</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3001;3003;3012;3013;3014;3015;3016;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3401;3403;3405;3407;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3421;3422;3423;3424;3425;3439;3440;3442;3443;3446</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

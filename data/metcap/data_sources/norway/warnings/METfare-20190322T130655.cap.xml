@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190322130655094.1363</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-22T13:06:55+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190321190343079.1331,2019-03-21T19:03:43+00:00</references>
+  <incidents>2027</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-03-22T05:00:00+00:00</effective>
+    <onset>2019-03-22T05:00:00+00:00</onset>
+    <expires>2019-03-23T15:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Området fra Storegga-Haltenbanken til 0-meridianen, 22 March 05:00 UTC til 23 March 15:00 UTC.</headline>
+    <description>Fra i ettermiddag, fredag, fortsatt sørvest sterk kuling 20 og periodevis liten storm 22 m/s, fra lørdag formiddag sørvest full storm 25 m/s, lørdag ettermiddag dreiende vestlig.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Meget høye bølger med lange overhengende kammer. skummet, som dannes i store flak, driver med vinden i tette hvite strimer så sjøen får et hvitaktig utseende. Rullingen blir tung og støtende. Synsvidden nedsettes. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>24.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Området fra Storegga-Haltenbanken til 0-meridianen</areaDesc>
+      <polygon>65.002167,8.280667 65.000667,6.998000 65.001500,5.502667 65.000833,4.003667 64.996167,2.494000 64.997500,1.005000 65.000833,0.000000 63.004167,0.000000 63.003333,0.994000 63.000500,2.001500 63.526500,3.759667 63.900333,5.105833 64.234667,5.992333 64.599333,7.001000 65.002167,8.280667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-03-22T05:00:00+00:00</effective>
+    <onset>2019-03-22T05:00:00+00:00</onset>
+    <expires>2019-03-23T15:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Area from Storegga-Haltenbank to Greenwich Meridian, 22 March 05:00 UTC to 23 March 15:00 UTC.</headline>
+    <description>From this afternoon, Friday, still southwest gale force 8 and occasionally severe gale force 9, from late Saturday morning southwest storm force 10, Saturday afternoon veering west.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Very high waves with overhanging crests. Large patches of foam from wave crests give the sea a white appearance. Considerable tumbling of waves with heavy impact. Large amounts of airborne spray reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>24.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Area from Storegga-Haltenbank to Greenwich Meridian</areaDesc>
+      <polygon>65.002167,8.280667 65.000667,6.998000 65.001500,5.502667 65.000833,4.003667 64.996167,2.494000 64.997500,1.005000 65.000833,0.000000 63.004167,0.000000 63.003333,0.994000 63.000500,2.001500 63.526500,3.759667 63.900333,5.105833 64.234667,5.992333 64.599333,7.001000 65.002167,8.280667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

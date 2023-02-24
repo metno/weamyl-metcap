@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220628072657</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-28T08:03:01+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050056</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-06-28T14:00:00+00:00</effective>
+    <onset>2022-06-28T14:00:00+00:00</onset>
+    <expires>2022-06-29T02:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Indre strøk av Trøndelag, 2022-06-28T14:00:00+00:00, 2022-06-29T02:00:00+00:00</headline>
+    <description>Det ventes mye regn, lokalt 25 mm/6t. Intensitet og mengde vil variere. Nedbøren kommer først inn i sør. </description>
+    <instruction>Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-29T02:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, Indre strøk av Trøndelag, 2022-06-28T14:00:00+00:00, 2022-06-29T02:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0902aad6-4b2d-404f-a499-4fb0c327821b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Indre strøk av Trøndelag</areaDesc>
+      <polygon>64.5341,13.0523 64.3312,12.3545 63.3699,10.972 63.2559,9.78657 63.0588,9.09831 63.0438,9.10483 63.0446,9.11025 63.0401,9.11426 63.0378,9.1079 63.0308,9.10425 63.0255,9.11977 63.0165,9.13238 63.0179,9.14749 63.0171,9.15713 63.0149,9.15525 63.0163,9.1479 63.015,9.1389 63.0122,9.15459 63.0093,9.15234 63.0064,9.15046 63.0038,9.14235 63.0007,9.14167 62.9966,9.15053 62.9937,9.16906 62.9928,9.1791 62.9851,9.17348 62.9851,9.16667 62.9882,9.15882 62.9923,9.14936 62.9896,9.14608 62.9862,9.13871 62.9844,9.13082 62.9807,9.1297 62.9785,9.11681 62.9739,9.11681 62.9711,9.11174 62.9665,9.11602 62.9633,9.11262 62.9614,9.11336 62.9577,9.13083 62.9548,9.12698 62.955,9.11776 62.9511,9.12518 62.9437,9.12146 62.9333,9.12534 62.9317,9.13695 62.9271,9.13805 62.9273,9.15178 62.9242,9.15918 62.9172,9.17947 62.9254,9.20513 62.9251,9.2693 62.9049,9.30899 62.8906,9.31038 62.8869,9.29774 62.8777,9.2901 62.8628,9.33126 62.8511,9.32666 62.7996,9.33097 62.7945,9.36183 62.7678,9.22928 62.7529,9.10814 62.7574,9.08363 62.7482,9.06308 62.7428,8.99174 62.7092,8.92523 62.6639,8.98191 62.6647,9.00812 62.6302,9.06253 62.5991,9.12374 62.5731,9.15209 62.5757,9.2249 62.5461,9.24113 62.4857,9.20226 62.4398,9.20164 62.4003,9.14387 62.3728,9.07506 62.3542,9.1608 62.333,9.27849 62.3126,9.39847 62.295,9.49517 62.2719,9.54166 62.2585,9.60905 62.2775,9.6905 62.2867,9.79253 62.3065,9.83809 62.3382,9.83133 62.3627,9.84792 62.3497,9.9025 62.3585,9.94298 62.3953,9.9569 62.4288,10.0964 62.5462,10.0143 62.5906,10.0426 62.6077,10.0867 62.6419,10.0924 62.6912,10.1454 62.6957,10.2376 62.6856,10.4409 62.6692,10.5926 62.6758,10.6725 62.6665,10.7053 62.6469,10.725 62.6526,10.7506 62.6846,10.8139 62.6959,10.9329 62.6695,11.0345 62.6574,11.1342 62.5815,11.1997 62.5569,11.2549 62.5343,11.2562 62.4922,11.3904 62.4327,11.4951 62.3826,11.5425 62.3708,11.5717 62.3831,11.6789 62.3492,11.7027 62.3785,11.7742 62.3555,12.0315 62.3108,12.1307 62.3298,12.197 62.3346,12.2408 62.601,12.0664 62.7504,12.1361 62.8959,12.0855 62.9533,12.1473 63.0011,12.2149 63.1346,12.1032 63.2658,11.9893 63.4679,12.2022 63.599,12.1637 63.6709,12.2908 63.7163,12.3388 63.9741,12.6853 64.0569,12.9312 64.0958,13.2234 64.0562,13.6464 64.013,13.9622 64.1826,14.1538 64.4681,14.1075 64.5134,13.8778 64.5698,13.6697 64.5341,13.0523 64.5341,13.0523</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5001;5006;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5037;5038;5041;5042;5045;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-06-28T14:00:00+00:00</effective>
+    <onset>2022-06-28T14:00:00+00:00</onset>
+    <expires>2022-06-29T02:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Inner regions of Trøndelag, 2022-06-28T14:00:00+00:00, 2022-06-29T02:00:00+00:00</headline>
+    <description>A lot of rain is expected, locally around 25 mm in 6 hours. Intensity and amount will vary. The precipitation is first expected in the south.</description>
+    <instruction>The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-29T02:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, Inner regions of Trøndelag, 2022-06-28T14:00:00+00:00, 2022-06-29T02:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0902aad6-4b2d-404f-a499-4fb0c327821b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Inner regions of Trøndelag</areaDesc>
+      <polygon>64.5341,13.0523 64.3312,12.3545 63.3699,10.972 63.2559,9.78657 63.0588,9.09831 63.0438,9.10483 63.0446,9.11025 63.0401,9.11426 63.0378,9.1079 63.0308,9.10425 63.0255,9.11977 63.0165,9.13238 63.0179,9.14749 63.0171,9.15713 63.0149,9.15525 63.0163,9.1479 63.015,9.1389 63.0122,9.15459 63.0093,9.15234 63.0064,9.15046 63.0038,9.14235 63.0007,9.14167 62.9966,9.15053 62.9937,9.16906 62.9928,9.1791 62.9851,9.17348 62.9851,9.16667 62.9882,9.15882 62.9923,9.14936 62.9896,9.14608 62.9862,9.13871 62.9844,9.13082 62.9807,9.1297 62.9785,9.11681 62.9739,9.11681 62.9711,9.11174 62.9665,9.11602 62.9633,9.11262 62.9614,9.11336 62.9577,9.13083 62.9548,9.12698 62.955,9.11776 62.9511,9.12518 62.9437,9.12146 62.9333,9.12534 62.9317,9.13695 62.9271,9.13805 62.9273,9.15178 62.9242,9.15918 62.9172,9.17947 62.9254,9.20513 62.9251,9.2693 62.9049,9.30899 62.8906,9.31038 62.8869,9.29774 62.8777,9.2901 62.8628,9.33126 62.8511,9.32666 62.7996,9.33097 62.7945,9.36183 62.7678,9.22928 62.7529,9.10814 62.7574,9.08363 62.7482,9.06308 62.7428,8.99174 62.7092,8.92523 62.6639,8.98191 62.6647,9.00812 62.6302,9.06253 62.5991,9.12374 62.5731,9.15209 62.5757,9.2249 62.5461,9.24113 62.4857,9.20226 62.4398,9.20164 62.4003,9.14387 62.3728,9.07506 62.3542,9.1608 62.333,9.27849 62.3126,9.39847 62.295,9.49517 62.2719,9.54166 62.2585,9.60905 62.2775,9.6905 62.2867,9.79253 62.3065,9.83809 62.3382,9.83133 62.3627,9.84792 62.3497,9.9025 62.3585,9.94298 62.3953,9.9569 62.4288,10.0964 62.5462,10.0143 62.5906,10.0426 62.6077,10.0867 62.6419,10.0924 62.6912,10.1454 62.6957,10.2376 62.6856,10.4409 62.6692,10.5926 62.6758,10.6725 62.6665,10.7053 62.6469,10.725 62.6526,10.7506 62.6846,10.8139 62.6959,10.9329 62.6695,11.0345 62.6574,11.1342 62.5815,11.1997 62.5569,11.2549 62.5343,11.2562 62.4922,11.3904 62.4327,11.4951 62.3826,11.5425 62.3708,11.5717 62.3831,11.6789 62.3492,11.7027 62.3785,11.7742 62.3555,12.0315 62.3108,12.1307 62.3298,12.197 62.3346,12.2408 62.601,12.0664 62.7504,12.1361 62.8959,12.0855 62.9533,12.1473 63.0011,12.2149 63.1346,12.1032 63.2658,11.9893 63.4679,12.2022 63.599,12.1637 63.6709,12.2908 63.7163,12.3388 63.9741,12.6853 64.0569,12.9312 64.0958,13.2234 64.0562,13.6464 64.013,13.9622 64.1826,14.1538 64.4681,14.1075 64.5134,13.8778 64.5698,13.6697 64.5341,13.0523 64.5341,13.0523</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5001;5006;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5037;5038;5041;5042;5045;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

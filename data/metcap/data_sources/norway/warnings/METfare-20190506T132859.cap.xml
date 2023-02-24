@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190506132859866.1829</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-05-06T13:28:59+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2271</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2019-05-06T13:00:00+00:00</effective>
+    <onset>2019-05-06T13:00:00+00:00</onset>
+    <expires>2019-05-06T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye snø pågår, gult nivå, Buskerud, Akershus, Oppland og Hedmark, 06 May 13:00 UTC til 06 May 22:00 UTC.</headline>
+    <description>Mandag ventes lokalt 5 til 15 cm med snø på deler av Østlandet. I lavereliggende strøk ventes perioder med sludd eller regn. Mest nedbør ventes i Hedmark og Oppland.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-05-06T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye snø pågår</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Mye snø pågår, gult nivå, Buskerud, Akershus, Oppland og Hedmark, 06 May 13:00 UTC til 06 May 22:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/d6c9acf2-2074-4e78-afca-c1e04aba6d36.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Buskerud, Akershus, Oppland og Hedmark</areaDesc>
+      <polygon>60.022333,10.482833 60.019500,10.424833 59.979333,10.418167 59.962500,10.360167 59.916167,10.375833 59.878167,10.345667 59.828667,10.352000 59.784500,10.344167 59.776667,10.430167 59.790000,10.548500 59.725500,10.540667 59.677000,10.579333 59.631667,10.627000 59.550667,10.621167 59.490000,10.574833 59.467833,10.550667 59.483667,10.468500 59.509833,10.405833 59.610667,10.418167 59.660167,10.412000 59.699500,10.337667 59.677333,10.313500 59.666833,10.116500 59.644500,10.092667 59.640167,10.050833 59.668000,10.012333 59.630000,9.983000 59.590667,9.921333 59.476167,10.065667 59.461000,9.916667 59.460833,9.780833 59.416000,9.781667 59.415000,9.653833 59.485000,9.549500 59.490833,9.479500 59.541000,9.512000 59.671333,9.410667 59.689000,9.344167 59.754333,9.341167 59.768833,9.362167 59.824000,9.186500 59.897667,9.177833 59.920167,9.201333 59.985000,9.003167 60.085167,8.969833 60.185500,8.724167 60.168667,8.678167 60.179167,8.591667 60.168333,8.466000 60.181000,8.404667 60.173167,8.288333 60.188167,8.194833 60.173833,8.109167 60.096833,7.819333 60.123500,7.664167 60.098833,7.487167 60.185667,7.583333 60.229500,7.595000 60.289000,7.676333 60.507667,7.744333 60.555000,7.642000 60.593000,7.619333 60.633333,7.622167 60.658167,7.554500 60.658167,7.430333 60.743333,7.619000 60.727667,7.672833 60.760333,7.731667 60.803000,7.701833 60.918500,7.859333 60.893500,7.927333 60.905000,7.997500 60.886833,8.025667 60.975833,8.152000 60.970667,8.226000 61.023000,8.291833 61.052167,8.225000 61.078333,8.258167 61.111000,8.141500 61.225000,8.023167 61.270167,8.138000 61.331667,8.249833 61.366667,8.158333 61.423667,8.158333 61.434667,8.178667 61.423667,8.277667 61.456667,8.330333 61.526500,8.266167 61.543167,8.202833 61.525500,8.103333 61.556167,7.950000 61.633167,7.895500 61.722500,7.904333 61.749000,7.748500 61.726833,7.518500 61.755500,7.517833 61.864667,7.401500 61.930500,7.393667 61.987167,7.400500 62.007833,7.328167 62.079000,7.434667 62.090333,7.516333 62.062000,7.578000 62.090833,7.638500 62.118667,7.585333 62.187000,7.736000 62.186500,7.806000 62.170167,7.871167 62.321167,8.188833 62.362167,8.369167 62.375000,8.885667 62.348333,8.912000 62.371000,9.052167 62.322333,9.318000 62.260333,9.587167 62.286667,9.773333 62.320333,9.865333 62.355833,9.834333 62.352167,9.930500 62.394667,9.964167 62.432000,10.111667 62.555167,10.016500 62.692000,10.158833 62.660167,10.586167 62.670833,10.653333 62.644167,10.723333 62.697333,10.871167 62.677000,11.006667 62.661333,11.135000 62.575500,11.215000 62.564333,11.246000 62.532500,11.232333 62.476000,11.440500 62.374667,11.548000 62.380833,11.657667 62.348833,11.688000 62.383500,11.801500 62.361667,12.023667 62.315000,12.118167 62.332500,12.233333 62.270667,12.311333 61.720000,12.145667 61.559167,12.420000 61.569667,12.555000 61.352000,12.885000 61.237833,12.830833 61.191500,12.800333 61.163167,12.718667 61.060000,12.679167 61.045667,12.468000 61.016833,12.233667 60.891167,12.330167 60.727000,12.399833 60.639667,12.520500 60.586833,12.513333 60.538833,12.575333 60.448500,12.609667 60.376833,12.585667 60.325167,12.495833 60.191167,12.552000 60.093167,12.508333 60.033167,12.457000 60.010000,12.405833 59.965500,12.361667 59.890667,12.182000 59.888833,12.124000 59.886000,12.073833 59.903833,11.983333 59.881500,11.925000 59.849500,11.838333 59.791000,11.927667 59.785500,11.901167 59.786667,11.812167 59.750333,11.691667 59.717167,11.694167 59.660833,11.606500 59.643000,11.542667 59.602167,11.502167 59.636833,11.483667 59.675333,11.426500 59.700667,11.379833 59.759500,11.322333 59.710833,11.238167 59.684000,11.219667 59.694167,11.118500 59.708667,10.970667 59.681167,10.960167 59.654500,10.982167 59.589000,10.860500 59.558000,10.800667 59.499667,10.770667 59.492500,10.720000 59.607667,10.666500 59.688167,10.591500 59.770833,10.492833 59.782667,10.408167 59.877167,10.312833 59.926167,10.355167 59.970000,10.411667 60.010167,10.508000 59.973667,10.592167 59.915000,10.651667 59.871167,10.684000 59.859500,10.720167 59.822667,10.763167 59.809000,10.863333 59.845500,10.950333 59.900500,10.930833 59.924833,10.932000 59.969000,10.941000 59.984500,10.865333 60.032500,10.834667 60.067667,10.807333 60.105167,10.756167 60.121667,10.713167 60.131500,10.651333 60.127333,10.609000 60.095667,10.597000 60.076667,10.581667 60.051333,10.547667 60.022333,10.482833
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>05</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>04</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>02</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>06</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0501;0502;0511;0512;0513;0514;0515;0516;0517;0519;0520;0521;0522;0528;0529;0532;0533;0534;0536;0538;0540;0541;0542;0543;0544;0545</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0402;0403;0412;0415;0417;0418;0419;0420;0423;0425;0426;0427;0428;0429;0430;0432;0434;0436;0437;0438;0439;0441</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0211;0213;0214;0215;0216;0217;0219;0220;0221;0226;0227;0228;0229;0230;0231;0233;0234;0235;0236;0237;0238;0239</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0602;0604;0605;0612;0615;0616;0617;0618;0619;0620;0621;0622;0623;0624;0625;0626;0627;0628;0631;0632;0633</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-05</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-04</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-02</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-06</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO021</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO012</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <altitude>100</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2019-05-06T13:00:00+00:00</effective>
+    <onset>2019-05-06T13:00:00+00:00</onset>
+    <expires>2019-05-06T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy snow ongoing, yellow level, Buskerud, Akershus, Oppland and Hedmark, 06 May 13:00 UTC to 06 May 22:00 UTC.</headline>
+    <description>Expect locally 5 to 15 cm snowfall in parts of Southeastern Norway. I lower areas mainly precipitation as sleet or rain. Expect most precipitation in parts of Hedmark and Oppland</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-05-06T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Some journeys may have longer travel time. It can be locally difficult driving conditions. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy snow ongoing</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>5 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Heavy snow ongoing, yellow level, Buskerud, Akershus, Oppland and Hedmark, 06 May 13:00 UTC to 06 May 22:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/d6c9acf2-2074-4e78-afca-c1e04aba6d36.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Buskerud, Akershus, Oppland and Hedmark</areaDesc>
+      <polygon>60.022333,10.482833 60.019500,10.424833 59.979333,10.418167 59.962500,10.360167 59.916167,10.375833 59.878167,10.345667 59.828667,10.352000 59.784500,10.344167 59.776667,10.430167 59.790000,10.548500 59.725500,10.540667 59.677000,10.579333 59.631667,10.627000 59.550667,10.621167 59.490000,10.574833 59.467833,10.550667 59.483667,10.468500 59.509833,10.405833 59.610667,10.418167 59.660167,10.412000 59.699500,10.337667 59.677333,10.313500 59.666833,10.116500 59.644500,10.092667 59.640167,10.050833 59.668000,10.012333 59.630000,9.983000 59.590667,9.921333 59.476167,10.065667 59.461000,9.916667 59.460833,9.780833 59.416000,9.781667 59.415000,9.653833 59.485000,9.549500 59.490833,9.479500 59.541000,9.512000 59.671333,9.410667 59.689000,9.344167 59.754333,9.341167 59.768833,9.362167 59.824000,9.186500 59.897667,9.177833 59.920167,9.201333 59.985000,9.003167 60.085167,8.969833 60.185500,8.724167 60.168667,8.678167 60.179167,8.591667 60.168333,8.466000 60.181000,8.404667 60.173167,8.288333 60.188167,8.194833 60.173833,8.109167 60.096833,7.819333 60.123500,7.664167 60.098833,7.487167 60.185667,7.583333 60.229500,7.595000 60.289000,7.676333 60.507667,7.744333 60.555000,7.642000 60.593000,7.619333 60.633333,7.622167 60.658167,7.554500 60.658167,7.430333 60.743333,7.619000 60.727667,7.672833 60.760333,7.731667 60.803000,7.701833 60.918500,7.859333 60.893500,7.927333 60.905000,7.997500 60.886833,8.025667 60.975833,8.152000 60.970667,8.226000 61.023000,8.291833 61.052167,8.225000 61.078333,8.258167 61.111000,8.141500 61.225000,8.023167 61.270167,8.138000 61.331667,8.249833 61.366667,8.158333 61.423667,8.158333 61.434667,8.178667 61.423667,8.277667 61.456667,8.330333 61.526500,8.266167 61.543167,8.202833 61.525500,8.103333 61.556167,7.950000 61.633167,7.895500 61.722500,7.904333 61.749000,7.748500 61.726833,7.518500 61.755500,7.517833 61.864667,7.401500 61.930500,7.393667 61.987167,7.400500 62.007833,7.328167 62.079000,7.434667 62.090333,7.516333 62.062000,7.578000 62.090833,7.638500 62.118667,7.585333 62.187000,7.736000 62.186500,7.806000 62.170167,7.871167 62.321167,8.188833 62.362167,8.369167 62.375000,8.885667 62.348333,8.912000 62.371000,9.052167 62.322333,9.318000 62.260333,9.587167 62.286667,9.773333 62.320333,9.865333 62.355833,9.834333 62.352167,9.930500 62.394667,9.964167 62.432000,10.111667 62.555167,10.016500 62.692000,10.158833 62.660167,10.586167 62.670833,10.653333 62.644167,10.723333 62.697333,10.871167 62.677000,11.006667 62.661333,11.135000 62.575500,11.215000 62.564333,11.246000 62.532500,11.232333 62.476000,11.440500 62.374667,11.548000 62.380833,11.657667 62.348833,11.688000 62.383500,11.801500 62.361667,12.023667 62.315000,12.118167 62.332500,12.233333 62.270667,12.311333 61.720000,12.145667 61.559167,12.420000 61.569667,12.555000 61.352000,12.885000 61.237833,12.830833 61.191500,12.800333 61.163167,12.718667 61.060000,12.679167 61.045667,12.468000 61.016833,12.233667 60.891167,12.330167 60.727000,12.399833 60.639667,12.520500 60.586833,12.513333 60.538833,12.575333 60.448500,12.609667 60.376833,12.585667 60.325167,12.495833 60.191167,12.552000 60.093167,12.508333 60.033167,12.457000 60.010000,12.405833 59.965500,12.361667 59.890667,12.182000 59.888833,12.124000 59.886000,12.073833 59.903833,11.983333 59.881500,11.925000 59.849500,11.838333 59.791000,11.927667 59.785500,11.901167 59.786667,11.812167 59.750333,11.691667 59.717167,11.694167 59.660833,11.606500 59.643000,11.542667 59.602167,11.502167 59.636833,11.483667 59.675333,11.426500 59.700667,11.379833 59.759500,11.322333 59.710833,11.238167 59.684000,11.219667 59.694167,11.118500 59.708667,10.970667 59.681167,10.960167 59.654500,10.982167 59.589000,10.860500 59.558000,10.800667 59.499667,10.770667 59.492500,10.720000 59.607667,10.666500 59.688167,10.591500 59.770833,10.492833 59.782667,10.408167 59.877167,10.312833 59.926167,10.355167 59.970000,10.411667 60.010167,10.508000 59.973667,10.592167 59.915000,10.651667 59.871167,10.684000 59.859500,10.720167 59.822667,10.763167 59.809000,10.863333 59.845500,10.950333 59.900500,10.930833 59.924833,10.932000 59.969000,10.941000 59.984500,10.865333 60.032500,10.834667 60.067667,10.807333 60.105167,10.756167 60.121667,10.713167 60.131500,10.651333 60.127333,10.609000 60.095667,10.597000 60.076667,10.581667 60.051333,10.547667 60.022333,10.482833
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>05</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>04</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>02</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>06</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0501;0502;0511;0512;0513;0514;0515;0516;0517;0519;0520;0521;0522;0528;0529;0532;0533;0534;0536;0538;0540;0541;0542;0543;0544;0545</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0402;0403;0412;0415;0417;0418;0419;0420;0423;0425;0426;0427;0428;0429;0430;0432;0434;0436;0437;0438;0439;0441</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0211;0213;0214;0215;0216;0217;0219;0220;0221;0226;0227;0228;0229;0230;0231;0233;0234;0235;0236;0237;0238;0239</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0602;0604;0605;0612;0615;0616;0617;0618;0619;0620;0621;0622;0623;0624;0625;0626;0627;0628;0631;0632;0633</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-05</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-04</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-02</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-06</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO021</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO012</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <altitude>100</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

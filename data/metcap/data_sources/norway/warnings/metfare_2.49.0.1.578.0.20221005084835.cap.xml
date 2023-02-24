@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221005084835</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-05T09:18:16+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221004090900,2022-10-04T09:18:24+00:00</references>
+  <incidents>0000050204</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-05T18:00:00+00:00</effective>
+    <onset>2022-10-05T18:00:00+00:00</onset>
+    <expires>2022-10-05T23:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Trøndelag, 2022-10-05T18:00:00+00:00, 2022-10-05T23:00:00+00:00</headline>
+    <description>Onsdag kveld er det ventet kraftige vindkast på 27-33 m/s fra sørvest. Vinden vil øke først i sør og sist i nord. </description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Vis forsiktighet ved ferdsel i strandsona og på sjøen. På forhånd vurder tiltak for å begrense skade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-05T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Den sterke vinden kan gi lokalt høye bølger i fjordstrøk og innsjøer. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftige vindkast, gult nivå, Trøndelag, 2022-10-05T18:00:00+00:00, 2022-10-05T23:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/8eb042fd-f9e8-42c7-be1f-ba113094052e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Trøndelag</areaDesc>
+      <polygon>63.126627,8.807143 63.064182,8.652562 63.048976,8.501994 63.079661,8.481516 63.022811,8.20296 63.129377,8.102673 63.194762,8.819043 63.231328,8.862683 63.266123,8.81575 63.356503,8.911055 63.371491,8.798897 63.447481,8.742721 63.359402,8.34293 63.422092,8.240512 63.598154,8.108651 63.768172,7.64809 64.05163,8.130125 64.357713,8.940471 64.869808,9.996969 65.470186,10.578073 65.394441,11.021365 65.295703,11.400402 65.236852,11.486049 65.160454,11.915478 65.116823,11.960197 65.066358,11.878618 65.066862,12.048861 65.015118,12.049387 65.018929,12.149923 64.959779,12.276803 64.9903,12.561253 64.939495,12.628665 64.940775,12.76833 64.97553,12.774667 64.97425,12.906944 65.00002,12.948038 65.029058,12.907885 65.115884,13.152541 65.11892,14.326012 64.580347,13.654279 64.473386,14.122925 64.19506,14.157096 64.007972,13.967537 64.09537,13.211125 64.057946,12.926702 63.974224,12.683568 63.66972,12.301941 63.593947,12.149757 63.478588,12.212879 63.269214,11.974587 63.000336,12.21822 62.902551,12.07468 62.747916,12.136391 62.611918,12.056139 62.331019,12.254665 62.310041,12.130939 62.382641,11.775647 62.347573,11.727136 62.381797,11.671735 62.371587,11.556089 62.470325,11.446532 62.570751,11.19612 62.647408,11.160809 62.696294,10.928246 62.645462,10.740347 62.6953,10.325059 62.675915,10.145738 62.558132,10.005741 62.427811,10.097588 62.397208,9.951807 62.344374,9.900279 62.362085,9.839316 62.330979,9.854758 62.287811,9.798388 62.255724,9.60191 62.372608,9.062066 62.426654,9.183634 62.556076,9.243739 62.711772,8.919966 62.794106,9.364836 62.877311,9.286134 62.90526,9.307857 62.93495,9.122559 62.971285,9.110632 62.993012,9.177656 63.029073,9.104406 63.090388,9.083762 63.072541,8.972821 63.118282,8.983697 63.119793,8.983392 63.120161,8.983198 63.126627,8.807143 63.126627,8.807143</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5001;5006;5007;5014;5020;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5041;5042;5043;5044;5045;5046;5047;5049;5052;5053;5054;5055;5056;5057;5058;5059;5060;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-05T18:00:00+00:00</effective>
+    <onset>2022-10-05T18:00:00+00:00</onset>
+    <expires>2022-10-05T23:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Trøndelag, 2022-10-05T18:00:00+00:00, 2022-10-05T23:00:00+00:00</headline>
+    <description>Locally strong wind gusts around 27-33 m/s are expected from southwest. The wind will increase first in southern parts, and decrease last in northern part. </description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no). Be careful in coastal areas. In advance consider measures to limit damage. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-05T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. The strong wind may cause locally high waves in fjords and lakes. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Strong wind gusts, yellow level, Trøndelag, 2022-10-05T18:00:00+00:00, 2022-10-05T23:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/8eb042fd-f9e8-42c7-be1f-ba113094052e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Trøndelag</areaDesc>
+      <polygon>63.126627,8.807143 63.064182,8.652562 63.048976,8.501994 63.079661,8.481516 63.022811,8.20296 63.129377,8.102673 63.194762,8.819043 63.231328,8.862683 63.266123,8.81575 63.356503,8.911055 63.371491,8.798897 63.447481,8.742721 63.359402,8.34293 63.422092,8.240512 63.598154,8.108651 63.768172,7.64809 64.05163,8.130125 64.357713,8.940471 64.869808,9.996969 65.470186,10.578073 65.394441,11.021365 65.295703,11.400402 65.236852,11.486049 65.160454,11.915478 65.116823,11.960197 65.066358,11.878618 65.066862,12.048861 65.015118,12.049387 65.018929,12.149923 64.959779,12.276803 64.9903,12.561253 64.939495,12.628665 64.940775,12.76833 64.97553,12.774667 64.97425,12.906944 65.00002,12.948038 65.029058,12.907885 65.115884,13.152541 65.11892,14.326012 64.580347,13.654279 64.473386,14.122925 64.19506,14.157096 64.007972,13.967537 64.09537,13.211125 64.057946,12.926702 63.974224,12.683568 63.66972,12.301941 63.593947,12.149757 63.478588,12.212879 63.269214,11.974587 63.000336,12.21822 62.902551,12.07468 62.747916,12.136391 62.611918,12.056139 62.331019,12.254665 62.310041,12.130939 62.382641,11.775647 62.347573,11.727136 62.381797,11.671735 62.371587,11.556089 62.470325,11.446532 62.570751,11.19612 62.647408,11.160809 62.696294,10.928246 62.645462,10.740347 62.6953,10.325059 62.675915,10.145738 62.558132,10.005741 62.427811,10.097588 62.397208,9.951807 62.344374,9.900279 62.362085,9.839316 62.330979,9.854758 62.287811,9.798388 62.255724,9.60191 62.372608,9.062066 62.426654,9.183634 62.556076,9.243739 62.711772,8.919966 62.794106,9.364836 62.877311,9.286134 62.90526,9.307857 62.93495,9.122559 62.971285,9.110632 62.993012,9.177656 63.029073,9.104406 63.090388,9.083762 63.072541,8.972821 63.118282,8.983697 63.119793,8.983392 63.120161,8.983198 63.126627,8.807143 63.126627,8.807143</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5001;5006;5007;5014;5020;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5041;5042;5043;5044;5045;5046;5047;5049;5052;5053;5054;5055;5056;5057;5058;5059;5060;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

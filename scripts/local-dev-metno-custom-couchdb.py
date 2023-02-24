@@ -76,62 +76,62 @@ except Exception as e:
 
 
 
-inDir = "/app/metcap-api/data/sources/metno/out/lowres"
-inFile = f'{inDir}/lr_fylke_21.geojson'
-with open(inFile) as f:
-    df= json.load(f)
+# inDir = "/app/metcap-api/data/sources/metno/out/lowres"
+# inFile = f'{inDir}/lr_fylke_21.geojson'
+# with open(inFile) as f:
+#     df= json.load(f)
 
-db = couch['lrmap']
-# save to CouchDB
-try:
-    db.save(df)
-except Exception as e:
-    print(e)
-
-
-
-
-
-inDir = "/app/metcap-api/data/sources/metno/out/lowres"
-inFile = f'{inDir}/lr_kommune_2111.geojson'
-with open(inFile) as f:
-    df= json.load(f)
-
-db = couch['lrmap']
-# save to CouchDB
-try:
-    db.save(df)
-except Exception as e:
-    print(e)
+# db = couch['lrmap']
+# # save to CouchDB
+# try:
+#     db.save(df)
+# except Exception as e:
+#     print(e)
 
 
 
 
 
-inDir = "/app/metcap-api/data/sources/metno/out"
-inFile = f'{inDir}/fylke_21.geojson'
-with open(inFile) as f:
-    df= json.load(f)
+# inDir = "/app/metcap-api/data/sources/metno/out/lowres"
+# inFile = f'{inDir}/lr_kommune_2111.geojson'
+# with open(inFile) as f:
+#     df= json.load(f)
 
-db = couch['map']
-# save to CouchDB
-try:
-    db.save(df)
-except Exception as e:
-    print(e)
-
-
+# db = couch['lrmap']
+# # save to CouchDB
+# try:
+#     db.save(df)
+# except Exception as e:
+#     print(e)
 
 
-inDir = "/app/metcap-api/data/sources/metno/out"
-inFile = f'{inDir}/kommune_2111.geojson'
-with open(inFile) as f:
-    df= json.load(f)
 
-db = couch['map']
-# save to CouchDB
-try:
-    db.save(df)
-except Exception as e:
-    print(e)
+
+
+# inDir = "/app/metcap-api/data/sources/metno/out"
+# inFile = f'{inDir}/fylke_21.geojson'
+# with open(inFile) as f:
+#     df= json.load(f)
+
+# db = couch['map']
+# # save to CouchDB
+# try:
+#     db.save(df)
+# except Exception as e:
+#     print(e)
+
+
+
+
+# inDir = "/app/metcap-api/data/sources/metno/out"
+# inFile = f'{inDir}/kommune_2111.geojson'
+# with open(inFile) as f:
+#     df= json.load(f)
+
+# db = couch['map']
+# # save to CouchDB
+# try:
+#     db.save(df)
+# except Exception as e:
+#     print(e)
 

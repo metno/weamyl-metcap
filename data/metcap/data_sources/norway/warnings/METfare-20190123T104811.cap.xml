@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190123104811238.363</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-23T10:48:11+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190122101248265.354,2019-01-22T10:12:48+00:00</references>
+  <incidents>1474</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vind</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-01-25T06:00:00+00:00</effective>
+    <onset>2019-01-25T06:00:00+00:00</onset>
+    <expires>2019-01-27T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Helgeland, Saltfjellet, Salten og Ofoten, 25 January 06:00 UTC til 27 January 06:00 UTC.</headline>
+    <description>Fra fredag morgen til søndag morgen ventes sterk vind fra søraust, med vindkast på 25-30 m/s lokalt</description>
+    <instruction>Vær forsiktig når du ferdes utendørs.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-27T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det kan være farlig å ferdes i fjellet. Sterke vindkast kan føre til lokale strømbrudd, og trær som har blåst over ende kan ligge i veibanen. Løse gjenstander som trampoliner og hagemøbler kan blåse avgårde. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>28.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kraftige vindkast, gult nivå, Helgeland, Saltfjellet, Salten og Ofoten, 25 January 06:00 UTC til 27 January 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/68f2e372-33f6-432f-b836-6c820e7fb4c7.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Helgeland, Saltfjellet, Salten og Ofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483333,15.383333 66.550000,15.533167 66.616667,15.633167 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167 68.599833,18.033167 68.599833,17.533167 68.550000,17.316667 68.550000,17.216667 68.583167,16.866667 68.516667,16.733167 68.500000,16.566667 68.533167,16.549833 68.550000,16.616667 68.566667,16.566667 68.566667,16.466667 68.633167,16.233167 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1833;1839;1840</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1849</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1805;1850;1851;1852;1853;1854</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-01-25T06:00:00+00:00</effective>
+    <onset>2019-01-25T06:00:00+00:00</onset>
+    <expires>2019-01-27T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Helgeland, Saltfjellet, Salten and Ofoten, 25 January 06:00 UTC to 27 January 06:00 UTC.</headline>
+    <description>From Friday morning to Sunday morning local wind gusts of 25-30 m/s from southeast are expected.</description>
+    <instruction>Secure loose items. Be careful when traveling outdoors.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-27T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>It may be dangerous to travel in the mountains. Strong wind gusts and falling trees may cause local power outages and closed roads. Expect minor delays. Loose items may be taken by the wind. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>28.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Strong wind gusts, yellow level, Helgeland, Saltfjellet, Salten and Ofoten, 25 January 06:00 UTC to 27 January 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/68f2e372-33f6-432f-b836-6c820e7fb4c7.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Helgeland, Saltfjellet, Salten and Ofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483333,15.383333 66.550000,15.533167 66.616667,15.633167 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167 68.599833,18.033167 68.599833,17.533167 68.550000,17.316667 68.550000,17.216667 68.583167,16.866667 68.516667,16.733167 68.500000,16.566667 68.533167,16.549833 68.550000,16.616667 68.566667,16.566667 68.566667,16.466667 68.633167,16.233167 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1833;1839;1840</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1849</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1805;1850;1851;1852;1853;1854</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

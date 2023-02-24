@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220917150812</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-09-17T15:08:12+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220916074000,2022-09-16T07:47:40+00:00</references>
+  <incidents>0000050180</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-09-17T15:08:00+00:00</effective>
+    <onset>2022-09-17T15:08:00+00:00</onset>
+    <expires>2022-09-17T16:08:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Nedgradert varsel for snø, Nordvestlige fjelltrakter i Sør-Norge</headline>
+    <description>Farevarselet er nedgradert. Følg med på oppdaterte prognoser for aktuelt varsel.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-17T16:08:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Normalt mye snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Ingen</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Nedgradert varsel for snø, Nordvestlige fjelltrakter i Sør-Norge</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/001e2bf5-58bb-4359-82c6-80447022343b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordvestlige fjelltrakter i Sør-Norge</areaDesc>
+      <polygon>62.3542,7.01368 62.19,6.58643 62.19,6.58643 61.5713,6.35646 61.3578,6.67915 61.7107,7.75533 61.9066,8.46537 62.0573,8.93363 62.2845,9.83234 62.5384,10.9097 62.8614,10.7806 62.8371,9.98547 62.9066,9.25533 62.8129,8.7044 62.6139,8.02297 62.5231,7.55918 62.3542,7.01368 62.3542,7.01368</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1520;1525;1539;1563;1566;1577;1578;3426;3427;3429;3430;3431;3432;3433;4640;4644;4647;4650;4651;5021;5022;5027;5061</value>
+    </geocode>
+    <altitude>3000</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-09-17T15:08:00+00:00</effective>
+    <onset>2022-09-17T15:08:00+00:00</onset>
+    <expires>2022-09-17T16:08:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Downgraded alert warning for snow, Nordvestlige fjelltrakter i Sør-Norge</headline>
+    <description>The warning is downgraded. Keep up to date with updated forecasts.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-17T16:08:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Normal snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>None</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Downgraded alert warning for snow, Nordvestlige fjelltrakter i Sør-Norge</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/001e2bf5-58bb-4359-82c6-80447022343b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordvestlige fjelltrakter i Sør-Norge</areaDesc>
+      <polygon>62.3542,7.01368 62.19,6.58643 62.19,6.58643 61.5713,6.35646 61.3578,6.67915 61.7107,7.75533 61.9066,8.46537 62.0573,8.93363 62.2845,9.83234 62.5384,10.9097 62.8614,10.7806 62.8371,9.98547 62.9066,9.25533 62.8129,8.7044 62.6139,8.02297 62.5231,7.55918 62.3542,7.01368 62.3542,7.01368</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1520;1525;1539;1563;1566;1577;1578;3426;3427;3429;3430;3431;3432;3433;4640;4644;4647;4650;4651;5021;5022;5027;5061</value>
+    </geocode>
+    <altitude>3000</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

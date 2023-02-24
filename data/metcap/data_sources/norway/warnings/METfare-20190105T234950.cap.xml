@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190105234950995.20</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-05T23:49:50+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1297</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vind</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-01-06T14:00:00+00:00</effective>
+    <onset>2019-01-06T14:00:00+00:00</onset>
+    <expires>2019-01-06T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Nordenskiöld Land på Spitsbergen, 06 January 14:00 UTC til 06 January 22:00 UTC.</headline>
+    <description>Søndag ettermiddag og kveld er det ventet lokalt kraftige vindkast på 35 m/s</description>
+    <instruction>Vær forsiktig når du ferdes utendørs.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-06T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det kan være farlig å ferdes i fjellet. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>32.6 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Grafiske beskrivelse av farevarslet</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/58a07c4c-0cb1-4d0b-820c-49292b87ce26.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordenskiöld Land på Spitsbergen</areaDesc>
+      <polygon>78.050000,13.380000 77.629833,13.750000 77.870000,17.500000 78.529833,18.000000 78.349833,15.680000 78.050000,13.380000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>21</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2111</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-21</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-01-06T14:00:00+00:00</effective>
+    <onset>2019-01-06T14:00:00+00:00</onset>
+    <expires>2019-01-06T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Nordenskiöld Land på Spitsbergen, 06 January 14:00 UTC to 06 January 22:00 UTC.</headline>
+    <description>Sunday afternoon and evening expected locally wind gust of 35 m/s</description>
+    <instruction>Secure loose items. Be careful when traveling outdoors.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-06T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>It may be dangerous to travel in the mountains. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>32.6 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Grafiske beskrivelse av farevarslet</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/58a07c4c-0cb1-4d0b-820c-49292b87ce26.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordenskiöld Land på Spitsbergen</areaDesc>
+      <polygon>78.050000,13.380000 77.629833,13.750000 77.870000,17.500000 78.529833,18.000000 78.349833,15.680000 78.050000,13.380000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>21</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2111</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-21</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

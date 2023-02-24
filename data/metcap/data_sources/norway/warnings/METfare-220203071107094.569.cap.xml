@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220203071107094.569</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-02-03T07:11:07+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>49078</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2022-02-03T07:00:00+00:00</effective>
+    <onset>2022-02-03T07:00:00+00:00</onset>
+    <expires>2022-02-03T14:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk pågår, gult nivå, B3, B4, 03 February 07:00 UTC til 03 February 14:00 UTC.</headline>
+    <description>Torsdag morgen er et polart lavtrykk dannet ved 75.40N og 17.00E. Nordøstlig liten storm ventes nordvest for senteret av lavtrykket. Det polare lavtrykket vil bevege seg sakte vest-nordvestover i løpet av dagen og avta torsdag ettermiddag. </description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-03T14:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk pågår</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over polart lavtrykk pågår, gult nivå, B3, B4, 03 February 07:00 UTC til 03 February 14:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/d68342e4-f80f-4f82-8a27-e7cd2c482acc.png</uri>
+    </resource>
+    <area>
+      <areaDesc>B3, B4</areaDesc>
+      <polygon>77.500000,10.000000 77.500000,0.000000 75.000000,0.000000 75.000000,10.000000 75.000000,20.000000 77.500000,20.000000 77.500000,18.357000 76.608167,17.147333 76.547167,16.116667 77.161000,14.199667 77.500000,13.680667 77.500000,10.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2022-02-03T07:00:00+00:00</effective>
+    <onset>2022-02-03T07:00:00+00:00</onset>
+    <expires>2022-02-03T14:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low ongoing, yellow level, B3, B4, 03 February 07:00 UTC to 03 February 14:00 UTC.</headline>
+    <description>Thursday morning a polar low has formed at 75.40N and 17.00E. North easterly severe gale force 9 is expected northwest of the center of the low. The polar low will move slowly west-north west during the day and dissipate Thursday afternoon.</description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-03T14:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low ongoing</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of polar low ongoing, yellow level, B3, B4, 03 February 07:00 UTC to 03 February 14:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/d68342e4-f80f-4f82-8a27-e7cd2c482acc.png</uri>
+    </resource>
+    <area>
+      <areaDesc>B3, B4</areaDesc>
+      <polygon>77.500000,10.000000 77.500000,0.000000 75.000000,0.000000 75.000000,10.000000 75.000000,20.000000 77.500000,20.000000 77.500000,18.357000 76.608167,17.147333 76.547167,16.116667 77.161000,14.199667 77.500000,13.680667 77.500000,10.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

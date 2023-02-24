@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190830193520089.2295</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-08-30T19:35:20+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2537</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-08-31T08:00:00+00:00</effective>
+    <onset>2019-08-31T08:00:00+00:00</onset>
+    <expires>2019-09-01T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Fedje - Stad, 31 August 08:00 UTC til 01 September 12:00 UTC.</headline>
+    <description>Fra lørdag formiddag sørlig stiv og periodevis sterk kuling 20 m/s, først i sørlige del. Søndag formiddag dreiende sørvest, fra om ettermiddagen gradvis minkende, først i sør. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fedje - Stad</areaDesc>
+      <polygon>62.043000,4.760167 61.833833,4.645000 61.651000,4.556167 61.454167,4.486000 61.297000,4.451833 61.146667,4.455833 61.048500,4.451333 60.976000,4.456667 60.851000,4.484167 60.760000,4.511500 60.786833,4.694500 60.853333,4.702833 60.949000,4.696667 61.052167,4.674667 61.156500,4.695167 61.302667,4.691667 61.403167,4.740333 61.563167,4.776833 61.702667,4.844833 62.021667,5.019333 62.183833,5.141000 62.217167,4.932500 62.043000,4.760167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-08-31T08:00:00+00:00</effective>
+    <onset>2019-08-31T08:00:00+00:00</onset>
+    <expires>2019-09-01T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Fedje - Stad, 31 August 08:00 UTC to 01 September 12:00 UTC.</headline>
+    <description>From Saturday forenoon southerly near gale force 7, partly gale force 8 m/s, first in southern part. Sunday forenoon veering southwest, from Sunday afternoon gradually decreasing, first in south. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Fedje - Stad</areaDesc>
+      <polygon>62.043000,4.760167 61.833833,4.645000 61.651000,4.556167 61.454167,4.486000 61.297000,4.451833 61.146667,4.455833 61.048500,4.451333 60.976000,4.456667 60.851000,4.484167 60.760000,4.511500 60.786833,4.694500 60.853333,4.702833 60.949000,4.696667 61.052167,4.674667 61.156500,4.695167 61.302667,4.691667 61.403167,4.740333 61.563167,4.776833 61.702667,4.844833 62.021667,5.019333 62.183833,5.141000 62.217167,4.932500 62.043000,4.760167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO810</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO809</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

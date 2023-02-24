@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221128103611</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-11-28T11:00:07+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050290</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-11-24T10:00:00+00:00</effective>
+    <onset>2022-11-24T10:00:00+00:00</onset>
+    <expires>2022-12-02T11:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Skogbrannfare, gult nivå, Ytre strøk av Nord-Salten og Ofoten, 2022-11-24T10:00:00+00:00, 2022-12-02T11:00:00+00:00</headline>
+    <description>Lokal gress- og lyngbrannfare i snøfrie områder i lavlandet inntil det kommer nedbør av betydning.</description>
+    <instruction>Vær forsiktig med åpen ild. Følg lokale myndigheters instruksjoner. Behov for forebyggende tiltak og beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetasjon kan lett antennes og store områder kan bli berørt. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Skogbrannfare</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Skogbrannfare, gult nivå, Ytre strøk av Nord-Salten og Ofoten, 2022-11-24T10:00:00+00:00, 2022-12-02T11:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/2a1ed617-52bb-4efe-b523-bc9566c8ebd7.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre strøk av Nord-Salten og Ofoten</areaDesc>
+      
+          <polygon>67.6621,14.2581 67.33,15.6769 68.2813,17.0901 68.482,17.797 68.5826,17.5115 68.5553,17.2665 68.564,16.837 68.4919,16.5255 68.4175,16.1028 67.9475,14.7403 67.6621,14.2581 67.6621,14.2581</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1806;1845;1848;1853;1875;5412</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-11-24T10:00:00+00:00</effective>
+    <onset>2022-11-24T10:00:00+00:00</onset>
+    <expires>2022-12-02T11:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Forest fire danger, yellow level, Outer parts of Northern Salten and Ofoten, 2022-11-24T10:00:00+00:00, 2022-12-02T11:00:00+00:00</headline>
+    <description>Local grass fire danger in areas free of snow in the lowlands until significant precipitation is observed.</description>
+    <instruction>Be careful with open fire. Follow the instructions from the local authorities. Emergency services should assess a necessary level of alertness. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetation is easily ignited and large areas may be affected. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Forest fire danger</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Forest fire danger, yellow level, Outer parts of Northern Salten and Ofoten, 2022-11-24T10:00:00+00:00, 2022-12-02T11:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/2a1ed617-52bb-4efe-b523-bc9566c8ebd7.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer parts of Northern Salten and Ofoten</areaDesc>
+      
+          <polygon>67.6621,14.2581 67.33,15.6769 68.2813,17.0901 68.482,17.797 68.5826,17.5115 68.5553,17.2665 68.564,16.837 68.4919,16.5255 68.4175,16.1028 67.9475,14.7403 67.6621,14.2581 67.6621,14.2581</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1806;1845;1848;1853;1875;5412</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+</alert>

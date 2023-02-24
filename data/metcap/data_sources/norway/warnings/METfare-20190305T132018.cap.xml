@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190305132018770.1055</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-05T13:20:18+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1866</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polare lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-03-05T21:00:00+00:00</effective>
+    <onset>2019-03-05T21:00:00+00:00</onset>
+    <expires>2019-03-06T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, Bankene utenfor Troms, Tromsøflaket og Hjelmsøybanken, 05 March 21:00 UTC til 06 March 09:00 UTC.</headline>
+    <description>Et polart lavtrykk ventes tirsdag kveld å utvikle seg nord for Tromsøflaket. Det vil i løpet av natten bevege seg sørøstover, og ventes å treffe land i Vest-Finnmark tidlig onsdag morgen. Lavtrykket vil gi kuling og kan hende storm vest for senteret.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-06T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Raske endringer i vindstyrke og retning. Vanskelig framkommelighet på grunn av snø, snøfokk og redusert sikt. Noe forsinkelser. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polart lavtrykk, gult nivå, Bankene utenfor Troms, Tromsøflaket og Hjelmsøybanken, 05 March 21:00 UTC til 06 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/707400f3-2d75-4afb-a7ed-c9e080a4423e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Bankene utenfor Troms, Tromsøflaket og Hjelmsøybanken</areaDesc>
+      <polygon>72.500000,19.650000 72.500000,15.750000 72.000000,15.750000 70.716833,16.780000 70.200000,16.900000 70.000000,16.600000 69.800000,16.300000 69.550000,15.200000 69.425667,16.458667 69.687167,17.760000 69.905667,18.007667 70.109167,18.405667 70.206167,18.617000 70.312667,19.215167 70.342000,20.167667 70.462667,21.334667 70.680833,21.941167 70.840000,22.685667 71.104167,23.988500 71.194167,25.814167 72.500000,24.607833 72.500000,20.000000 72.500000,19.650000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-03-05T21:00:00+00:00</effective>
+    <onset>2019-03-05T21:00:00+00:00</onset>
+    <expires>2019-03-06T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, Banks outside Troms, Tromsoeflaket and Hjelmsoey bank, 05 March 21:00 UTC to 06 March 09:00 UTC.</headline>
+    <description>A polar low is expected to develop north of Tromsoeflaket. The low will move southeast, and most likely reach the coast of West-Finnmark early Wednesday morning. Expect gale and possibly storm force winds west of the center.</description>
+    <instruction>Be prepared for sudden changes in the weather.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-06T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sudden changes of wind speed and direction. Reduced mobility with snow, blowing snow and reduced visibility. Minor delays. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polar low, yellow level, Banks outside Troms, Tromsoeflaket and Hjelmsoey bank, 05 March 21:00 UTC to 06 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/707400f3-2d75-4afb-a7ed-c9e080a4423e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Banks outside Troms, Tromsoeflaket and Hjelmsoey bank</areaDesc>
+      <polygon>72.500000,19.650000 72.500000,15.750000 72.000000,15.750000 70.716833,16.780000 70.200000,16.900000 70.000000,16.600000 69.800000,16.300000 69.550000,15.200000 69.425667,16.458667 69.687167,17.760000 69.905667,18.007667 70.109167,18.405667 70.206167,18.617000 70.312667,19.215167 70.342000,20.167667 70.462667,21.334667 70.680833,21.941167 70.840000,22.685667 71.104167,23.988500 71.194167,25.814167 72.500000,24.607833 72.500000,20.000000 72.500000,19.650000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

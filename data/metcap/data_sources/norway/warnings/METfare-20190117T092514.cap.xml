@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190117092514546.315</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-17T09:25:14+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1453</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polare lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-01-18T00:00:00+00:00</effective>
+    <onset>2019-01-18T00:00:00+00:00</onset>
+    <expires>2019-01-19T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, A4, B4, B5, 18 January 00:00 UTC til 19 January 18:00 UTC.</headline>
+    <description>Polart lavtrykk ventes å dannes i område B4 og B5 natt til fredag og vil bevege seg nordaustover seinere søraustover. I vestkant av senteret kan det ventes nordlig liten storm. </description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Raske endringer i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <area>
+      <areaDesc>A4, B4, B5</areaDesc>
+      <polygon>77.500000,20.000000 79.492667,20.000000 80.000000,17.738000 80.000000,16.623167 79.879167,17.554667 79.185833,19.829667 78.382500,19.800167 77.555000,18.399833 77.550000,13.655667 78.193333,13.005167 78.199833,12.259667 78.230667,11.791500 78.456000,10.996667 78.808500,10.416500 78.890833,10.467333 78.878500,10.835167 78.429000,11.832667 78.212500,12.240167 78.199833,12.984667 78.733500,11.540167 79.527333,10.646333 79.771000,10.646500 79.852500,11.287167 79.864000,15.642167 80.000000,15.969167 80.000000,11.000000 80.000000,10.000000 77.500000,10.000000 75.000000,10.000000 75.000000,20.000000 75.000000,30.000000 77.500000,30.000000 77.500000,20.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-01-18T00:00:00+00:00</effective>
+    <onset>2019-01-18T00:00:00+00:00</onset>
+    <expires>2019-01-19T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, A4, B4, B5, 18 January 00:00 UTC to 19 January 18:00 UTC.</headline>
+    <description>Polar low expected to develop in area B4 and B5 early Friday morning and is expected to move northeast later southeast. Expect north severe gale force 9 west of center. </description>
+    <instruction>Be prepared for sudden changes in the weather.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sudden changes of wind speed and direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <area>
+      <areaDesc>A4, B4, B5</areaDesc>
+      <polygon>77.500000,20.000000 79.492667,20.000000 80.000000,17.738000 80.000000,16.623167 79.879167,17.554667 79.185833,19.829667 78.382500,19.800167 77.555000,18.399833 77.550000,13.655667 78.193333,13.005167 78.199833,12.259667 78.230667,11.791500 78.456000,10.996667 78.808500,10.416500 78.890833,10.467333 78.878500,10.835167 78.429000,11.832667 78.212500,12.240167 78.199833,12.984667 78.733500,11.540167 79.527333,10.646333 79.771000,10.646500 79.852500,11.287167 79.864000,15.642167 80.000000,15.969167 80.000000,11.000000 80.000000,10.000000 77.500000,10.000000 75.000000,10.000000 75.000000,20.000000 75.000000,30.000000 77.500000,30.000000 77.500000,20.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

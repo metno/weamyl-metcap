@@ -14,6 +14,13 @@ class Search():
         response, status = couch.get(
             f'/{couch.lrmapDb}/lr_{unit}_{self.query}'
             )
+        # test{
+        print(query)
+        print(f'/{couch.lrmapDb}/lr_{unit}_{self.query}')
+        print(couch.configFile)
+        print(response)
+        # test}
+        
         return response.json()
 
     def buildKvMapSearchResult(self, response):
@@ -36,9 +43,6 @@ class Search():
                     "geometry": doc['value'][2]   
                     }
                 self.searchResult["features"].append(feature)
-                # test{
-                print("((((((((((((((((((((((((")
-                # test}
         return self.searchResult
 
     def mapSearch(self, query):

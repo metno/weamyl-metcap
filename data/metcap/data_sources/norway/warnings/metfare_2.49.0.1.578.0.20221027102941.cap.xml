@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221027102941</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-27T10:31:01+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221027073617,2022-10-27T09:24:37+00:00</references>
+  <incidents>0000050250</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snøfokk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-10-29T12:00:00+00:00</effective>
+    <onset>2022-10-29T12:00:00+00:00</onset>
+    <expires>2022-10-30T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftig snøfokk, gult nivå, Deler av Nordland, Troms og Finnmark, 2022-10-29T12:00:00+00:00, 2022-10-30T12:00:00+00:00</headline>
+    <description>Det ventes lokal snøfokk over 200 m på grunn av snøvær og kraftig vind. Vinden kan komme opp i stiv 15 m/s til sterk kuling 20 m/s fra nordvest. Lørdag kveld og natt til søndag kan det lokalt også komme snø lavere enn 200 m og gi vanskelige kjøreforhold der. </description>
+    <instruction>Beregn ekstra tid til transport og kjøring. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Bruk riktige dekk og kjør etter forholdene. Unngå unødvendig ferdsel på utsatte steder. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/snofokk</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-30T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Redusert sikt. Det kan være lokalt vanskelige kjøreforhold grunnet snø som pakker seg i veibanen. Kolonnekjøring kan bli innført og/eller veier kan bli stengte på kort varsel. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftig snøfokk</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftig snøfokk, gult nivå, Deler av Nordland, Troms og Finnmark, 2022-10-29T12:00:00+00:00, 2022-10-30T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/a99b29ab-981c-4d22-b3c8-cb43a8f7fe96.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Nordland, Troms og Finnmark</areaDesc>
+      
+          <polygon>67.9743,17.8842 68.2569,20.4563 68.7551,20.6397 69.0926,21.4025 69.0348,23.4362 69.0121,24.353 70.0777,25.5332 70.2939,25.3808 70.437,25.4241 70.6688,25.919 70.9773,26.309 71.318,26.3299 71.2742,24.1632 71.0311,23.1652 70.7515,21.4342 70.5793,19.9843 69.8719,17.5768 69.3719,15.8433 69.1111,15.3955 68.9188,15.3651 68.8409,15.4361 68.7198,15.4599 68.6348,15.3718 68.5588,15.1573 68.516,15.215 68.4319,15.1819 68.3301,14.9823 68.2407,14.9818 68.3534,15.8595 68.3614,16.1769 68.3259,16.3134 68.2907,16.506 68.2713,16.5692 68.2491,16.5963 68.2351,16.6323 68.2023,16.6575 68.1624,16.7911 68.0274,17.2148 67.9743,17.8842 67.9743,17.8842</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1806;1851;1853;1866;1870;1871;5401;5402;5403;5406;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429;5430;5432;5433;5434;5435;5436;5437</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Blowing snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-10-29T12:00:00+00:00</effective>
+    <onset>2022-10-29T12:00:00+00:00</onset>
+    <expires>2022-10-30T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Blowing snow, yellow level, Parts of Nordland, Troms and Finnmark, 2022-10-29T12:00:00+00:00, 2022-10-30T12:00:00+00:00</headline>
+    <description>Local blowing snow is expected above 200 m due to falling snow and strong wind. The wind is expected to be near gale force 7 to gale force 8 from northwest. Saturday evening and sunday night snow can locally fall below 200 m and cause difficult road conditions also there.</description>
+    <instruction>Allow extra time for transportation and driving. Follow advice and check status from transport operators. Check road reports (175.no). Use tires fit for winter conditions and use caution while driving. Avoid unnecessary journeys to exposed places. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/snofokk</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-30T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Reduced visibility. Local driving conditions may become difficult due to snow accumulating on the road. Expect convoys and/or closed roads on short notice. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Blowing snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Blowing snow, yellow level, Parts of Nordland, Troms and Finnmark, 2022-10-29T12:00:00+00:00, 2022-10-30T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/a99b29ab-981c-4d22-b3c8-cb43a8f7fe96.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Nordland, Troms and Finnmark</areaDesc>
+      
+          <polygon>67.9743,17.8842 68.2569,20.4563 68.7551,20.6397 69.0926,21.4025 69.0348,23.4362 69.0121,24.353 70.0777,25.5332 70.2939,25.3808 70.437,25.4241 70.6688,25.919 70.9773,26.309 71.318,26.3299 71.2742,24.1632 71.0311,23.1652 70.7515,21.4342 70.5793,19.9843 69.8719,17.5768 69.3719,15.8433 69.1111,15.3955 68.9188,15.3651 68.8409,15.4361 68.7198,15.4599 68.6348,15.3718 68.5588,15.1573 68.516,15.215 68.4319,15.1819 68.3301,14.9823 68.2407,14.9818 68.3534,15.8595 68.3614,16.1769 68.3259,16.3134 68.2907,16.506 68.2713,16.5692 68.2491,16.5963 68.2351,16.6323 68.2023,16.6575 68.1624,16.7911 68.0274,17.2148 67.9743,17.8842 67.9743,17.8842</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1806;1851;1853;1866;1870;1871;5401;5402;5403;5406;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429;5430;5432;5433;5434;5435;5436;5437</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

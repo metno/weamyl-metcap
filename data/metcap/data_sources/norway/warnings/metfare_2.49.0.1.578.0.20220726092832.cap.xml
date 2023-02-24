@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220726092832</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-26T09:37:24+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050108</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-07-27T06:00:00+00:00</effective>
+    <onset>2022-07-27T06:00:00+00:00</onset>
+    <expires>2022-07-28T01:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn, gult nivå, Finnmark, 2022-07-27T06:00:00+00:00, 2022-07-28T01:00:00+00:00</headline>
+    <description>Det ventes mye torden i Finnmark onsdag. Først på  dagen vil hele Finnmark kunne bli berørt, men fra onsdag kveld ventes torden kun i Øst-Finnmark. Det vil være store lokale forskjeller, og noen steder vil ikke oppleve torden.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-28T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Lokalt kraftige regnbyger. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn, gult nivå, Finnmark, 2022-07-27T06:00:00+00:00, 2022-07-28T01:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/6fee17c4-e66e-40b6-84c3-0596eb094583.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmark</areaDesc>
+      <polygon>68.7155,22.4257 68.6899,23.0009 68.644,23.1066 68.7164,23.7349 68.8113,23.8364 68.7346,24.1993 68.6526,24.7353 68.5705,24.8899 68.6361,25.097 68.858,25.3469 68.8816,25.588 68.9874,25.7494 69.0982,25.7573 69.2485,25.7677 69.6524,26.037 69.7889,26.346 69.925,26.5529 69.9274,26.9827 69.9064,27.1438 70.0627,27.8531 69.9709,28.0584 69.8108,28.423 69.6619,29.1653 69.5805,29.2437 69.4664,29.3232 69.2174,28.8343 69.0935,28.8281 69.0118,29.0508 69.1525,29.3217 69.289,29.4434 69.4229,30.0651 69.6642,30.179 69.5335,30.54 69.538,30.8986 69.7922,30.9056 70.4817,31.5418 71.5299,26.6928 70.169,22.7071 69.8432,22.3793 69.0708,21.9637 68.914,22.2158 68.7155,22.4257 68.7155,22.4257</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5403;5404;5405;5406;5428;5429;5430;5434;5435;5436;5437;5438;5439;5440;5441;5442;5443;5444</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-07-27T06:00:00+00:00</effective>
+    <onset>2022-07-27T06:00:00+00:00</onset>
+    <expires>2022-07-28T01:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning, yellow level, Finnmark, 2022-07-27T06:00:00+00:00, 2022-07-28T01:00:00+00:00</headline>
+    <description>Wednesday is expected thunderstorms in Finnmark. First part of Wednesday the whole area could be affected, but from Wednesday evening thunderstorms is expected only in eastern part. There will be large local differences in intensity. Some places will not experience any thunderstorm.</description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-28T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Locally heavy rain showers. Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning, yellow level, Finnmark, 2022-07-27T06:00:00+00:00, 2022-07-28T01:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/6fee17c4-e66e-40b6-84c3-0596eb094583.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmark</areaDesc>
+      <polygon>68.7155,22.4257 68.6899,23.0009 68.644,23.1066 68.7164,23.7349 68.8113,23.8364 68.7346,24.1993 68.6526,24.7353 68.5705,24.8899 68.6361,25.097 68.858,25.3469 68.8816,25.588 68.9874,25.7494 69.0982,25.7573 69.2485,25.7677 69.6524,26.037 69.7889,26.346 69.925,26.5529 69.9274,26.9827 69.9064,27.1438 70.0627,27.8531 69.9709,28.0584 69.8108,28.423 69.6619,29.1653 69.5805,29.2437 69.4664,29.3232 69.2174,28.8343 69.0935,28.8281 69.0118,29.0508 69.1525,29.3217 69.289,29.4434 69.4229,30.0651 69.6642,30.179 69.5335,30.54 69.538,30.8986 69.7922,30.9056 70.4817,31.5418 71.5299,26.6928 70.169,22.7071 69.8432,22.3793 69.0708,21.9637 68.914,22.2158 68.7155,22.4257 68.7155,22.4257</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5403;5404;5405;5406;5428;5429;5430;5434;5435;5436;5437;5438;5439;5440;5441;5442;5443;5444</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

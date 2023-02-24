@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200821143531179.4051</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-08-21T14:35:31+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>4758</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2020-08-21T14:00:00+00:00</effective>
+    <onset>2020-08-21T14:00:00+00:00</onset>
+    <expires>2020-08-21T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Oslo, 21 August 14:00 UTC til 21 August 18:00 UTC.</headline>
+    <description>Fra fredag formiddag til fredag kveld ventes kraftige regnbyger i ditt område. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Koble fra elektriske apparater. Unngå å være det høyeste punktet, og ikke opphold deg i nærheten av enkeltstående trær, tårn eller master.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-08-21T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Hagl, lyn og torden, og kraftige vindkast. Skader på elektriske anlegg/apparater grunnet lynnedslag. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Styrtregn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>10 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Oslo</areaDesc>
+      <polygon>60.133667,10.679500 60.119167,10.707500 60.125333,10.739000 60.113667,10.767333 60.101333,10.755500 60.082333,10.776333 60.066833,10.788167 60.064667,10.819333 60.027833,10.813667 60.021667,10.814167 60.021500,10.829833 60.006500,10.837500 59.992167,10.866833 59.984833,10.876000 59.981333,10.889000 59.980167,10.908333 59.984000,10.923500 59.973333,10.932167 59.954167,10.940667 59.948000,10.950833 59.930833,10.924833 59.904500,10.911000 59.866500,10.908167 59.837667,10.931500 59.832000,10.936667 59.826667,10.918667 59.825500,10.899500 59.816500,10.890000 59.812333,10.878167 59.811167,10.860000 59.810833,10.849500 59.816667,10.845833 59.816333,10.834667 59.818000,10.817167 59.823500,10.804833 59.824333,10.770667 59.845333,10.747667 59.859167,10.738500 59.866500,10.733333 59.876167,10.729167 59.876833,10.697833 59.879667,10.676833 59.885333,10.664833 59.903667,10.648333 59.923833,10.629667 59.958833,10.628667 59.974500,10.612333 59.977333,10.592500 59.996500,10.554500 59.993333,10.550500 59.999333,10.539500 60.000000,10.517667 60.017333,10.490500 60.076333,10.580833 60.077333,10.595333 60.096500,10.590667 60.117167,10.572833 60.132333,10.602667 60.134833,10.619000 60.133667,10.679500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>03</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0301</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-03</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO011</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO010</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2020-08-21T14:00:00+00:00</effective>
+    <onset>2020-08-21T14:00:00+00:00</onset>
+    <expires>2020-08-21T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Oslo, 21 August 14:00 UTC to 21 August 18:00 UTC.</headline>
+    <description>From late Friday morning to Friday evening heavy rain showers are expected in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly.</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Unplug electrical equipment. Avoid being the highest object, and keep away from lone trees, towers, or masts.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-08-21T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Hail, thunder and lightning, and strong wind gusts. Damage to electrical systems and equipment due to lightning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>10 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Oslo</areaDesc>
+      <polygon>60.133667,10.679500 60.119167,10.707500 60.125333,10.739000 60.113667,10.767333 60.101333,10.755500 60.082333,10.776333 60.066833,10.788167 60.064667,10.819333 60.027833,10.813667 60.021667,10.814167 60.021500,10.829833 60.006500,10.837500 59.992167,10.866833 59.984833,10.876000 59.981333,10.889000 59.980167,10.908333 59.984000,10.923500 59.973333,10.932167 59.954167,10.940667 59.948000,10.950833 59.930833,10.924833 59.904500,10.911000 59.866500,10.908167 59.837667,10.931500 59.832000,10.936667 59.826667,10.918667 59.825500,10.899500 59.816500,10.890000 59.812333,10.878167 59.811167,10.860000 59.810833,10.849500 59.816667,10.845833 59.816333,10.834667 59.818000,10.817167 59.823500,10.804833 59.824333,10.770667 59.845333,10.747667 59.859167,10.738500 59.866500,10.733333 59.876167,10.729167 59.876833,10.697833 59.879667,10.676833 59.885333,10.664833 59.903667,10.648333 59.923833,10.629667 59.958833,10.628667 59.974500,10.612333 59.977333,10.592500 59.996500,10.554500 59.993333,10.550500 59.999333,10.539500 60.000000,10.517667 60.017333,10.490500 60.076333,10.580833 60.077333,10.595333 60.096500,10.590667 60.117167,10.572833 60.132333,10.602667 60.134833,10.619000 60.133667,10.679500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>03</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0301</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-03</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO011</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO010</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

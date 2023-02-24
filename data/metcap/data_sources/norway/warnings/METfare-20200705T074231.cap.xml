@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200705074231004.3873</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-07-05T07:42:31+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200704183308087.3863,2020-07-04T18:33:08+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-07-05T09:00:00+00:00</effective>
+    <onset>2020-07-05T09:00:00+00:00</onset>
+    <expires>2020-07-06T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Svenskegrensa - Oksøy, 05 July 09:00 UTC til 06 July 12:00 UTC.</headline>
+    <description>Fra sent søndag formiddag sørvestlig stiv kuling 15 m/s, søndag kveld periodevis sterk kuling 20 m/s. </description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-07-06T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. Grov sjø og hvitt skum fra bølgetopper som brekker. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Svenskegrensa - Oksøy</areaDesc>
+      <polygon>59.053333,10.010833 59.051667,9.840167 59.064833,9.770167 58.922667,9.435000 58.797333,9.222667 58.681000,9.026167 58.470333,8.680000 58.173167,8.146667 58.154500,7.994833 58.063500,8.052000 58.089167,8.215333 58.246167,8.525500 58.396500,8.808833 58.629000,9.153833 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.956500,10.048167 58.972667,10.224667 59.043667,10.653167 58.939167,10.904167 58.944667,10.927667 58.961167,10.984667 58.979167,11.068167 58.994667,11.094167 59.001167,11.101167 59.017667,11.118167 59.078667,11.153167 59.082500,11.177667 59.085667,11.209667 59.087667,11.226167 59.125167,11.194833 59.148167,11.131667 59.194167,10.837667 59.276667,10.743167 59.315167,10.740667 59.332833,10.701833 59.423500,10.679333 59.486667,10.711167 59.493000,10.695167 59.491667,10.675167 59.508667,10.664167 59.521833,10.645667 59.531167,10.605167 59.523167,10.439167 59.515833,10.355333 59.477667,10.318000 59.436000,10.380333 59.412833,10.465833 59.361167,10.447167 59.319667,10.488333 59.290500,10.482167 59.219000,10.408667 59.053333,10.010833
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO801</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO813</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO814</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO802</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO812</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-07-05T09:00:00+00:00</effective>
+    <onset>2020-07-05T09:00:00+00:00</onset>
+    <expires>2020-07-06T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Swedish border - Oksoey, 05 July 09:00 UTC to 06 July 12:00 UTC.</headline>
+    <description>From late late Sunday morning southwest near gale force 7, Sunday evening occasionally gale force 8. </description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-07-06T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. Sea heaps up. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Swedish border - Oksoey</areaDesc>
+      <polygon>59.053333,10.010833 59.051667,9.840167 59.064833,9.770167 58.922667,9.435000 58.797333,9.222667 58.681000,9.026167 58.470333,8.680000 58.173167,8.146667 58.154500,7.994833 58.063500,8.052000 58.089167,8.215333 58.246167,8.525500 58.396500,8.808833 58.629000,9.153833 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.956500,10.048167 58.972667,10.224667 59.043667,10.653167 58.939167,10.904167 58.944667,10.927667 58.961167,10.984667 58.979167,11.068167 58.994667,11.094167 59.001167,11.101167 59.017667,11.118167 59.078667,11.153167 59.082500,11.177667 59.085667,11.209667 59.087667,11.226167 59.125167,11.194833 59.148167,11.131667 59.194167,10.837667 59.276667,10.743167 59.315167,10.740667 59.332833,10.701833 59.423500,10.679333 59.486667,10.711167 59.493000,10.695167 59.491667,10.675167 59.508667,10.664167 59.521833,10.645667 59.531167,10.605167 59.523167,10.439167 59.515833,10.355333 59.477667,10.318000 59.436000,10.380333 59.412833,10.465833 59.361167,10.447167 59.319667,10.488333 59.290500,10.482167 59.219000,10.408667 59.053333,10.010833
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO801</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO813</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO814</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO802</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO812</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

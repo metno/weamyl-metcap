@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190109073449418.87</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-09T07:34:49+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1335</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-09T11:00:00+00:00</effective>
+    <onset>2019-01-09T11:00:00+00:00</onset>
+    <expires>2019-01-09T17:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Nordkapp - Slettnes fyr, 09 January 11:00 UTC til 09 January 17:00 UTC.</headline>
+    <description>Onsdag ettermiddag sørlig stiv kuling 15 m/s.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-09T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Grov sjø og hvitt skum fra bølgetopper som brekker, begynner å blåse i strimer i vindretningen. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Nordkapp - Slettnes fyr</areaDesc>
+      <polygon>71.109667,28.243667 70.744167,27.621167 70.750000,27.216667 70.750000,26.750000 70.666667,26.250000 70.666667,26.033167 70.716667,25.883167 70.699667,25.600000 70.733167,25.333167 71.198833,25.809000 71.150500,27.662500 71.150333,27.667000 71.117667,28.189333 71.117500,28.190833 71.116167,28.208667 71.115667,28.214000 71.115000,28.219167 71.114167,28.224000 71.113667,28.227000 71.109667,28.243667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-09T11:00:00+00:00</effective>
+    <onset>2019-01-09T11:00:00+00:00</onset>
+    <expires>2019-01-09T17:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, North Cape - Slettnes lighthouse, 09 January 11:00 UTC to 09 January 17:00 UTC.</headline>
+    <description>Wednesday afternoon south near gale force 7.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-09T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sea heaps up. Some foam from breaking waves is blown into streaks along wind direction. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>North Cape - Slettnes lighthouse</areaDesc>
+      <polygon>71.109667,28.243667 70.744167,27.621167 70.750000,27.216667 70.750000,26.750000 70.666667,26.250000 70.666667,26.033167 70.716667,25.883167 70.699667,25.600000 70.733167,25.333167 71.198833,25.809000 71.150500,27.662500 71.150333,27.667000 71.117667,28.189333 71.117500,28.190833 71.116167,28.208667 71.115667,28.214000 71.115000,28.219167 71.114167,28.224000 71.113667,28.227000 71.109667,28.243667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220826091628</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-26T09:17:26+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220826065625,2022-08-26T07:15:04+00:00</references>
+  <incidents>0000050153</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-26T09:00:00+00:00</effective>
+    <onset>2022-08-26T09:00:00+00:00</onset>
+    <expires>2022-08-26T19:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Sørlige og indre strøk av Rogaland, 2022-08-26T09:00:00+00:00, 2022-08-26T19:00:00+00:00</headline>
+    <description>Kraftige regnbyger ventes i sørlige og indre strøk av Rogaland. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt. Nedbørens plassering er usikker. Lokalt er nedbøren ventet å passere 15 mm/1t. Bygenes intensitet avtar fredag kveld, først i sør.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Unngå unødvendig ferdsel utsatte steder. Ikke kjør bil i vann dypere enn 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-26T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn, gult nivå, Sørlige og indre strøk av Rogaland, 2022-08-26T09:00:00+00:00, 2022-08-26T19:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0e0e597b-1c45-4d29-b045-cba23f1148cb.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Sørlige og indre strøk av Rogaland</areaDesc>
+      <polygon>58.6884,6.61046 58.7722,6.52107 58.8802,6.60679 58.9065,6.55903 58.9434,6.62096 58.9833,6.6672 59.0339,6.75821 59.1023,6.89711 59.1931,6.94822 59.181,6.83898 59.3003,6.84314 59.4026,6.91939 59.4294,6.90502 59.4844,7.01329 59.63,7.01918 59.5635,6.60305 59.3066,6.23819 58.9978,5.97695 58.7175,5.54521 58.5479,5.61944 58.4777,5.81548 58.2783,6.3463 58.344,6.59741 58.4309,6.61658 58.622,6.61073 58.6149,6.58052 58.6283,6.53193 58.6097,6.49352 58.627,6.49014 58.6517,6.43965 58.6715,6.47118 58.6689,6.51363 58.6884,6.61046 58.6884,6.61046</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1101;1108;1111;1112;1114;1119;1120;1121;1122;1130;1133;1134</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-26T09:00:00+00:00</effective>
+    <onset>2022-08-26T09:00:00+00:00</onset>
+    <expires>2022-08-26T19:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Parts of Rogaland, 2022-08-26T09:00:00+00:00, 2022-08-26T19:00:00+00:00</headline>
+    <description>Heavy rain showers are expected in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly. The exact location of the precipitation is uncertain. Locally the precipitation can exceed 15 mm/h. The intensity will decrease Friday evening, first in south part. </description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Stay away from exposed places if possible. Do not drive in water deeper than 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-26T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Parts of Rogaland, 2022-08-26T09:00:00+00:00, 2022-08-26T19:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0e0e597b-1c45-4d29-b045-cba23f1148cb.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Rogaland</areaDesc>
+      <polygon>58.6884,6.61046 58.7722,6.52107 58.8802,6.60679 58.9065,6.55903 58.9434,6.62096 58.9833,6.6672 59.0339,6.75821 59.1023,6.89711 59.1931,6.94822 59.181,6.83898 59.3003,6.84314 59.4026,6.91939 59.4294,6.90502 59.4844,7.01329 59.63,7.01918 59.5635,6.60305 59.3066,6.23819 58.9978,5.97695 58.7175,5.54521 58.5479,5.61944 58.4777,5.81548 58.2783,6.3463 58.344,6.59741 58.4309,6.61658 58.622,6.61073 58.6149,6.58052 58.6283,6.53193 58.6097,6.49352 58.627,6.49014 58.6517,6.43965 58.6715,6.47118 58.6689,6.51363 58.6884,6.61046 58.6884,6.61046</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1101;1108;1111;1112;1114;1119;1120;1121;1122;1130;1133;1134</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

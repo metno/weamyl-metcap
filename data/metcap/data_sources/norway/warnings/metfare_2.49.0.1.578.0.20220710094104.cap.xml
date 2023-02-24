@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220710094104</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-10T09:48:21+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050078</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-07-10T10:00:00+00:00</effective>
+    <onset>2022-07-10T10:00:00+00:00</onset>
+    <expires>2022-07-14T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Skogbrannfare ventes, gult nivå, Telemark og østlige deler av Agder, 2022-07-10T10:00:00+00:00, 2022-07-14T22:00:00+00:00</headline>
+    <description>Lokal skobrannfare</description>
+    <instruction>Følg lokale myndigheters instruksjoner. Behov for forebyggende tiltak og beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetasjon kan lett antennes og store områder kan bli berørt. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Skogbrannfare ventes</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Skogbrannfare ventes, gult nivå, Telemark og østlige deler av Agder, 2022-07-10T10:00:00+00:00, 2022-07-14T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/573d6e22-8f4d-43f6-aa74-d7ae144c3cab.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Telemark og østlige deler av Agder</areaDesc>
+      <polygon>59.1747,6.85012 59.1877,6.95417 59.1647,7.16326 59.0706,7.11513 59.0263,7.14839 58.9953,7.07808 58.9566,7.1252 58.908,7.12597 58.9012,7.0305 58.8741,7.04904 58.816,7.04766 58.8243,7.1682 58.8737,7.44903 58.8551,7.53184 58.7829,7.63822 58.6979,7.60387 58.6771,7.53018 58.6186,7.53396 58.5798,7.5799 58.5344,7.48795 58.45,7.54077 58.4387,7.65508 58.4418,7.74839 58.3939,7.78525 58.3791,7.85528 58.3344,7.89274 58.2992,7.9756 58.3509,8.02015 58.2757,8.03074 58.2508,8.14677 58.1567,8.15187 58.0589,8.24739 58.4781,9.03836 58.7373,9.43045 58.8828,9.66587 58.9373,9.82256 59.0135,9.77228 59.0254,9.85848 59.0921,9.84294 59.1202,9.82069 59.1629,9.85415 59.2208,9.89928 59.3032,9.78052 59.4112,9.77858 59.4337,9.63232 59.526,9.50881 59.678,9.41055 59.6896,9.34973 59.7782,9.38514 59.8144,9.18291 59.9348,9.18913 59.9688,9.01099 60.1034,8.96207 60.1842,8.76441 60.1777,8.46067 60.1941,8.19014 60.1051,7.83132 60.1342,7.64328 60.0959,7.48295 60.018,7.42999 59.9959,7.26829 59.9147,7.16347 59.8639,7.1443 59.8342,7.14984 59.807,7.11726 59.7746,7.11568 59.7139,7.10066 59.6947,7.14736 59.675,7.2003 59.6699,7.12836 59.6363,7.09442 59.5935,7.05189 59.5963,7.00774 59.5555,6.98508 59.5203,6.9766 59.4748,7.02943 59.446,6.97148 59.4207,6.90814 59.4004,6.92238 59.3835,6.88025 59.3236,6.85341 59.2729,6.83517 59.2505,6.82994 59.1747,6.85012 59.1747,6.85012</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3806;3807;3808;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4202;4203;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4221;4222;4223;4224</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-07-10T10:00:00+00:00</effective>
+    <onset>2022-07-10T10:00:00+00:00</onset>
+    <expires>2022-07-14T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Forest fire danger expected, yellow level, Telemark and eastern part of Agder, 2022-07-10T10:00:00+00:00, 2022-07-14T22:00:00+00:00</headline>
+    <description>Local forest fire danger</description>
+    <instruction>Follow the instructions from the local authorities. Emergency services should assess a necessary level of alertness. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetation is easily ignited and large areas may be affected. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Forest fire danger expected</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Forest fire danger expected, yellow level, Telemark and eastern part of Agder, 2022-07-10T10:00:00+00:00, 2022-07-14T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/573d6e22-8f4d-43f6-aa74-d7ae144c3cab.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Telemark and eastern part of Agder</areaDesc>
+      <polygon>59.1747,6.85012 59.1877,6.95417 59.1647,7.16326 59.0706,7.11513 59.0263,7.14839 58.9953,7.07808 58.9566,7.1252 58.908,7.12597 58.9012,7.0305 58.8741,7.04904 58.816,7.04766 58.8243,7.1682 58.8737,7.44903 58.8551,7.53184 58.7829,7.63822 58.6979,7.60387 58.6771,7.53018 58.6186,7.53396 58.5798,7.5799 58.5344,7.48795 58.45,7.54077 58.4387,7.65508 58.4418,7.74839 58.3939,7.78525 58.3791,7.85528 58.3344,7.89274 58.2992,7.9756 58.3509,8.02015 58.2757,8.03074 58.2508,8.14677 58.1567,8.15187 58.0589,8.24739 58.4781,9.03836 58.7373,9.43045 58.8828,9.66587 58.9373,9.82256 59.0135,9.77228 59.0254,9.85848 59.0921,9.84294 59.1202,9.82069 59.1629,9.85415 59.2208,9.89928 59.3032,9.78052 59.4112,9.77858 59.4337,9.63232 59.526,9.50881 59.678,9.41055 59.6896,9.34973 59.7782,9.38514 59.8144,9.18291 59.9348,9.18913 59.9688,9.01099 60.1034,8.96207 60.1842,8.76441 60.1777,8.46067 60.1941,8.19014 60.1051,7.83132 60.1342,7.64328 60.0959,7.48295 60.018,7.42999 59.9959,7.26829 59.9147,7.16347 59.8639,7.1443 59.8342,7.14984 59.807,7.11726 59.7746,7.11568 59.7139,7.10066 59.6947,7.14736 59.675,7.2003 59.6699,7.12836 59.6363,7.09442 59.5935,7.05189 59.5963,7.00774 59.5555,6.98508 59.5203,6.9766 59.4748,7.02943 59.446,6.97148 59.4207,6.90814 59.4004,6.92238 59.3835,6.88025 59.3236,6.85341 59.2729,6.83517 59.2505,6.82994 59.1747,6.85012 59.1747,6.85012</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3806;3807;3808;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4202;4203;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4221;4222;4223;4224</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220824065649</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-24T06:57:48+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220824060859,2022-08-24T06:39:48+00:00</references>
+  <incidents>0000050146</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-25T13:00:00+00:00</effective>
+    <onset>2022-08-25T13:00:00+00:00</onset>
+    <expires>2022-08-26T00:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Ytre strøk av Vestland, 2022-08-25T13:00:00+00:00, 2022-08-26T00:00:00+00:00</headline>
+    <description>Fra torsdag ettermiddag ventes kraftige regnbyger i ditt område. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt. Nedbørens plassering er usikker. Lokalt er nedbøren ventet å passere 15 mm/1t. Bygenes intensitet avtar natt til fredag.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Unngå unødvendig ferdsel utsatte steder. Ikke kjør bil i vann dypere enn 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-26T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn, gult nivå, Ytre strøk av Vestland, 2022-08-25T13:00:00+00:00, 2022-08-26T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/cc15ce59-226b-477c-9695-04073a108442.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre strøk av Vestland</areaDesc>
+      <polygon>61.8503,6.09971 61.7848,4.73705 61.0005,4.59216 59.499,4.98712 59.5281,5.52814 60.2233,5.70759 60.8192,6.15542 61.6769,6.36207 61.8503,6.09971 61.8503,6.09971</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4602;4612;4613;4614;4615;4616;4623;4624;4625;4626;4627;4628;4629;4630;4631;4632;4633;4634;4635;4636;4637;4638;4645;4646;4647;4648;4650</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-25T13:00:00+00:00</effective>
+    <onset>2022-08-25T13:00:00+00:00</onset>
+    <expires>2022-08-26T00:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Outer parts of Vestland, 2022-08-25T13:00:00+00:00, 2022-08-26T00:00:00+00:00</headline>
+    <description>From Thursday afternoon, heavy rain showers are expected in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly. The exact location of the precipitation is uncertain. Locally the precipitation can exceed 15 mm/h. The intensity will decrease early Friday morning.</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Stay away from exposed places if possible. Do not drive in water deeper than 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-26T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Outer parts of Vestland, 2022-08-25T13:00:00+00:00, 2022-08-26T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/cc15ce59-226b-477c-9695-04073a108442.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer parts of Vestland</areaDesc>
+      <polygon>61.8503,6.09971 61.7848,4.73705 61.0005,4.59216 59.499,4.98712 59.5281,5.52814 60.2233,5.70759 60.8192,6.15542 61.6769,6.36207 61.8503,6.09971 61.8503,6.09971</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4602;4612;4613;4614;4615;4616;4623;4624;4625;4626;4627;4628;4629;4630;4631;4632;4633;4634;4635;4636;4637;4638;4645;4646;4647;4648;4650</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

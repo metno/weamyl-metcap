@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210305164203549.624</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-03-05T16:42:03+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-03-06T04:00:00+00:00</effective>
+    <onset>2021-03-06T04:00:00+00:00</onset>
+    <expires>2021-03-06T17:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Skomvær - Melbu, 06 March 04:00 UTC til 06 March 17:00 UTC.</headline>
+    <description>Lørdag morgen økning til nordvest stiv kuling 15 m/s, periodevis sterk kuling til liten storm 22 m/s. Forbigående mindre vind om ettermiddagen. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-03-06T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. Grov sjø og hvitt skum fra bølgetopper som brekker. Middels høye bølger. Bølgekammene er ved å brytes opp til sjørokk. Høye bølger. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Skomvær - Melbu</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557167,12.603667 67.404833,11.884333 67.484000,11.771667 67.646167,12.507167 68.029667,12.908167 68.535000,13.911667 68.483167,14.133167 68.449667,14.183167 68.449667,14.366667 68.416667,14.433167 68.416667,14.533167 68.366667,14.550000 68.349667,14.616667 68.383167,14.683167 68.366667,14.816667 68.333167,14.833167 68.316667,14.933167 68.333167,15.050000 68.366667,15.133167 68.349667,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-03-06T04:00:00+00:00</effective>
+    <onset>2021-03-06T04:00:00+00:00</onset>
+    <expires>2021-03-06T17:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Skomvaer - Melbu, 06 March 04:00 UTC to 06 March 17:00 UTC.</headline>
+    <description>Saturday morning increasing northwest near gale force 7, occasionally gale force 8 to strong gale force 9. Temporary less wind in the afternoon. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-03-06T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. Sea heaps up. Moderate amounts of airborne spray. Moderately high waves with breaking crests forming spindrift. Considerable airborne spray. High waves whose crests sometimes roll over. Airborne spray may reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Skomvaer - Melbu</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557167,12.603667 67.404833,11.884333 67.484000,11.771667 67.646167,12.507167 68.029667,12.908167 68.535000,13.911667 68.483167,14.133167 68.449667,14.183167 68.449667,14.366667 68.416667,14.433167 68.416667,14.533167 68.366667,14.550000 68.349667,14.616667 68.383167,14.683167 68.366667,14.816667 68.333167,14.833167 68.316667,14.933167 68.333167,15.050000 68.366667,15.133167 68.349667,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

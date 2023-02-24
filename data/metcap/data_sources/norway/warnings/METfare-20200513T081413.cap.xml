@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200513081413916.3627</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-05-13T08:14:13+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>4693</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2020-05-14T15:00:00+00:00</effective>
+    <onset>2020-05-14T15:00:00+00:00</onset>
+    <expires>2020-05-15T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Kyst- og fjordstrøkene i Vest-Finnmark, 14 May 15:00 UTC til 15 May 09:00 UTC.</headline>
+    <description>Seint torsdag ettermiddag øker vinden fra nordvest og det blir lokalt kraftige vindkast på 30 m/s. I tillegg blir det lokalt kraftig nedbør som snø eller sludd, etterhvert lokalt som regn på kysten. Sterkeste vind blir det tidlig natt til fredag. Vinden minker fredag formiddag. </description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Enkelte reiser vil kunne få lenger reisetid. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over kraftige vindkast, gult nivå, Kyst- og fjordstrøkene i Vest-Finnmark, 14 May 15:00 UTC til 15 May 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/a71a8d38-515b-485e-93c2-b9bedd59dd47.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Kyst- og fjordstrøkene i Vest-Finnmark</areaDesc>
+      <polygon>70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 70.000000,25.866667 70.099833,25.899833 70.233167,25.983167 70.366667,26.049833 70.466667,26.083167 70.666667,26.250000 70.783167,26.433167 70.966667,26.600000 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2020-05-14T15:00:00+00:00</effective>
+    <onset>2020-05-14T15:00:00+00:00</onset>
+    <expires>2020-05-15T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Kyst- and fjordstroekene i Vest-Finnmark, 14 May 15:00 UTC to 15 May 09:00 UTC.</headline>
+    <description>Late Thursday afternoon the northwest wind increases and there will be locally strong wind gusts at 30 m/s. In addition there will be locally heavy precipitation as snow or sleet, later locally as rain on the coast. The strongest wind will be early friday morning. Wind decreasing Friday before noon. </description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Some journeys may have longer travel times. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of strong wind gusts, yellow level, Kyst- and fjordstroekene i Vest-Finnmark, 14 May 15:00 UTC to 15 May 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/a71a8d38-515b-485e-93c2-b9bedd59dd47.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Kyst- and fjordstroekene i Vest-Finnmark</areaDesc>
+      <polygon>70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 70.000000,25.866667 70.099833,25.899833 70.233167,25.983167 70.366667,26.049833 70.466667,26.083167 70.666667,26.250000 70.783167,26.433167 70.966667,26.600000 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200510092726982.3579</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-05-10T09:27:26+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200509113307468.3568,2020-05-09T11:33:07+00:00</references>
+  <incidents>4686</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-05-11T00:00:00+00:00</effective>
+    <onset>2020-05-11T00:00:00+00:00</onset>
+    <expires>2020-05-12T21:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye snø, gult nivå, Nordland, Troms og Kyst- og fjordstrøkene i Finnmark, 11 May 00:00 UTC til 12 May 21:00 UTC.</headline>
+    <description>Mandag og tirsdag ventes lokalt kraftige snøbyger. Snøen ventes lokalt å legge seg på veiene i de mest intense bygene, både i lavlandet og i fjellet. Det kan på det meste komme 10-20 cm snø i løpet av 24 timer. Lite nedbør øst i Øst-Finnmark. </description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-05-12T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>10 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over mye snø, gult nivå, Nordland, Troms og Kyst- og fjordstrøkene i Finnmark, 11 May 00:00 UTC til 12 May 21:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/dd81330e-33e0-4d82-9eda-10e58d2730bc.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordland, Troms og Kyst- og fjordstrøkene i Finnmark</areaDesc>
+      <polygon>70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.233167,16.333167 69.033167,16.049833 68.949833,15.866667 69.033000,16.049667 69.233167,16.333000 69.425667,16.458500 69.332167,16.062500 69.071500,15.163667 68.839667,14.548667 68.535000,13.911833 68.029500,12.908167 67.646000,12.507167 67.557167,12.603500 67.976667,13.253000 68.113500,13.909000 68.151167,14.623167 68.098500,14.742000 68.030667,14.894000 67.766667,14.383000 67.616167,14.420833 67.453833,14.241167 67.199833,13.699833 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433000 65.199833,11.666667 65.166333,11.844833 65.150000,11.933000 65.083167,11.883000 65.050000,12.033167 64.966667,12.250000 64.983167,12.466500 64.933000,12.733167 65.099667,13.066500 65.116667,13.583167 65.133000,14.333167 65.166333,14.344167 65.233167,14.366667 65.300000,14.500000 65.383000,14.500000 65.516667,14.500000 65.699833,14.516500 65.816500,14.616667 65.849667,14.600000 66.133000,14.550000 66.133000,14.699667 66.166500,15.033167 66.216667,15.266500 66.283000,15.466500 66.366667,15.433000 66.483167,15.383167 66.550000,15.533167 66.616667,15.633000 66.716667,15.766500 66.916500,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383000,16.183000 67.433000,16.083000 67.516667,16.166500 67.533000,16.399833 67.650000,16.566667 67.816500,16.666500 67.916500,16.750000 68.050000,17.183000 68.116667,17.283167 68.050000,17.666500 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533000,18.133167 68.599667,18.033167 68.599667,17.533167 68.550000,17.316667 68.599833,17.533167 68.599833,18.033167 68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1833;1839;1840</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1806;1851;1853;1875;5412</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-05-11T00:00:00+00:00</effective>
+    <onset>2020-05-11T00:00:00+00:00</onset>
+    <expires>2020-05-12T21:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy snow, yellow level, Nordland, Troms and Kyst- and fjordstroekene i Finnmark, 11 May 00:00 UTC to 12 May 21:00 UTC.</headline>
+    <description>Monday and Tuesday locally heavy snow showers are expected. The snow is expected to cover roads in the most intense showers, both in the lowland and mountain areas. At most it is anticipated to fall 10-20 cm snow in 24 hours. Little precipitation in eastern part of East Finnmark.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-05-12T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>10 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of heavy snow, yellow level, Nordland, Troms and Kyst- and fjordstroekene i Finnmark, 11 May 00:00 UTC to 12 May 21:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/dd81330e-33e0-4d82-9eda-10e58d2730bc.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordland, Troms and Kyst- and fjordstroekene i Finnmark</areaDesc>
+      <polygon>70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.233167,16.333167 69.033167,16.049833 68.949833,15.866667 69.033000,16.049667 69.233167,16.333000 69.425667,16.458500 69.332167,16.062500 69.071500,15.163667 68.839667,14.548667 68.535000,13.911833 68.029500,12.908167 67.646000,12.507167 67.557167,12.603500 67.976667,13.253000 68.113500,13.909000 68.151167,14.623167 68.098500,14.742000 68.030667,14.894000 67.766667,14.383000 67.616167,14.420833 67.453833,14.241167 67.199833,13.699833 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433000 65.199833,11.666667 65.166333,11.844833 65.150000,11.933000 65.083167,11.883000 65.050000,12.033167 64.966667,12.250000 64.983167,12.466500 64.933000,12.733167 65.099667,13.066500 65.116667,13.583167 65.133000,14.333167 65.166333,14.344167 65.233167,14.366667 65.300000,14.500000 65.383000,14.500000 65.516667,14.500000 65.699833,14.516500 65.816500,14.616667 65.849667,14.600000 66.133000,14.550000 66.133000,14.699667 66.166500,15.033167 66.216667,15.266500 66.283000,15.466500 66.366667,15.433000 66.483167,15.383167 66.550000,15.533167 66.616667,15.633000 66.716667,15.766500 66.916500,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383000,16.183000 67.433000,16.083000 67.516667,16.166500 67.533000,16.399833 67.650000,16.566667 67.816500,16.666500 67.916500,16.750000 68.050000,17.183000 68.116667,17.283167 68.050000,17.666500 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533000,18.133167 68.599667,18.033167 68.599667,17.533167 68.550000,17.316667 68.599833,17.533167 68.599833,18.033167 68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1833;1839;1840</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1806;1851;1853;1875;5412</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

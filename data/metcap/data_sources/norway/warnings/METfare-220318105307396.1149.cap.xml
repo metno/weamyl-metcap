@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220318105307396.1149</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-03-18T10:53:07+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.220317110430363.1116,2022-03-17T11:04:30+00:00</references>
+  <incidents>49134</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2022-03-19T00:00:00+00:00</effective>
+    <onset>2022-03-19T00:00:00+00:00</onset>
+    <expires>2022-03-20T00:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Lofoten, 19 March 00:00 UTC til 20 March 00:00 UTC.</headline>
+    <description>Lørdag ventes mye regn, lokalt opp til 60-80 mm/24t.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-03-20T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye regn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>30 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over mye regn, gult nivå, Lofoten, 19 March 00:00 UTC til 20 March 00:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/9bbfd8c3-55a6-47bc-a772-234bade2904d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Lofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557167,12.603667 67.646167,12.507167 68.029667,12.908167 68.535000,13.911667 68.483167,14.133167 68.449833,14.183167 68.449833,14.366667 68.416667,14.433167 68.416667,14.533167 68.366667,14.550000 68.349833,14.616667 68.383167,14.683167 68.366667,14.816667 68.333167,14.833167 68.316667,14.933167 68.333167,15.050000 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2022-03-19T00:00:00+00:00</effective>
+    <onset>2022-03-19T00:00:00+00:00</onset>
+    <expires>2022-03-20T00:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Lofoten, 19 March 00:00 UTC to 20 March 00:00 UTC.</headline>
+    <description>Saturday it is expected heavy rain, locally up to 60-80 mm/24t.</description>
+    <instruction>Consider the need for preventive measures. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-03-20T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rain</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>30 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of heavy rain, yellow level, Lofoten, 19 March 00:00 UTC to 20 March 00:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/9bbfd8c3-55a6-47bc-a772-234bade2904d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Lofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557167,12.603667 67.646167,12.507167 68.029667,12.908167 68.535000,13.911667 68.483167,14.133167 68.449833,14.183167 68.449833,14.366667 68.416667,14.433167 68.416667,14.533167 68.366667,14.550000 68.349833,14.616667 68.383167,14.683167 68.366667,14.816667 68.333167,14.833167 68.316667,14.933167 68.333167,15.050000 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

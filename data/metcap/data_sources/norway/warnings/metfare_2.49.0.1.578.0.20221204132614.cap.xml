@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221204132614</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-04T13:31:40+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221204081148,2022-12-04T08:25:17+00:00</references>
+  <incidents>0000050297</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Is</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>ice</value>
+    </eventCode>
+    <effective>2022-12-04T13:30:00+00:00</effective>
+    <onset>2022-12-04T13:30:00+00:00</onset>
+    <expires>2022-12-05T08:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Is observert, gult nivå, Ytre og midtre strøk av Trøndelag og Helgeland, 2022-12-04T13:30:00+00:00, 2022-12-05T08:00:00+00:00</headline>
+    <description>Fra søndag ettermiddag til mandag morgen er det lokal fare for is på grunn av regn som fryser på bakken i ytre og midtre strøk av Trøndelag og på Helgeland. Det vil være store lokale forskjeller både med tanke på temperatur og nedbørform.</description>
+    <instruction>Vær ekstra oppmerksom; isen kan være vanskelig å se. Vurder bruk av brodder. Beregn ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Sjekk veimeldinger (175.no). </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/is</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-05T08:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Det kan være lokalt vanskelige kjøreforhold. Transporttjenester kan bli påvirket. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Is observert</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Is observert, gult nivå, Ytre og midtre strøk av Trøndelag og Helgeland, 2022-12-04T13:30:00+00:00, 2022-12-05T08:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/c9fffbdd-cac1-45cc-9573-afb188446f2f.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre og midtre strøk av Trøndelag og Helgeland</areaDesc>
+      
+          <polygon>67.4453,13.9864 64.9092,10.3064 64.3969,10.2742 63.9727,9.39412 63.6991,7.86346 63.0284,9.17432 63.2468,10.6744 63.6211,11.303 64.4489,12.1639 64.9328,12.5885 65.7045,13.3004 66.3507,14.2748 66.84,14.4932 67.333,15.6872 67.4563,14.7571 67.4453,13.9864 67.4453,13.9864</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1576;1804;1811;1812;1813;1815;1816;1818;1820;1822;1824;1827;1828;1832;1833;1834;1836;1837;1838;1839;1841;5001;5006;5007;5014;5020;5028;5029;5031;5035;5036;5037;5046;5047;5049;5052;5053;5054;5055;5056;5057;5058;5059;5060;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1500</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Ice</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>ice</value>
+    </eventCode>
+    <effective>2022-12-04T13:30:00+00:00</effective>
+    <onset>2022-12-04T13:30:00+00:00</onset>
+    <expires>2022-12-05T08:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Ice observed, yellow level, Outer and middle regions of Troendelag and Helgeland, 2022-12-04T13:30:00+00:00, 2022-12-05T08:00:00+00:00</headline>
+    <description>From Sunday afternoon until Monday morning there is a risk of local ice due to rain freezing on the ground in outer and middle regions of Troendelag and Helgeland. The will be local variations in temperature and type of precipitation.</description>
+    <instruction>Be alert; ice may be difficult to see. Consider wearing traction cleats. Allow extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. Check road reports (175.no). </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/is</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-05T08:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Local driving conditions may become difficult. Transport services may be impacted. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Ice observed</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Ice observed, yellow level, Outer and middle regions of Troendelag and Helgeland, 2022-12-04T13:30:00+00:00, 2022-12-05T08:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/c9fffbdd-cac1-45cc-9573-afb188446f2f.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer and middle regions of Troendelag and Helgeland</areaDesc>
+      
+          <polygon>67.4453,13.9864 64.9092,10.3064 64.3969,10.2742 63.9727,9.39412 63.6991,7.86346 63.0284,9.17432 63.2468,10.6744 63.6211,11.303 64.4489,12.1639 64.9328,12.5885 65.7045,13.3004 66.3507,14.2748 66.84,14.4932 67.333,15.6872 67.4563,14.7571 67.4453,13.9864 67.4453,13.9864</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1576;1804;1811;1812;1813;1815;1816;1818;1820;1822;1824;1827;1828;1832;1833;1834;1836;1837;1838;1839;1841;5001;5006;5007;5014;5020;5028;5029;5031;5035;5036;5037;5046;5047;5049;5052;5053;5054;5055;5056;5057;5058;5059;5060;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1500</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220803155304</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-03T16:33:29+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050117</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-03T16:00:00+00:00</effective>
+    <onset>2022-08-03T16:00:00+00:00</onset>
+    <expires>2022-08-03T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn pågår, gult nivå, Deler av Innlandet fylke øst for Mjøsa, 2022-08-03T16:00:00+00:00, 2022-08-03T18:00:00+00:00</headline>
+    <description>Onsdag kveld frem til kl 20 ventes lokalt svært kraftige regnbyger i områdene mellom Mjøsa og svenskegrensen. Det vil være store lokale varaisjoner i intensitet og været kan endres raskt. Det kan komme 20-30  mm i løpet av 1 time enkelte steder. Det kan også forekomme lyn og torden i forbindelse med bygene.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Ikke kjør bil i vann dypere enn 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-03T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn pågår</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn pågår, gult nivå, Deler av Innlandet fylke øst for Mjøsa, 2022-08-03T16:00:00+00:00, 2022-08-03T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/6d997920-63f5-461a-9957-284b7469d1a4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Innlandet fylke øst for Mjøsa</areaDesc>
+      <polygon>62.1714,12.2438 62.0034,11.7607 61.7621,11.3248 61.3157,10.8237 61.0694,10.6659 60.8427,10.8021 60.6715,11.1891 60.7723,11.5739 61.2428,12.0896 61.5539,12.4336 61.7535,12.142 62.1022,12.257 62.1022,12.257 62.1714,12.2438 62.1714,12.2438</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3403;3411;3412;3413;3420;3421;3422;3423;3424;3425</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-03T16:00:00+00:00</effective>
+    <onset>2022-08-03T16:00:00+00:00</onset>
+    <expires>2022-08-03T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Parts of Innlandet east of Mjøsa, 2022-08-03T16:00:00+00:00, 2022-08-03T18:00:00+00:00</headline>
+    <description>Wednesday evening very heavy showers are expected locally in he area between Mjøsa and the Swedish border. There will be local variations in intensity and duration and weather conditions can change rapidly. Thunderstorms may also occur.</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Do not drive in water deeper than 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-03T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Parts of Innlandet east of Mjøsa, 2022-08-03T16:00:00+00:00, 2022-08-03T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/6d997920-63f5-461a-9957-284b7469d1a4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Innlandet east of Mjøsa</areaDesc>
+      <polygon>62.1714,12.2438 62.0034,11.7607 61.7621,11.3248 61.3157,10.8237 61.0694,10.6659 60.8427,10.8021 60.6715,11.1891 60.7723,11.5739 61.2428,12.0896 61.5539,12.4336 61.7535,12.142 62.1022,12.257 62.1022,12.257 62.1714,12.2438 62.1714,12.2438</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3403;3411;3412;3413;3420;3421;3422;3423;3424;3425</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

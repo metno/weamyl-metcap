@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190325090043105.1421</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-25T09:00:43+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2062</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polare lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-03-25T09:00:00+00:00</effective>
+    <onset>2019-03-25T09:00:00+00:00</onset>
+    <expires>2019-03-25T21:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, E3, Dype E4, F3, 25 March 09:00 UTC til 25 March 21:00 UTC.</headline>
+    <description>Et polart lavtrykk 25.03.2019 kl. 06 utc i posisjon 69 grader 30 minutter N og 00 grader og 30 minutter E beveger seg ESE. Kl 18 utc vil lavtrykket ligge på Trænabanken. Sør og vest for lavtrykket vil det være kortvarig sterk storm 30 m/s mellom nordvest og nordaust. Lavtrykket svekkes 25.03.2019 kl. 21 utc.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-25T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <area>
+      <areaDesc>E3, Dype E4, F3</areaDesc>
+      <polygon>67.500000,0.000000 65.000000,0.000000 65.000000,10.000000 67.500000,10.000000 68.220000,10.000000 69.550000,15.200000 69.800000,16.300000 70.000000,16.600000 70.000000,10.000000 70.000000,0.000000 67.500000,0.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-03-25T09:00:00+00:00</effective>
+    <onset>2019-03-25T09:00:00+00:00</onset>
+    <expires>2019-03-25T21:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, E3, Deep E4, F3, 25 March 09:00 UTC to 25 March 21:00 UTC.</headline>
+    <description>A polar low 25.03.2019 at. 06 utc position 69 degrees 30 min N and 00 degrees and 30 min E is moving ESE. At 18 utc the low will reach the Trænabank. South and west of center the wind is expected brief violent storm force 11 between northwest and northeast. The low is expected to weaken at 25.03.2019 21 utc.</description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-25T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <area>
+      <areaDesc>E3, Deep E4, F3</areaDesc>
+      <polygon>67.500000,0.000000 65.000000,0.000000 65.000000,10.000000 67.500000,10.000000 68.220000,10.000000 69.550000,15.200000 69.800000,16.300000 70.000000,16.600000 70.000000,10.000000 70.000000,0.000000 67.500000,0.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

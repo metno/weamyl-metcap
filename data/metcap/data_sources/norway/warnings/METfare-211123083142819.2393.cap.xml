@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211123083142819.2393</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-11-23T08:31:42+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.211122105121373.2387,2021-11-22T10:51:21+00:00</references>
+  <incidents>48945</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-11-23T10:00:00+00:00</effective>
+    <onset>2021-11-23T10:00:00+00:00</onset>
+    <expires>2021-11-24T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Inn-Trøndelag, 23 November 10:00 UTC til 24 November 10:00 UTC.</headline>
+    <description>Fra tirsdag formiddag til onsdag formiddag er det ventet lokalt mye nedbør I nordlige Trøndelag sør for Namdalen. Totalt kan det komme 50-80 mm/24 timer. Det er ventet mest regn tirsdag kveld og onsdag formiddag.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/oransje-farevarsel-om-svaert-mye-regn-sor-i-trondelag</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-24T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye regn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over mye regn, gult nivå, Inn-Trøndelag, 23 November 10:00 UTC til 24 November 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6c39e69d-426b-4076-98e8-3a299b509525.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Inn-Trøndelag</areaDesc>
+      <polygon>64.097167,13.212333 64.095667,13.201167 64.080333,13.086000 64.072833,13.029000 64.066167,12.980000 64.059500,12.928000 64.036000,12.859333 64.030333,12.842333 64.027833,12.835333 64.007000,12.773667 63.987000,12.717000 63.981333,12.700167 63.978167,12.691000 63.975500,12.684333 63.974167,12.682167 63.968500,12.674833 63.951167,12.652667 63.936167,12.633000 63.915667,12.606833 63.879833,12.559667 63.862500,12.537500 63.819500,12.480333 63.764667,12.401333 63.754667,12.386333 63.750833,12.381333 63.742167,12.368167 63.734167,12.356833 63.716667,12.331167 63.681167,12.305500 63.673667,12.300667 63.632667,12.228333 63.595667,12.151500 63.590833,12.153667 63.549667,12.175833 63.480333,12.214000 63.412500,12.141500 63.357167,12.085333 63.343000,12.066833 63.332500,12.053667 63.318000,12.035167 63.287667,11.997000 63.270833,11.975667 63.216167,12.025500 63.191000,12.048500 63.184833,12.055000 63.193000,11.934500 63.181667,11.627500 63.260333,11.554000 63.329167,11.448333 63.347500,11.188833 63.340167,11.147500 63.341167,11.079333 63.335000,11.004500 63.336000,10.991333 63.330667,10.971667 63.338833,10.895833 63.345500,10.898500 63.352167,10.887333 63.354833,10.859500 63.356167,10.845333 63.364333,10.853500 63.390667,10.861667 63.414167,10.853667 63.440833,10.856333 63.452833,10.830500 63.454667,10.788667 63.472667,10.716333 63.481500,10.653833 63.489500,10.607500 63.501167,10.558167 63.510333,10.508167 63.518500,10.426333 63.516167,10.389333 63.508167,10.326500 63.498000,10.240333 63.531333,10.160333 63.585167,10.129000 63.605333,10.169667 63.656500,10.231833 63.700833,10.370667 63.738167,10.439333 63.738500,10.439833 63.751000,10.440333 63.762000,10.436000 63.771833,10.435667 63.783833,10.418333 63.789000,10.436167 63.772000,10.451167 63.787333,10.465333 63.803667,10.477500 63.844000,10.523833 63.868833,10.572000 63.906333,10.611667 63.939833,10.712167 63.985500,10.768667 64.000333,10.779667 64.010000,10.776833 64.022500,10.758000 64.062667,10.821500 64.083500,10.820333 64.090500,10.837167 64.097500,10.880000 64.119833,10.993667 64.141833,11.115000 64.170167,11.271167 64.199667,11.423167 64.235333,11.583833 64.262000,11.751500 64.282167,11.900333 64.317667,12.107833 64.333167,12.252667 64.354667,12.395167 64.377500,12.595167 64.401333,12.745167 64.416333,12.852833 64.421833,12.974667 64.422333,13.075000 64.415167,13.111667 64.388000,13.137667 64.343333,13.162167 64.264167,13.184000 64.173500,13.204833 64.097167,13.212333
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-15</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-16</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-17</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>50</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO061</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO062</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1511;1576;1507;1579;1566;1516;1578;1525;1532;1577;1506;1573;1520;1505;1535;1557;1514;1554;1539;1515;1528;1563;1531;1547;1517;1560;5055;5061</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5001;5014;5020;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5054;5055;5056;5057;5058;5059;5061</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5006;5007;5034;5035;5036;5037;5038;5041;5042;5043;5044;5045;5046;5047;5049;5052;5053;5054;5060</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-11-23T10:00:00+00:00</effective>
+    <onset>2021-11-23T10:00:00+00:00</onset>
+    <expires>2021-11-24T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Inn-Troendelag, 23 November 10:00 UTC to 24 November 10:00 UTC.</headline>
+    <description>From late Tuesday morning to late Wednesday morning it is expected locally much precipitation In northern Troendelag south of Namdalen, in total 50-80 mm/24 hours. Most rain is expected Tuesday evening and late Wednesday morning.</description>
+    <instruction>Consider the need for preventive measures. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/oransje-farevarsel-om-svaert-mye-regn-sor-i-trondelag</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-24T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rain</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of heavy rain, yellow level, Inn-Troendelag, 23 November 10:00 UTC to 24 November 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6c39e69d-426b-4076-98e8-3a299b509525.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Inn-Troendelag</areaDesc>
+      <polygon>64.097167,13.212333 64.095667,13.201167 64.080333,13.086000 64.072833,13.029000 64.066167,12.980000 64.059500,12.928000 64.036000,12.859333 64.030333,12.842333 64.027833,12.835333 64.007000,12.773667 63.987000,12.717000 63.981333,12.700167 63.978167,12.691000 63.975500,12.684333 63.974167,12.682167 63.968500,12.674833 63.951167,12.652667 63.936167,12.633000 63.915667,12.606833 63.879833,12.559667 63.862500,12.537500 63.819500,12.480333 63.764667,12.401333 63.754667,12.386333 63.750833,12.381333 63.742167,12.368167 63.734167,12.356833 63.716667,12.331167 63.681167,12.305500 63.673667,12.300667 63.632667,12.228333 63.595667,12.151500 63.590833,12.153667 63.549667,12.175833 63.480333,12.214000 63.412500,12.141500 63.357167,12.085333 63.343000,12.066833 63.332500,12.053667 63.318000,12.035167 63.287667,11.997000 63.270833,11.975667 63.216167,12.025500 63.191000,12.048500 63.184833,12.055000 63.193000,11.934500 63.181667,11.627500 63.260333,11.554000 63.329167,11.448333 63.347500,11.188833 63.340167,11.147500 63.341167,11.079333 63.335000,11.004500 63.336000,10.991333 63.330667,10.971667 63.338833,10.895833 63.345500,10.898500 63.352167,10.887333 63.354833,10.859500 63.356167,10.845333 63.364333,10.853500 63.390667,10.861667 63.414167,10.853667 63.440833,10.856333 63.452833,10.830500 63.454667,10.788667 63.472667,10.716333 63.481500,10.653833 63.489500,10.607500 63.501167,10.558167 63.510333,10.508167 63.518500,10.426333 63.516167,10.389333 63.508167,10.326500 63.498000,10.240333 63.531333,10.160333 63.585167,10.129000 63.605333,10.169667 63.656500,10.231833 63.700833,10.370667 63.738167,10.439333 63.738500,10.439833 63.751000,10.440333 63.762000,10.436000 63.771833,10.435667 63.783833,10.418333 63.789000,10.436167 63.772000,10.451167 63.787333,10.465333 63.803667,10.477500 63.844000,10.523833 63.868833,10.572000 63.906333,10.611667 63.939833,10.712167 63.985500,10.768667 64.000333,10.779667 64.010000,10.776833 64.022500,10.758000 64.062667,10.821500 64.083500,10.820333 64.090500,10.837167 64.097500,10.880000 64.119833,10.993667 64.141833,11.115000 64.170167,11.271167 64.199667,11.423167 64.235333,11.583833 64.262000,11.751500 64.282167,11.900333 64.317667,12.107833 64.333167,12.252667 64.354667,12.395167 64.377500,12.595167 64.401333,12.745167 64.416333,12.852833 64.421833,12.974667 64.422333,13.075000 64.415167,13.111667 64.388000,13.137667 64.343333,13.162167 64.264167,13.184000 64.173500,13.204833 64.097167,13.212333
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-15</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-16</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-17</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>50</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO061</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO062</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1511;1576;1507;1579;1566;1516;1578;1525;1532;1577;1506;1573;1520;1505;1535;1557;1514;1554;1539;1515;1528;1563;1531;1547;1517;1560;5055;5061</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5001;5014;5020;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5054;5055;5056;5057;5058;5059;5061</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5006;5007;5034;5035;5036;5037;5038;5041;5042;5043;5044;5045;5046;5047;5049;5052;5053;5054;5060</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

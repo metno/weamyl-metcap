@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220808090929</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-08T10:08:33+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050124</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-08-10T00:00:00+00:00</effective>
+    <onset>2022-08-10T00:00:00+00:00</onset>
+    <expires>2022-08-11T00:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, ytre strøk av Sør-Helgeland, 2022-08-10T00:00:00+00:00, 2022-08-11T00:00:00+00:00</headline>
+    <description>Onsdag ventes det mye regn i ytre strøk av Helgeland sør for Ranfjorden, lokalt 70-100 mm på 24 timer.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-11T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, ytre strøk av Sør-Helgeland, 2022-08-10T00:00:00+00:00, 2022-08-11T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/e7462f15-baef-4817-b988-2263aab8e95b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>ytre strøk av Sør-Helgeland</areaDesc>
+      <polygon>65.2822,12.0166 65.2554,12.2688 65.2151,12.5087 65.1843,12.8982 65.2886,13.2468 65.41,13.2959 65.8165,13.0084 66.1018,13.1811 66.0838,12.6736 65.984,12.4737 65.9135,12.3759 65.8753,12.3703 65.85,12.3815 65.6593,12.2654 65.5107,12.0899 65.4564,11.9937 65.2822,12.0166 65.2822,12.0166</polygon>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1811;1812;1813;1816;1820;1822;1824;1825</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-08-10T00:00:00+00:00</effective>
+    <onset>2022-08-10T00:00:00+00:00</onset>
+    <expires>2022-08-11T00:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, coastal areas of southern part of Helgeland, 2022-08-10T00:00:00+00:00, 2022-08-11T00:00:00+00:00</headline>
+    <description>On Wednesday a lot of rain is expected in coastal areas of Helgeland south of Ranfjorden, locally 70-100 mm during 24 hours.</description>
+    <instruction>Consider the need for preventive measures. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-11T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, coastal areas of southern part of Helgeland, 2022-08-10T00:00:00+00:00, 2022-08-11T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/e7462f15-baef-4817-b988-2263aab8e95b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>coastal areas of southern part of Helgeland</areaDesc>
+      <polygon>65.2822,12.0166 65.2554,12.2688 65.2151,12.5087 65.1843,12.8982 65.2886,13.2468 65.41,13.2959 65.8165,13.0084 66.1018,13.1811 66.0838,12.6736 65.984,12.4737 65.9135,12.3759 65.8753,12.3703 65.85,12.3815 65.6593,12.2654 65.5107,12.0899 65.4564,11.9937 65.2822,12.0166 65.2822,12.0166</polygon>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1811;1812;1813;1816;1820;1822;1824;1825</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

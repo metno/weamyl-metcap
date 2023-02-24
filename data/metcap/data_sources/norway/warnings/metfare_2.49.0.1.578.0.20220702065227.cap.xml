@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220702065227</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-02T07:10:54+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050066</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-07-02T07:00:00+00:00</effective>
+    <onset>2022-07-02T07:00:00+00:00</onset>
+    <expires>2022-07-02T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Indre strøk i Møre og Romsdal og Trøndelag, 2022-07-02T07:00:00+00:00, 2022-07-02T18:00:00+00:00</headline>
+    <description>Det ventes mye regn i indre strøk av Møre og Romsdal og Trøndelag, lokalt 25-30 mm/6t. Kombinasjonen av regn og regnbyger fører til store lokale forskjeller i intensitet og mengde. </description>
+    <instruction>Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-02T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, Indre strøk i Møre og Romsdal og Trøndelag, 2022-07-02T07:00:00+00:00, 2022-07-02T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/bdb0801a-7099-45ce-bf3a-e162b0b1829e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Indre strøk i Møre og Romsdal og Trøndelag</areaDesc>
+      <polygon>64.0928,11.8443 63.4293,11.0694 63.2069,9.88715 63.1077,8.86752 62.5325,7.25882 62.1845,7.96116 62.3204,8.16247 62.355,9.08479 62.2532,9.67882 62.4045,10.1254 62.6608,10.1297 62.6614,10.7161 62.6603,11.1526 62.6698,12.1154 63.2964,12.0353 63.6036,12.1967 63.9661,12.7075 64.0928,11.8443 64.0928,11.8443</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1539;1560;1563;1566;1578;3427;5001;5006;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5037;5038;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-07-02T07:00:00+00:00</effective>
+    <onset>2022-07-02T07:00:00+00:00</onset>
+    <expires>2022-07-02T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Inner regions of Møre og Romsdal and Trøndelag, 2022-07-02T07:00:00+00:00, 2022-07-02T18:00:00+00:00</headline>
+    <description>A lot of rain is expected in the inner regions of Møre og Romsdal and Trøndelag, locally around 25-30 mm in 6 hours. The combination of rain and showers of rain will give large local differences in intensity and amount.</description>
+    <instruction>The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-02T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, Inner regions of Møre og Romsdal and Trøndelag, 2022-07-02T07:00:00+00:00, 2022-07-02T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/bdb0801a-7099-45ce-bf3a-e162b0b1829e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Inner regions of Møre og Romsdal and Trøndelag</areaDesc>
+      <polygon>64.0928,11.8443 63.4293,11.0694 63.2069,9.88715 63.1077,8.86752 62.5325,7.25882 62.1845,7.96116 62.3204,8.16247 62.355,9.08479 62.2532,9.67882 62.4045,10.1254 62.6608,10.1297 62.6614,10.7161 62.6603,11.1526 62.6698,12.1154 63.2964,12.0353 63.6036,12.1967 63.9661,12.7075 64.0928,11.8443 64.0928,11.8443</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1539;1560;1563;1566;1578;3427;5001;5006;5021;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5037;5038;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

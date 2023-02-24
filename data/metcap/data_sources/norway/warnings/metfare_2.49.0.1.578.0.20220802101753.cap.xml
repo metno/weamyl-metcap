@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220802101753</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-02T10:18:24+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220802074644,2022-08-02T08:25:25+00:00</references>
+  <incidents>0000050115</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-03T06:00:00+00:00</effective>
+    <onset>2022-08-03T06:00:00+00:00</onset>
+    <expires>2022-08-03T16:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Deler av Vestlandet og Møre og Romsdal, 2022-08-03T06:00:00+00:00, 2022-08-03T16:00:00+00:00</headline>
+    <description>Fra onsdag formiddag til sent onsdag ettermiddag ventes lokalt kraftige regnbyger i ditt område. Det vil være store lokale variasjoner i intensitet og mengde, og været kan endres raskt. Nedbørens plassering er usikker, men områdene med høyest sannsynlighet for kraftige regnbyger er deler av Vestland fylke og deler av Møre og Romsdal, vesentlig i Sunnmøre. Nedbøren beveger seg sakte nordøstover og avtar om kvelden.
+</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Unngå unødvendig ferdsel utsatte steder. Ikke kjør bil i vann dypere enn 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-03T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn, gult nivå, Deler av Vestlandet og Møre og Romsdal, 2022-08-03T06:00:00+00:00, 2022-08-03T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/29f46666-f92c-4882-a41a-ed8e969563dc.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Vestlandet og Møre og Romsdal</areaDesc>
+      <polygon>62.7242,6.18963 62.128,5.14748 61.7695,4.79641 61.0421,4.7056 60.16,5.03691 60.1014,5.57659 59.7707,5.36656 59.6674,5.75839 59.6077,6.15722 59.8255,6.43723 59.8434,6.70674 59.699,6.68936 59.7903,7.08171 60.3481,6.84149 60.5828,7.63272 61.1444,6.88176 61.6522,7.85992 61.7362,7.47952 62.0496,7.27138 62.2186,7.53493 62.286,6.87776 62.6485,7.13749 62.8175,6.53624 62.8175,6.53624 62.7242,6.18963 62.7242,6.18963</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1507;1511;1514;1515;1516;1517;1520;1525;1528;1531;1532;1535;1577;1578;4601;4602;4611;4614;4616;4617;4618;4619;4620;4621;4622;4623;4624;4626;4627;4628;4629;4630;4631;4632;4634;4635;4636;4637;4638;4639;4640;4641;4644;4645;4646;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-03T06:00:00+00:00</effective>
+    <onset>2022-08-03T06:00:00+00:00</onset>
+    <expires>2022-08-03T16:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Parts of Vestlandet and Møre and Romsdal, 2022-08-03T06:00:00+00:00, 2022-08-03T16:00:00+00:00</headline>
+    <description>From late Wednesday morning to late Wednesday afternoon heavy rain showers are expected locally in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly.  The exact location of the precipitation is uncertain, but the areas with the highest probabilities for heavy rain showers are in parts of Vestland county and Møre and Romsdal county, specially in Sunnmøre.  </description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Stay away from exposed places if possible. Do not drive in water deeper than 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-03T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Parts of Vestlandet and Møre and Romsdal, 2022-08-03T06:00:00+00:00, 2022-08-03T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/29f46666-f92c-4882-a41a-ed8e969563dc.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Vestlandet and Møre and Romsdal</areaDesc>
+      <polygon>62.7242,6.18963 62.128,5.14748 61.7695,4.79641 61.0421,4.7056 60.16,5.03691 60.1014,5.57659 59.7707,5.36656 59.6674,5.75839 59.6077,6.15722 59.8255,6.43723 59.8434,6.70674 59.699,6.68936 59.7903,7.08171 60.3481,6.84149 60.5828,7.63272 61.1444,6.88176 61.6522,7.85992 61.7362,7.47952 62.0496,7.27138 62.2186,7.53493 62.286,6.87776 62.6485,7.13749 62.8175,6.53624 62.8175,6.53624 62.7242,6.18963 62.7242,6.18963</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1507;1511;1514;1515;1516;1517;1520;1525;1528;1531;1532;1535;1577;1578;4601;4602;4611;4614;4616;4617;4618;4619;4620;4621;4622;4623;4624;4626;4627;4628;4629;4630;4631;4632;4634;4635;4636;4637;4638;4639;4640;4641;4644;4645;4646;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

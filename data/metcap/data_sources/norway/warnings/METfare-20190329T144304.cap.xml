@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190329144304120.1518</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-29T14:43:04+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2115</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-03-29T14:00:00+00:00</effective>
+    <onset>2019-03-29T14:00:00+00:00</onset>
+    <expires>2019-03-30T07:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Hjelmsøybanken, 29 March 14:00 UTC til 30 March 07:00 UTC.</headline>
+    <description>Fra fredag ettermiddag fortsatt vestlig sterk kuling 20 m/s og til dels liten storm 22. Lørdag morgen minkende. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-30T07:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Tette skumstrimer driver i vindretningen. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Hjelmsøybanken</areaDesc>
+      <polygon>70.847833,22.670833 70.873167,22.777500 70.873333,22.778500 70.969333,23.241333 71.064000,23.708833 71.110333,23.941167 71.111000,23.944833 71.112500,23.953167 71.113167,23.958167 71.113667,23.963500 71.114000,23.967833 71.118500,24.052500 71.118667,24.057000 71.130667,24.609500 71.132667,24.711667 71.172667,25.252333 71.201833,25.664333 71.202167,25.669667 71.202167,25.675333 71.202167,25.678500 71.198833,25.809000 72.500000,24.607667 72.500000,20.000000 72.500000,19.649833 72.400000,19.850000 70.847833,22.670833
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-03-29T14:00:00+00:00</effective>
+    <onset>2019-03-29T14:00:00+00:00</onset>
+    <expires>2019-03-30T07:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Hjelmsoey bank, 29 March 14:00 UTC to 30 March 07:00 UTC.</headline>
+    <description>From Friday afternoon still west gale force 8 and at times strong gale force 9. Saturday morning decreasing. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-30T07:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>High waves whose crests sometimes roll over. Dense foam is blown along wind direction. Large amounts of airborne spray may begin to reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Hjelmsoey bank</areaDesc>
+      <polygon>70.847833,22.670833 70.873167,22.777500 70.873333,22.778500 70.969333,23.241333 71.064000,23.708833 71.110333,23.941167 71.111000,23.944833 71.112500,23.953167 71.113167,23.958167 71.113667,23.963500 71.114000,23.967833 71.118500,24.052500 71.118667,24.057000 71.130667,24.609500 71.132667,24.711667 71.172667,25.252333 71.201833,25.664333 71.202167,25.669667 71.202167,25.675333 71.202167,25.678500 71.198833,25.809000 72.500000,24.607667 72.500000,20.000000 72.500000,19.649833 72.400000,19.850000 70.847833,22.670833
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220507121316709.1545</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-05-07T12:13:16+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.220507093737012.1543,2022-05-07T09:37:37+00:00</references>
+  <incidents>49190</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2022-05-07T11:00:00+00:00</effective>
+    <onset>2022-05-07T11:00:00+00:00</onset>
+    <expires>2022-05-08T02:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Nord-Troms og Kyst- og fjordstrøkene i Finnmark, 07 May 11:00 UTC til 08 May 02:00 UTC.</headline>
+    <description>Fra lørdag ettermiddag ventes kraftige vindkast fra vest og nordvest på 30-35 m/s i Nord-Troms og kyst-og fjordstrøkene i Finnmark. Lokalt i Vest-Finnmark er det muligheter for ekstremt kraftige vindkast på 35-40 m/s. Det er ventet middelvind på vestlig liten storm 22 m/s i Vest-Finnmark, kan hende lokalt opp til full storm 25 m/s ustatte steder. Vinden minker i Nord-Troms i løpet av ettermiddagen og kvelden, og i Finnmark natt til søndag. </description>
+    <instruction>Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Vis forsiktighet ved ferdsel i strandsonen og på sjøen. På forhånd vurder tiltak for å begrense skade.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-05-08T02:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Broer kan bli stengt. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Den sterke vinden kan gi lokalt høye bølger i fjordstrøk og innsjøer. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>32.6 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over kraftige vindkast, gult nivå, Nord-Troms og Kyst- og fjordstrøkene i Finnmark, 07 May 11:00 UTC til 08 May 02:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/898bb814-cde2-4835-84bd-699480fa6d49.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Troms og Kyst- og fjordstrøkene i Finnmark</areaDesc>
+      <polygon>70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.650000,17.799833 69.516667,18.100000 69.483167,18.316667 69.383167,18.500000 69.250000,18.766667 69.050000,19.366667 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2022-05-07T11:00:00+00:00</effective>
+    <onset>2022-05-07T11:00:00+00:00</onset>
+    <expires>2022-05-08T02:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Nord-Troms and Kyst- and fjordstroekene i Finnmark, 07 May 11:00 UTC to 08 May 02:00 UTC.</headline>
+    <description>From Saturday afternoon wind gusts from the west and northwest up to 30-35 m/s is expected in Northern Troms and in coastal and fjord areas in Finnmark. Possibly extreme wind gusts in West-Finnmark up to 35-40 m/s. West strong gale force 9 is expected in West-Finnmark, possibly locally up to storm force 10 m/s in exposed places. The wind decreases in Northern Troms during afternoonen or evening, and in Finnmark early Sunday morning. </description>
+    <instruction>Follow advice and check status from transport operators. Check road reports (175.no). Be careful in coastal areas. In advance consider measures to limit damage.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-05-08T02:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Bridges may be closed. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. The strong wind may cause locally high waves in fjords and lakes. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>32.6 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of strong wind gusts, yellow level, Nord-Troms and Kyst- and fjordstroekene i Finnmark, 07 May 11:00 UTC to 08 May 02:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/898bb814-cde2-4835-84bd-699480fa6d49.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Troms and Kyst- and fjordstroekene i Finnmark</areaDesc>
+      <polygon>70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.650000,17.799833 69.516667,18.100000 69.483167,18.316667 69.383167,18.500000 69.250000,18.766667 69.050000,19.366667 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

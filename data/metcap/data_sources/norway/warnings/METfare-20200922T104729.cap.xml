@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200922104729930.4312</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-09-22T10:47:29+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>4776</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2020-09-23T13:00:00+00:00</effective>
+    <onset>2020-09-23T13:00:00+00:00</onset>
+    <expires>2020-09-23T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Ofoten, Lofoten, Vesterålen og Troms, 23 September 13:00 UTC til 23 September 22:00 UTC.</headline>
+    <description>Fra onsdag ettermiddag ventes lokalt kraftige vindkast, 27-35 m/s, i Lofoten, Vesterålen, og ytre deler av Ofoten og Troms.</description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>28.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over kraftige vindkast, gult nivå, Ofoten, Lofoten, Vesterålen og Troms, 23 September 13:00 UTC til 23 September 22:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/2040c14f-ce46-4717-a4c2-6203ca5c4f45.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ofoten, Lofoten, Vesterålen og Troms</areaDesc>
+      <polygon>68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.199833,15.350000 68.250000,15.800000 68.216667,16.000000 68.183167,15.966667 68.116667,16.033167 68.066667,15.899833 68.016667,16.000000 67.966667,16.100000 67.900000,16.100000 67.866667,16.049833 67.849833,16.116667 67.750000,16.200000 67.766667,16.283167 67.750000,16.350000 67.716667,16.399833 67.699833,16.366667 67.683167,16.416667 67.699833,16.500000 67.666667,16.500000 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1806;1851;1853;1875;5412</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2020-09-23T13:00:00+00:00</effective>
+    <onset>2020-09-23T13:00:00+00:00</onset>
+    <expires>2020-09-23T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Ofoten, Lofoten, Vesteraalen and Troms, 23 September 13:00 UTC to 23 September 22:00 UTC.</headline>
+    <description>From Wednesday afternoon expected locally strong windgusts, 27-35 m/s, in Lofoten, Vesterålen and outer parts of Ofoten and Troms.</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>28.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of strong wind gusts, yellow level, Ofoten, Lofoten, Vesteraalen and Troms, 23 September 13:00 UTC to 23 September 22:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/2040c14f-ce46-4717-a4c2-6203ca5c4f45.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ofoten, Lofoten, Vesteraalen and Troms</areaDesc>
+      <polygon>68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.199833,15.350000 68.250000,15.800000 68.216667,16.000000 68.183167,15.966667 68.116667,16.033167 68.066667,15.899833 68.016667,16.000000 67.966667,16.100000 67.900000,16.100000 67.866667,16.049833 67.849833,16.116667 67.750000,16.200000 67.766667,16.283167 67.750000,16.350000 67.716667,16.399833 67.699833,16.366667 67.683167,16.416667 67.699833,16.500000 67.666667,16.500000 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1806;1851;1853;1875;5412</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

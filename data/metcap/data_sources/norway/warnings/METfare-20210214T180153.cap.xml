@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210214180153735.358</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-02-14T18:01:53+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48696</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snøfokk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2021-02-15T03:00:00+00:00</effective>
+    <onset>2021-02-15T03:00:00+00:00</onset>
+    <expires>2021-02-15T15:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftig snøfokk, gult nivå, Fjellstrøkene Trollheimen - Jotunheimen og Langfjella, 15 February 03:00 UTC til 15 February 15:00 UTC.</headline>
+    <description>Fra tidlig mandag morgen til tidlig mandag ettermiddag er det ventet lokal snøfokk på fjellovergangene på grunn av snø og kuling.</description>
+    <instruction>Beregn ekstra tid til transport og kjøring. Følg råd og sjekk status fra transportaktører.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Redusert sikt. Det kan være lokalt vanskelige kjøreforhold grunnet snø som pakker seg i veibanen. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftig snøfokk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Fjellstrøkene Trollheimen - Jotunheimen og Langfjella</areaDesc>
+      <polygon>61.065333,8.899667 61.474667,9.178667 61.634833,9.156167 61.847667,8.814667 61.976833,8.996000 62.105333,9.074333 62.366333,9.076167 62.493833,9.226500 62.526667,9.601333 62.599333,9.717000 62.700167,9.683333 62.851667,9.416833 62.902500,9.120833 62.877333,8.843000 62.783500,8.784167 62.435000,8.218667 62.304667,7.845667 62.198667,7.526833 62.001833,7.359000 61.740500,7.390500 61.460333,7.721333 61.347833,7.706333 61.199500,7.807500 61.052667,7.640667 61.012000,7.329167 60.713167,7.201333 60.494000,7.096000 60.316500,6.767167 60.109167,6.669333 59.963500,6.691500 59.820333,7.001333 59.705167,7.044833 59.234500,6.751333 59.084667,6.911333 58.983167,6.740167 58.921000,6.780167 58.722833,7.373167 58.683167,7.547833 58.674667,7.668667 58.721000,7.750000 58.791000,7.722167 58.911833,7.653000 58.988667,7.642000 59.022167,7.736333 59.065833,7.911667 59.123167,7.950500 59.338667,7.852167 59.625333,7.771500 59.654667,8.042000 59.799333,8.266667 59.902833,8.393000 60.028167,8.656167 60.373667,8.517500 60.577500,8.324500 60.870167,8.961667 60.992000,8.959500 61.065333,8.899667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>50</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1506;1539;1563;1566;1578;3432;3433;3434;5021</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3454;3434;3435;3453;3436;3433;4643;4644</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3042;3043;3044;3452;3454;4641;4642</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3044;3052;3818;3825;4618;4619;4620</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3823;3824;4220;4221;4222;4224;4228</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO061</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO041</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO042</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Blowing snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2021-02-15T03:00:00+00:00</effective>
+    <onset>2021-02-15T03:00:00+00:00</onset>
+    <expires>2021-02-15T15:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Blowing snow, yellow level, Fjellstroekene Trollheimen - Jotunheimen and Langfjella, 15 February 03:00 UTC to 15 February 15:00 UTC.</headline>
+    <description>From early Monday morning to early Monday afternoon local blowing snow is expected due to snow and gale.</description>
+    <instruction>Allow extra time for transportation and driving. Follow advice and check status from transport operators.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Reduced visibility. Local driving conditions may become difficult due to snow accumulating on the road. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Blowing snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Fjellstroekene Trollheimen - Jotunheimen and Langfjella</areaDesc>
+      <polygon>61.065333,8.899667 61.474667,9.178667 61.634833,9.156167 61.847667,8.814667 61.976833,8.996000 62.105333,9.074333 62.366333,9.076167 62.493833,9.226500 62.526667,9.601333 62.599333,9.717000 62.700167,9.683333 62.851667,9.416833 62.902500,9.120833 62.877333,8.843000 62.783500,8.784167 62.435000,8.218667 62.304667,7.845667 62.198667,7.526833 62.001833,7.359000 61.740500,7.390500 61.460333,7.721333 61.347833,7.706333 61.199500,7.807500 61.052667,7.640667 61.012000,7.329167 60.713167,7.201333 60.494000,7.096000 60.316500,6.767167 60.109167,6.669333 59.963500,6.691500 59.820333,7.001333 59.705167,7.044833 59.234500,6.751333 59.084667,6.911333 58.983167,6.740167 58.921000,6.780167 58.722833,7.373167 58.683167,7.547833 58.674667,7.668667 58.721000,7.750000 58.791000,7.722167 58.911833,7.653000 58.988667,7.642000 59.022167,7.736333 59.065833,7.911667 59.123167,7.950500 59.338667,7.852167 59.625333,7.771500 59.654667,8.042000 59.799333,8.266667 59.902833,8.393000 60.028167,8.656167 60.373667,8.517500 60.577500,8.324500 60.870167,8.961667 60.992000,8.959500 61.065333,8.899667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>50</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1506;1539;1563;1566;1578;3432;3433;3434;5021</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3454;3434;3435;3453;3436;3433;4643;4644</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3042;3043;3044;3452;3454;4641;4642</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3044;3052;3818;3825;4618;4619;4620</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3823;3824;4220;4221;4222;4224;4228</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO061</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO041</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO042</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

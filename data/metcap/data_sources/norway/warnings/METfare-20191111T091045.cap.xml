@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.191111091045755.2892</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-11-11T09:10:45+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2880</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snøfokk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2019-11-12T00:00:00+00:00</effective>
+    <onset>2019-11-12T00:00:00+00:00</onset>
+    <expires>2019-11-12T23:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftig snøfokk, gult nivå, Kyst- og fjordstrøkene i Vest-Finnmark, 12 November 00:00 UTC til 12 November 23:00 UTC.</headline>
+    <description>Tirsdag ventes snøfokk på utsatte steder i fjellet og lavlandet pga. kuling fra søraust.</description>
+    <instruction>Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det kan være lokalt vanskelige kjøreforhold. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftig snøfokk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Kyst- og fjordstrøkene i Vest-Finnmark</areaDesc>
+      <polygon>70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 70.000000,25.866667 70.099833,25.899833 70.233167,25.983167 70.366667,26.049833 70.466667,26.083167 70.666667,26.250000 70.783167,26.433167 70.966667,26.600000 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2004;2012;2014;2015;2017;2018;2019;2020</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Blowing snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2019-11-12T00:00:00+00:00</effective>
+    <onset>2019-11-12T00:00:00+00:00</onset>
+    <expires>2019-11-12T23:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Blowing snow, yellow level, Kyst- and fjordstroekene i Vest-Finnmark, 12 November 00:00 UTC to 12 November 23:00 UTC.</headline>
+    <description>Tuesday expected blowing snow in exposed places in mountain and lowland areas due to gale from southeast.</description>
+    <instruction>Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Locally difficult driving conditions. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Blowing snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Kyst- and fjordstroekene i Vest-Finnmark</areaDesc>
+      <polygon>70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 70.000000,25.866667 70.099833,25.899833 70.233167,25.983167 70.366667,26.049833 70.466667,26.083167 70.666667,26.250000 70.783167,26.433167 70.966667,26.600000 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2004;2012;2014;2015;2017;2018;2019;2020</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

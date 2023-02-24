@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.221027070043597.2312</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-27T07:00:43+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.221026182618320.2302,2022-10-26T18:26:18+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-10-27T07:00:00+00:00</effective>
+    <onset>2022-10-27T07:00:00+00:00</onset>
+    <expires>2022-10-27T08:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kansellert kulingvarsel, grønt nivå, Halten - Rørvik, 27 October 07:00 UTC til 27 October 08:00 UTC.</headline>
+    <description>Deler av dette farevarselet har blitt erstattet av et nytt farevarsel.</description>
+    <instruction>Følg med på oppdaterte farevarsler.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-10-27T08:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Varselet er erstattet av et nytt farevarsel. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kansellert kulingvarsel</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Ingen</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Halten - Rørvik</areaDesc>
+      <polygon>64.182833,9.445667 64.226833,9.241167 64.361500,9.509833 64.495500,9.785833 64.629000,10.064667 64.761833,10.346167 64.788333,10.402667 64.834000,10.418167 64.919333,10.484333 65.000000,10.567000 64.758167,11.238667 64.607667,10.938167 64.406667,10.593667 64.273667,10.381500 64.147000,10.225667 63.994333,10.030167 64.182833,9.445667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-10-27T07:00:00+00:00</effective>
+    <onset>2022-10-27T07:00:00+00:00</onset>
+    <expires>2022-10-27T08:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Cancelled gale warning, green level, Halten - Rørvik, 27 October 07:00 UTC to 27 October 08:00 UTC.</headline>
+    <description>Parts of this warning has been replaced by a new warning.</description>
+    <instruction>Stay tuned for updated warnings.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-10-27T08:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>The warning is replaced by another warning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Cancelled gale warning</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>None</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Halten - Rørvik</areaDesc>
+      <polygon>64.182833,9.445667 64.226833,9.241167 64.361500,9.509833 64.495500,9.785833 64.629000,10.064667 64.761833,10.346167 64.788333,10.402667 64.834000,10.418167 64.919333,10.484333 65.000000,10.567000 64.758167,11.238667 64.607667,10.938167 64.406667,10.593667 64.273667,10.381500 64.147000,10.225667 63.994333,10.030167 64.182833,9.445667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

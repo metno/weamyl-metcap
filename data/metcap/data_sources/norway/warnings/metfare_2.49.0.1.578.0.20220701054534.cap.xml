@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220701054534</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-01T05:46:09+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220701044757,2022-07-01T05:34:41+00:00</references>
+  <incidents>0000050062</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-07-01T05:30:00+00:00</effective>
+    <onset>2022-07-01T05:30:00+00:00</onset>
+    <expires>2022-07-01T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Deler av Østlandet, 2022-07-01T05:30:00+00:00, 2022-07-01T18:00:00+00:00</headline>
+    <description>Kraftige regnbyger ventes i ditt område. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt. Nedbørens plassering er usikker. Lokalt er nedbøren ventet å passere 15 mm/1t.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Unngå unødvendig ferdsel utsatte steder. Ikke kjør bil i vann dypere enn 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-01T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn, gult nivå, Deler av Østlandet, 2022-07-01T05:30:00+00:00, 2022-07-01T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/31e8f027-292c-4f64-8b72-84da5d7373e5.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Østlandet</areaDesc>
+      <polygon>59.9304,9.19519 59.7944,10.859 59.642,12.4378 60.3997,12.6785 61.0073,12.4359 61.1096,12.8336 61.3841,12.9894 61.736,12.314 61.9777,11.3423 61.9921,9.65235 61.6993,8.76272 61.0605,8.31302 60.4125,8.67669 60.409,8.72387 59.9304,9.19519 59.9304,9.19519</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>03</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>0301;3007;3020;3023;3024;3025;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3038;3039;3040;3041;3042;3043;3045;3046;3047;3049;3050;3051;3052;3053;3054;3401;3403;3405;3407;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3421;3422;3423;3424;3425;3428;3429;3431;3435;3436;3437;3438;3439;3440;3441;3442;3443;3446;3447;3448;3449;3450;3451;3452;3453;3454</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-07-01T05:30:00+00:00</effective>
+    <onset>2022-07-01T05:30:00+00:00</onset>
+    <expires>2022-07-01T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Parts of Oestlandet, 2022-07-01T05:30:00+00:00, 2022-07-01T18:00:00+00:00</headline>
+    <description>Heavy rain showers are expected in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly. The exact location of the precipitation is uncertain. Locally the precipitation can exceed 15 mm/h</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. The need for emergency preparedness shall be assessed continuously by emergency response actors. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Stay away from exposed places if possible. Do not drive in water deeper than 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-01T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Parts of Oestlandet, 2022-07-01T05:30:00+00:00, 2022-07-01T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/31e8f027-292c-4f64-8b72-84da5d7373e5.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Oestlandet</areaDesc>
+      <polygon>59.9304,9.19519 59.7944,10.859 59.642,12.4378 60.3997,12.6785 61.0073,12.4359 61.1096,12.8336 61.3841,12.9894 61.736,12.314 61.9777,11.3423 61.9921,9.65235 61.6993,8.76272 61.0605,8.31302 60.4125,8.67669 60.409,8.72387 59.9304,9.19519 59.9304,9.19519</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>03</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>0301;3007;3020;3023;3024;3025;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3038;3039;3040;3041;3042;3043;3045;3046;3047;3049;3050;3051;3052;3053;3054;3401;3403;3405;3407;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3421;3422;3423;3424;3425;3428;3429;3431;3435;3436;3437;3438;3439;3440;3441;3442;3443;3446;3447;3448;3449;3450;3451;3452;3453;3454</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

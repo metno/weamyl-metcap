@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200229133658808.1855</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-02-29T13:36:58+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200228113422234.1809,2020-02-28T11:34:22+00:00</references>
+  <incidents>4067</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-02-29T06:00:00+00:00</effective>
+    <onset>2020-02-29T06:00:00+00:00</onset>
+    <expires>2020-03-01T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Svært mye snø, oransje nivå, Telemark og Agder, 29 February 06:00 UTC til 01 March 10:00 UTC.</headline>
+    <description>Fra lørdag morgen til søndag morgen ventes 15-35 cm med snø over ca 100 meter, lokalt kan det komme mer.</description>
+    <instruction>Sårbare installasjoner og gjenstander bør beskyttes. Beregn mye ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Behov for beredskap skal vurderes fortløpende av beredskapsaktører.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/oransje-farevarsel-sno-i-telemark-og-agder</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-03-01T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sårbar infrastruktur kan bli rammet som følge av snøtyngden. Mange reiser vil kunne få lenger reisetid. Det kan være generelt vanskelige kjøreforhold. Strømforsyningen kan bli påvirket. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Svært mye snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Alvorlig situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>15 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Vær forberedt</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Svært mye snø, oransje nivå, Telemark og Agder, 29 February 06:00 UTC til 01 March 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/5a0b3f9b-2fc0-452f-a2eb-6b47c9f50d46.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Telemark og Agder</areaDesc>
+      <polygon>59.672167,7.213167 59.653333,7.097667 59.644333,7.099833 59.623167,7.089833 59.613833,7.079167 59.602667,7.064833 59.588167,7.050000 59.596333,6.989333 59.559333,6.982500 59.512667,6.967667 59.505333,6.999000 59.480333,7.023333 59.447500,6.965167 59.428167,6.882167 59.413500,6.907667 59.402000,6.928333 59.393667,6.921000 59.393500,6.906167 59.397833,6.889833 59.371333,6.861000 59.335667,6.846833 59.318833,6.833000 59.272333,6.823167 59.253167,6.838000 59.192833,6.837000 59.191167,6.837333 59.182833,6.851000 59.184833,6.900833 59.188333,6.936500 59.188167,6.954333 59.189833,6.992667 59.193667,7.007333 59.183500,7.019833 59.161833,7.179000 59.140667,7.204000 59.134167,7.163667 59.140667,7.203833 59.161667,7.178833 59.183333,7.019667 59.193667,7.007167 59.189667,6.992667 59.188167,6.954167 59.188167,6.936500 59.140833,6.881667 59.137167,6.899333 59.112333,6.901000 59.053500,6.787333 59.039167,6.780167 59.020167,6.730000 59.006667,6.710000 58.992667,6.703333 58.985167,6.663667 58.967667,6.651667 58.939667,6.633167 58.911167,6.563167 58.900667,6.561167 58.885167,6.569333 58.874667,6.607500 58.840167,6.561833 58.807167,6.542167 58.766667,6.518333 58.764167,6.574833 58.741167,6.574167 58.715167,6.617333 58.694000,6.618667 58.669167,6.508833 58.671500,6.466167 58.650500,6.435667 58.637667,6.474500 58.616167,6.493500 58.614667,6.495667 58.627667,6.532667 58.616667,6.583000 58.624667,6.613833 58.605667,6.596333 58.594667,6.589667 58.585833,6.594833 58.578667,6.610167 58.563167,6.608500 58.561667,6.613833 58.533667,6.606833 58.501667,6.586833 58.448500,6.630667 58.419667,6.591167 58.377333,6.606500 58.355667,6.592833 58.330667,6.567167 58.314500,6.533500 58.303333,6.468667 58.277667,6.377000 58.266667,6.364167 58.022333,6.566833 57.972167,7.040833 57.957167,7.568500 58.063500,8.052000 58.089167,8.215333 58.246167,8.525500 58.396500,8.808833 58.629000,9.153833 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.942500,9.779667 58.991667,9.765500 59.009667,9.764167 59.011667,9.782167 59.022167,9.790167 58.998500,9.835167 59.014167,9.836667 59.023167,9.833667 59.030667,9.825167 59.034667,9.811167 59.042167,9.836500 59.051667,9.840167 59.072167,9.849667 59.087000,9.854667 59.111000,9.848833 59.129667,9.821833 59.165500,9.832000 59.167333,9.886667 59.180167,9.895500 59.200833,9.870333 59.214833,9.858000 59.218167,9.877500 59.258167,9.861667 59.328167,9.747167 59.350833,9.773667 59.367667,9.764000 59.410333,9.773333 59.415500,9.701833 59.408167,9.655333 59.427667,9.625833 59.453167,9.590000 59.487000,9.561500 59.484167,9.470000 59.505000,9.471833 59.535667,9.516500 59.560333,9.461000 59.581667,9.457500 59.688000,9.397167 59.701333,9.330833 59.782833,9.363333 59.795500,9.343333 59.829167,9.185667 59.867333,9.173500 59.886500,9.181000 59.929167,9.187833 59.944167,9.140333 59.961667,9.108500 59.963167,9.061500 59.987000,9.032000 59.985167,8.991167 59.995833,8.987333 59.998000,8.996000 60.010000,8.983000 60.018000,8.981500 60.078667,8.968667 60.081333,8.966333 60.097333,8.962500 60.117333,8.904167 60.140000,8.852667 60.155333,8.817167 60.158667,8.789500 60.179000,8.732000 60.170667,8.514333 60.165833,8.460500 60.179333,8.374500 60.172167,8.287167 60.185333,8.212500 60.182500,8.105333 60.171500,8.087333 60.154167,8.014833 60.141167,7.923833 60.119500,7.858000 60.105167,7.808833 60.116000,7.775667 60.129000,7.651833 60.100167,7.492167 60.057333,7.437667 60.019333,7.436667 60.002000,7.370333 59.990667,7.329833 59.987667,7.280167 59.963833,7.228000 59.931833,7.188833 59.886167,7.151167 59.846167,7.144500 59.831667,7.158833 59.810833,7.142167 59.782667,7.093333 59.766000,7.102667 59.742000,7.113167 59.703167,7.106833 59.672167,7.213167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>08</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>09</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>10</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0805;0806;0807;0811;0814;0815;0817;0819;0821;0822;0826;0827;0828;0829;0830;0831;0833;0834</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0901;0904;0906;0911;0912;0914;0919;0926;0928;0929;0935;0937;0938;0940;0941</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1001;1002;1003;1004;1014;1017;1018;1021;1026;1027;1029;1032;1034;1037;1046</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-08</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-09</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-10</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO041</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO042</value>
+      </geocode>
+      <altitude>330</altitude>
+      <ceiling>2500</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-02-29T06:00:00+00:00</effective>
+    <onset>2020-02-29T06:00:00+00:00</onset>
+    <expires>2020-03-01T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Very heavy snow, orange level, Telemark and Agder, 29 February 06:00 UTC to 01 March 10:00 UTC.</headline>
+    <description>From Saturday morning to Sunday morning we expect 15-35 cm snow higher than 100 m, locally risk of more.</description>
+    <instruction>Vulnerable installations and objects should be protected. Allow a lot of extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. Follow advice and check status from transport operators. Check road reports (175.no). The need for emergency preparedness shall be assessed continuously by emergency response actors.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/oransje-farevarsel-sno-i-telemark-og-agder</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-03-01T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Vulnerable infrastructure can be affected by large accumulations of snow. Travel time may increase on many journeys. Driving conditions can be hazardous. The power supply may be impacted. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Very heavy snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Severe situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>15 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be prepared</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Very heavy snow, orange level, Telemark and Agder, 29 February 06:00 UTC to 01 March 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/5a0b3f9b-2fc0-452f-a2eb-6b47c9f50d46.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Telemark and Agder</areaDesc>
+      <polygon>59.672167,7.213167 59.653333,7.097667 59.644333,7.099833 59.623167,7.089833 59.613833,7.079167 59.602667,7.064833 59.588167,7.050000 59.596333,6.989333 59.559333,6.982500 59.512667,6.967667 59.505333,6.999000 59.480333,7.023333 59.447500,6.965167 59.428167,6.882167 59.413500,6.907667 59.402000,6.928333 59.393667,6.921000 59.393500,6.906167 59.397833,6.889833 59.371333,6.861000 59.335667,6.846833 59.318833,6.833000 59.272333,6.823167 59.253167,6.838000 59.192833,6.837000 59.191167,6.837333 59.182833,6.851000 59.184833,6.900833 59.188333,6.936500 59.188167,6.954333 59.189833,6.992667 59.193667,7.007333 59.183500,7.019833 59.161833,7.179000 59.140667,7.204000 59.134167,7.163667 59.140667,7.203833 59.161667,7.178833 59.183333,7.019667 59.193667,7.007167 59.189667,6.992667 59.188167,6.954167 59.188167,6.936500 59.140833,6.881667 59.137167,6.899333 59.112333,6.901000 59.053500,6.787333 59.039167,6.780167 59.020167,6.730000 59.006667,6.710000 58.992667,6.703333 58.985167,6.663667 58.967667,6.651667 58.939667,6.633167 58.911167,6.563167 58.900667,6.561167 58.885167,6.569333 58.874667,6.607500 58.840167,6.561833 58.807167,6.542167 58.766667,6.518333 58.764167,6.574833 58.741167,6.574167 58.715167,6.617333 58.694000,6.618667 58.669167,6.508833 58.671500,6.466167 58.650500,6.435667 58.637667,6.474500 58.616167,6.493500 58.614667,6.495667 58.627667,6.532667 58.616667,6.583000 58.624667,6.613833 58.605667,6.596333 58.594667,6.589667 58.585833,6.594833 58.578667,6.610167 58.563167,6.608500 58.561667,6.613833 58.533667,6.606833 58.501667,6.586833 58.448500,6.630667 58.419667,6.591167 58.377333,6.606500 58.355667,6.592833 58.330667,6.567167 58.314500,6.533500 58.303333,6.468667 58.277667,6.377000 58.266667,6.364167 58.022333,6.566833 57.972167,7.040833 57.957167,7.568500 58.063500,8.052000 58.089167,8.215333 58.246167,8.525500 58.396500,8.808833 58.629000,9.153833 58.759667,9.369333 58.852167,9.595000 58.930000,9.784667 58.942500,9.779667 58.991667,9.765500 59.009667,9.764167 59.011667,9.782167 59.022167,9.790167 58.998500,9.835167 59.014167,9.836667 59.023167,9.833667 59.030667,9.825167 59.034667,9.811167 59.042167,9.836500 59.051667,9.840167 59.072167,9.849667 59.087000,9.854667 59.111000,9.848833 59.129667,9.821833 59.165500,9.832000 59.167333,9.886667 59.180167,9.895500 59.200833,9.870333 59.214833,9.858000 59.218167,9.877500 59.258167,9.861667 59.328167,9.747167 59.350833,9.773667 59.367667,9.764000 59.410333,9.773333 59.415500,9.701833 59.408167,9.655333 59.427667,9.625833 59.453167,9.590000 59.487000,9.561500 59.484167,9.470000 59.505000,9.471833 59.535667,9.516500 59.560333,9.461000 59.581667,9.457500 59.688000,9.397167 59.701333,9.330833 59.782833,9.363333 59.795500,9.343333 59.829167,9.185667 59.867333,9.173500 59.886500,9.181000 59.929167,9.187833 59.944167,9.140333 59.961667,9.108500 59.963167,9.061500 59.987000,9.032000 59.985167,8.991167 59.995833,8.987333 59.998000,8.996000 60.010000,8.983000 60.018000,8.981500 60.078667,8.968667 60.081333,8.966333 60.097333,8.962500 60.117333,8.904167 60.140000,8.852667 60.155333,8.817167 60.158667,8.789500 60.179000,8.732000 60.170667,8.514333 60.165833,8.460500 60.179333,8.374500 60.172167,8.287167 60.185333,8.212500 60.182500,8.105333 60.171500,8.087333 60.154167,8.014833 60.141167,7.923833 60.119500,7.858000 60.105167,7.808833 60.116000,7.775667 60.129000,7.651833 60.100167,7.492167 60.057333,7.437667 60.019333,7.436667 60.002000,7.370333 59.990667,7.329833 59.987667,7.280167 59.963833,7.228000 59.931833,7.188833 59.886167,7.151167 59.846167,7.144500 59.831667,7.158833 59.810833,7.142167 59.782667,7.093333 59.766000,7.102667 59.742000,7.113167 59.703167,7.106833 59.672167,7.213167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>08</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>09</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>42</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>10</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0805;0806;0807;0811;0814;0815;0817;0819;0821;0822;0826;0827;0828;0829;0830;0831;0833;0834</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>0901;0904;0906;0911;0912;0914;0919;0926;0928;0929;0935;0937;0938;0940;0941</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1001;1002;1003;1004;1014;1017;1018;1021;1026;1027;1029;1032;1034;1037;1046</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-08</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-09</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-10</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO041</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO042</value>
+      </geocode>
+      <altitude>330</altitude>
+      <ceiling>2500</ceiling>
+    </area>
+  </info>
+</alert>

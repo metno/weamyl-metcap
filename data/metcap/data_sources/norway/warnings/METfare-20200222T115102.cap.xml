@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200222115102345.1647</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-02-22T11:51:02+00:00</sent>
+  <status>Actual</status>
+  <msgType>Cancel</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200222082527799.1613,2020-02-22T08:25:27+00:00</references>
+  <incidents>4015</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vannstand langs kysten og i fjordene</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>stormSurge</value>
+    </eventCode>
+    <effective>2020-02-21T20:00:00+00:00</effective>
+    <onset>2020-02-21T20:00:00+00:00</onset>
+    <expires>2020-02-22T13:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Høy vannstand, gult nivå, Ofoten, Lofoten, Vesterålen og Sør-Troms, 21 February 20:00 UTC til 22 February 13:00 UTC.</headline>
+    <description>Hendelsen har passert. Gå inn på yr.no for oppdatert farevarsel. </description>
+    <instruction></instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-22T13:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Høy vannstand</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>10 cm</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Høy vannstand, gult nivå, Ofoten, Lofoten, Vesterålen og Sør-Troms, 21 February 20:00 UTC til 22 February 13:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/14d1ac99-5a76-4fca-8b7c-8a526946dd23.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ofoten, Lofoten, Vesterålen og Sør-Troms</areaDesc>
+      <polygon>68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.050000,19.366667 69.250000,18.766667 69.383167,18.500000 69.483167,18.316667 69.516667,18.100000 69.650000,17.799833 69.687167,17.759833 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.199833,15.350000 68.250000,15.800000 68.216667,16.000000 68.183167,15.966667 68.116667,16.033167 68.066667,15.899833 68.016667,16.000000 67.966667,16.100000 67.900000,16.100000 67.866667,16.049833 67.849833,16.116667 67.750000,16.200000 67.766667,16.283167 67.750000,16.350000 67.716667,16.399833 67.699833,16.366667 67.683167,16.416667 67.699833,16.500000 67.666667,16.500000 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1805;1850;1851;1852;1853;1854</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1903;1911;1913;1917;1919;1920;1923</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>80</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Water level at the coast and in the fjords</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>stormSurge</value>
+    </eventCode>
+    <effective>2020-02-21T20:00:00+00:00</effective>
+    <onset>2020-02-21T20:00:00+00:00</onset>
+    <expires>2020-02-22T13:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>High water level, yellow level, Ofoten, Lofoten, Vesteraalen and Soer-Troms, 21 February 20:00 UTC to 22 February 13:00 UTC.</headline>
+    <description>The incident has passed. Go to yr.no for an updated forecast. </description>
+    <instruction></instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-22T13:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>High water level</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>10 cm</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>High water level, yellow level, Ofoten, Lofoten, Vesteraalen and Soer-Troms, 21 February 20:00 UTC to 22 February 13:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/14d1ac99-5a76-4fca-8b7c-8a526946dd23.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ofoten, Lofoten, Vesteraalen and Soer-Troms</areaDesc>
+      <polygon>68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.050000,19.366667 69.250000,18.766667 69.383167,18.500000 69.483167,18.316667 69.516667,18.100000 69.650000,17.799833 69.687167,17.759833 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.199833,15.350000 68.250000,15.800000 68.216667,16.000000 68.183167,15.966667 68.116667,16.033167 68.066667,15.899833 68.016667,16.000000 67.966667,16.100000 67.900000,16.100000 67.866667,16.049833 67.849833,16.116667 67.750000,16.200000 67.766667,16.283167 67.750000,16.350000 67.716667,16.399833 67.699833,16.366667 67.683167,16.416667 67.699833,16.500000 67.666667,16.500000 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1805;1850;1851;1852;1853;1854</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1903;1911;1913;1917;1919;1920;1923</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>80</ceiling>
+    </area>
+  </info>
+</alert>

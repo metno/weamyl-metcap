@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.221009181331211.2201</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-09T18:13:31+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-10-10T09:00:00+00:00</effective>
+    <onset>2022-10-10T09:00:00+00:00</onset>
+    <expires>2022-10-10T20:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Ona - Frøya, 10 October 09:00 UTC til 10 October 20:00 UTC.</headline>
+    <description>Måndag føremiddag auking til sørvest stiv og periodevis sterk kuling 20 m/s.</description>
+    <instruction>Vurder å la båten ligge. Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Ona - Frøya</areaDesc>
+      <polygon>62.909833,6.475333 62.935833,6.552333 63.042667,6.869333 63.129500,7.129833 63.274500,7.363667 63.419167,7.600000 63.478833,7.698333 63.546333,7.791000 63.547500,7.792833 63.691500,8.033167 63.787833,8.195833 63.592167,8.563167 63.505167,8.364667 63.449000,7.998333 63.389667,7.846167 63.263667,7.876667 63.143667,7.771167 63.037833,7.471000 62.952167,7.081667 62.838167,6.607167 62.909833,6.475333
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-10-10T09:00:00+00:00</effective>
+    <onset>2022-10-10T09:00:00+00:00</onset>
+    <expires>2022-10-10T20:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Ona - Frøya, 10 October 09:00 UTC to 10 October 20:00 UTC.</headline>
+    <description>Late Monday morning increasing southwest near gale force 7, at times gale force 8.</description>
+    <instruction>It is not recommended to be at sea in a small boat. Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Ona - Frøya</areaDesc>
+      <polygon>62.909833,6.475333 62.935833,6.552333 63.042667,6.869333 63.129500,7.129833 63.274500,7.363667 63.419167,7.600000 63.478833,7.698333 63.546333,7.791000 63.547500,7.792833 63.691500,8.033167 63.787833,8.195833 63.592167,8.563167 63.505167,8.364667 63.449000,7.998333 63.389667,7.846167 63.263667,7.876667 63.143667,7.771167 63.037833,7.471000 62.952167,7.081667 62.838167,6.607167 62.909833,6.475333
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

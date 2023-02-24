@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210219110001794.417</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-02-19T11:00:01+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.210219104232860.413,2021-02-19T10:42:32+00:00</references>
+  <incidents>48708</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Is</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>ice</value>
+    </eventCode>
+    <effective>2021-02-20T09:00:00+00:00</effective>
+    <onset>2021-02-20T09:00:00+00:00</onset>
+    <expires>2021-02-21T01:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Is, gult nivå, Helgeland og Salten, 20 February 09:00 UTC til 21 February 01:00 UTC.</headline>
+    <description>Fra lørdag formiddag er det ventet lokal fare for is på Helgeland på grunn av regn som fryser på bakken. Sent lørdag ettermiddag og kveld er det også lokal fare for is i ytre strøk av Salten.</description>
+    <instruction>Vurder bruk av brodder. Beregn ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-02-21T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det kan være lokalt vanskelige kjøreforhold. Transporttjenester kan bli påvirket. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Is</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.2 mm/3t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over is, gult nivå, Helgeland og Salten, 20 February 09:00 UTC til 21 February 01:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/30937103-9aa1-4f43-a426-f503a13542e0.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Helgeland og Salten</areaDesc>
+      <polygon>67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.666667,16.500000 67.699833,16.500000 67.683167,16.416667 67.699833,16.366667 67.716667,16.399833 67.750000,16.350000 67.766667,16.283167 67.750000,16.200000 67.849833,16.116667 67.866667,16.049833 67.900000,16.100000 67.966667,16.100000 68.016667,16.000000 68.066667,15.899833 68.116667,16.033167 68.183167,15.966667 68.216667,16.000000 68.250000,15.800000 68.199833,15.350000 68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>1500</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Ice</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>ice</value>
+    </eventCode>
+    <effective>2021-02-20T09:00:00+00:00</effective>
+    <onset>2021-02-20T09:00:00+00:00</onset>
+    <expires>2021-02-21T01:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Ice, yellow level, Helgeland and Salten, 20 February 09:00 UTC to 21 February 01:00 UTC.</headline>
+    <description>From Saturday forenoon there is locally risk of glazed ice in Helgeland due to rain freezing on the ground. Late Saturday afternoon and evening there is also risk of ice in Salten.</description>
+    <instruction>Consider wearing traction cleats. Allow extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-02-21T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Local driving conditions may become difficult. Transport services may be impacted. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.2 mm/3t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of ice, yellow level, Helgeland and Salten, 20 February 09:00 UTC to 21 February 01:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/30937103-9aa1-4f43-a426-f503a13542e0.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Helgeland and Salten</areaDesc>
+      <polygon>67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.666667,16.500000 67.699833,16.500000 67.683167,16.416667 67.699833,16.366667 67.716667,16.399833 67.750000,16.350000 67.766667,16.283167 67.750000,16.200000 67.849833,16.116667 67.866667,16.049833 67.900000,16.100000 67.966667,16.100000 68.016667,16.000000 68.066667,15.899833 68.116667,16.033167 68.183167,15.966667 68.216667,16.000000 68.250000,15.800000 68.199833,15.350000 68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>1500</ceiling>
+    </area>
+  </info>
+</alert>

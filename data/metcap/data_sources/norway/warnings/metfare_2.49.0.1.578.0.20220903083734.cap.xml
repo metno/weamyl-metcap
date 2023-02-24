@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220903083734</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-09-03T08:39:04+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220903074129,2022-09-03T08:28:58+00:00</references>
+  <incidents>0000050169</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-09-03T14:00:00+00:00</effective>
+    <onset>2022-09-03T14:00:00+00:00</onset>
+    <expires>2022-09-04T01:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Deler av Sør-Norge, 2022-09-03T14:00:00+00:00, 2022-09-04T01:00:00+00:00</headline>
+    <description>Kraftige regnbyger ventes i deler av Sør-Norge. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt. Nedbørens plassering er usikker og ikke alle får styrtregn. Lokalt er nedbøren ventet å passere 15 mm/1t.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Unngå unødvendig ferdsel utsatte steder. Ikke kjør bil i vann dypere enn 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-04T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn, gult nivå, Deler av Sør-Norge, 2022-09-03T14:00:00+00:00, 2022-09-04T01:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/5db2fe7b-e17e-4201-bd43-260676ae5eec.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Sør-Norge</areaDesc>
+      <polygon>62.1999,10.729 62.2907,9.92157 62.0629,8.75014 61.6067,8.43292 60.4848,8.00791 60.0025,7.36308 59.7845,6.77335 59.5838,6.35418 59.3274,6.39765 59.0373,6.77012 58.9326,8.2051 58.759,9.45829 58.9988,10.3567 59.4591,10.5222 60.0177,10.2746 60.448,10.3135 61.1336,10.3123 61.7961,10.9277 62.1999,10.729 62.1999,10.729</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1108;1133;1134;1135;3005;3006;3007;3025;3038;3039;3040;3041;3042;3043;3044;3045;3046;3047;3048;3049;3050;3051;3052;3053;3405;3407;3423;3424;3428;3429;3431;3434;3435;3436;3437;3438;3439;3440;3441;3446;3447;3448;3449;3450;3451;3452;3453;3454;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4211;4217;4220;4221;4222;4228;4618</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-09-03T14:00:00+00:00</effective>
+    <onset>2022-09-03T14:00:00+00:00</onset>
+    <expires>2022-09-04T01:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Parts of South-Norway, 2022-09-03T14:00:00+00:00, 2022-09-04T01:00:00+00:00</headline>
+    <description>Heavy rain showers are expected in parts og South-Norway. There will be large local variations in intensity and duration, and the weather conditions can change rapidly. The exact location of the precipitation is uncertain. Locally the precipitation can exceed 15 mm/h.</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Stay away from exposed places if possible. Do not drive in water deeper than 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-04T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Parts of South-Norway, 2022-09-03T14:00:00+00:00, 2022-09-04T01:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/5db2fe7b-e17e-4201-bd43-260676ae5eec.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of South-Norway</areaDesc>
+      <polygon>62.1999,10.729 62.2907,9.92157 62.0629,8.75014 61.6067,8.43292 60.4848,8.00791 60.0025,7.36308 59.7845,6.77335 59.5838,6.35418 59.3274,6.39765 59.0373,6.77012 58.9326,8.2051 58.759,9.45829 58.9988,10.3567 59.4591,10.5222 60.0177,10.2746 60.448,10.3135 61.1336,10.3123 61.7961,10.9277 62.1999,10.729 62.1999,10.729</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1108;1133;1134;1135;3005;3006;3007;3025;3038;3039;3040;3041;3042;3043;3044;3045;3046;3047;3048;3049;3050;3051;3052;3053;3405;3407;3423;3424;3428;3429;3431;3434;3435;3436;3437;3438;3439;3440;3441;3446;3447;3448;3449;3450;3451;3452;3453;3454;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4211;4217;4220;4221;4222;4228;4618</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

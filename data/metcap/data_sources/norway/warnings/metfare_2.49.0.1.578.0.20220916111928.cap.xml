@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220916111928</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-09-16T11:21:15+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220914071209,2022-09-14T07:38:20+00:00</references>
+  <incidents>0000050179</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-09-16T12:00:00+00:00</effective>
+    <onset>2022-09-16T12:00:00+00:00</onset>
+    <expires>2022-09-17T16:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Møre og Romsdal, 2022-09-16T12:00:00+00:00, 2022-09-17T16:00:00+00:00</headline>
+    <description>Det ventes mye regn, lokalt 60-80 mm/24t.</description>
+    <instruction>Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-17T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, Møre og Romsdal, 2022-09-16T12:00:00+00:00, 2022-09-17T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/bdcb8b0a-f03b-4ebc-b2f9-4d5a8bf1972b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Møre og Romsdal</areaDesc>
+      <polygon>62.1084,5.70276 61.9767,5.68889 61.9249,6.5447 62.0075,7.33056 62.0739,7.61492 62.1394,7.64509 62.1773,7.98204 62.3281,8.21281 62.3632,8.39164 62.3717,8.79694 62.3706,9.09325 62.4458,9.21698 62.5651,9.24556 62.6622,9.0551 62.8044,9.38028 62.8476,9.38235 62.9873,9.25162 63.0892,9.12885 63.1248,9.03663 63.1339,8.82104 63.0741,8.6733 63.0949,8.48932 63.0679,8.42121 63.0484,8.25105 62.8992,7.46103 62.6553,6.74114 62.3538,5.97611 62.1084,5.70276 62.1084,5.70276</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1507;1511;1516;1517;1520;1525;1528;1531;1535;1539;1557;1560;1563;1566;1577;1578;1579;5021;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-09-16T12:00:00+00:00</effective>
+    <onset>2022-09-16T12:00:00+00:00</onset>
+    <expires>2022-09-17T16:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Moere og Romsdal, 2022-09-16T12:00:00+00:00, 2022-09-17T16:00:00+00:00</headline>
+    <description>A lot of rain is expected, locally around 60-80 mm in 24 hours.</description>
+    <instruction>The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-17T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, Moere og Romsdal, 2022-09-16T12:00:00+00:00, 2022-09-17T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/bdcb8b0a-f03b-4ebc-b2f9-4d5a8bf1972b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Moere og Romsdal</areaDesc>
+      <polygon>62.1084,5.70276 61.9767,5.68889 61.9249,6.5447 62.0075,7.33056 62.0739,7.61492 62.1394,7.64509 62.1773,7.98204 62.3281,8.21281 62.3632,8.39164 62.3717,8.79694 62.3706,9.09325 62.4458,9.21698 62.5651,9.24556 62.6622,9.0551 62.8044,9.38028 62.8476,9.38235 62.9873,9.25162 63.0892,9.12885 63.1248,9.03663 63.1339,8.82104 63.0741,8.6733 63.0949,8.48932 63.0679,8.42121 63.0484,8.25105 62.8992,7.46103 62.6553,6.74114 62.3538,5.97611 62.1084,5.70276 62.1084,5.70276</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1507;1511;1516;1517;1520;1525;1528;1531;1535;1539;1557;1560;1563;1566;1577;1578;1579;5021;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

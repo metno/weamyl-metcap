@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211105083139294.2174</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-11-05T08:31:39+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.211104214405161.2170,2021-11-04T21:44:05+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-11-05T13:00:00+00:00</effective>
+    <onset>2021-11-05T13:00:00+00:00</onset>
+    <expires>2021-11-06T07:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Ona - Halten, 05 November 13:00 UTC til 06 November 07:00 UTC.</headline>
+    <description>Fra i ettermiddag, fredag, vest og nordvest stiv kuling 15 m/s, natt til lørdag forbigående sterk kuling 20 m/s. Tidlig lørdag morgen minkende, først i vest. </description>
+    <instruction>Vurder å la båten ligge. Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-06T07:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Grov sjø og hvitt skum fra bølgetopper som brekker. Middels høye bølger. Bølgekammene er ved å brytes opp til sjørokk. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Ona - Halten</areaDesc>
+      <polygon>63.746333,8.279000 63.642833,7.949833 63.553000,7.677667 63.409833,7.436500 63.304667,7.302500 63.164000,7.051833 62.922000,6.453000 62.838167,6.607333 62.952333,7.081833 63.038000,7.471000 63.143833,7.771333 63.263667,7.876667 63.389667,7.846333 63.449000,7.998500 63.505333,8.364667 63.592167,8.563333 63.680000,9.065000 63.773500,9.588167 63.879000,9.877167 63.994500,10.030167 64.182167,9.403000 64.237000,9.197833 64.096833,8.870167 63.986500,8.622667 63.859833,8.382167 63.746333,8.279000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-11-05T13:00:00+00:00</effective>
+    <onset>2021-11-05T13:00:00+00:00</onset>
+    <expires>2021-11-06T07:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Ona - Halten, 05 November 13:00 UTC to 06 November 07:00 UTC.</headline>
+    <description>From this afternoon, Friday, west and northwest near gale force 7, early Saturday morning temporary gale force 8. Early Saturday morning decreasing, first in west. </description>
+    <instruction>It is not recommended to be at sea in a small boat. Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-06T07:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sea heaps up. Moderate amounts of airborne spray. Moderately high waves with breaking crests forming spindrift. Considerable airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Ona - Halten</areaDesc>
+      <polygon>63.746333,8.279000 63.642833,7.949833 63.553000,7.677667 63.409833,7.436500 63.304667,7.302500 63.164000,7.051833 62.922000,6.453000 62.838167,6.607333 62.952333,7.081833 63.038000,7.471000 63.143833,7.771333 63.263667,7.876667 63.389667,7.846333 63.449000,7.998500 63.505333,8.364667 63.592167,8.563333 63.680000,9.065000 63.773500,9.588167 63.879000,9.877167 63.994500,10.030167 64.182167,9.403000 64.237000,9.197833 64.096833,8.870167 63.986500,8.622667 63.859833,8.382167 63.746333,8.279000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

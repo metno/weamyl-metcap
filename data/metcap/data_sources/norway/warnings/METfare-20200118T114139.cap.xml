@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200118114139816.546</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-01-18T11:41:39+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200118104627082.539,2020-01-18T10:46:27+00:00</references>
+  <incidents>3562</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Ising</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>icing</value>
+    </eventCode>
+    <effective>2020-01-19T12:00:00+00:00</effective>
+    <onset>2020-01-19T12:00:00+00:00</onset>
+    <expires>2020-01-20T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Moderat ising på skip, gult nivå, Øst-Finnmark, 19 January 12:00 UTC til 20 January 09:00 UTC.</headline>
+    <description>Fra søndag ettermiddag utrygt for moderat ising på båter i utsatte kyst- og fjordstrøk. Utover mandag gradvis avtagende fare.</description>
+    <instruction>Fjern is fra båten.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-01-20T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask nok isvekst kan føre til at en liten båt mister stabiliteten, velter og synker. For større båter ventes glatte dekk, gelender, stiger og nedisete redningsbåter og annet redningsutstyr. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Moderat ising på skip</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.5 cm/h</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Moderat ising på skip, gult nivå, Øst-Finnmark, 19 January 12:00 UTC til 20 January 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/e083b519-c705-4b52-b523-90e372202d24.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Øst-Finnmark</areaDesc>
+      <polygon>70.666667,26.250000 70.466667,26.083167 70.366667,26.049833 70.233167,25.983167 70.099833,25.899833 70.000000,25.866667 69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 70.966667,26.600000 70.783167,26.433167 70.666667,26.250000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2002;2003;2022;2023;2024;2025;2027;2028;2030</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Icing</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>icing</value>
+    </eventCode>
+    <effective>2020-01-19T12:00:00+00:00</effective>
+    <onset>2020-01-19T12:00:00+00:00</onset>
+    <expires>2020-01-20T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Moderate icing on ships, yellow level, Øst-Finnmark, 19 January 12:00 UTC to 20 January 09:00 UTC.</headline>
+    <description>From Sunday afternoon risk of moderate icing on ships in exposed coastal- and fjord areas. During Monday gradually decreasing risk.</description>
+    <instruction>Remove ice from the boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-01-20T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rapid ice accumulation on a small boat may cause it to lose its stability, tip over and sink. For ships the issue is more directed towards slippery decks, handrailing, ladders, iced down safety boats and safety equipment. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Moderate icing on ships</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.5 cm/h</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Moderate icing on ships, yellow level, Øst-Finnmark, 19 January 12:00 UTC to 20 January 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/e083b519-c705-4b52-b523-90e372202d24.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Øst-Finnmark</areaDesc>
+      <polygon>70.666667,26.250000 70.466667,26.083167 70.366667,26.049833 70.233167,25.983167 70.099833,25.899833 70.000000,25.866667 69.900000,25.750000 69.900000,26.200000 69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 70.966667,26.600000 70.783167,26.433167 70.666667,26.250000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>2002;2003;2022;2023;2024;2025;2027;2028;2030</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

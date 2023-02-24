@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190111062217506.168</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-11T06:22:17+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190111055130645.166,2019-01-11T05:51:30+00:00</references>
+  <incidents>1353</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-09T23:00:00+00:00</effective>
+    <onset>2019-01-09T23:00:00+00:00</onset>
+    <expires>2019-01-11T21:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Frøya - Rørvik, 09 January 23:00 UTC til 11 January 21:00 UTC.</headline>
+    <description>I dag, fredag, fortsatt vestlig sterk kuling 20 m/s og periodevis liten storm 22, i formiddag dreiende nordvest, i ettermiddag minking til stiv kuling 15.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-11T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Middels høye bølger av større lengde. Bølgekammene er ved å brytes opp til sjørokk, som driver i tydelige markerte strimer med vinden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Frøya - Rørvik</areaDesc>
+      <polygon>64.237000,9.197833 64.096833,8.870167 63.986500,8.622667 63.859833,8.382167 63.746333,8.279000 63.592167,8.563333 63.680000,9.065000 63.773500,9.588167 63.879000,9.877167 63.994500,10.030167 64.147000,10.225667 64.273667,10.381500 64.406833,10.593833 64.607667,10.938167 64.758167,11.238667 65.005667,10.635500 64.815167,10.314000 64.617500,9.963333 64.397833,9.542667 64.272333,9.267667 64.237000,9.197833
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-09T23:00:00+00:00</effective>
+    <onset>2019-01-09T23:00:00+00:00</onset>
+    <expires>2019-01-11T21:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Froeya - Roervik, 09 January 23:00 UTC to 11 January 21:00 UTC.</headline>
+    <description>Today, Friday, still west gale force 8 and occasionally strong gale force 9, Friday forenoon backing northwest, Friday afternoon decreasing to near gale force 7.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-11T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderately high waves with breaking crests forming spindrift. Well-marked streaks of foam are blown along wind direction. Considerable airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Froeya - Roervik</areaDesc>
+      <polygon>64.237000,9.197833 64.096833,8.870167 63.986500,8.622667 63.859833,8.382167 63.746333,8.279000 63.592167,8.563333 63.680000,9.065000 63.773500,9.588167 63.879000,9.877167 63.994500,10.030167 64.147000,10.225667 64.273667,10.381500 64.406833,10.593833 64.607667,10.938167 64.758167,11.238667 65.005667,10.635500 64.815167,10.314000 64.617500,9.963333 64.397833,9.542667 64.272333,9.267667 64.237000,9.197833
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

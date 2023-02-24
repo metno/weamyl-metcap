@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221206081250.094</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-06T09:21:39+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050300</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T09:30:00+00:00</effective>
+    <onset>2022-12-06T09:30:00+00:00</onset>
+    <expires>2022-12-07T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Deler av Nordland og Sør-Troms, 2022-12-06T09:30:00+00:00, 2022-12-07T12:00:00+00:00</headline>
+    <description>Fra tirsdag formiddag til onsdag ettermiddag er det ventet mye snø. Det kan komme 20-35 cm snø på et døgn. Mest snø ventes i ytre og midtre strøk. Snøbygene vil treffe ulikt, og det kan bli lokale forskjeller i snømengder.  Snøbygene avtar først i nord.</description>
+    <instruction>Beskytt sårbare installasjoner og gjenstander som ikke tåler den ventede snømengden. Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-07T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Sårbar infrastruktur kan bli rammet som følge av snøtyngden. Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>20cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Deler av Nordland og Sør-Troms, 2022-12-06T09:30:00+00:00, 2022-12-07T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/d1a8ac04-1f1e-411f-be70-83e771b2c019.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Nordland og Sør-Troms</areaDesc>
+      
+          <polygon>67.2711,15.5701 67.3926,15.9499 68.1097,16.4669 68.4166,16.7817 68.5502,17.7977 68.8967,18.2443 69.2291,17.803 69.5178,17.3216 69.4648,16.5331 69.1058,14.9715 68.6765,13.9451 68.2633,13.0451 67.4627,11.9619 67.6922,13.0206 68.0874,14.862 67.4566,13.4427 66.9326,12.1439 65.8514,11.8093 65.2994,11.4715 65.2227,11.5231 65.1555,11.887 65.1497,11.9517 65.0614,11.9074 65.0971,11.9842 65.086,12.0291 65.0668,12.0447 65.0443,12.0586 65.0224,12.0643 65.0113,12.1091 65.0144,12.1527 64.9661,12.2539 64.9911,12.4232 64.9788,12.5375 64.9833,12.5651 64.9406,12.6334 64.9537,12.6793 64.9552,12.7854 64.9857,12.8018 64.9801,12.9333 65.0222,12.9394 65.0802,13.0366 65.1216,13.0983 65.114,13.2485 65.854,13.3825 66.2971,15.013 66.5675,15.3996 67.2711,15.5701 67.2711,15.5701</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1827;1828;1832;1833;1834;1835;1836;1837;1838;1839;1840;1841;1845;1848;1851;1853;1857;1859;1860;1865;1866;1867;1868;1870;1871;1874;1875;5402;5411;5412;5413;5414;5415;5417;5419;5420;5421</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T09:30:00+00:00</effective>
+    <onset>2022-12-06T09:30:00+00:00</onset>
+    <expires>2022-12-07T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Parts of Nordland and South-Troms, 2022-12-06T09:30:00+00:00, 2022-12-07T12:00:00+00:00</headline>
+    <description>From Tuesday forenoon until Wednesday afternoon heavy snowfall is expected. Some places between 20-35 cm snow can accumulate in 24 hrs. It is expected most snow in coastal regions. The snowshowers will distribute the snow unevenly, and there can be local differences in snow depth. The snow showers will stop first in the northern part.</description>
+    <instruction>Vulnerable installations and objects should be protected. Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-07T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vulnerable infrastructure can be affected due to accumulation of snow. Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>20cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Parts of Nordland and South-Troms, 2022-12-06T09:30:00+00:00, 2022-12-07T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/d1a8ac04-1f1e-411f-be70-83e771b2c019.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Nordland and South-Troms</areaDesc>
+      
+          <polygon>67.2711,15.5701 67.3926,15.9499 68.1097,16.4669 68.4166,16.7817 68.5502,17.7977 68.8967,18.2443 69.2291,17.803 69.5178,17.3216 69.4648,16.5331 69.1058,14.9715 68.6765,13.9451 68.2633,13.0451 67.4627,11.9619 67.6922,13.0206 68.0874,14.862 67.4566,13.4427 66.9326,12.1439 65.8514,11.8093 65.2994,11.4715 65.2227,11.5231 65.1555,11.887 65.1497,11.9517 65.0614,11.9074 65.0971,11.9842 65.086,12.0291 65.0668,12.0447 65.0443,12.0586 65.0224,12.0643 65.0113,12.1091 65.0144,12.1527 64.9661,12.2539 64.9911,12.4232 64.9788,12.5375 64.9833,12.5651 64.9406,12.6334 64.9537,12.6793 64.9552,12.7854 64.9857,12.8018 64.9801,12.9333 65.0222,12.9394 65.0802,13.0366 65.1216,13.0983 65.114,13.2485 65.854,13.3825 66.2971,15.013 66.5675,15.3996 67.2711,15.5701 67.2711,15.5701</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1827;1828;1832;1833;1834;1835;1836;1837;1838;1839;1840;1841;1845;1848;1851;1853;1857;1859;1860;1865;1866;1867;1868;1870;1871;1874;1875;5402;5411;5412;5413;5414;5415;5417;5419;5420;5421</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

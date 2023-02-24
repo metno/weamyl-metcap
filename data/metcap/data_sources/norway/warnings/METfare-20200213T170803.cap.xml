@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200213170803260.1239</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-02-13T17:08:03+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>3887</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2020-02-13T20:00:00+00:00</effective>
+    <onset>2020-02-13T20:00:00+00:00</onset>
+    <expires>2020-02-14T05:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, Dype D4, Tromsøflaket og Bankene utenfor Troms, 13 February 20:00 UTC til 14 February 05:00 UTC.</headline>
+    <description>Et polart lavtrykk er nå i Dype D4, det beveger seg austover og deretter nordaust til Tromsøflaket. I vestlige del av lavtrykket vil det være vest og nordvest liten og kan hende full storm 25 m/s.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-14T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polart lavtrykk, gult nivå, Dype D4, Tromsøflaket og Bankene utenfor Troms, 13 February 20:00 UTC til 14 February 05:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/fdbcadfa-e3be-4c94-812e-acdfcb5fd833.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Dype D4, Tromsøflaket og Bankene utenfor Troms</areaDesc>
+      <polygon>70.000000,16.600000 69.800000,16.299833 69.550000,15.199833 69.425667,16.458667 69.687167,17.759833 69.905833,18.007667 70.109167,18.405667 70.206167,18.617000 70.312667,19.215167 70.342000,20.167667 70.411167,20.807167 70.462667,21.334667 70.680667,21.941167 70.839833,22.685667 72.400000,19.850000 72.500000,19.649833 72.500000,15.750000 72.500000,15.000000 72.500000,10.000000 70.000000,10.000000 70.000000,16.600000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2020-02-13T20:00:00+00:00</effective>
+    <onset>2020-02-13T20:00:00+00:00</onset>
+    <expires>2020-02-14T05:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, Deep D4, Tromsoeflaket and Banks outside Troms, 13 February 20:00 UTC to 14 February 05:00 UTC.</headline>
+    <description>A polar low is now in Deep D4, it is moving eastwards and later northeast to Tromsoeflaket. In western part of lowet vil the be west and nrodwest liten and possibly full ststorm 25 m/s. </description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-14T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polar low, yellow level, Deep D4, Tromsoeflaket and Banks outside Troms, 13 February 20:00 UTC to 14 February 05:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/fdbcadfa-e3be-4c94-812e-acdfcb5fd833.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deep D4, Tromsoeflaket and Banks outside Troms</areaDesc>
+      <polygon>70.000000,16.600000 69.800000,16.299833 69.550000,15.199833 69.425667,16.458667 69.687167,17.759833 69.905833,18.007667 70.109167,18.405667 70.206167,18.617000 70.312667,19.215167 70.342000,20.167667 70.411167,20.807167 70.462667,21.334667 70.680667,21.941167 70.839833,22.685667 72.400000,19.850000 72.500000,19.649833 72.500000,15.750000 72.500000,15.000000 72.500000,10.000000 70.000000,10.000000 70.000000,16.600000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221203103741</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-03T10:37:41+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221201081848,2022-12-01T08:44:21+00:00</references>
+  <incidents>0000050290</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-12-03T10:37:00+00:00</effective>
+    <onset>2022-12-03T10:37:00+00:00</onset>
+    <expires>2022-12-03T11:37:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Nedgradert varsel for skogbrannfare, Ytre strøk av Nord-Salten</headline>
+    <description>Farevarselet er nedgradert. Følg med på oppdaterte prognoser for aktuelt varsel.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Normal skogbrannfare</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Ingen</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Nedgradert varsel for skogbrannfare, Ytre strøk av Nord-Salten</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1282c8c3-cc11-4a8f-93b0-2e8bf7686021.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre strøk av Nord-Salten</areaDesc>
+      
+          <polygon>67.6621,14.2581 67.33,15.6769 68.189,16.9201 68.329,16.0212 67.9475,14.7403 67.6621,14.2581 67.6621,14.2581</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1806;1845;1848;1875</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-12-03T10:37:00+00:00</effective>
+    <onset>2022-12-03T10:37:00+00:00</onset>
+    <expires>2022-12-03T11:37:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Downgraded alert warning for forest fire danger, Outer parts of Northern Salten </headline>
+    <description>The warning is downgraded. Keep up to date with updated forecasts.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Minor forest fire danger</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>None</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Downgraded alert warning for forest fire danger, Outer parts of Northern Salten </resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1282c8c3-cc11-4a8f-93b0-2e8bf7686021.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer parts of Northern Salten </areaDesc>
+      
+          <polygon>67.6621,14.2581 67.33,15.6769 68.189,16.9201 68.329,16.0212 67.9475,14.7403 67.6621,14.2581 67.6621,14.2581</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1806;1845;1848;1875</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+</alert>

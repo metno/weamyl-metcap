@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220625094437</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-25T10:38:16+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220624093218,2022-06-24T10:51:34+00:00</references>
+  <incidents>0000050041</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-25T12:00:00+00:00</effective>
+    <onset>2022-06-25T12:00:00+00:00</onset>
+    <expires>2022-06-25T23:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn, gult nivå, Deler av Vestland og Sunnmøre, 2022-06-25T12:00:00+00:00, 2022-06-25T23:00:00+00:00</headline>
+    <description>Fra lørdag ettermiddag til lørdag kveld er det fare for tordenvær (torever) med mye lyn i forbindelse med regn- eller haglbyger. Det vil være store lokale forskjeller i intensitet. Noen steder vil ikke få tordenvær. </description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-25T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Lokalt kraftige regnbyger. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Hagl kan forekomme og kan f.eks. gi forbigående glatte veier. Større hagl kan føre til skade, f.eks. på bil eller avling. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn, gult nivå, Deler av Vestland og Sunnmøre, 2022-06-25T12:00:00+00:00, 2022-06-25T23:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/bf85be46-317b-4d2d-84e2-7e01e234f738.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Vestland og Sunnmøre</areaDesc>
+      <polygon>60.4281,7.44076 60.4751,7.75879 60.6276,7.56948 61.0165,8.1122 61.5867,7.97205 62.0836,7.48634 62.2396,7.39875 62.5752,6.35345 62.3043,5.81858 61.7021,5.34633 61.4462,5.59344 60.8537,5.81948 60.5519,6.82739 60.4281,7.44076 60.4281,7.44076</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1507;1511;1516;1517;1520;1525;1528;1531;1577;1578;3044;3433;4602;4619;4620;4621;4628;4629;4638;4639;4640;4641;4642;4643;4644;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-25T12:00:00+00:00</effective>
+    <onset>2022-06-25T12:00:00+00:00</onset>
+    <expires>2022-06-25T23:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning, yellow level, Parts of  Vestland and Sunnmøre, 2022-06-25T12:00:00+00:00, 2022-06-25T23:00:00+00:00</headline>
+    <description>From Saturday afternoon until late Saturday evening there will be a risk of frequent lightning in showers. The risk of lightning will decrease throughout the evening. There will be large local differences in intensity. Some places will not experience any lightning. </description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-25T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Locally heavy rain showers. Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Hail can occur and can e.g. provide transient slippery roads. Bigger hail can cause damage, e.g. to cars and crop. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning, yellow level, Parts of  Vestland and Sunnmøre, 2022-06-25T12:00:00+00:00, 2022-06-25T23:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/bf85be46-317b-4d2d-84e2-7e01e234f738.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of  Vestland and Sunnmøre</areaDesc>
+      <polygon>60.4281,7.44076 60.4751,7.75879 60.6276,7.56948 61.0165,8.1122 61.5867,7.97205 62.0836,7.48634 62.2396,7.39875 62.5752,6.35345 62.3043,5.81858 61.7021,5.34633 61.4462,5.59344 60.8537,5.81948 60.5519,6.82739 60.4281,7.44076 60.4281,7.44076</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1507;1511;1516;1517;1520;1525;1528;1531;1577;1578;3044;3433;4602;4619;4620;4621;4628;4629;4638;4639;4640;4641;4642;4643;4644;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

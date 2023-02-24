@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211018082043173.1979</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-10-18T08:20:43+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48914</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2021-10-19T06:00:00+00:00</effective>
+    <onset>2021-10-19T06:00:00+00:00</onset>
+    <expires>2021-10-20T03:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, C2, D2, 19 October 06:00 UTC til 20 October 03:00 UTC.</headline>
+    <description>Fare for et polart lavtrykk vil 19.10.21 kl. 06 utc dannes i C2 og D2 og vil bevege seg i sørvestlig retning og svekkes. I nordlig og vestlig del av lavtrykket vil det være øst og nordøst periodevis liten storm 22 m/s.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-10-20T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over polart lavtrykk, gult nivå, C2, D2, 19 October 06:00 UTC til 20 October 03:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/d78e8aec-f056-4f1f-bce2-b7cfaddef424.png</uri>
+    </resource>
+    <area>
+      <areaDesc>C2, D2</areaDesc>
+      <polygon>72.500000,-10.000000 70.000000,-10.000000 70.000000,0.000000 72.500000,0.000000 75.000000,0.000000 75.000000,-10.000000 72.500000,-10.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2021-10-19T06:00:00+00:00</effective>
+    <onset>2021-10-19T06:00:00+00:00</onset>
+    <expires>2021-10-20T03:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, C2, D2, 19 October 06:00 UTC to 20 October 03:00 UTC.</headline>
+    <description>Risk of polar low will 19.10.21 at 06 utc develop in C2 and D2 and will move southwest direction and weaken. In north and west part of the center is expected east and northeast occasionally severe gale force 9.</description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-10-20T03:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of polar low, yellow level, C2, D2, 19 October 06:00 UTC to 20 October 03:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/d78e8aec-f056-4f1f-bce2-b7cfaddef424.png</uri>
+    </resource>
+    <area>
+      <areaDesc>C2, D2</areaDesc>
+      <polygon>72.500000,-10.000000 70.000000,-10.000000 70.000000,0.000000 72.500000,0.000000 75.000000,0.000000 75.000000,-10.000000 72.500000,-10.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

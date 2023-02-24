@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.191209201501905.3282</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-12-09T20:15:01+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>3121</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-12-10T11:00:00+00:00</effective>
+    <onset>2019-12-10T11:00:00+00:00</onset>
+    <expires>2019-12-11T03:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Tyskebukta, Fisker og Utsira Sør, 10 December 11:00 UTC til 11 December 03:00 UTC.</headline>
+    <description>Fra tirsdag ettermiddag gradvis økning til sørlig sterk kuling 20 m/s, til dels liten storm 22 m/s på Utsira Sør. Fra natt til onsdag dreiende sørvest og minkende, først i vest. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Grov sjø og hvitt skum fra bølgetopper som brekker. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Tyskebukta, Fisker og Utsira Sør</areaDesc>
+      <polygon>55.999333,8.066667 56.741833,8.055667 57.130500,8.525833 57.754000,7.445667 57.754500,7.437000 58.550667,5.549500 59.004000,5.122000 59.004167,3.994833 58.500000,4.000000 57.753667,4.000000 57.754000,3.993333 56.000000,4.000000 54.220000,4.000000 53.538667,4.727167 53.342667,4.725167 53.902500,8.403500 56.004500,8.059500 55.999333,8.066667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-12-10T11:00:00+00:00</effective>
+    <onset>2019-12-10T11:00:00+00:00</onset>
+    <expires>2019-12-11T03:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, German Bight, Fisher and South Utsire, 10 December 11:00 UTC to 11 December 03:00 UTC.</headline>
+    <description>From Tuesday afternoon gradually increasing south gale force 8, partly strong gale force 9 on South Utsire. From Tuesday night veering southwest and decreasing, first in western part. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sea heaps up. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>German Bight, Fisher and South Utsire</areaDesc>
+      <polygon>55.999333,8.066667 56.741833,8.055667 57.130500,8.525833 57.754000,7.445667 57.754500,7.437000 58.550667,5.549500 59.004000,5.122000 59.004167,3.994833 58.500000,4.000000 57.753667,4.000000 57.754000,3.993333 56.000000,4.000000 54.220000,4.000000 53.538667,4.727167 53.342667,4.725167 53.902500,8.403500 56.004500,8.059500 55.999333,8.066667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

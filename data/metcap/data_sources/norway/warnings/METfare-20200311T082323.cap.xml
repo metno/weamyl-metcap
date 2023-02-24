@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200311082323703.2111</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-03-11T08:23:23+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200310191522073.2091,2020-03-10T19:15:22+00:00</references>
+  <incidents>4192</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-03-11T10:00:00+00:00</effective>
+    <onset>2020-03-11T10:00:00+00:00</onset>
+    <expires>2020-03-12T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Aust-Tampen, 11 March 10:00 UTC til 12 March 22:00 UTC.</headline>
+    <description>Vestlig sterk kuling 20 m/s.</description>
+    <instruction>Vurder å la båten ligge. Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Middels høye bølger. Bølgekammene er ved å brytes opp til sjørokk. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Aust-Tampen</areaDesc>
+      <polygon>62.201000,5.032333 63.000000,2.000000 63.000000,1.000000 61.000000,1.000000 61.000667,2.491667 61.006000,3.489667 61.000000,4.000000 61.000000,4.480500 61.003500,4.478667 61.024167,4.467333 61.025833,4.466500 61.027667,4.466167 61.033333,4.465500 61.034000,4.465500 61.073167,4.464833 61.074167,4.464833 61.253333,4.485333 61.432667,4.505833 61.611833,4.526833 61.652000,4.531500 61.653667,4.532000 61.655500,4.532667 61.657167,4.534000 61.657333,4.534000 61.823333,4.678333 61.943333,4.783833 61.943500,4.783833 62.035667,4.865833 62.036167,4.866333 62.194000,5.022667 62.195500,5.024333 62.196000,5.025000 62.201000,5.032333
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-03-11T10:00:00+00:00</effective>
+    <onset>2020-03-11T10:00:00+00:00</onset>
+    <expires>2020-03-12T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, East-Tampen, 11 March 10:00 UTC to 12 March 22:00 UTC.</headline>
+    <description>West gale force 8.</description>
+    <instruction>It is not recommended to be at sea in a small boat. Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderately high waves with breaking crests forming spindrift. Considerable airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>East-Tampen</areaDesc>
+      <polygon>62.201000,5.032333 63.000000,2.000000 63.000000,1.000000 61.000000,1.000000 61.000667,2.491667 61.006000,3.489667 61.000000,4.000000 61.000000,4.480500 61.003500,4.478667 61.024167,4.467333 61.025833,4.466500 61.027667,4.466167 61.033333,4.465500 61.034000,4.465500 61.073167,4.464833 61.074167,4.464833 61.253333,4.485333 61.432667,4.505833 61.611833,4.526833 61.652000,4.531500 61.653667,4.532000 61.655500,4.532667 61.657167,4.534000 61.657333,4.534000 61.823333,4.678333 61.943333,4.783833 61.943500,4.783833 62.035667,4.865833 62.036167,4.866333 62.194000,5.022667 62.195500,5.024333 62.196000,5.025000 62.201000,5.032333
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

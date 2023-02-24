@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200110192451907.313</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-01-10T19:24:51+00:00</sent>
+  <status>Actual</status>
+  <msgType>Cancel</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200110115932223.293,2020-01-10T11:59:32+00:00</references>
+  <incidents>3433</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-01-10T19:00:00+00:00</effective>
+    <onset>2020-01-10T19:00:00+00:00</onset>
+    <expires>2020-01-10T20:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Rørvik - Melbu, 10 January 19:00 UTC til 10 January 20:00 UTC.</headline>
+    <description>Dette kulingvarselet er kansellert. Gå inn på yr.no/farevarsel for oppdatert varsel. </description>
+    <instruction></instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Rørvik - Melbu</areaDesc>
+      <polygon>68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.301500,13.916167 67.200000,13.700000 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.037000,10.722333 65.005667,10.635500 64.758167,11.238667 65.050000,12.033167 65.949833,12.683167 66.913500,13.760667 66.949833,13.583167 66.913333,13.760667 67.250500,14.612833 67.515833,15.017000 67.616667,14.883167 67.963500,15.327333 68.183167,15.966667 68.216667,16.000000 68.305000,16.225000 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.333167,15.050000 68.316667,14.933167 68.333167,14.833167 68.366667,14.816667 68.383167,14.683167 68.349833,14.616667 68.366667,14.550000 68.416667,14.533167 68.416667,14.433167 68.449833,14.366667 68.449833,14.183167 68.483167,14.133167 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.494000,11.894833 67.438000,11.923167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2020-01-10T19:00:00+00:00</effective>
+    <onset>2020-01-10T19:00:00+00:00</onset>
+    <expires>2020-01-10T20:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Roervik - Melbu, 10 January 19:00 UTC to 10 January 20:00 UTC.</headline>
+    <description>This gale warning has been cancelled. Go to yr.no/farevarsel for an updated forecast. </description>
+    <instruction></instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Roervik - Melbu</areaDesc>
+      <polygon>68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.301500,13.916167 67.200000,13.700000 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.037000,10.722333 65.005667,10.635500 64.758167,11.238667 65.050000,12.033167 65.949833,12.683167 66.913500,13.760667 66.949833,13.583167 66.913333,13.760667 67.250500,14.612833 67.515833,15.017000 67.616667,14.883167 67.963500,15.327333 68.183167,15.966667 68.216667,16.000000 68.305000,16.225000 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.333167,15.050000 68.316667,14.933167 68.333167,14.833167 68.366667,14.816667 68.383167,14.683167 68.349833,14.616667 68.366667,14.550000 68.416667,14.533167 68.416667,14.433167 68.449833,14.366667 68.449833,14.183167 68.483167,14.133167 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.494000,11.894833 67.438000,11.923167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190129085415459.469</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-29T08:54:15+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1533</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vanskelige kjøreforhold</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>drivingConditions</value>
+    </eventCode>
+    <effective>2019-01-29T09:00:00+00:00</effective>
+    <onset>2019-01-29T09:00:00+00:00</onset>
+    <expires>2019-01-30T05:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Vanskelige kjøreforhold, gult nivå, Ytre Sunnfjord, 29 January 09:00 UTC til 30 January 05:00 UTC.</headline>
+    <description>Frå seint i føremiddag, tysdag, til natt til onsdag vanskelege køyretilhøve grunna kraftige snøbyer. </description>
+    <instruction>Bruk dekk som passer forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-30T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Vanskelige kjøreforhold og lokale forsinkelser. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Vanskelige kjøreforhold</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Ytre Sunnfjord</areaDesc>
+      <polygon>61.719833,4.477667 61.721667,4.662667 61.723333,4.876833 61.707167,4.930167 61.689833,5.010000 61.677833,5.087833 61.683000,5.171833 61.696667,5.268000 61.704500,5.349833 61.713000,5.440000 61.712000,5.500000 61.211000,5.500000 61.209833,5.493333 61.248000,5.295333 61.259833,5.108167 61.268333,4.943833 61.272167,4.820667 61.274500,4.697333 61.272167,4.657500 61.255667,4.391667 61.719833,4.477667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1401;1449;1412;1413;1416;1417;1418;1419;1420;1421;1422;1424;1426;1428;1429;1430;1431;1432;1433;1438;1439;1441;1443;1444;1445;1411</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-14</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Difficult driving conditions</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>drivingConditions</value>
+    </eventCode>
+    <effective>2019-01-29T09:00:00+00:00</effective>
+    <onset>2019-01-29T09:00:00+00:00</onset>
+    <expires>2019-01-30T05:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Difficult driving conditions, yellow level, Ytre Sunnfjord, 29 January 09:00 UTC to 30 January 05:00 UTC.</headline>
+    <description>From tuesday forenoon, and until early Wednesday morning locally difficult driving conditions due to snow showers.</description>
+    <instruction>Use tyres suitable for the conditions.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-30T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Expect difficult driving conditions and local delays. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Difficult driving conditions</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Ytre Sunnfjord</areaDesc>
+      <polygon>61.719833,4.477667 61.721667,4.662667 61.723333,4.876833 61.707167,4.930167 61.689833,5.010000 61.677833,5.087833 61.683000,5.171833 61.696667,5.268000 61.704500,5.349833 61.713000,5.440000 61.712000,5.500000 61.211000,5.500000 61.209833,5.493333 61.248000,5.295333 61.259833,5.108167 61.268333,4.943833 61.272167,4.820667 61.274500,4.697333 61.272167,4.657500 61.255667,4.391667 61.719833,4.477667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1401;1449;1412;1413;1416;1417;1418;1419;1420;1421;1422;1424;1426;1428;1429;1430;1431;1432;1433;1438;1439;1441;1443;1444;1445;1411</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-14</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

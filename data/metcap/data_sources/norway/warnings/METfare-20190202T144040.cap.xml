@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190202144040331.544</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-02-02T14:40:40+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190201193906303.534,2019-02-01T19:39:06+00:00</references>
+  <incidents>1562</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-02T09:00:00+00:00</effective>
+    <onset>2019-02-02T09:00:00+00:00</onset>
+    <expires>2019-02-03T20:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Hekkingen - Torsvåg, 02 February 09:00 UTC til 03 February 20:00 UTC.</headline>
+    <description>Lørdag og søndag sørøst periodevis stiv kuling 15 m/s. </description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Hekkingen - Torsvåg</areaDesc>
+      <polygon>70.015833,19.885000 69.915667,19.179667 69.512000,18.073833 69.726833,17.628000 69.769833,17.696500 69.889000,17.889500 69.890333,17.891833 70.037333,18.190833 70.111000,18.342500 70.111167,18.342667 70.234000,18.602833 70.235500,18.606167 70.236667,18.609833 70.237833,18.614000 70.238833,18.618500 70.239000,18.619167 70.318500,19.056167 70.352833,19.312000 70.253833,19.521833 70.015833,19.885000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-02T09:00:00+00:00</effective>
+    <onset>2019-02-02T09:00:00+00:00</onset>
+    <expires>2019-02-03T20:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Hekkingen - Torsvaag, 02 February 09:00 UTC to 03 February 20:00 UTC.</headline>
+    <description>Saturday and Sunday southeasterly occasionally near gale force 7. </description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Hekkingen - Torsvaag</areaDesc>
+      <polygon>70.015833,19.885000 69.915667,19.179667 69.512000,18.073833 69.726833,17.628000 69.769833,17.696500 69.889000,17.889500 69.890333,17.891833 70.037333,18.190833 70.111000,18.342500 70.111167,18.342667 70.234000,18.602833 70.235500,18.606167 70.236667,18.609833 70.237833,18.614000 70.238833,18.618500 70.239000,18.619167 70.318500,19.056167 70.352833,19.312000 70.253833,19.521833 70.015833,19.885000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

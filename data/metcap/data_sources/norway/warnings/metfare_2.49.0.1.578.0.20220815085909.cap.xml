@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220815085909</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-15T09:02:19+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220815073636,2022-08-15T07:43:58+00:00</references>
+  <incidents>0000050131</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-16T00:00:00+00:00</effective>
+    <onset>2022-08-16T00:00:00+00:00</onset>
+    <expires>2022-08-17T00:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Hordaland, 2022-08-16T00:00:00+00:00, 2022-08-17T00:00:00+00:00</headline>
+    <description>Fra natt til tirsdag til natt til onsdag ventes perioder med kraftige regnbyger. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt. Lokalt kan det komme 15-30 mm/1t.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Unngå unødvendig ferdsel utsatte steder. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-17T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn, gult nivå, Hordaland, 2022-08-16T00:00:00+00:00, 2022-08-17T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/ebe226b8-a907-4597-b2d5-a5781ef1b6ef.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Hordaland</areaDesc>
+      <polygon>60.8731,4.47869 60.3418,4.69522 59.8872,4.86799 59.5108,5.13178 59.5112,5.13832 59.5118,5.14534 59.5134,5.16321 59.5147,5.17665 59.5154,5.18693 59.5115,5.20461 59.5084,5.2176 59.5042,5.2352 59.5047,5.24319 59.5024,5.24875 59.5011,5.24964 59.4991,5.25476 59.4981,5.25539 59.4962,5.2589 59.4957,5.26269 59.4937,5.27053 59.4898,5.27981 59.4878,5.29072 59.4827,5.29962 59.4791,5.30783 59.4762,5.31229 59.4756,5.3157 59.4785,5.32284 59.4804,5.32933 59.4808,5.33018 59.4805,5.33164 59.4807,5.33331 59.4817,5.3345 59.4837,5.34359 59.4851,5.35255 59.4875,5.35357 59.4892,5.35588 59.4911,5.35461 59.4947,5.36563 59.4951,5.37058 59.4865,5.37363 59.4851,5.37365 59.4854,5.38731 59.4833,5.39726 59.4837,5.40143 59.4872,5.39554 59.4912,5.38948 59.4951,5.41878 59.4993,5.4231 59.4989,5.43201 59.4975,5.43475 59.4974,5.44862 59.4984,5.46134 59.5069,5.46129 59.5157,5.46132 59.5211,5.47351 59.5187,5.48614 59.517,5.49754 59.5237,5.51018 59.534,5.51635 59.5443,5.5231 59.5548,5.53889 59.5662,5.55032 59.5761,5.5499 59.5892,5.54595 59.6153,5.53756 59.6302,5.54086 59.6453,5.54329 59.6645,5.54744 59.682,5.56106 59.6885,5.56551 59.6943,5.57091 59.7029,5.56865 59.7069,5.56764 59.712,5.56684 59.719,5.56426 59.7266,5.56323 59.7428,5.57386 59.7533,5.58125 59.7522,5.59639 59.7396,5.60608 59.7149,5.62518 59.6997,5.63613 59.6928,5.66294 59.6865,5.68808 59.6941,5.73093 59.6994,5.76373 59.6801,5.76878 59.6566,5.7748 59.6473,5.78457 59.6459,5.79562 59.647,5.81016 59.648,5.82347 59.6381,5.82288 59.63,5.83808 59.6293,5.85719 59.6231,5.89501 59.6107,5.89969 59.6075,5.90805 59.6103,5.91283 59.6057,5.94194 59.5967,5.96891 59.5804,5.97097 59.5817,5.98685 59.5848,6.00369 59.5936,6.00913 59.5912,6.04288 59.598,6.05753 59.5939,6.09391 59.5854,6.11674 59.5847,6.1244 59.5876,6.13103 59.5837,6.14763 59.5874,6.18565 59.6046,6.18873 59.6146,6.17884 59.6217,6.18758 59.6268,6.18326 59.6347,6.18916 59.6413,6.1873 59.6434,6.19452 59.6407,6.20071 59.6479,6.2069 59.6548,6.21371 59.6627,6.21469 59.6713,6.21763 59.6763,6.21907 59.6803,6.22241 59.683,6.2287 59.6874,6.22324 59.6921,6.22675 59.6971,6.24354 59.7028,6.26832 59.7186,6.26932 59.7346,6.27221 59.7439,6.27908 59.7565,6.29452 59.7685,6.30379 59.7706,6.31573 59.7734,6.32966 59.7806,6.32761 59.7835,6.3346 59.7825,6.3474 59.7861,6.38691 59.7893,6.4224 59.808,6.44605 59.8227,6.49643 59.8424,6.53883 59.8314,6.5681 59.8334,6.61364 59.8432,6.65893 59.822,6.694 59.7932,6.6842 59.7794,6.68101 59.769,6.69188 59.749,6.67292 59.7192,6.65276 59.7005,6.66248 59.6926,6.71634 59.7,6.73797 59.6992,6.7736 59.7092,6.77593 59.7349,6.86037 59.7726,6.97845 59.7825,7.09932 59.8124,7.14669 59.8259,7.14605 59.8296,7.16165 59.8536,7.14361 59.8667,7.1589 59.8869,7.15209 59.9519,7.22039 59.9841,7.26708 59.9889,7.29778 59.9882,7.32706 60.0205,7.44204 60.0501,7.44069 60.0993,7.48772 60.1826,7.58796 60.2531,7.62094 60.2984,7.67726 60.3645,7.6829 60.4225,7.69341 60.4669,7.71088 60.5194,7.72948 60.542,7.66451 60.562,7.63709 60.5988,7.62107 60.6323,7.63432 60.6579,7.54236 60.6597,7.44116 60.6754,7.46176 60.6898,7.34992 60.7021,7.19893 60.6925,7.16679 60.6975,7.13249 60.7127,7.09781 60.7113,7.03031 60.7211,7.01116 60.7172,6.98725 60.7464,6.98511 60.7691,6.98134 60.7753,6.922 60.7669,6.87395 60.8132,6.89621 60.8265,6.88459 60.8289,6.93397 60.842,6.94673 60.8552,6.86864 60.8393,6.83623 60.8329,6.78589 60.8373,6.72717 60.8499,6.72082 60.8545,6.73759 60.8792,6.76026 60.894,6.82865 60.9132,6.82188 60.9114,6.80889 60.9237,6.79936 60.9075,6.7536 60.9344,6.74653 60.9299,6.71823 60.9577,6.69567 60.9584,6.65828 60.9292,6.65671 60.9156,6.60063 60.8946,6.57729 60.891,6.54203 60.9073,6.5298 60.9067,6.49984 60.924,6.51078 60.947,6.50007 60.9465,6.46779 60.9189,6.44071 60.9288,6.38319 60.8841,6.30418 60.9166,6.21094 60.9218,6.16092 60.9392,6.14006 60.9848,6.13953 60.9911,6.11618 61.0011,6.07413 61.0274,6.04625 61.0342,6.01407 61.0138,5.96006 61.0093,5.92901 60.9522,5.8868 60.9558,5.84871 60.9856,5.80196 60.9691,5.71725 60.9584,5.70796 60.9673,5.6674 60.9791,5.65391 60.9763,5.6233 60.9578,5.5772 60.9325,5.5333 60.9229,5.48028 60.9341,5.47896 60.9276,5.41597 60.912,5.38296 60.9145,5.32708 60.943,5.30432 60.9391,5.27712 60.9277,5.28376 60.9205,5.21991 60.9021,5.18213 60.8873,5.16336 60.8782,5.16852 60.8487,5.1288 60.807,5.11429 60.82,5.07105 60.8402,4.99023 60.8509,4.814 60.8585,4.68058 60.8872,4.6031 60.8798,4.53562 60.8731,4.47869 60.8731,4.47869</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4611;4612;4613;4614;4615;4616;4617;4618;4619;4620;4621;4622;4623;4624;4625;4626;4627;4628;4629;4630;4631;4632;4633;4634</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-16T00:00:00+00:00</effective>
+    <onset>2022-08-16T00:00:00+00:00</onset>
+    <expires>2022-08-17T00:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Hordaland, 2022-08-16T00:00:00+00:00, 2022-08-17T00:00:00+00:00</headline>
+    <description>From early Tuesday morning to early Wednesday morning heavy rain showers are expected in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly. Locally 15-30 mm/1h are expected. </description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. The need for emergency preparedness shall be assessed continuously by emergency response actors. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Stay away from exposed places if possible. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-17T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Hordaland, 2022-08-16T00:00:00+00:00, 2022-08-17T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/ebe226b8-a907-4597-b2d5-a5781ef1b6ef.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Hordaland</areaDesc>
+      <polygon>60.8731,4.47869 60.3418,4.69522 59.8872,4.86799 59.5108,5.13178 59.5112,5.13832 59.5118,5.14534 59.5134,5.16321 59.5147,5.17665 59.5154,5.18693 59.5115,5.20461 59.5084,5.2176 59.5042,5.2352 59.5047,5.24319 59.5024,5.24875 59.5011,5.24964 59.4991,5.25476 59.4981,5.25539 59.4962,5.2589 59.4957,5.26269 59.4937,5.27053 59.4898,5.27981 59.4878,5.29072 59.4827,5.29962 59.4791,5.30783 59.4762,5.31229 59.4756,5.3157 59.4785,5.32284 59.4804,5.32933 59.4808,5.33018 59.4805,5.33164 59.4807,5.33331 59.4817,5.3345 59.4837,5.34359 59.4851,5.35255 59.4875,5.35357 59.4892,5.35588 59.4911,5.35461 59.4947,5.36563 59.4951,5.37058 59.4865,5.37363 59.4851,5.37365 59.4854,5.38731 59.4833,5.39726 59.4837,5.40143 59.4872,5.39554 59.4912,5.38948 59.4951,5.41878 59.4993,5.4231 59.4989,5.43201 59.4975,5.43475 59.4974,5.44862 59.4984,5.46134 59.5069,5.46129 59.5157,5.46132 59.5211,5.47351 59.5187,5.48614 59.517,5.49754 59.5237,5.51018 59.534,5.51635 59.5443,5.5231 59.5548,5.53889 59.5662,5.55032 59.5761,5.5499 59.5892,5.54595 59.6153,5.53756 59.6302,5.54086 59.6453,5.54329 59.6645,5.54744 59.682,5.56106 59.6885,5.56551 59.6943,5.57091 59.7029,5.56865 59.7069,5.56764 59.712,5.56684 59.719,5.56426 59.7266,5.56323 59.7428,5.57386 59.7533,5.58125 59.7522,5.59639 59.7396,5.60608 59.7149,5.62518 59.6997,5.63613 59.6928,5.66294 59.6865,5.68808 59.6941,5.73093 59.6994,5.76373 59.6801,5.76878 59.6566,5.7748 59.6473,5.78457 59.6459,5.79562 59.647,5.81016 59.648,5.82347 59.6381,5.82288 59.63,5.83808 59.6293,5.85719 59.6231,5.89501 59.6107,5.89969 59.6075,5.90805 59.6103,5.91283 59.6057,5.94194 59.5967,5.96891 59.5804,5.97097 59.5817,5.98685 59.5848,6.00369 59.5936,6.00913 59.5912,6.04288 59.598,6.05753 59.5939,6.09391 59.5854,6.11674 59.5847,6.1244 59.5876,6.13103 59.5837,6.14763 59.5874,6.18565 59.6046,6.18873 59.6146,6.17884 59.6217,6.18758 59.6268,6.18326 59.6347,6.18916 59.6413,6.1873 59.6434,6.19452 59.6407,6.20071 59.6479,6.2069 59.6548,6.21371 59.6627,6.21469 59.6713,6.21763 59.6763,6.21907 59.6803,6.22241 59.683,6.2287 59.6874,6.22324 59.6921,6.22675 59.6971,6.24354 59.7028,6.26832 59.7186,6.26932 59.7346,6.27221 59.7439,6.27908 59.7565,6.29452 59.7685,6.30379 59.7706,6.31573 59.7734,6.32966 59.7806,6.32761 59.7835,6.3346 59.7825,6.3474 59.7861,6.38691 59.7893,6.4224 59.808,6.44605 59.8227,6.49643 59.8424,6.53883 59.8314,6.5681 59.8334,6.61364 59.8432,6.65893 59.822,6.694 59.7932,6.6842 59.7794,6.68101 59.769,6.69188 59.749,6.67292 59.7192,6.65276 59.7005,6.66248 59.6926,6.71634 59.7,6.73797 59.6992,6.7736 59.7092,6.77593 59.7349,6.86037 59.7726,6.97845 59.7825,7.09932 59.8124,7.14669 59.8259,7.14605 59.8296,7.16165 59.8536,7.14361 59.8667,7.1589 59.8869,7.15209 59.9519,7.22039 59.9841,7.26708 59.9889,7.29778 59.9882,7.32706 60.0205,7.44204 60.0501,7.44069 60.0993,7.48772 60.1826,7.58796 60.2531,7.62094 60.2984,7.67726 60.3645,7.6829 60.4225,7.69341 60.4669,7.71088 60.5194,7.72948 60.542,7.66451 60.562,7.63709 60.5988,7.62107 60.6323,7.63432 60.6579,7.54236 60.6597,7.44116 60.6754,7.46176 60.6898,7.34992 60.7021,7.19893 60.6925,7.16679 60.6975,7.13249 60.7127,7.09781 60.7113,7.03031 60.7211,7.01116 60.7172,6.98725 60.7464,6.98511 60.7691,6.98134 60.7753,6.922 60.7669,6.87395 60.8132,6.89621 60.8265,6.88459 60.8289,6.93397 60.842,6.94673 60.8552,6.86864 60.8393,6.83623 60.8329,6.78589 60.8373,6.72717 60.8499,6.72082 60.8545,6.73759 60.8792,6.76026 60.894,6.82865 60.9132,6.82188 60.9114,6.80889 60.9237,6.79936 60.9075,6.7536 60.9344,6.74653 60.9299,6.71823 60.9577,6.69567 60.9584,6.65828 60.9292,6.65671 60.9156,6.60063 60.8946,6.57729 60.891,6.54203 60.9073,6.5298 60.9067,6.49984 60.924,6.51078 60.947,6.50007 60.9465,6.46779 60.9189,6.44071 60.9288,6.38319 60.8841,6.30418 60.9166,6.21094 60.9218,6.16092 60.9392,6.14006 60.9848,6.13953 60.9911,6.11618 61.0011,6.07413 61.0274,6.04625 61.0342,6.01407 61.0138,5.96006 61.0093,5.92901 60.9522,5.8868 60.9558,5.84871 60.9856,5.80196 60.9691,5.71725 60.9584,5.70796 60.9673,5.6674 60.9791,5.65391 60.9763,5.6233 60.9578,5.5772 60.9325,5.5333 60.9229,5.48028 60.9341,5.47896 60.9276,5.41597 60.912,5.38296 60.9145,5.32708 60.943,5.30432 60.9391,5.27712 60.9277,5.28376 60.9205,5.21991 60.9021,5.18213 60.8873,5.16336 60.8782,5.16852 60.8487,5.1288 60.807,5.11429 60.82,5.07105 60.8402,4.99023 60.8509,4.814 60.8585,4.68058 60.8872,4.6031 60.8798,4.53562 60.8731,4.47869 60.8731,4.47869</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4611;4612;4613;4614;4615;4616;4617;4618;4619;4620;4621;4622;4623;4624;4625;4626;4627;4628;4629;4630;4631;4632;4633;4634</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

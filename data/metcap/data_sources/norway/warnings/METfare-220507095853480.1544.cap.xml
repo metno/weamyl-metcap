@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220507095853480.1544</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-05-07T09:58:53+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>49192</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2022-05-07T20:00:00+00:00</effective>
+    <onset>2022-05-07T20:00:00+00:00</onset>
+    <expires>2022-05-08T05:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Fjordane, 07 May 20:00 UTC til 08 May 05:00 UTC.</headline>
+    <description>Fra lørdag kveld til søndag morgen er det fare for snø i veibanen over 300-500 meter på grunn av lave nattestemperaturer og enkelte snøbyger.</description>
+    <instruction>Bruk riktige dekk og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-05-08T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det kan være lokalt vanskelige kjøreforhold. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over snø, gult nivå, Fjordane, 07 May 20:00 UTC til 08 May 05:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/2c3d1737-9c62-4fbb-a3aa-ac8d9adfac45.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Fjordane</areaDesc>
+      <polygon>61.719833,4.477667 61.255833,4.391667 61.272167,4.657500 61.274500,4.697333 61.272167,4.820667 61.268333,4.943833 61.260000,5.108167 61.248000,5.295500 61.209833,5.493333 61.243500,5.668500 61.264833,5.752000 61.301500,5.831000 61.331500,5.869000 61.358667,5.933167 61.379667,6.019833 61.383667,6.089500 61.386500,6.233333 61.388500,6.435167 61.383667,6.500333 61.411000,6.602500 61.567000,6.880833 61.567000,6.880000 61.857167,7.415000 61.898167,7.408833 61.934000,7.389167 62.001000,7.390000 62.008000,7.352000 62.017500,7.311333 62.019000,7.245833 62.034833,7.235833 62.029667,7.199667 62.017667,7.201833 62.011500,7.169167 62.007667,7.071167 61.984167,7.058833 61.984333,7.020333 61.983167,6.980500 61.986833,6.952000 61.978833,6.891833 61.963500,6.839167 61.965000,6.795333 61.980167,6.788167 61.996667,6.764667 62.002833,6.748667 62.045833,6.694667 62.062000,6.685500 62.070667,6.659167 62.064333,6.636000 62.051333,6.621500 62.052500,6.603000 62.059333,6.575167 62.053833,6.559500 62.055000,6.535167 62.041500,6.528500 62.037667,6.495167 62.021500,6.500667 62.015667,6.495500 62.017167,6.469333 62.011667,6.460333 62.014333,6.422333 62.005667,6.399000 61.987167,6.405333 61.962833,6.350000 61.961167,6.317000 61.975500,6.281333 61.991000,6.234833 62.006167,6.255333 62.009833,6.179667 61.991167,6.169833 61.986167,6.132167 61.971667,6.138167 61.961667,6.092500 61.967167,6.063333 61.957500,6.037333 61.973167,6.007833 61.990167,5.966500 61.994500,5.923167 61.987333,5.890333 61.977833,5.863000 61.964667,5.800167 61.980667,5.736667 61.982000,5.730500 61.967667,5.699167 61.974833,5.677000 61.966167,5.604667 61.961333,5.558667 61.964833,5.539333 61.971000,5.530500 61.978000,5.502167 61.983667,5.479167 61.976167,5.464000 61.975167,5.442167 61.991333,5.458500 62.010167,5.503667 62.014500,5.486833 62.031833,5.494000 62.064333,5.509000 62.105667,5.399000 62.123000,5.362000 62.149000,5.357500 62.170833,5.355333 62.257667,5.231667 62.275833,5.173000 62.308833,5.060167 62.297667,5.044500 62.222167,4.940333 62.222000,4.940000 62.218167,4.935167 62.214167,4.930833 62.164833,4.882000 62.137167,4.854833 62.055667,4.774667 62.053833,4.773000 62.046333,4.766333 61.995833,4.720667 61.963833,4.691667 61.963333,4.691333 61.925333,4.657667 61.842333,4.585000 61.759500,4.512667 61.718667,4.477167 61.719833,4.477667
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4646;4651;4602;4643;4648;4638;4636;4645;4644;4647;4639;4635;4640;4649;4641;1577;4637;4642;4650</value>
+      </geocode>
+      <altitude>900</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2022-05-07T20:00:00+00:00</effective>
+    <onset>2022-05-07T20:00:00+00:00</onset>
+    <expires>2022-05-08T05:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Fjordane, 07 May 20:00 UTC to 08 May 05:00 UTC.</headline>
+    <description>From Saturday evening to Sunday morning is the risk of dificult driving conditions over 300-500 meters due to scattered snow showers.</description>
+    <instruction>Use tires fit for winter conditions and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-05-08T05:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Local driving conditions may become difficult. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of snow, yellow level, Fjordane, 07 May 20:00 UTC to 08 May 05:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/2c3d1737-9c62-4fbb-a3aa-ac8d9adfac45.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Fjordane</areaDesc>
+      <polygon>61.719833,4.477667 61.255833,4.391667 61.272167,4.657500 61.274500,4.697333 61.272167,4.820667 61.268333,4.943833 61.260000,5.108167 61.248000,5.295500 61.209833,5.493333 61.243500,5.668500 61.264833,5.752000 61.301500,5.831000 61.331500,5.869000 61.358667,5.933167 61.379667,6.019833 61.383667,6.089500 61.386500,6.233333 61.388500,6.435167 61.383667,6.500333 61.411000,6.602500 61.567000,6.880833 61.567000,6.880000 61.857167,7.415000 61.898167,7.408833 61.934000,7.389167 62.001000,7.390000 62.008000,7.352000 62.017500,7.311333 62.019000,7.245833 62.034833,7.235833 62.029667,7.199667 62.017667,7.201833 62.011500,7.169167 62.007667,7.071167 61.984167,7.058833 61.984333,7.020333 61.983167,6.980500 61.986833,6.952000 61.978833,6.891833 61.963500,6.839167 61.965000,6.795333 61.980167,6.788167 61.996667,6.764667 62.002833,6.748667 62.045833,6.694667 62.062000,6.685500 62.070667,6.659167 62.064333,6.636000 62.051333,6.621500 62.052500,6.603000 62.059333,6.575167 62.053833,6.559500 62.055000,6.535167 62.041500,6.528500 62.037667,6.495167 62.021500,6.500667 62.015667,6.495500 62.017167,6.469333 62.011667,6.460333 62.014333,6.422333 62.005667,6.399000 61.987167,6.405333 61.962833,6.350000 61.961167,6.317000 61.975500,6.281333 61.991000,6.234833 62.006167,6.255333 62.009833,6.179667 61.991167,6.169833 61.986167,6.132167 61.971667,6.138167 61.961667,6.092500 61.967167,6.063333 61.957500,6.037333 61.973167,6.007833 61.990167,5.966500 61.994500,5.923167 61.987333,5.890333 61.977833,5.863000 61.964667,5.800167 61.980667,5.736667 61.982000,5.730500 61.967667,5.699167 61.974833,5.677000 61.966167,5.604667 61.961333,5.558667 61.964833,5.539333 61.971000,5.530500 61.978000,5.502167 61.983667,5.479167 61.976167,5.464000 61.975167,5.442167 61.991333,5.458500 62.010167,5.503667 62.014500,5.486833 62.031833,5.494000 62.064333,5.509000 62.105667,5.399000 62.123000,5.362000 62.149000,5.357500 62.170833,5.355333 62.257667,5.231667 62.275833,5.173000 62.308833,5.060167 62.297667,5.044500 62.222167,4.940333 62.222000,4.940000 62.218167,4.935167 62.214167,4.930833 62.164833,4.882000 62.137167,4.854833 62.055667,4.774667 62.053833,4.773000 62.046333,4.766333 61.995833,4.720667 61.963833,4.691667 61.963333,4.691333 61.925333,4.657667 61.842333,4.585000 61.759500,4.512667 61.718667,4.477167 61.719833,4.477667
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>14</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4646;4651;4602;4643;4648;4638;4636;4645;4644;4647;4639;4635;4640;4649;4641;1577;4637;4642;4650</value>
+      </geocode>
+      <altitude>900</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

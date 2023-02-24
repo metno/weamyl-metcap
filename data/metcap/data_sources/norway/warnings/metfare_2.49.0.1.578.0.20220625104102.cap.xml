@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220625104102</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-25T10:41:03+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220624101914,2022-06-24T10:51:38+00:00</references>
+  <incidents>0000050041</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-06-25T10:41:00+00:00</effective>
+    <onset>2022-06-25T10:41:00+00:00</onset>
+    <expires>2022-06-25T11:41:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Nedgradert varsel for styrtregn, Deler av Vestland og Møre og Romsdal</headline>
+    <description>Farevarselet er nedgradert. Følg med på oppdaterte prognoser for aktuelt varsel.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-25T11:41:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Normale regnbyger</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Ingen</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Nedgradert varsel for styrtregn, Deler av Vestland og Møre og Romsdal</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/b6da336b-d3c3-4d72-8251-b982a648b16a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Vestland og Møre og Romsdal</areaDesc>
+      <polygon>59.8668,5.83183 59.8651,6.0299 59.9091,6.50095 60.1567,6.70669 60.5188,6.7621 60.7219,6.83621 61.0674,6.76809 61.7082,6.71015 61.9906,6.64919 62.3909,5.59654 62.1705,5.13972 61.7536,5.0167 61.3112,4.99945 60.4412,5.262 60.2021,5.37212 60.0595,5.44909 59.9774,5.56883 59.8668,5.83183 59.8668,5.83183</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1511;1514;1515;1516;1520;1577;4601;4602;4611;4616;4617;4618;4621;4622;4623;4624;4628;4629;4630;4631;4634;4635;4637;4638;4639;4640;4645;4646;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-06-25T10:41:00+00:00</effective>
+    <onset>2022-06-25T10:41:00+00:00</onset>
+    <expires>2022-06-25T11:41:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Downgraded alert warning for rain flood, Parts of Vestland and Møre and Romsdal</headline>
+    <description>The warning is downgraded. Keep up to date with updated forecasts.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-25T11:41:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Normal rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>None</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Downgraded alert warning for rain flood, Parts of Vestland and Møre and Romsdal</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/b6da336b-d3c3-4d72-8251-b982a648b16a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Vestland and Møre and Romsdal</areaDesc>
+      <polygon>59.8668,5.83183 59.8651,6.0299 59.9091,6.50095 60.1567,6.70669 60.5188,6.7621 60.7219,6.83621 61.0674,6.76809 61.7082,6.71015 61.9906,6.64919 62.3909,5.59654 62.1705,5.13972 61.7536,5.0167 61.3112,4.99945 60.4412,5.262 60.2021,5.37212 60.0595,5.44909 59.9774,5.56883 59.8668,5.83183 59.8668,5.83183</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1511;1514;1515;1516;1520;1577;4601;4602;4611;4616;4617;4618;4621;4622;4623;4624;4628;4629;4630;4631;4634;4635;4637;4638;4639;4640;4645;4646;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

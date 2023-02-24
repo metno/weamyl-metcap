@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190806064618658.2173</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-08-06T06:46:18+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190805090401383.2164,2019-08-05T09:04:01+00:00</references>
+  <incidents>2455</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>forestFire</value>
+    </eventCode>
+    <effective>2019-08-06T09:00:00+00:00</effective>
+    <onset>2019-08-06T09:00:00+00:00</onset>
+    <expires>2019-08-10T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Stor skogbrannfare, oransje nivå, Helgeland, 06 August 09:00 UTC til 10 August 12:00 UTC.</headline>
+    <description>Lokal stor skogbrannfare.</description>
+    <instruction>Vær svært forsiktig med åpen ild. Følg lokale myndigheters instruksjoner. Behov for forebyggende tiltak og beredskap skal vurderes fortløpende av beredskapsaktører.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Vegetasjon kan svært lett antennes og veldig store områder kan bli berørt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Stor skogbrannfare</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Alvorlig situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>60</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Vær forberedt</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Helgeland</areaDesc>
+      <polygon>65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333 66.666667,14.449833 66.683167,14.333167 66.766667,14.416667 66.800000,14.283167 66.750000,14.166667 66.866667,14.016667 66.949833,13.583167 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>forestFire</value>
+    </eventCode>
+    <effective>2019-08-06T09:00:00+00:00</effective>
+    <onset>2019-08-06T09:00:00+00:00</onset>
+    <expires>2019-08-10T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>High forest fire danger, orange level, Helgeland, 06 August 09:00 UTC to 10 August 12:00 UTC.</headline>
+    <description>Locally high risk of forest fire.</description>
+    <instruction>Be very careful with open fire. Follow the instructions from the local authorities. Emergency services should assess a necessary level of alertness.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Vegetation is very easily ignited and very large areas may be affected. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>High forest fire danger</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Severe situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>60</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be prepared</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Helgeland</areaDesc>
+      <polygon>65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333 66.666667,14.449833 66.683167,14.333167 66.766667,14.416667 66.800000,14.283167 66.750000,14.166667 66.866667,14.016667 66.949833,13.583167 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

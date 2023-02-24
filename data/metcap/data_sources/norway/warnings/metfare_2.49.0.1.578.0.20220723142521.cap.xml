@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220723142521</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-23T14:53:17+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050100</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-07-23T14:45:00+00:00</effective>
+    <onset>2022-07-23T14:45:00+00:00</onset>
+    <expires>2022-07-23T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn pågår, gult nivå, Deler av fjellet i Sør-Norge, 2022-07-23T14:45:00+00:00, 2022-07-23T22:00:00+00:00</headline>
+    <description>Det er observert spredt tordenvær med mye lyn over Fjellet i Sør-Norge. Tordenværet er ventet å fortsette frem til sent i  kveld. Det er store lokale forskjeller i intensitet. Noen steder vil ikke oppleve tordenvær. </description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-23T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Lokalt kraftige regnbyger. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn pågår</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn pågår, gult nivå, Deler av fjellet i Sør-Norge, 2022-07-23T14:45:00+00:00, 2022-07-23T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/ed6c4227-31a5-4b11-80aa-f4d4b52861c6.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av fjellet i Sør-Norge</areaDesc>
+      <polygon>62.3538,10.4889 62.6037,9.95531 62.7251,9.66968 62.8803,9.29018 62.8505,8.91985 62.7686,8.73931 62.6866,8.60655 62.4724,8.30092 62.3866,8.03737 62.2366,7.48218 62.0316,6.91405 61.7837,6.68628 61.2877,7.01405 61.1324,7.30505 60.7932,7.51581 60.6754,7.55378 60.4476,7.62973 60.1522,7.95269 60.2828,8.61964 60.5437,8.90085 60.7916,9.55508 61.2999,9.73121 61.4877,9.80791 61.7166,9.92873 61.8817,10.1811 62.3538,10.4889 62.3538,10.4889</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1525;1539;1563;1566;1578;3040;3041;3042;3043;3044;3052;3427;3428;3429;3431;3432;3433;3434;3435;3436;3437;3438;3441;3449;3450;3451;3452;3453;3454;4640;4641;4642;4643;4644;4651;5021</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-07-23T14:45:00+00:00</effective>
+    <onset>2022-07-23T14:45:00+00:00</onset>
+    <expires>2022-07-23T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning ongoing, yellow level, Parts of the mountains in Southern Norway, 2022-07-23T14:45:00+00:00, 2022-07-23T22:00:00+00:00</headline>
+    <description>Scattered thunderstorms have been observed with frequent lightning over the mountain areas in southern Norway. The thunderstorm is expected to continue until tonight. There are large local differences in intensity. Some places will not experience any thunderstorms</description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-23T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Locally heavy rain showers. Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning ongoing</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning ongoing, yellow level, Parts of the mountains in Southern Norway, 2022-07-23T14:45:00+00:00, 2022-07-23T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/ed6c4227-31a5-4b11-80aa-f4d4b52861c6.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of the mountains in Southern Norway</areaDesc>
+      <polygon>62.3538,10.4889 62.6037,9.95531 62.7251,9.66968 62.8803,9.29018 62.8505,8.91985 62.7686,8.73931 62.6866,8.60655 62.4724,8.30092 62.3866,8.03737 62.2366,7.48218 62.0316,6.91405 61.7837,6.68628 61.2877,7.01405 61.1324,7.30505 60.7932,7.51581 60.6754,7.55378 60.4476,7.62973 60.1522,7.95269 60.2828,8.61964 60.5437,8.90085 60.7916,9.55508 61.2999,9.73121 61.4877,9.80791 61.7166,9.92873 61.8817,10.1811 62.3538,10.4889 62.3538,10.4889</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1506;1525;1539;1563;1566;1578;3040;3041;3042;3043;3044;3052;3427;3428;3429;3431;3432;3433;3434;3435;3436;3437;3438;3441;3449;3450;3451;3452;3453;3454;4640;4641;4642;4643;4644;4651;5021</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

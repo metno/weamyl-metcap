@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221206074330.084</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-06T08:20:34+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221205070524,2022-12-05T08:10:49+00:00</references>
+  <incidents>0000050299</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T00:00:00+00:00</effective>
+    <onset>2022-12-06T00:00:00+00:00</onset>
+    <expires>2022-12-07T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Møre og Romsdal, 2022-12-06T00:00:00+00:00, 2022-12-07T22:00:00+00:00</headline>
+    <description>Fra i dag tirsdag, er det ventet snøbyger med synkende snøgrense utover dagen. Bygeaktiviteten vil vedvare og det er ventet rundt 10-25 cm snø på 24t, både første og andre døgn. Det vil være store lokale forskjeller, over 400 m ventes lokalt mere enn 25 cm snø på 24 timer.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-07T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>5cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Møre og Romsdal, 2022-12-06T00:00:00+00:00, 2022-12-07T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0891ad4f-c7e0-4630-a7ed-29b125540e30.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Møre og Romsdal</areaDesc>
+      
+          <polygon>63.072541,8.972821 63.090388,9.083762 63.029073,9.104406 62.993012,9.177656 62.971285,9.110632 62.93495,9.122559 62.90526,9.307857 62.877311,9.286134 62.794106,9.364836 62.711772,8.919966 62.556076,9.243739 62.426654,9.183634 62.372608,9.062066 62.347982,8.275186 62.17746,7.983624 62.184635,7.734596 62.121891,7.579378 62.085094,7.631818 62.065341,7.583778 62.092091,7.414724 62.007674,7.349112 62.030694,7.19489 61.923353,6.502265 61.9817,6.420989 61.958652,6.311349 62.009417,6.217178 61.956651,6.039905 61.996593,5.926917 61.974212,5.442862 62.007919,5.503161 62.066729,5.503078 62.12219,5.360894 62.168625,5.357325 62.261196,5.217881 62.382396,4.816595 62.433242,4.887383 62.96181,5.963666 63.259807,6.838934 63.768172,7.64809 63.598154,8.108651 63.422092,8.240512 63.359402,8.34293 63.447481,8.742721 63.371491,8.798897 63.356503,8.911055 63.266123,8.81575 63.231328,8.862683 63.194762,8.819043 63.129377,8.102673 63.022811,8.20296 63.079661,8.481516 63.048976,8.501994 63.064182,8.652562 63.126627,8.807143 63.120161,8.983198 63.119793,8.983392 63.118282,8.983697 63.072541,8.972821 63.072541,8.972821</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1505;1506;1507;1511;1514;1515;1516;1517;1520;1525;1528;1531;1532;1535;1539;1547;1554;1557;1560;1563;1566;1573;1576;1577;1578;1579</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T00:00:00+00:00</effective>
+    <onset>2022-12-06T00:00:00+00:00</onset>
+    <expires>2022-12-07T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Møre og Romsdal, 2022-12-06T00:00:00+00:00, 2022-12-07T22:00:00+00:00</headline>
+    <description>From today Tuesday, showers of snow with decreasing snow line throughout the day. 10-25cm of snow is expected within 24 hours during both days. There will be large local variations, more than 25 cm pr 24 hours is expected locally above 400m.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-07T22:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>5cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Møre og Romsdal, 2022-12-06T00:00:00+00:00, 2022-12-07T22:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0891ad4f-c7e0-4630-a7ed-29b125540e30.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Møre og Romsdal</areaDesc>
+      
+          <polygon>63.072541,8.972821 63.090388,9.083762 63.029073,9.104406 62.993012,9.177656 62.971285,9.110632 62.93495,9.122559 62.90526,9.307857 62.877311,9.286134 62.794106,9.364836 62.711772,8.919966 62.556076,9.243739 62.426654,9.183634 62.372608,9.062066 62.347982,8.275186 62.17746,7.983624 62.184635,7.734596 62.121891,7.579378 62.085094,7.631818 62.065341,7.583778 62.092091,7.414724 62.007674,7.349112 62.030694,7.19489 61.923353,6.502265 61.9817,6.420989 61.958652,6.311349 62.009417,6.217178 61.956651,6.039905 61.996593,5.926917 61.974212,5.442862 62.007919,5.503161 62.066729,5.503078 62.12219,5.360894 62.168625,5.357325 62.261196,5.217881 62.382396,4.816595 62.433242,4.887383 62.96181,5.963666 63.259807,6.838934 63.768172,7.64809 63.598154,8.108651 63.422092,8.240512 63.359402,8.34293 63.447481,8.742721 63.371491,8.798897 63.356503,8.911055 63.266123,8.81575 63.231328,8.862683 63.194762,8.819043 63.129377,8.102673 63.022811,8.20296 63.079661,8.481516 63.048976,8.501994 63.064182,8.652562 63.126627,8.807143 63.120161,8.983198 63.119793,8.983392 63.118282,8.983697 63.072541,8.972821 63.072541,8.972821</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1505;1506;1507;1511;1514;1515;1516;1517;1520;1525;1528;1531;1532;1535;1539;1547;1554;1557;1560;1563;1566;1573;1576;1577;1578;1579</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

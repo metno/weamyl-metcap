@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190305135220821.1056</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-05T13:52:20+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1867</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polare lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-03-06T00:00:00+00:00</effective>
+    <onset>2019-03-06T00:00:00+00:00</onset>
+    <expires>2019-03-06T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, Torsvåg - Slettnes fyr, 06 March 00:00 UTC til 06 March 09:00 UTC.</headline>
+    <description>Et polart lavtrykk ventes tidlig onsdag morgen å treffe land i Nord-Troms og Vest-Finnmark. Det ventes vind fra vestlig til nordlig retning, kan hende opp i storm styrke. Det ventes også kraftige snøbyger. Lavtrykket ventes å svekkes onsdag formiddag.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-06T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Raske endringer i vindstyrke og retning. Vanskelig framkommelighet på grunn av snø, snøfokk og redusert sikt. Noe forsinkelser. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polart lavtrykk, gult nivå, Torsvåg - Slettnes fyr, 06 March 00:00 UTC til 06 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/707400f3-2d75-4afb-a7ed-c9e080a4423e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Torsvåg - Slettnes fyr</areaDesc>
+      <polygon>71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.039000,19.960167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 70.116667,22.516667 70.250000,22.383167 70.333167,22.616667 70.400000,22.733167 70.416667,23.033167 70.433167,23.283167 70.500000,23.583167 70.583167,23.683167 70.599833,23.916667 70.650000,24.033167 70.716667,24.166667 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-03-06T00:00:00+00:00</effective>
+    <onset>2019-03-06T00:00:00+00:00</onset>
+    <expires>2019-03-06T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, Torsvaag - Slettnes lighthouse, 06 March 00:00 UTC to 06 March 09:00 UTC.</headline>
+    <description>A polar low is early Wednesday morning expected to hit land in Northern Troms and West-Finnmark. The wind is expected from west to north, possibly with up to storm force. There will also be heavy snow showers. The low is expected to weakening late Wednesday morning.</description>
+    <instruction>Be prepared for sudden changes in the weather.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-06T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sudden changes of wind speed and direction. Reduced mobility with snow, blowing snow and reduced visibility. Minor delays. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polar low, yellow level, Torsvaag - Slettnes lighthouse, 06 March 00:00 UTC to 06 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/707400f3-2d75-4afb-a7ed-c9e080a4423e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Torsvaag - Slettnes lighthouse</areaDesc>
+      <polygon>71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.039000,19.960167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 70.116667,22.516667 70.250000,22.383167 70.333167,22.616667 70.400000,22.733167 70.416667,23.033167 70.433167,23.283167 70.500000,23.583167 70.583167,23.683167 70.599833,23.916667 70.650000,24.033167 70.716667,24.166667 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

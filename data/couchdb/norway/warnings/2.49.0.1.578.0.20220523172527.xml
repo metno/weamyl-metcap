@@ -1,0 +1,174 @@
+<alert>
+<identifier>2.49.0.1.578.0.20220523172527</identifier>
+<sender>noreply@met.no</sender>
+<sent>2022-05-23T17:28:23+00:00</sent>
+<status>Actual</status>
+<msgType>Alert</msgType>
+<scope>Public</scope>
+<code>CAP-V12.NO.V1.0</code>
+<incidents>0000000009</incidents>
+<info>
+<language>no</language>
+<category>Met</category>
+<event>Vindkast</event>
+<responseType>Monitor</responseType>
+<urgency>Future</urgency>
+<severity>Moderate</severity>
+<certainty>Likely</certainty>
+<eventCode>
+<valueName>eventType</valueName>
+<value>wind</value>
+</eventCode>
+<effective>2022-05-24T06:00:00+00:00</effective>
+<onset>2022-05-24T06:00:00+00:00</onset>
+<expires>2022-05-24T16:00:00+00:00</expires>
+<senderName>Meteorologisk Institutt</senderName>
+<headline>
+Kraftige vindkast, gult nivå, Rogaland, 2022-05-24T06:00:00+00:00, 2022-05-24T16:00:00+00:00
+</headline>
+<description>
+Tirsdag formiddag og ettermiddag er det ventet øst til sørøst sterk kuling og lokalt kraftige vindkast 25-28 m/s. Sterkest vind er ventet i indre strøk. I fjellet kan det komme svært kraftige vindkast.
+</description>
+<instruction>
+Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Vis forsiktighet ved ferdsel i strandsona og på sjøen. På forhånd vurder tiltak for å begrense skade.
+</instruction>
+<web>
+https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land
+</web>
+<contact> https://www.met.no/kontakt-oss </contact>
+<parameter>
+<valueName>eventEndingTime</valueName>
+<value>2022-05-24T16:00:00+00:00</value>
+</parameter>
+<parameter>
+<valueName>consequences</valueName>
+<value>
+Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier.
+</value>
+</parameter>
+<parameter>
+<valueName>eventAwarenessName</valueName>
+<value>Kraftige vindkast</value>
+</parameter>
+<parameter>
+<valueName>awareness_level</valueName>
+<value>2; yellow; Moderate</value>
+</parameter>
+<parameter>
+<valueName>awarenessSeriousness</valueName>
+<value>Utfordrende situasjon</value>
+</parameter>
+<parameter>
+<valueName>awareness_type</valueName>
+<value>1; Wind</value>
+</parameter>
+<parameter>
+<valueName>awarenessResponse</valueName>
+<value>Følg med</value>
+</parameter>
+<parameter>
+<valueName>geographicDomain</valueName>
+<value>land</value>
+</parameter>
+<area>
+<areaDesc>RogalandĂ, ă, Î, î, Ș, ș, Ț, ț, Â, â</areaDesc>
+<polygon>
+59.4443,4.531232 59.558162,4.60368 59.496126,4.976877 59.515484,5.187413 59.47542,5.314708 59.522495,5.510854 59.565486,5.550952 59.753569,5.580728 59.700327,5.634884 59.699714,5.764227 59.647398,5.784456 59.578977,5.969422 59.586056,6.18303 59.639992,6.186046 59.767427,6.302411 59.842859,6.538073 59.831179,6.685321 59.711422,6.651892 59.693956,6.704083 59.782783,7.096292 59.700599,7.110101 59.672692,7.214677 59.651305,7.098727 59.586832,7.048584 59.597028,6.991826 59.516451,6.962964 59.481192,7.022876 59.429298,6.882823 59.400274,6.932164 59.368405,6.86514 59.269885,6.824516 59.182664,6.847567 59.181915,6.939165 59.144601,6.881024 59.113399,6.903688 58.90996,6.560848 58.880079,6.608556 58.767415,6.518094 58.765277,6.572748 58.696679,6.622365 58.649332,6.436071 58.609935,6.497505 58.625087,6.614727 58.580911,6.605153 58.492778,6.587691 58.451407,6.632161 58.365997,6.603935 58.276502,6.372949 58.02784,6.149711 58.45089,5.333111 58.602965,5.177257 58.923152,5.005934 59.195597,4.487343 59.304885,4.456183 59.4443,4.531232 59.4443,4.531232
+</polygon>
+<geocode>
+<valueName>county</valueName>
+<value>11</value>
+</geocode>
+<geocode>
+<valueName>MunicipalityId</valueName>
+<value>
+1101;1103;1106;1108;1111;1112;1114;1119;1120;1121;1122;1124;1127;1130;1133;1134;1135;1144;1145;1146;1149;1151;1160
+</value>
+</geocode>
+<altitude>0</altitude>
+<ceiling>9000</ceiling>
+</area>
+</info>
+<info>
+<language>en-GB</language>
+<category>Met</category>
+<event>Wind gusts</event>
+<responseType>Monitor</responseType>
+<urgency>Future</urgency>
+<severity>Moderate</severity>
+<certainty>Likely</certainty>
+<eventCode>
+<valueName>eventType</valueName>
+<value>wind</value>
+</eventCode>
+<effective>2022-05-24T06:00:00+00:00</effective>
+<onset>2022-05-24T06:00:00+00:00</onset>
+<expires>2022-05-24T16:00:00+00:00</expires>
+<senderName>MET Norway</senderName>
+<headline>
+Strong wind gusts, yellow level, Rogaland, 2022-05-24T06:00:00+00:00, 2022-05-24T16:00:00+00:00
+</headline>
+<description>
+Late Tuesday morning and afternoon east to southeast gale force 8 and locally strong wind gusts 25-28 m/s is expected. The strongest wind is expected in inner areas. In mountain areas very strong wind gusts may be expected.
+</description>
+<instruction>
+Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no). Be careful in coastal areas. In advance consider measures to limit damage.
+</instruction>
+<web>
+https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land
+</web>
+<contact> https://www.met.no/en/contact-us </contact>
+<parameter>
+<valueName>eventEndingTime</valueName>
+<value>2022-05-24T16:00:00+00:00</value>
+</parameter>
+<parameter>
+<valueName>consequences</valueName>
+<value>
+Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads.
+</value>
+</parameter>
+<parameter>
+<valueName>eventAwarenessName</valueName>
+<value>Strong wind gusts</value>
+</parameter>
+<parameter>
+<valueName>awareness_level</valueName>
+<value>2; yellow; Moderate</value>
+</parameter>
+<parameter>
+<valueName>awarenessSeriousness</valueName>
+<value>Challenging situation</value>
+</parameter>
+<parameter>
+<valueName>awareness_type</valueName>
+<value>1; Wind</value>
+</parameter>
+<parameter>
+<valueName>awarenessResponse</valueName>
+<value>Be aware</value>
+</parameter>
+<parameter>
+<valueName>geographicDomain</valueName>
+<value>land</value>
+</parameter>
+<area>
+<areaDesc>Rogaland</areaDesc>
+<polygon>
+59.4443,4.531232 59.558162,4.60368 59.496126,4.976877 59.515484,5.187413 59.47542,5.314708 59.522495,5.510854 59.565486,5.550952 59.753569,5.580728 59.700327,5.634884 59.699714,5.764227 59.647398,5.784456 59.578977,5.969422 59.586056,6.18303 59.639992,6.186046 59.767427,6.302411 59.842859,6.538073 59.831179,6.685321 59.711422,6.651892 59.693956,6.704083 59.782783,7.096292 59.700599,7.110101 59.672692,7.214677 59.651305,7.098727 59.586832,7.048584 59.597028,6.991826 59.516451,6.962964 59.481192,7.022876 59.429298,6.882823 59.400274,6.932164 59.368405,6.86514 59.269885,6.824516 59.182664,6.847567 59.181915,6.939165 59.144601,6.881024 59.113399,6.903688 58.90996,6.560848 58.880079,6.608556 58.767415,6.518094 58.765277,6.572748 58.696679,6.622365 58.649332,6.436071 58.609935,6.497505 58.625087,6.614727 58.580911,6.605153 58.492778,6.587691 58.451407,6.632161 58.365997,6.603935 58.276502,6.372949 58.02784,6.149711 58.45089,5.333111 58.602965,5.177257 58.923152,5.005934 59.195597,4.487343 59.304885,4.456183 59.4443,4.531232 59.4443,4.531232
+</polygon>
+<geocode>
+<valueName>county</valueName>
+<value>11</value>
+</geocode>
+<geocode>
+<valueName>MunicipalityId</valueName>
+<value>
+1101;1103;1106;1108;1111;1112;1114;1119;1120;1121;1122;1124;1127;1130;1133;1134;1135;1144;1145;1146;1149;1151;1160
+</value>
+</geocode>
+<altitude>0</altitude>
+<ceiling>9000</ceiling>
+</area>
+</info>
+</alert>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200412104653068.3305</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-04-12T10:46:53+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>4641</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-04-12T11:00:00+00:00</effective>
+    <onset>2020-04-12T11:00:00+00:00</onset>
+    <expires>2020-04-13T11:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye snø, gult nivå, Nord-Helgeland og Sør-Salten, 12 April 11:00 UTC til 13 April 11:00 UTC.</headline>
+    <description>Fra søndag ettermiddag til mandag ettermiddag ventes det lokalt 15-25 cm snø grunnet snøbyger som kommer inn fra nord. Bygeaktiviteten avtar utover dagen.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-04-13T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>25 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over mye snø, gult nivå, Nord-Helgeland og Sør-Salten, 12 April 11:00 UTC til 13 April 11:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/35285845-83ff-4add-a2f7-a8c83775f565.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Helgeland og Sør-Salten</areaDesc>
+      <polygon>67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.949833,12.316667 65.949833,12.683167 65.916667,13.616667 65.883167,14.233167 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.283167,15.833167 67.316667,15.816667 67.316667,15.750000 67.250000,15.600000 67.250000,15.566667 67.333167,15.566667 67.366667,15.466667 67.400000,15.483167 67.449833,15.399833 67.433167,15.199833 67.400000,15.166667 67.416667,15.100000 67.483167,15.066667 67.550000,15.183167 67.616667,15.083167 67.616667,14.883167 67.633167,14.783167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2020-04-12T11:00:00+00:00</effective>
+    <onset>2020-04-12T11:00:00+00:00</onset>
+    <expires>2020-04-13T11:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy snow, yellow level, Nord-Helgeland and Sør-Salten, 12 April 11:00 UTC to 13 April 11:00 UTC.</headline>
+    <description>From Sunday afternoon to Monday afternoon 15-25 cm of snow is expected locally due to snow showers heading in from north. The snow showers will weaken late Monday afternoon.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-04-13T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>25 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of heavy snow, yellow level, Nord-Helgeland and Sør-Salten, 12 April 11:00 UTC to 13 April 11:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/35285845-83ff-4add-a2f7-a8c83775f565.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Helgeland and Sør-Salten</areaDesc>
+      <polygon>67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.949833,12.316667 65.949833,12.683167 65.916667,13.616667 65.883167,14.233167 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.283167,15.833167 67.316667,15.816667 67.316667,15.750000 67.250000,15.600000 67.250000,15.566667 67.333167,15.566667 67.366667,15.466667 67.400000,15.483167 67.449833,15.399833 67.433167,15.199833 67.400000,15.166667 67.416667,15.100000 67.483167,15.066667 67.550000,15.183167 67.616667,15.083167 67.616667,14.883167 67.633167,14.783167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

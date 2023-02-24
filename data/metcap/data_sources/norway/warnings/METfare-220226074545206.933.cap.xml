@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220226074545206.933</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-02-26T07:45:45+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>49121</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snøfokk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-02-26T11:00:00+00:00</effective>
+    <onset>2022-02-26T11:00:00+00:00</onset>
+    <expires>2022-02-27T15:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftig snøfokk, gult nivå, Rondane, Dovrefjell og Fjellstrøkene Trollheimen - Jotunheimen, 26 February 11:00 UTC til 27 February 15:00 UTC.</headline>
+    <description>Fra lørdag ettermiddag er det ventet lokal snøfokk i fjellet på grunn av kraftig vind fra sørvest. </description>
+    <instruction>Beregn ekstra tid til transport og kjøring. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Unngå unødvendig ferdsel på utsatte steder.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-27T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Redusert sikt. Det kan være lokalt vanskelige kjøreforhold grunnet snø som pakker seg i veibanen. Kolonnekjøring kan bli innført og/eller veier kan bli stengte på kort varsel. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftig snøfokk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over kraftig snøfokk, gult nivå, Rondane, Dovrefjell og Fjellstrøkene Trollheimen - Jotunheimen, 26 February 11:00 UTC til 27 February 15:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/c6c9d3eb-b3f0-487d-b46c-ed424fd88704.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Rondane, Dovrefjell og Fjellstrøkene Trollheimen - Jotunheimen</areaDesc>
+      <polygon>62.105333,9.074333 61.850000,9.583833 61.731667,9.636333 61.652667,9.805500 61.594667,9.964500 61.631667,10.201333 61.680000,10.400500 61.902167,10.192000 62.074167,10.039833 62.074167,10.039667 62.175167,10.297167 62.349667,10.506667 62.597167,11.191167 62.661333,11.124167 62.664500,11.079167 62.667333,11.044167 62.680167,10.988167 62.694833,10.922167 62.693167,10.877667 62.690667,10.840667 62.681167,10.800667 62.664667,10.768667 62.645667,10.740667 62.649167,10.720667 62.666167,10.708833 62.674667,10.672667 62.675667,10.648167 62.662667,10.591667 62.682167,10.441667 62.695167,10.324833 62.691000,10.163167 62.599167,9.717000 62.599333,9.717000 62.700167,9.683333 62.851667,9.416833 62.902500,9.120833 62.877333,8.843000 62.783500,8.784167 62.435000,8.218667 62.304667,7.845667 62.198667,7.526833 62.001833,7.359000 61.740500,7.390500 61.460333,7.721333 61.347833,7.706333 61.199500,7.807500 61.065333,8.899667 61.474667,9.178667 61.634833,9.156167 61.847667,8.814667 61.976833,8.996000 62.105333,9.074333
+</polygon>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3423;3429;3431;3436;3437;3438;3439</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3426;3427;3429;3430;3431;3432;5021;5022;5025;5026;5027;5033</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1506;1539;1563;1566;1578;3432;3433;3434;5021</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3454;3434;3435;3453;3436;3433;4643;4644</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>50</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO021</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO061</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <altitude>2600</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Blowing snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-02-26T11:00:00+00:00</effective>
+    <onset>2022-02-26T11:00:00+00:00</onset>
+    <expires>2022-02-27T15:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Blowing snow, yellow level, Rondane, Dovrefjell and Fjellstroekene Trollheimen - Jotunheimen, 26 February 11:00 UTC to 27 February 15:00 UTC.</headline>
+    <description>From Saturday afternoon, local blowing snow is expected in the mountain due to strong winds from southwest. </description>
+    <instruction>Allow extra time for transportation and driving. Follow advice and check status from transport operators. Check road reports (175.no). Avoid unnecessary journeys to exposed places.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-27T15:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Reduced visibility. Local driving conditions may become difficult due to snow accumulating on the road. Expect convoys and/or closed roads on short notice. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Blowing snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of blowing snow, yellow level, Rondane, Dovrefjell and Fjellstroekene Trollheimen - Jotunheimen, 26 February 11:00 UTC to 27 February 15:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/c6c9d3eb-b3f0-487d-b46c-ed424fd88704.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Rondane, Dovrefjell and Fjellstroekene Trollheimen - Jotunheimen</areaDesc>
+      <polygon>62.105333,9.074333 61.850000,9.583833 61.731667,9.636333 61.652667,9.805500 61.594667,9.964500 61.631667,10.201333 61.680000,10.400500 61.902167,10.192000 62.074167,10.039833 62.074167,10.039667 62.175167,10.297167 62.349667,10.506667 62.597167,11.191167 62.661333,11.124167 62.664500,11.079167 62.667333,11.044167 62.680167,10.988167 62.694833,10.922167 62.693167,10.877667 62.690667,10.840667 62.681167,10.800667 62.664667,10.768667 62.645667,10.740667 62.649167,10.720667 62.666167,10.708833 62.674667,10.672667 62.675667,10.648167 62.662667,10.591667 62.682167,10.441667 62.695167,10.324833 62.691000,10.163167 62.599167,9.717000 62.599333,9.717000 62.700167,9.683333 62.851667,9.416833 62.902500,9.120833 62.877333,8.843000 62.783500,8.784167 62.435000,8.218667 62.304667,7.845667 62.198667,7.526833 62.001833,7.359000 61.740500,7.390500 61.460333,7.721333 61.347833,7.706333 61.199500,7.807500 61.065333,8.899667 61.474667,9.178667 61.634833,9.156167 61.847667,8.814667 61.976833,8.996000 62.105333,9.074333
+</polygon>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3423;3429;3431;3436;3437;3438;3439</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3426;3427;3429;3430;3431;3432;5021;5022;5025;5026;5027;5033</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1506;1539;1563;1566;1578;3432;3433;3434;5021</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3454;3434;3435;3453;3436;3433;4643;4644</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>34</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>50</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>15</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO021</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO022</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO061</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO053</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO052</value>
+      </geocode>
+      <altitude>2600</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

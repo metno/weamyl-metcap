@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190326092918406.1436</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-26T09:29:18+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2073</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2019-03-28T16:00:00+00:00</effective>
+    <onset>2019-03-28T16:00:00+00:00</onset>
+    <expires>2019-03-29T04:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Helgeland, 28 March 16:00 UTC til 29 March 04:00 UTC.</headline>
+    <description>Torsdag kveld og natt til fredag er det venta lokalt mykje nedbør, lokalt 40-60mm/12t.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-29T04:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye regn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Mye regn, gult nivå, Helgeland, 28 March 16:00 UTC til 29 March 04:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/1b5a08fc-c519-42f3-82a2-63cf6ac2756f.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Helgeland</areaDesc>
+      <polygon>65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333 66.666667,14.449833 66.683167,14.333167 66.766667,14.416667 66.800000,14.283167 66.750000,14.166667 66.866667,14.016667 66.949833,13.583167 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2019-03-28T16:00:00+00:00</effective>
+    <onset>2019-03-28T16:00:00+00:00</onset>
+    <expires>2019-03-29T04:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Helgeland, 28 March 16:00 UTC to 29 March 04:00 UTC.</headline>
+    <description>Thursday evening and early Friday morning it is expected locally heavy precipitation, locally 40-60mm/12h. </description>
+    <instruction>Consider the need for preventive measures. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-29T04:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rain</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Heavy rain, yellow level, Helgeland, 28 March 16:00 UTC to 29 March 04:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/1b5a08fc-c519-42f3-82a2-63cf6ac2756f.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Helgeland</areaDesc>
+      <polygon>65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333 66.666667,14.449833 66.683167,14.333167 66.766667,14.416667 66.800000,14.283167 66.750000,14.166667 66.866667,14.016667 66.949833,13.583167 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

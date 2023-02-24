@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221004152455</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-04T15:28:22+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221004080141,2022-10-04T09:18:38+00:00</references>
+  <incidents>0000050204</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-05T13:00:00+00:00</effective>
+    <onset>2022-10-05T13:00:00+00:00</onset>
+    <expires>2022-10-05T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Deler av Vestland, 2022-10-05T13:00:00+00:00, 2022-10-05T18:00:00+00:00</headline>
+    <description>Onsdag ettermiddag og kveld er det venta lokalt kraftige vindkast på 27-33 m/s først frå sør, seinare sørvest og vest. Vinden vil auke først i sør, og minke sist i nord. Relativt sett er dei sterkaste vindkasta venta i midtre og indre strok. </description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Vis forsiktighet ved ferdsel i strandsona og på sjøen. På forhånd vurder tiltak for å begrense skade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-05T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Den sterke vinden kan gi lokalt høye bølger i fjordstrøk og innsjøer. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftige vindkast, gult nivå, Deler av Vestland, 2022-10-05T13:00:00+00:00, 2022-10-05T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/7ed4ba7c-a26d-48b3-888a-b31c8e174e9c.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Vestland</areaDesc>
+      <polygon>60.9383,4.56845 60.8005,4.63542 60.6419,4.68265 60.2108,4.88143 59.6726,4.9818 59.5001,4.97755 59.5194,5.18812 59.4794,5.31543 59.5264,5.5116 59.5694,5.5517 59.7575,5.58149 59.7043,5.63565 59.7036,5.76501 59.6513,5.78524 59.5829,5.97023 59.59,6.18387 59.6439,6.18689 59.7713,6.30327 59.8468,6.53897 59.8351,6.68623 59.7153,6.65279 59.6979,6.70499 59.7867,7.09726 59.9666,7.23391 60.0231,7.43744 60.1028,7.48929 60.2983,7.67475 60.5249,7.73321 60.5635,7.64063 60.6368,7.63691 60.664,7.43988 60.7481,7.61576 60.743,7.70549 60.7967,7.70552 60.9238,7.85263 60.8971,8.04202 60.9862,8.15508 60.972,8.22427 61.0082,8.22203 61.0373,8.28384 61.0578,8.21559 61.0779,8.25287 61.1136,8.13502 61.2389,8.00788 61.3253,8.24499 61.3736,8.16072 61.4307,8.15153 61.4598,8.32324 61.5379,8.26352 61.5606,7.94847 61.6476,7.8968 61.7256,7.90937 61.7471,7.843 61.7313,7.51492 61.919,7.36833 61.7498,6.7639 61.3645,5.87766 61.1246,4.70318 60.9383,4.56845 60.9383,4.56845</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4611;4612;4613;4614;4615;4616;4617;4618;4619;4620;4621;4622;4623;4624;4625;4626;4627;4628;4629;4630;4631;4632;4633;4634;4635;4636;4637;4638;4639;4640;4641;4642;4643;4644;4646;4647;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-05T13:00:00+00:00</effective>
+    <onset>2022-10-05T13:00:00+00:00</onset>
+    <expires>2022-10-05T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Parts of Vestland, 2022-10-05T13:00:00+00:00, 2022-10-05T18:00:00+00:00</headline>
+    <description>Locally strong wind gusts around 27-33 m/s are expected from south, later southwest and west, Wednesday afternoon and evening. The wind will increase first in south, and decrease last in north.</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no). Be careful in coastal areas. In advance consider measures to limit damage. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-05T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. The strong wind may cause locally high waves in fjords and lakes. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Strong wind gusts, yellow level, Parts of Vestland, 2022-10-05T13:00:00+00:00, 2022-10-05T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/7ed4ba7c-a26d-48b3-888a-b31c8e174e9c.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Vestland</areaDesc>
+      <polygon>60.9383,4.56845 60.8005,4.63542 60.6419,4.68265 60.2108,4.88143 59.6726,4.9818 59.5001,4.97755 59.5194,5.18812 59.4794,5.31543 59.5264,5.5116 59.5694,5.5517 59.7575,5.58149 59.7043,5.63565 59.7036,5.76501 59.6513,5.78524 59.5829,5.97023 59.59,6.18387 59.6439,6.18689 59.7713,6.30327 59.8468,6.53897 59.8351,6.68623 59.7153,6.65279 59.6979,6.70499 59.7867,7.09726 59.9666,7.23391 60.0231,7.43744 60.1028,7.48929 60.2983,7.67475 60.5249,7.73321 60.5635,7.64063 60.6368,7.63691 60.664,7.43988 60.7481,7.61576 60.743,7.70549 60.7967,7.70552 60.9238,7.85263 60.8971,8.04202 60.9862,8.15508 60.972,8.22427 61.0082,8.22203 61.0373,8.28384 61.0578,8.21559 61.0779,8.25287 61.1136,8.13502 61.2389,8.00788 61.3253,8.24499 61.3736,8.16072 61.4307,8.15153 61.4598,8.32324 61.5379,8.26352 61.5606,7.94847 61.6476,7.8968 61.7256,7.90937 61.7471,7.843 61.7313,7.51492 61.919,7.36833 61.7498,6.7639 61.3645,5.87766 61.1246,4.70318 60.9383,4.56845 60.9383,4.56845</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4601;4611;4612;4613;4614;4615;4616;4617;4618;4619;4620;4621;4622;4623;4624;4625;4626;4627;4628;4629;4630;4631;4632;4633;4634;4635;4636;4637;4638;4639;4640;4641;4642;4643;4644;4646;4647;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

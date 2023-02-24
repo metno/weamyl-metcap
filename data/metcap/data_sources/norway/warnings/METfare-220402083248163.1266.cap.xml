@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220402083248163.1266</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-04-02T08:32:48+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>49155</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2022-04-02T08:00:00+00:00</effective>
+    <onset>2022-04-02T08:00:00+00:00</onset>
+    <expires>2022-04-03T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, Tromsøflaket, C4, D3, Dype D4, E3 og Dype E4, 02 April 08:00 UTC til 03 April 06:00 UTC.</headline>
+    <description>Lørdag formiddag er et polart lavtrykk i ferd med å utvikle seg i Tromsøflaket og Dype D4 og vil bevege seg langsomt mot sør. Lørdag ettermiddag vil lavtrykket ligge i Dype D4. I vestlig del av lavtrykket vil det være nordlig liten storm 22 m/s, kan hende full storm 25. Lavtrykket ventes å svekkes søndag morgen.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-04-03T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over polart lavtrykk, gult nivå, Tromsøflaket, C4, D3, Dype D4, E3 og Dype E4, 02 April 08:00 UTC til 03 April 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/b0cd9811-bcef-419b-9426-63d60a2be36a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Tromsøflaket, C4, D3, Dype D4, E3 og Dype E4</areaDesc>
+      <polygon>68.220000,10.000000 69.550000,15.199833 69.800000,16.300000 70.000000,16.600000 70.200000,16.900000 70.716667,16.780000 70.462667,21.334667 70.680667,21.941167 70.839833,22.685667 72.400000,19.850000 72.500000,19.649833 72.500000,19.649667 72.500000,20.000000 75.000000,20.000000 75.000000,10.000000 72.500000,10.000000 72.500000,0.000000 70.000000,0.000000 67.500000,0.000000 67.500000,10.000000 68.220000,10.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2022-04-02T08:00:00+00:00</effective>
+    <onset>2022-04-02T08:00:00+00:00</onset>
+    <expires>2022-04-03T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, Tromsoeflaket, C4, D3, Deep D4, E3 and Deep E4, 02 April 08:00 UTC to 03 April 06:00 UTC.</headline>
+    <description>Late Saturday morning a polar low is developing at Tromsoeflaket and Deep D4 and is expected to move slowly southward. Saturday afternoon the center will be at Deep D4. West of the center the wind is expected to be northerly strong gale force 9, possibly storm force 10. The low is expected to weaken on Sunday morning.</description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-04-03T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; wind</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of polar low, yellow level, Tromsoeflaket, C4, D3, Deep D4, E3 and Deep E4, 02 April 08:00 UTC to 03 April 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/b0cd9811-bcef-419b-9426-63d60a2be36a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Tromsoeflaket, C4, D3, Deep D4, E3 and Deep E4</areaDesc>
+      <polygon>68.220000,10.000000 69.550000,15.199833 69.800000,16.300000 70.000000,16.600000 70.200000,16.900000 70.716667,16.780000 70.462667,21.334667 70.680667,21.941167 70.839833,22.685667 72.400000,19.850000 72.500000,19.649833 72.500000,19.649667 72.500000,20.000000 75.000000,20.000000 75.000000,10.000000 72.500000,10.000000 72.500000,0.000000 70.000000,0.000000 67.500000,0.000000 67.500000,10.000000 68.220000,10.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

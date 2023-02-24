@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210219104730679.415</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-02-19T10:47:30+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.210219102158263.412,2021-02-19T10:21:58+00:00</references>
+  <incidents>48707</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Ising</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>icing</value>
+    </eventCode>
+    <effective>2021-02-21T00:00:00+00:00</effective>
+    <onset>2021-02-21T00:00:00+00:00</onset>
+    <expires>2021-02-23T00:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Sterk ising på skip, oransje nivå, Nord-Troms og Kyst- og fjordstrøkene i Vest-Finnmark, 21 February 00:00 UTC til 23 February 00:00 UTC.</headline>
+    <description>Fra natt til søndag til natt til tirsdag ventes svært kraftig ising på fartøy og faste installasjoner nær åpent vann. </description>
+    <instruction>Fjern is raskt fra båten.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/oransje-farevarsel-for-svaert-kraftige-vindkast-i-nord-troms-og-vest-finnmark</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask nok isvekst kan føre til at en liten båt mister stabiliteten, velter og synker. For større båter ventes glatte dekk, gelender, stiger og nedisete redningsbåter og annet redningsutstyr. Isingen kan ødelegge radiokommunikasjonen hvis antennene fryser. Kraftig isvekst på fronten/styrhuset til skipet. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Sterk ising på skip</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Alvorlig situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.5 cm/h</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Vær forberedt</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over sterk ising på skip, oransje nivå, Nord-Troms og Kyst- og fjordstrøkene i Vest-Finnmark, 21 February 00:00 UTC til 23 February 00:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/7d7b336c-f41b-44f0-aafe-5045dbe51ff3.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Troms og Kyst- og fjordstrøkene i Vest-Finnmark</areaDesc>
+      <polygon>70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.650000,17.799833 69.516667,18.100000 69.483167,18.316667 69.383167,18.500000 69.250000,18.766667 69.050000,19.366667 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 70.000000,25.866667 70.099833,25.899833 70.233167,25.983167 70.366667,26.049833 70.466667,26.083167 70.666667,26.250000 70.783167,26.433167 70.966667,26.600000 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Icing</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>icing</value>
+    </eventCode>
+    <effective>2021-02-21T00:00:00+00:00</effective>
+    <onset>2021-02-21T00:00:00+00:00</onset>
+    <expires>2021-02-23T00:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Severe icing on ships, orange level, Nord-Troms and Kyst- and fjordstroekene i Vest-Finnmark, 21 February 00:00 UTC to 23 February 00:00 UTC.</headline>
+    <description>From early Sunday morning to early Tuesday morning expected severe icing on vessels and fixed installations near open water. </description>
+    <instruction>Rapidly remove ice from the boat.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/oransje-farevarsel-for-svaert-kraftige-vindkast-i-nord-troms-og-vest-finnmark</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rapid ice accumulation on a small boat may cause it to lose its stability, tip over and sink. For ships the issue is more directed towards slippery decks, handrailing, ladders, iced down safety boats and safety equipment. Ice accumulation may also damage radio communication if the antennas are freezing. High ice accumulation on the bow/bridge of the ship. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Severe icing on ships</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Severe situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>7; coastalevent</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.5 cm/h</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be prepared</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of severe icing on ships, orange level, Nord-Troms and Kyst- and fjordstroekene i Vest-Finnmark, 21 February 00:00 UTC to 23 February 00:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/7d7b336c-f41b-44f0-aafe-5045dbe51ff3.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Troms and Kyst- and fjordstroekene i Vest-Finnmark</areaDesc>
+      <polygon>70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.650000,17.799833 69.516667,18.100000 69.483167,18.316667 69.383167,18.500000 69.250000,18.766667 69.050000,19.366667 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.716667,23.016667 69.750000,23.450000 69.816667,24.100000 69.900000,25.750000 70.000000,25.866667 70.099833,25.899833 70.233167,25.983167 70.366667,26.049833 70.466667,26.083167 70.666667,26.250000 70.783167,26.433167 70.966667,26.600000 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220617100935</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-18T10:22:11+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050037</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-18T11:00:00+00:00</effective>
+    <onset>2022-06-18T11:00:00+00:00</onset>
+    <expires>2022-06-18T19:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn, gult nivå, Deler av Trøndelag og Møre og Romsdal, 2022-06-18T11:00:00+00:00, 2022-06-18T19:00:00+00:00</headline>
+    <description>Fra lørdag ettermiddag er det fare for mye lyn og torden i forbindelse med regnbygene. Faren for lyn og torden vil avta utover kvelden. Det vil være store lokale forskjeller i intensitet. Noen steder vil ikke få tordenvær. </description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-18T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Tordenværet kan føre med seg lokalt kraftige vindkast. Lokalt kraftige regnbyger. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Hagl kan forekomme og kan f.eks. gi forbigående glatte veier. Større hagl kan føre til skade, f.eks. på bil eller avling. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn, gult nivå, Deler av Trøndelag og Møre og Romsdal, 2022-06-18T11:00:00+00:00, 2022-06-18T19:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0a2befe2-2fed-4c69-af1e-6ac40dc6d772.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Trøndelag og Møre og Romsdal</areaDesc>
+      <polygon>63.8959,10.6421 63.4407,8.70401 62.769,9.36026 62.6632,10.5503 62.3761,11.4197 62.326,12.2959 62.6152,12.0969 62.9963,12.2021 63.247,12.0204 63.6092,12.2615 63.9418,12.6264 63.8959,10.6421 63.8959,10.6421</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3430;5001;5006;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5053;5054;5055;5056;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-18T11:00:00+00:00</effective>
+    <onset>2022-06-18T11:00:00+00:00</onset>
+    <expires>2022-06-18T19:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning, yellow level, Parts of Trøndelag and Møre and Romsdal, 2022-06-18T11:00:00+00:00, 2022-06-18T19:00:00+00:00</headline>
+    <description>From Saturday afternoon there will be a risk of frequent lightning in showers. The risk of lightning will decrease throughout the evening. There will be large local differences in intensity. Some places will not experience any lightning. </description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-18T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Thunderstorms can lead to locally strong wind gusts.  Locally heavy rain showers. Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Hail can occur and can e.g. provide transient slippery roads. Bigger hail can cause damage, e.g. to cars and crop. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning, yellow level, Parts of Trøndelag and Møre and Romsdal, 2022-06-18T11:00:00+00:00, 2022-06-18T19:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/0a2befe2-2fed-4c69-af1e-6ac40dc6d772.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Trøndelag and Møre and Romsdal</areaDesc>
+      <polygon>63.8959,10.6421 63.4407,8.70401 62.769,9.36026 62.6632,10.5503 62.3761,11.4197 62.326,12.2959 62.6152,12.0969 62.9963,12.2021 63.247,12.0204 63.6092,12.2615 63.9418,12.6264 63.8959,10.6421 63.8959,10.6421</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3430;5001;5006;5022;5025;5026;5027;5028;5029;5031;5032;5033;5034;5035;5036;5037;5038;5053;5054;5055;5056;5059;5061</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

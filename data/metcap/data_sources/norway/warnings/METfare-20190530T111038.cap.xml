@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190530111038751.1955</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-05-30T11:10:38+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2354</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vanskelige kjøreforhold</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>drivingConditions</value>
+    </eventCode>
+    <effective>2019-05-31T14:00:00+00:00</effective>
+    <onset>2019-05-31T14:00:00+00:00</onset>
+    <expires>2019-06-01T22:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Vanskelige kjøreforhold, gult nivå, Salten og Ofoten, 31 May 14:00 UTC til 01 June 22:00 UTC.</headline>
+    <description>Fra fredag ettermiddag er det er ventet lokalt vanskelige kjøreforhold på grunn av temperatur omkring null grader og perioder med snø over ca. 500-700 meter.</description>
+    <instruction>Bruk riktige dekk og kjør etter forholdene. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Vanskelige kjøreforhold og lokale forsinkelser. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Vanskelige kjøreforhold</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Salten og Ofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500 66.949833,13.583167 66.866667,14.016667 66.750000,14.166667 66.800000,14.283167 66.766667,14.416667 66.683167,14.333167 66.666667,14.449833 66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167 68.599833,18.033167 68.599833,17.533167 68.550000,17.316667 68.550000,17.216667 68.583167,16.866667 68.516667,16.733167 68.500000,16.566667 68.533167,16.549833 68.550000,16.616667 68.566667,16.566667 68.566667,16.466667 68.633167,16.233167 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1849</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1805;1850;1851;1852;1853;1854</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <altitude>2000</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Difficult driving conditions</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>drivingConditions</value>
+    </eventCode>
+    <effective>2019-05-31T14:00:00+00:00</effective>
+    <onset>2019-05-31T14:00:00+00:00</onset>
+    <expires>2019-06-01T22:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Difficult driving conditions, yellow level, Salten and Ofoten, 31 May 14:00 UTC to 01 June 22:00 UTC.</headline>
+    <description>From Friday evening it is expected locally difficult driving conditions due to temperature around zero degrees and periods of snow over 500-700 meters.</description>
+    <instruction>Use tires fit for winter conditions and use caution while driving Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Expect difficult driving conditions and local delays. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Difficult driving conditions</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <area>
+      <areaDesc>Salten and Ofoten</areaDesc>
+      <polygon>68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500 66.949833,13.583167 66.866667,14.016667 66.750000,14.166667 66.800000,14.283167 66.766667,14.416667 66.683167,14.333167 66.666667,14.449833 66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167 68.599833,18.033167 68.599833,17.533167 68.550000,17.316667 68.550000,17.216667 68.583167,16.866667 68.516667,16.733167 68.500000,16.566667 68.533167,16.549833 68.550000,16.616667 68.566667,16.566667 68.566667,16.466667 68.633167,16.233167 68.566667,16.033167 68.599833,15.949833 68.533167,15.866667 68.500000,15.766667 68.449833,15.649833 68.466667,15.616667 68.500000,15.683167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1849</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1805;1850;1851;1852;1853;1854</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <altitude>2000</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

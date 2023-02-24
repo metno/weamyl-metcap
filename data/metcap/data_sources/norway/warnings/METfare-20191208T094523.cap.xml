@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.191208094523320.3220</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-12-08T09:45:23+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>3082</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-12-08T12:00:00+00:00</effective>
+    <onset>2019-12-08T12:00:00+00:00</onset>
+    <expires>2019-12-10T00:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, Ytre Vestfjorden, Røstbanken, Vesterålsbankene, Bankene utenfor Troms, Tromsøflaket og Hjelmsøybanken og C4, C5 og Dype D4, Dype E4 og E3, 08 December 12:00 UTC til 10 December 00:00 UTC.</headline>
+    <description>Et polart lavtrykk er i ferd med å utvikle seg øst for Bjørnøya. Det vil gå i sørvestlig retning og vil trolig nå Vesterålsbankene mandag ettermiddag. Lavtrykket ventes å gi nordlig sterk kulig til liten storm vest for senteret. </description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-12-10T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polart lavtrykk, gult nivå, Ytre Vestfjorden, Røstbanken, Vesterålsbankene, Bankene utenfor Troms, Tromsøflaket og Hjelmsøybanken og C4, C5 og Dype D4, Dype E4 og E3, 08 December 12:00 UTC til 10 December 00:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/231d53cf-67b0-4658-881b-5264b9c1034f.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre Vestfjorden, Røstbanken, Vesterålsbankene, Bankene utenfor Troms, Tromsøflaket og Hjelmsøybanken og C4, C5 og Dype D4, Dype E4 og E3</areaDesc>
+      <polygon>72.500000,20.000000 72.500000,25.000000 72.500000,30.000000 75.000000,30.000000 75.000000,20.000000 75.000000,10.000000 72.500000,10.000000 70.000000,10.000000 70.000000,0.000000 67.500000,0.000000 67.500000,10.000000 68.220000,10.000000 66.632000,10.000000 66.801000,12.795000 66.800000,12.800000 67.200000,13.700000 67.453833,14.241333 67.616333,14.420833 67.766667,14.383167 68.030667,14.894000 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557333,12.603667 67.557167,12.603667 67.646167,12.507167 68.030000,12.908167 68.840000,14.548667 69.071667,15.163667 69.332167,16.062667 69.425667,16.458667 69.687167,17.760000 69.905667,18.007667 70.109167,18.405667 70.206167,18.617000 70.312667,19.215167 70.342000,20.167667 70.462667,21.334667 70.680833,21.941167 70.840000,22.685667 71.104167,23.988500 71.194167,25.814167 72.500000,24.607833 72.500000,20.000000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1903;1911;1913;1917;1919;1920;1923</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-12-08T12:00:00+00:00</effective>
+    <onset>2019-12-08T12:00:00+00:00</onset>
+    <expires>2019-12-10T00:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, Outer Vestfjord, Roest Bank, Vesteraalbanks, Banks outside Troms, Tromsoeflaket and Hjelmsoey bank and C4, C5 and Deep D4, Deep E4 and E3, 08 December 12:00 UTC to 10 December 00:00 UTC.</headline>
+    <description>A polar low is developing east of Bear Island. The low is expected to move southwestwards and vil probably reach the Vesteraals banks on Monday afternoon. The low is expected to give north gale force 8 to severe gale force 9 west of the center. </description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-12-10T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polar low, yellow level, Outer Vestfjord, Roest Bank, Vesteraalbanks, Banks outside Troms, Tromsoeflaket and Hjelmsoey bank and C4, C5 and Deep D4, Deep E4 and E3, 08 December 12:00 UTC to 10 December 00:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/231d53cf-67b0-4658-881b-5264b9c1034f.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer Vestfjord, Roest Bank, Vesteraalbanks, Banks outside Troms, Tromsoeflaket and Hjelmsoey bank and C4, C5 and Deep D4, Deep E4 and E3</areaDesc>
+      <polygon>72.500000,20.000000 72.500000,25.000000 72.500000,30.000000 75.000000,30.000000 75.000000,20.000000 75.000000,10.000000 72.500000,10.000000 70.000000,10.000000 70.000000,0.000000 67.500000,0.000000 67.500000,10.000000 68.220000,10.000000 66.632000,10.000000 66.801000,12.795000 66.800000,12.800000 67.200000,13.700000 67.453833,14.241333 67.616333,14.420833 67.766667,14.383167 68.030667,14.894000 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557333,12.603667 67.557167,12.603667 67.646167,12.507167 68.030000,12.908167 68.840000,14.548667 69.071667,15.163667 69.332167,16.062667 69.425667,16.458667 69.687167,17.760000 69.905667,18.007667 70.109167,18.405667 70.206167,18.617000 70.312667,19.215167 70.342000,20.167667 70.462667,21.334667 70.680833,21.941167 70.840000,22.685667 71.104167,23.988500 71.194167,25.814167 72.500000,24.607833 72.500000,20.000000
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1903;1911;1913;1917;1919;1920;1923</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

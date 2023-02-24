@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190111150353288.178</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-11T15:03:53+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1371</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-11T14:00:00+00:00</effective>
+    <onset>2019-01-11T14:00:00+00:00</onset>
+    <expires>2019-01-12T01:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Nordkapp - Slettnes fyr, 11 January 14:00 UTC til 12 January 01:00 UTC.</headline>
+    <description>I ettermiddag, fredag, periodevis nordvest sterk kuling 20 m/s, nær Nordkapp opp i liten storm 22. I kveld periodevis nordaust stiv kuling 15 m/s. Minkende sent i kveld. </description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-12T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Middels høye bølger av større lengde. Bølgekammene er ved å brytes opp til sjørokk, som driver i tydelige markerte strimer med vinden. Høye bølger. Tette skumstrimer driver i vindretningen. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Nordkapp - Slettnes fyr</areaDesc>
+      <polygon>71.109667,28.243667 70.744167,27.621167 70.750000,27.216667 70.750000,26.750000 70.666667,26.250000 70.666667,26.033167 70.716667,25.883167 70.699667,25.600000 70.733167,25.333167 71.198833,25.809000 71.150500,27.662500 71.150333,27.667000 71.117667,28.189333 71.117500,28.190833 71.116167,28.208667 71.115667,28.214000 71.115000,28.219167 71.114167,28.224000 71.113667,28.227000 71.109667,28.243667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-01-11T14:00:00+00:00</effective>
+    <onset>2019-01-11T14:00:00+00:00</onset>
+    <expires>2019-01-12T01:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, North Cape - Slettnes lighthouse, 11 January 14:00 UTC to 12 January 01:00 UTC.</headline>
+    <description>This afternoon, Friday, occasionally northwest gale force 8, near North Cape up to strong gale force 9. This evening occasionally northeast near gale force 7. Decreasing late this evening. </description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-12T01:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderately high waves with breaking crests forming spindrift. Well-marked streaks of foam are blown along wind direction. Considerable airborne spray. High waves whose crests sometimes roll over. Dense foam is blown along wind direction. Large amounts of airborne spray may begin to reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>North Cape - Slettnes lighthouse</areaDesc>
+      <polygon>71.109667,28.243667 70.744167,27.621167 70.750000,27.216667 70.750000,26.750000 70.666667,26.250000 70.666667,26.033167 70.716667,25.883167 70.699667,25.600000 70.733167,25.333167 71.198833,25.809000 71.150500,27.662500 71.150333,27.667000 71.117667,28.189333 71.117500,28.190833 71.116167,28.208667 71.115667,28.214000 71.115000,28.219167 71.114167,28.224000 71.113667,28.227000 71.109667,28.243667
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

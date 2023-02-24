@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221005114247</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-06T07:59:36+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050207</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-10-06T12:00:00+00:00</effective>
+    <onset>2022-10-06T12:00:00+00:00</onset>
+    <expires>2022-10-08T02:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Deler av Vestlandet, 2022-10-06T12:00:00+00:00, 2022-10-08T02:00:00+00:00</headline>
+    <description>Det ventes mye regn fra torsdag ettermiddag til natt til lørdag, lokalt kan det komme 60-90 mm/24t.</description>
+    <instruction>Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-08T02:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, Deler av Vestlandet, 2022-10-06T12:00:00+00:00, 2022-10-08T02:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1b15269b-71a9-4e81-ab3c-f4642d72389b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Vestlandet</areaDesc>
+      <polygon>62.0196,7.24313 62.0198,7.22171 62.0081,7.08558 61.984,7.04776 61.9829,6.9531 61.9663,6.84055 61.9201,6.51524 61.9435,6.32223 61.9666,5.48364 61.8288,4.97233 60.6759,5.27425 60.1593,5.51322 59.6138,5.79599 59.3013,6.36248 59.1775,6.84314 59.3089,6.84852 59.3943,6.89251 59.4706,7.00601 59.5568,6.99872 59.6879,7.16027 59.7065,7.12006 59.7756,7.1017 59.8223,7.1559 59.876,7.15509 59.9619,7.21231 59.9896,7.28367 59.9895,7.34087 60.0189,7.4415 60.044,7.44089 60.0884,7.47405 60.1816,7.58504 60.2538,7.617 60.3038,7.69022 60.3833,7.68288 60.5195,7.74205 60.5735,7.63275 60.6204,7.6309 60.6674,7.46052 60.7544,7.61615 61.002,7.84762 61.4055,8.12559 61.4355,8.15904 61.4388,8.20024 61.4288,8.27279 61.4593,8.33021 61.4898,8.29479 61.5315,8.26272 61.5475,8.19858 61.5245,8.12617 61.5545,7.94895 61.6387,7.89415 61.7277,7.9167 61.7428,7.83781 61.7532,7.75404 61.728,7.52841 61.7621,7.51013 61.8533,7.41724 61.8942,7.42153 61.9277,7.38541 61.9845,7.39757 62.0071,7.35128 62.0142,7.30471 62.0196,7.24313 62.0196,7.24313</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1133;1134;1135;1160;4601;4602;4611;4616;4617;4618;4619;4620;4621;4622;4623;4624;4628;4629;4630;4631;4634;4635;4637;4638;4639;4640;4641;4642;4643;4644;4645;4646;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>5000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-10-06T12:00:00+00:00</effective>
+    <onset>2022-10-06T12:00:00+00:00</onset>
+    <expires>2022-10-08T02:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Parts of Vestlandet, 2022-10-06T12:00:00+00:00, 2022-10-08T02:00:00+00:00</headline>
+    <description>A lot of rain is expected from Thursday afternoon to late Friday evening, locally around 60-90 mm in 24 hours.</description>
+    <instruction>The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-08T02:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, Parts of Vestlandet, 2022-10-06T12:00:00+00:00, 2022-10-08T02:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1b15269b-71a9-4e81-ab3c-f4642d72389b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Vestlandet</areaDesc>
+      <polygon>62.0196,7.24313 62.0198,7.22171 62.0081,7.08558 61.984,7.04776 61.9829,6.9531 61.9663,6.84055 61.9201,6.51524 61.9435,6.32223 61.9666,5.48364 61.8288,4.97233 60.6759,5.27425 60.1593,5.51322 59.6138,5.79599 59.3013,6.36248 59.1775,6.84314 59.3089,6.84852 59.3943,6.89251 59.4706,7.00601 59.5568,6.99872 59.6879,7.16027 59.7065,7.12006 59.7756,7.1017 59.8223,7.1559 59.876,7.15509 59.9619,7.21231 59.9896,7.28367 59.9895,7.34087 60.0189,7.4415 60.044,7.44089 60.0884,7.47405 60.1816,7.58504 60.2538,7.617 60.3038,7.69022 60.3833,7.68288 60.5195,7.74205 60.5735,7.63275 60.6204,7.6309 60.6674,7.46052 60.7544,7.61615 61.002,7.84762 61.4055,8.12559 61.4355,8.15904 61.4388,8.20024 61.4288,8.27279 61.4593,8.33021 61.4898,8.29479 61.5315,8.26272 61.5475,8.19858 61.5245,8.12617 61.5545,7.94895 61.6387,7.89415 61.7277,7.9167 61.7428,7.83781 61.7532,7.75404 61.728,7.52841 61.7621,7.51013 61.8533,7.41724 61.8942,7.42153 61.9277,7.38541 61.9845,7.39757 62.0071,7.35128 62.0142,7.30471 62.0196,7.24313 62.0196,7.24313</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1133;1134;1135;1160;4601;4602;4611;4616;4617;4618;4619;4620;4621;4622;4623;4624;4628;4629;4630;4631;4634;4635;4637;4638;4639;4640;4641;4642;4643;4644;4645;4646;4647;4648;4649;4650;4651</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>5000</ceiling>
+    </area>
+  </info>
+</alert>

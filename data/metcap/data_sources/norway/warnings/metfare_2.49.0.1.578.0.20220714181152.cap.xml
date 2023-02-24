@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220714181152</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-14T18:42:04+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220714110627,2022-07-14T11:06:54+00:00</references>
+  <incidents>0000050084</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-07-14T22:00:00+00:00</effective>
+    <onset>2022-07-14T22:00:00+00:00</onset>
+    <expires>2022-07-15T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Svært mye regn, oransje nivå, store deler av Troms, 2022-07-14T22:00:00+00:00, 2022-07-15T12:00:00+00:00</headline>
+    <description>Det ventes svært mye regn, lokalt 40-60 mm/12t, mest nedbør ventes i ytre strøk. </description>
+    <instruction>Vurder behov for forebyggende tiltak. Følg lokale myndigheters instruksjoner, og råd fra beredskapsmyndigheter. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/nyhetsarkiv/farevarsel-om-svaert-mye-regn-i-deler-av-troms-og-finnmark</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-15T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Svært mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Alvorlig situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Vær forberedt</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Svært mye regn, oransje nivå, store deler av Troms, 2022-07-14T22:00:00+00:00, 2022-07-15T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/299bdcc7-ecd1-42af-968d-b012f91c19ab.png</uri>
+    </resource>
+    <area>
+      <areaDesc>store deler av Troms</areaDesc>
+      <polygon>69.1115,22.4875 69.2333,22.5318 69.3673,22.3435 69.4798,22.2729 69.5137,22.7211 69.6666,22.838 69.6486,22.7612 69.7166,22.5527 69.7884,22.4558 69.8526,22.5431 69.8706,22.4636 69.9122,22.505 69.9564,22.2502 70.0306,22.2176 70.0786,21.2868 70.2391,20.9524 70.3253,20.2823 70.3329,19.8106 70.2943,19.1012 70.1135,18.4204 69.3752,16.6441 69.1621,16.3219 69.0053,16.0599 68.9316,16.125 68.8873,16.0049 68.8149,15.9391 68.8122,16.024 68.7585,16.043 68.6852,15.9962 68.6219,15.8047 68.5343,15.8284 68.5353,15.8872 68.6118,15.9608 68.5339,16.0551 68.5228,16.1599 68.3833,16.0503 68.3783,16.173 68.4359,16.5609 68.4996,16.5737 68.5701,16.8678 68.5567,17.2052 68.5649,17.3573 68.5985,17.5526 68.6031,18.0218 68.5335,18.1398 68.576,18.4058 68.5019,18.6275 68.5052,18.9771 68.3479,19.9322 68.4926,20.2379 68.5579,19.9871 68.6597,20.2237 68.7994,20.3612 68.9282,20.3327 69.0415,20.101 69.0535,20.5807 69.1106,20.72 69.0341,21.0732 69.106,21.1162 69.1951,21.0088 69.2259,21.0421 69.3033,21.2902 69.2719,21.635 69.0718,21.9246 69.0788,22.3231 69.1115,22.4875 69.1115,22.4875</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5401;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-07-14T22:00:00+00:00</effective>
+    <onset>2022-07-14T22:00:00+00:00</onset>
+    <expires>2022-07-15T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Very heavy rain, orange level, large parts of Troms, 2022-07-14T22:00:00+00:00, 2022-07-15T12:00:00+00:00</headline>
+    <description>Heavy rainfall is expected, locally 40-60 mm in 12 hours, most precipitation is expected in coastal regions. </description>
+    <instruction>Consider the need for preventive measures. Follow the advice of emergency authorities, both local and governmental. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/nyhetsarkiv/farevarsel-om-svaert-mye-regn-i-deler-av-troms-og-finnmark</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-15T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Very heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Severe situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be prepared</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Very heavy rain, orange level, large parts of Troms, 2022-07-14T22:00:00+00:00, 2022-07-15T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/299bdcc7-ecd1-42af-968d-b012f91c19ab.png</uri>
+    </resource>
+    <area>
+      <areaDesc>large parts of Troms</areaDesc>
+      <polygon>69.1115,22.4875 69.2333,22.5318 69.3673,22.3435 69.4798,22.2729 69.5137,22.7211 69.6666,22.838 69.6486,22.7612 69.7166,22.5527 69.7884,22.4558 69.8526,22.5431 69.8706,22.4636 69.9122,22.505 69.9564,22.2502 70.0306,22.2176 70.0786,21.2868 70.2391,20.9524 70.3253,20.2823 70.3329,19.8106 70.2943,19.1012 70.1135,18.4204 69.3752,16.6441 69.1621,16.3219 69.0053,16.0599 68.9316,16.125 68.8873,16.0049 68.8149,15.9391 68.8122,16.024 68.7585,16.043 68.6852,15.9962 68.6219,15.8047 68.5343,15.8284 68.5353,15.8872 68.6118,15.9608 68.5339,16.0551 68.5228,16.1599 68.3833,16.0503 68.3783,16.173 68.4359,16.5609 68.4996,16.5737 68.5701,16.8678 68.5567,17.2052 68.5649,17.3573 68.5985,17.5526 68.6031,18.0218 68.5335,18.1398 68.576,18.4058 68.5019,18.6275 68.5052,18.9771 68.3479,19.9322 68.4926,20.2379 68.5579,19.9871 68.6597,20.2237 68.7994,20.3612 68.9282,20.3327 69.0415,20.101 69.0535,20.5807 69.1106,20.72 69.0341,21.0732 69.106,21.1162 69.1951,21.0088 69.2259,21.0421 69.3033,21.2902 69.2719,21.635 69.0718,21.9246 69.0788,22.3231 69.1115,22.4875 69.1115,22.4875</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5401;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

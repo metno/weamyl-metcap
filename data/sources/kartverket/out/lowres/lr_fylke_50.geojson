@@ -474,5 +474,6 @@
             }
         }
     ],
-    "comment": "Resampled from fylke_50 with UUID: no.geonorge:a6e68b64-a283-5798-8575-e7c948904891"
+    "comment": "Resampled from fylke_50 with UUID: no.geonorge:a6e68b64-a283-5798-8575-e7c948904891",
+    "_rev": "1-4fcd357a4ef93c748ab0e504a45e13c0"
 }

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221006094058</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-06T11:17:11+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050209</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-10-07T19:00:00+00:00</effective>
+    <onset>2022-10-07T19:00:00+00:00</onset>
+    <expires>2022-10-09T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Fjellet i Sør-Norge, 2022-10-07T19:00:00+00:00, 2022-10-09T09:00:00+00:00</headline>
+    <description>Fra sent fredag kveld ventes snøbyger over 800 -1200 meter i Sør-Norge. 
+
+Snøgrensen ligger på 1000-1200 meter fredag. Synkende snøgrense lørdag  til 800-1000 meter, lavest i nord. 
+
+Søndag morgen stiger snøgrensen og nedbøren avtar. </description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-09T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Fjellet i Sør-Norge, 2022-10-07T19:00:00+00:00, 2022-10-09T09:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/b383f01d-5373-4fd9-a7f0-4b943efdb6c1.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Fjellet i Sør-Norge</areaDesc>
+      <polygon>63.2655,11.946 63.0377,11.3021 62.8552,10.564 62.6806,9.99064 62.7802,9.9109 63.0811,9.51528 62.9724,8.91039 62.7926,8.66362 62.6934,8.57843 62.7658,8.19702 62.6446,7.60718 62.5324,7.71206 62.5798,7.27904 62.5408,6.88304 62.3207,6.99586 62.2335,6.97599 61.9366,7.21 61.7797,6.51949 61.3304,6.28178 61.0859,5.98701 60.6773,6.10804 60.5021,7.11996 60.4225,6.80693 59.9913,6.70504 59.8211,6.99419 59.6933,7.03989 59.2421,6.75369 59.1023,6.87421 58.9628,6.76452 58.7911,7.18654 58.6844,7.64942 58.719,7.75381 59.0007,7.65596 59.1104,7.94106 59.6194,7.78011 59.7748,7.72109 59.9299,8.09461 60.0915,8.36372 60.3482,8.363 60.6492,8.17839 60.8962,8.56378 60.997,8.74425 61.1837,8.83191 61.462,9.13849 61.6099,9.02023 61.8014,8.91793 62.0789,9.11479 61.8539,9.60573 61.7901,10.0455 62.0751,10.0849 62.1913,10.3301 62.3795,10.5358 62.5358,10.9962 62.6641,11.3482 62.6948,12.0922 62.8622,12.0626 62.9831,12.1737 63.2655,11.946 63.2655,11.946</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1134;1506;1525;1535;1539;1563;1566;1578;3042;3043;3044;3052;3426;3427;3429;3430;3431;3432;3433;3434;3435;3436;3437;3452;3453;3454;3818;3823;3824;3825;4220;4221;4222;4224;4228;4618;4619;4620;4621;4628;4629;4638;4639;4640;4641;4642;4643;4644;4647;4650;4651;5021;5022;5025;5026;5027;5033;5061</value>
+    </geocode>
+    <altitude>2500</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-10-07T19:00:00+00:00</effective>
+    <onset>2022-10-07T19:00:00+00:00</onset>
+    <expires>2022-10-09T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Mountain roads in southern Norway, 2022-10-07T19:00:00+00:00, 2022-10-09T09:00:00+00:00</headline>
+    <description>From late Friday evening to Sunday morning, snow showers above 800 - 1200 meters are expected in southern Norway. 
+
+</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-09T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Mountain roads in southern Norway, 2022-10-07T19:00:00+00:00, 2022-10-09T09:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/b383f01d-5373-4fd9-a7f0-4b943efdb6c1.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Mountain roads in southern Norway</areaDesc>
+      <polygon>63.2655,11.946 63.0377,11.3021 62.8552,10.564 62.6806,9.99064 62.7802,9.9109 63.0811,9.51528 62.9724,8.91039 62.7926,8.66362 62.6934,8.57843 62.7658,8.19702 62.6446,7.60718 62.5324,7.71206 62.5798,7.27904 62.5408,6.88304 62.3207,6.99586 62.2335,6.97599 61.9366,7.21 61.7797,6.51949 61.3304,6.28178 61.0859,5.98701 60.6773,6.10804 60.5021,7.11996 60.4225,6.80693 59.9913,6.70504 59.8211,6.99419 59.6933,7.03989 59.2421,6.75369 59.1023,6.87421 58.9628,6.76452 58.7911,7.18654 58.6844,7.64942 58.719,7.75381 59.0007,7.65596 59.1104,7.94106 59.6194,7.78011 59.7748,7.72109 59.9299,8.09461 60.0915,8.36372 60.3482,8.363 60.6492,8.17839 60.8962,8.56378 60.997,8.74425 61.1837,8.83191 61.462,9.13849 61.6099,9.02023 61.8014,8.91793 62.0789,9.11479 61.8539,9.60573 61.7901,10.0455 62.0751,10.0849 62.1913,10.3301 62.3795,10.5358 62.5358,10.9962 62.6641,11.3482 62.6948,12.0922 62.8622,12.0626 62.9831,12.1737 63.2655,11.946 63.2655,11.946</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1134;1506;1525;1535;1539;1563;1566;1578;3042;3043;3044;3052;3426;3427;3429;3430;3431;3432;3433;3434;3435;3436;3437;3452;3453;3454;3818;3823;3824;3825;4220;4221;4222;4224;4228;4618;4619;4620;4621;4628;4629;4638;4639;4640;4641;4642;4643;4644;4647;4650;4651;5021;5022;5025;5026;5027;5033;5061</value>
+    </geocode>
+    <altitude>2500</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210119113559036.108</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-01-19T11:35:59+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48659</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snøfokk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2021-01-20T08:00:00+00:00</effective>
+    <onset>2021-01-20T08:00:00+00:00</onset>
+    <expires>2021-01-20T19:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftig snøfokk, gult nivå, Hardangervidda, 20 January 08:00 UTC til 20 January 19:00 UTC.</headline>
+    <description>Snø og vind kan gi snøfokk på fjellovergangene mot vest. </description>
+    <instruction>Beregn ekstra tid til transport og kjøring. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Redusert sikt. Kolonnekjøring kan bli innført og/eller veier kan bli stengte på kort varsel. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftig snøfokk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over kraftig snøfokk, gult nivå, Hardangervidda, 20 January 08:00 UTC til 20 January 19:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/f87621d4-47e3-4985-9eea-bac6c80f48c7.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Hardangervidda</areaDesc>
+      <polygon>60.577500,8.324500 60.500167,8.047333 60.510833,7.894667 60.548833,7.749500 60.555000,7.595167 60.607000,7.477833 60.713167,7.201333 60.494000,7.096000 60.316500,6.767167 60.109167,6.669333 59.963500,6.691500 59.820333,7.001333 59.705167,7.044833 59.625333,7.771500 59.654667,8.042000 59.799333,8.266667 59.902833,8.393000 60.028167,8.656167 60.373667,8.517500 60.577500,8.324500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3044;3052;3818;3825;4618;4619;4620</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Blowing snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>blowingSnow</value>
+    </eventCode>
+    <effective>2021-01-20T08:00:00+00:00</effective>
+    <onset>2021-01-20T08:00:00+00:00</onset>
+    <expires>2021-01-20T19:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Blowing snow, yellow level, Hardangervidda, 20 January 08:00 UTC to 20 January 19:00 UTC.</headline>
+    <description>Snow and wind can give blowing snow on mountain passes. </description>
+    <instruction>Allow extra time for transportation and driving. Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Reduced visibility. Expect convoys and/or closed roads on short notice. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Blowing snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of blowing snow, yellow level, Hardangervidda, 20 January 08:00 UTC to 20 January 19:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/f87621d4-47e3-4985-9eea-bac6c80f48c7.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Hardangervidda</areaDesc>
+      <polygon>60.577500,8.324500 60.500167,8.047333 60.510833,7.894667 60.548833,7.749500 60.555000,7.595167 60.607000,7.477833 60.713167,7.201333 60.494000,7.096000 60.316500,6.767167 60.109167,6.669333 59.963500,6.691500 59.820333,7.001333 59.705167,7.044833 59.625333,7.771500 59.654667,8.042000 59.799333,8.266667 59.902833,8.393000 60.028167,8.656167 60.373667,8.517500 60.577500,8.324500
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>30</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3044;3052;3818;3825;4618;4619;4620</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO032</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO034</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

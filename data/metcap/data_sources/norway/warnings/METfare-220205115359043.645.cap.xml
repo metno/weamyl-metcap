@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220205115359043.645</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-02-05T11:53:59+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>49084</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2022-02-05T12:00:00+00:00</effective>
+    <onset>2022-02-05T12:00:00+00:00</onset>
+    <expires>2022-02-06T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Helgeland og Saltfjellet, 05 February 12:00 UTC til 06 February 12:00 UTC.</headline>
+    <description>Lørdag og fram til søndag ettermiddag ventes snø og snøbyger, særlig i indre og høyere strøk. Det kan lokalt komme 20-40 cm på 24 timer.</description>
+    <instruction>Beskytt sårbare installasjoner og gjenstander som ikke tåler den ventede snømengden. Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-06T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sårbar infrastruktur kan bli rammet som følge av snøtyngden. Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snø</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over snø, gult nivå, Helgeland og Saltfjellet, 05 February 12:00 UTC til 06 February 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/da2e60f9-5204-4dd1-8b18-0b9543a9de9d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Helgeland og Saltfjellet</areaDesc>
+      <polygon>66.729167,14.653333 66.666667,14.449833 66.683167,14.333167 66.766667,14.416667 66.800000,14.283167 66.750000,14.166667 66.866667,14.016667 66.949833,13.583167 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483333,15.383333 66.550000,15.533167 66.616667,15.633167 66.716667,15.766667 66.766667,15.399833 66.849833,15.233167 66.983167,15.183167 66.983167,14.899833 66.816667,14.733167 66.729167,14.653333
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1833;1839;1840</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>snow</value>
+    </eventCode>
+    <effective>2022-02-05T12:00:00+00:00</effective>
+    <onset>2022-02-05T12:00:00+00:00</onset>
+    <expires>2022-02-06T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Helgeland and Saltfjellet, 05 February 12:00 UTC to 06 February 12:00 UTC.</headline>
+    <description>Saturday and until Sunday afternoon is expected snow and snow showers, mainly in inner and higher areas. It can locally come 20-40 cm during 24 hours.</description>
+    <instruction>Vulnerable installations and objects should be protected. Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-06T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Vulnerable infrastructure can be affected due to accumulation of snow. Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Snow</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20 cm/24t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of snow, yellow level, Helgeland and Saltfjellet, 05 February 12:00 UTC to 06 February 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/da2e60f9-5204-4dd1-8b18-0b9543a9de9d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Helgeland and Saltfjellet</areaDesc>
+      <polygon>66.729167,14.653333 66.666667,14.449833 66.683167,14.333167 66.766667,14.416667 66.800000,14.283167 66.750000,14.166667 66.866667,14.016667 66.949833,13.583167 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.899167,11.798667 65.266667,11.433167 65.199833,11.666667 65.150000,11.933167 65.083167,11.883167 65.050000,12.033167 64.966667,12.250000 64.983167,12.466667 64.933167,12.733167 65.099833,13.066667 65.116667,13.583167 65.133167,14.333167 65.233167,14.366667 65.300000,14.500000 65.383167,14.500000 65.516667,14.500000 65.699833,14.516667 65.816667,14.616667 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483333,15.383333 66.550000,15.533167 66.616667,15.633167 66.716667,15.766667 66.766667,15.399833 66.849833,15.233167 66.983167,15.183167 66.983167,14.899833 66.816667,14.733167 66.729167,14.653333
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1833;1839;1840</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

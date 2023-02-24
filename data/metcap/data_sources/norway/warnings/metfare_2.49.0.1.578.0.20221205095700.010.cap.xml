@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221205095700.010</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-05T09:57:21+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221205081820,2022-12-05T09:48:59+00:00</references>
+  <incidents>0000050300</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snøfokk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-12-05T21:00:00+00:00</effective>
+    <onset>2022-12-05T21:00:00+00:00</onset>
+    <expires>2022-12-07T23:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftig snøfokk, gult nivå, Nordland og ytre strøk av Troms, 2022-12-05T21:00:00+00:00, 2022-12-07T23:00:00+00:00</headline>
+    <description>Sent mandag kveld til onsdag ventes fare for snøfokk på grunn av snøvær og kraftig vind fra nordvest.  Vinden avtar først lengst nord. 
+</description>
+    <instruction>Beregn ekstra tid til transport og kjøring. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Bruk riktige dekk og kjør etter forholdene. Unngå unødvendig ferdsel på utsatte steder. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/snofokk</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-07T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Redusert sikt. Det kan være lokalt vanskelige kjøreforhold grunnet snø som pakker seg i veibanen. Kolonnekjøring kan bli innført og/eller veier kan bli stengte på kort varsel. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftig snøfokk</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftig snøfokk, gult nivå, Nordland og ytre strøk av Troms, 2022-12-05T21:00:00+00:00, 2022-12-07T23:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/9c7e870a-5764-4772-98c6-2bf69087d2dd.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordland og ytre strøk av Troms</areaDesc>
+      
+          <polygon>64.951,10.7616 64.3912,13.687 68.5235,18.3916 70.1625,21.7501 70.3728,18.4953 67.724,12.1575 68.1237,15.2012 64.951,10.7616 64.951,10.7616</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1811;1812;1813;1815;1816;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1836;1837;1838;1839;1840;1841;1845;1848;1851;1853;1859;1860;1865;1866;1867;1868;1870;1871;1874;1875;5042;5043;5044;5045;5046;5052;5060;5401;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Blowing snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-12-05T21:00:00+00:00</effective>
+    <onset>2022-12-05T21:00:00+00:00</onset>
+    <expires>2022-12-07T23:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Blowing snow, yellow level, Nordland and other parts of Troms, 2022-12-05T21:00:00+00:00, 2022-12-07T23:00:00+00:00</headline>
+    <description>Local blowing snow is expected due to snow and strong wind. The wind decreases first in north. </description>
+    <instruction>Allow extra time for transportation and driving. Follow advice and check status from transport operators. Check road reports (175.no). Use tires fit for winter conditions and use caution while driving. Avoid unnecessary journeys to exposed places. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/snofokk</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-07T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Reduced visibility. Local driving conditions may become difficult due to snow accumulating on the road. Expect convoys and/or closed roads on short notice. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Blowing snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Blowing snow, yellow level, Nordland and other parts of Troms, 2022-12-05T21:00:00+00:00, 2022-12-07T23:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/9c7e870a-5764-4772-98c6-2bf69087d2dd.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordland and other parts of Troms</areaDesc>
+      
+          <polygon>64.951,10.7616 64.3912,13.687 68.5235,18.3916 70.1625,21.7501 70.3728,18.4953 67.724,12.1575 68.1237,15.2012 64.951,10.7616 64.951,10.7616</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1811;1812;1813;1815;1816;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1836;1837;1838;1839;1840;1841;1845;1848;1851;1853;1859;1860;1865;1866;1867;1868;1870;1871;1874;1875;5042;5043;5044;5045;5046;5052;5060;5401;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

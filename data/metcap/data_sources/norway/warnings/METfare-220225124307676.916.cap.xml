@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220225124307676.916</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-02-25T12:43:07+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.220225112959580.914,2022-02-25T11:29:59+00:00</references>
+  <incidents>49116</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Possible</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2022-02-26T18:00:00+00:00</effective>
+    <onset>2022-02-26T18:00:00+00:00</onset>
+    <expires>2022-02-27T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mulighet for svært mye regn, gult nivå, Nord-Salten, Ofoten, Lofoten, Vesterålen og Troms, 26 February 18:00 UTC til 27 February 12:00 UTC.</headline>
+    <description>Fra lørdag kveld til søndag ettermiddag er det ventet mye regn i Nordland nord for Bodø og i Troms. Lokalt kan det komme 30-50 mm på 12 timer. Nedbøren vil først komme som snø, men vil i løpet av kvelden gå over til regn opp til 500-700 m.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-27T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Mange reiser vil kunne få lenger reisetid. Vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mulighet for svært mye regn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over mulighet for svært mye regn, gult nivå, Nord-Salten, Ofoten, Lofoten, Vesterålen og Troms, 26 February 18:00 UTC til 27 February 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/604d7173-e339-48c7-87e2-16b0779bae0a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Salten, Ofoten, Lofoten, Vesterålen og Troms</areaDesc>
+      <polygon>68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.633167,14.783167 67.616667,14.883167 67.616667,15.083167 67.550000,15.183167 67.483167,15.066667 67.416667,15.100000 67.400000,15.166667 67.433167,15.199833 67.449833,15.399833 67.400000,15.483167 67.366667,15.466667 67.333167,15.566667 67.250000,15.566667 67.250000,15.600000 67.316667,15.750000 67.316667,15.816667 67.283167,15.833167 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1806;1851;1853;1875;5412</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>2000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Possible</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2022-02-26T18:00:00+00:00</effective>
+    <onset>2022-02-26T18:00:00+00:00</onset>
+    <expires>2022-02-27T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Possibility of very heavy rain, yellow level, Nord-Salten, Ofoten, Lofoten, Vesteraalen and Troms, 26 February 18:00 UTC to 27 February 12:00 UTC.</headline>
+    <description>From Saturday evening to Sunday afternoon heavy rain is exptexted in Nordland north for Bodoe and in Troms. The precipitation is exptected to reach 30-50 mm in a 12 hour-period locally. At first, the precipitation will be in the form of snow, but during the evening rain will take over up to 500-700 m.</description>
+    <instruction>Consider the need for preventive measures. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2022-02-27T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of flooding of low-lying densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Many journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Possibility of very heavy rain</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of possibility of very heavy rain, yellow level, Nord-Salten, Ofoten, Lofoten, Vesteraalen and Troms, 26 February 18:00 UTC to 27 February 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/604d7173-e339-48c7-87e2-16b0779bae0a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Salten, Ofoten, Lofoten, Vesteraalen and Troms</areaDesc>
+      <polygon>68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.633167,14.783167 67.616667,14.883167 67.616667,15.083167 67.550000,15.183167 67.483167,15.066667 67.416667,15.100000 67.400000,15.166667 67.433167,15.199833 67.449833,15.399833 67.400000,15.483167 67.366667,15.466667 67.333167,15.566667 67.250000,15.566667 67.250000,15.600000 67.316667,15.750000 67.316667,15.816667 67.283167,15.833167 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1806;1851;1853;1875;5412</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1856;1857;1859;1860;1865;1874</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1866;1867;1868;1870;1871</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>2000</ceiling>
+    </area>
+  </info>
+</alert>

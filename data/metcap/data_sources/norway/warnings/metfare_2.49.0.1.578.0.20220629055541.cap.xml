@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220629055541</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-29T06:19:41+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050059</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-29T07:00:00+00:00</effective>
+    <onset>2022-06-29T07:00:00+00:00</onset>
+    <expires>2022-06-29T17:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn pågår, gult nivå, Salten, Ofoten og Troms, 2022-06-29T07:00:00+00:00, 2022-06-29T17:00:00+00:00</headline>
+    <description>Det er observert utbredt tordenvær med mye lyn over indre Salten. Tordenværet er ventet å bevege seg nordover frem til sent i ettermiddag. Det er store lokale forskjeller i intensitet. Noen steder vil ikke oppleve tordenvær.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-29T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Lokalt kraftige regnbyger. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn pågår</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn pågår, gult nivå, Salten, Ofoten og Troms, 2022-06-29T07:00:00+00:00, 2022-06-29T17:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/dd2d0f52-954b-4f1d-93c0-bab3b3cafa38.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Salten, Ofoten og Troms</areaDesc>
+      <polygon>66.8985,15.7168 67.0741,16.5304 67.0665,16.4208 68.0376,17.0248 68.0264,17.9422 68.554,18.3259 68.365,19.9307 69.945,22.3056 70.3575,20.178 69.4858,16.6008 69.292,16.3081 68.4062,15.346 67.1947,14.3236 66.8985,15.7168 66.8985,15.7168</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1840;1841;1845;1848;1851;1853;1870;1875;5401;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-29T07:00:00+00:00</effective>
+    <onset>2022-06-29T07:00:00+00:00</onset>
+    <expires>2022-06-29T17:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning ongoing, yellow level, Salten, Ofoten and Troms, 2022-06-29T07:00:00+00:00, 2022-06-29T17:00:00+00:00</headline>
+    <description>Widespread thunderstorms have been observed with frequent lightning over Inner Salten. The thunderstorm is expected to move northwards and continue until late this afternoon. There are large local differences in intensity. Some places will not experience any thunderstorms</description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-29T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Locally heavy rain showers. Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning ongoing</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning ongoing, yellow level, Salten, Ofoten and Troms, 2022-06-29T07:00:00+00:00, 2022-06-29T17:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/dd2d0f52-954b-4f1d-93c0-bab3b3cafa38.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Salten, Ofoten and Troms</areaDesc>
+      <polygon>66.8985,15.7168 67.0741,16.5304 67.0665,16.4208 68.0376,17.0248 68.0264,17.9422 68.554,18.3259 68.365,19.9307 69.945,22.3056 70.3575,20.178 69.4858,16.6008 69.292,16.3081 68.4062,15.346 67.1947,14.3236 66.8985,15.7168 66.8985,15.7168</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1840;1841;1845;1848;1851;1853;1870;1875;5401;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

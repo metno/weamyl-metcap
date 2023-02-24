@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200204184003114.936</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-02-04T18:40:03+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.200204182250183.935,2020-02-04T18:22:50+00:00</references>
+  <incidents>3759</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2020-02-04T18:00:00+00:00</effective>
+    <onset>2020-02-04T18:00:00+00:00</onset>
+    <expires>2020-02-05T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, B5, 04 February 18:00 UTC til 05 February 09:00 UTC.</headline>
+    <description>Et polart lavtrykk er nå i havområde B5 (ca. 75 grader nord og 28 grader øst). Det beveger seg nordvestover i retning Spitsbergen og Hopen og vil nå islagt havområde rundt onsdag 03 UTC. Det ventes fra tirsdag kveld og fram til onsdag morgen periodevis liten storm 22 m/s av skiftende retning. Lavtrykket ventes å svekkes onsdag 09 UTC.</description>
+    <instruction>Vær oppmerksom på raske endringer i været. Vurder om reisen er nødvendig.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-05T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. Det kan være vanskelig fremkommelighet på grunn av snø, snøfokk og redusert sikt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polart lavtrykk, gult nivå, B5, 04 February 18:00 UTC til 05 February 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/5f9cadf9-ebab-4197-af3c-5ae0968f322e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>B5</areaDesc>
+      <polygon>75.000000,20.000000 75.000000,30.000000 77.500000,30.000000 77.500000,20.000000 75.000000,20.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2020-02-04T18:00:00+00:00</effective>
+    <onset>2020-02-04T18:00:00+00:00</onset>
+    <expires>2020-02-05T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, B5, 04 February 18:00 UTC to 05 February 09:00 UTC.</headline>
+    <description>A polar low is now in sea area B5 (approximately 75 degrees north and 28 degrees east). It is moving northwest towards Spitsbergen and Hopen and will reach icebound area around Wednesday 03 UTC. Occasionally variable strong gale force 9 is expected from Tuesday evening until Wednesday morning. The polar low is expected to weaken Wednesday 09 UTC.</description>
+    <instruction>Be aware of abrupt weather changes. Consider whether the journey is necessary.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-02-05T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. It can be difficult to navigate due to snow, blowing snow and reduced visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polar low, yellow level, B5, 04 February 18:00 UTC to 05 February 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/5f9cadf9-ebab-4197-af3c-5ae0968f322e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>B5</areaDesc>
+      <polygon>75.000000,20.000000 75.000000,30.000000 77.500000,30.000000 77.500000,20.000000 75.000000,20.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

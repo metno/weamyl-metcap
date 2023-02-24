@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221004104446</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-04T10:48:13+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221004080339,2022-10-04T09:10:20+00:00</references>
+  <incidents>0000050205</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-05T12:00:00+00:00</effective>
+    <onset>2022-10-05T12:00:00+00:00</onset>
+    <expires>2022-10-05T20:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Østlandet og Sørlandet, 2022-10-05T12:00:00+00:00, 2022-10-05T20:00:00+00:00</headline>
+    <description>Onsdag ettermiddag og kveld ventes sørvest sterk kuling på kysten og i fjellet, kan hende liten storm. Lokalt kraftige vindkast omkring 20 m/s i indre strøk. På kysten ventes vindkast nær 25 m/s.</description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Vis forsiktighet ved ferdsel i strandsona og på sjøen. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-05T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Løse gjenstander kan blåse avgårde. Enkelte reiser vil kunne få lenger reisetid. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftige vindkast, gult nivå, Østlandet og Sørlandet, 2022-10-05T12:00:00+00:00, 2022-10-05T20:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/73c34378-063e-43ec-8e42-e7ff1d2a7878.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Østlandet og Sørlandet</areaDesc>
+      <polygon>59.006,6.66839 57.9965,6.51997 57.8106,8.10129 58.5172,10.9485 59.7504,11.8436 62.3944,12.158 62.5288,11.4161 62.7361,11.2538 62.7288,10.0444 62.4662,9.93438 62.3021,9.59588 62.4225,9.06517 62.374,8.18033 62.2377,7.96773 62.1971,7.63403 61.8515,7.22824 61.5921,7.91714 61.3621,8.1258 61.2497,7.90059 61.0939,8.11949 60.9602,7.95363 60.9709,7.79392 60.6925,7.34941 60.4948,7.62643 60.0755,7.40917 59.9877,7.2119 59.8022,7.0354 59.697,7.11329 59.5981,6.95132 59.4057,6.81993 59.1846,6.73452 59.1695,6.90898 59.006,6.66839 59.006,6.66839</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>03</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>0301;1133;1134;1539;3001;3002;3003;3004;3005;3006;3007;3011;3013;3014;3015;3016;3017;3018;3019;3020;3021;3022;3023;3024;3025;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3038;3039;3040;3041;3042;3043;3044;3045;3046;3047;3048;3049;3050;3051;3052;3053;3054;3403;3405;3407;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3421;3422;3423;3424;3425;3426;3427;3428;3429;3430;3431;3432;3433;3434;3435;3436;3437;3438;3439;3440;3441;3442;3443;3446;3447;3448;3449;3450;3451;3452;3453;3454;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4202;4203;4204;4205;4206;4207;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4221;4222;4223;4224;4225;4226;4227;4228;4619;4620;4641;4642;4643;4644;5021;5022;5025;5026;5027</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-10-05T12:00:00+00:00</effective>
+    <onset>2022-10-05T12:00:00+00:00</onset>
+    <expires>2022-10-05T20:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Southeastern part, 2022-10-05T12:00:00+00:00, 2022-10-05T20:00:00+00:00</headline>
+    <description>Wednesday afternoon and evening expect southwest gale force 8, briefly strong gale force 9. Locally wind gust around 20 m/s is expected in the inner areas. Near the coast around 25 m/s.</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no). Be careful in coastal areas. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-05T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Loose items may be taken by the wind. Some journeys may have longer travel times. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Strong wind gusts, yellow level, Southeastern part, 2022-10-05T12:00:00+00:00, 2022-10-05T20:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/73c34378-063e-43ec-8e42-e7ff1d2a7878.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Southeastern part</areaDesc>
+      <polygon>59.006,6.66839 57.9965,6.51997 57.8106,8.10129 58.5172,10.9485 59.7504,11.8436 62.3944,12.158 62.5288,11.4161 62.7361,11.2538 62.7288,10.0444 62.4662,9.93438 62.3021,9.59588 62.4225,9.06517 62.374,8.18033 62.2377,7.96773 62.1971,7.63403 61.8515,7.22824 61.5921,7.91714 61.3621,8.1258 61.2497,7.90059 61.0939,8.11949 60.9602,7.95363 60.9709,7.79392 60.6925,7.34941 60.4948,7.62643 60.0755,7.40917 59.9877,7.2119 59.8022,7.0354 59.697,7.11329 59.5981,6.95132 59.4057,6.81993 59.1846,6.73452 59.1695,6.90898 59.006,6.66839 59.006,6.66839</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>03</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>0301;1133;1134;1539;3001;3002;3003;3004;3005;3006;3007;3011;3013;3014;3015;3016;3017;3018;3019;3020;3021;3022;3023;3024;3025;3026;3027;3028;3029;3030;3031;3032;3033;3034;3035;3036;3037;3038;3039;3040;3041;3042;3043;3044;3045;3046;3047;3048;3049;3050;3051;3052;3053;3054;3403;3405;3407;3411;3412;3413;3414;3415;3416;3417;3418;3419;3420;3421;3422;3423;3424;3425;3426;3427;3428;3429;3430;3431;3432;3433;3434;3435;3436;3437;3438;3439;3440;3441;3442;3443;3446;3447;3448;3449;3450;3451;3452;3453;3454;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4202;4203;4204;4205;4206;4207;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4221;4222;4223;4224;4225;4226;4227;4228;4619;4620;4641;4642;4643;4644;5021;5022;5025;5026;5027</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

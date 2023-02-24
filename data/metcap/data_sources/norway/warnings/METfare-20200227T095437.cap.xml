@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200227095437899.1766</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-02-27T09:54:37+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>4081</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2020-02-29T06:00:00+00:00</effective>
+    <onset>2020-02-29T06:00:00+00:00</onset>
+    <expires>2020-03-01T09:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Hordaland, indre strøk, 29 February 06:00 UTC til 01 March 09:00 UTC.</headline>
+    <description>Laurdag og tidleg søndag er det venta vindkast frå aust og søraust kring 27-30 m/s. </description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-03-01T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kraftige vindkast, gult nivå, Hordaland, indre strøk, 29 February 06:00 UTC til 01 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/0c9f1337-16ff-4c5d-b72c-9b808f2d7a2e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Hordaland, indre strøk</areaDesc>
+      <polygon>60.673667,7.462833 60.660333,7.546833 60.633833,7.633833 60.594000,7.617000 60.564167,7.629667 60.543333,7.661667 60.528833,7.710833 60.412833,7.684000 60.293333,7.672833 60.247500,7.610333 60.177333,7.581167 60.100000,7.492000 60.057333,7.437667 60.019167,7.436500 60.001833,7.370167 59.990500,7.329833 59.987667,7.280000 59.963667,7.228000 59.931833,7.188667 59.886000,7.151000 59.846167,7.144333 59.831500,7.158833 59.810667,7.142000 59.782500,7.093167 59.773833,6.998000 59.741500,6.881500 59.730167,6.839167 59.703667,6.763833 59.697333,6.697500 59.715000,6.645000 59.767000,6.683667 59.796000,6.672833 59.820833,6.690000 59.840167,6.670667 59.832500,6.590000 59.844000,6.533500 59.837500,6.525667 59.869333,6.512500 59.881500,6.504667 59.905167,6.506833 59.917833,6.493000 59.924000,6.501333 59.949000,6.476833 59.981500,6.421000 60.018333,6.331333 60.063500,6.389000 60.111333,6.473000 60.166500,6.479667 60.188167,6.458167 60.210667,6.475000 60.217167,6.411833 60.213833,6.367000 60.199833,6.355000 60.208000,6.339333 60.208667,6.274833 60.166667,6.215667 60.147333,6.194000 60.133000,6.214167 60.118167,6.193500 60.118000,6.170000 60.125500,6.110167 60.156500,6.075833 60.191500,6.024500 60.152167,5.963500 60.145500,5.924167 60.116333,5.923833 60.101167,5.879833 60.135500,5.863500 60.170667,5.862000 60.198000,5.926167 60.208500,5.919667 60.256667,5.950167 60.295333,5.964333 60.314667,5.930000 60.327167,5.912000 60.339333,5.932333 60.388167,5.921833 60.448167,5.946333 60.486500,5.985000 60.493667,5.992000 60.498667,5.987667 60.503333,5.991167 60.509333,6.000667 60.511333,6.030333 60.522333,6.047000 60.522000,6.068333 60.524667,6.078833 60.527500,6.078833 60.526667,6.074167 60.530000,6.074833 60.534667,6.072000 60.536333,6.079667 60.554000,6.075833 60.559500,6.079333 60.588667,6.077667 60.582333,6.055667 60.583500,6.045000 60.585333,6.040167 60.583667,6.029667 60.584000,6.026333 60.583500,6.020167 60.585000,6.017500 60.585167,6.012167 60.582000,6.005833 60.582333,5.997000 60.578667,5.992333 60.575333,5.971833 60.587667,5.946167 60.591000,5.936000 60.589667,5.930833 60.602333,5.904000 60.608667,5.903833 60.610000,5.902333 60.611500,5.907500 60.614167,5.901667 60.617500,5.899000 60.621500,5.901667 60.624500,5.900500 60.631167,5.909000 60.630000,5.898667 60.631667,5.894000 60.630333,5.888167 60.630500,5.878333 60.628667,5.874167 60.634167,5.854667 60.633667,5.845833 60.637000,5.848000 60.638667,5.843833 60.655667,5.848167 60.662167,5.870667 60.679000,5.894667 60.719833,5.904333 60.733000,5.927500 60.741500,5.988833 60.750167,5.995000 60.748167,6.011833 60.741667,6.012667 60.715000,6.048000 60.730167,6.064167 60.741000,6.058000 60.741500,6.079667 60.755833,6.097833 60.766333,6.100167 60.766333,6.139167 60.775167,6.173500 60.787833,6.185000 60.765667,6.214667 60.767333,6.231333 60.784667,6.213667 60.792667,6.224000 60.801667,6.222833 60.808500,6.250000 60.821167,6.287500 60.821667,6.299833 60.815500,6.298000 60.816000,6.311167 60.820833,6.309667 60.829000,6.308833 60.840667,6.314167 60.855167,6.284500 60.880667,6.303833 60.928833,6.387333 60.923500,6.428500 60.923833,6.449833 60.945333,6.477667 60.943167,6.503167 60.927833,6.507833 60.921167,6.511167 60.909833,6.500333 60.903833,6.523333 60.890167,6.539667 60.893167,6.574667 60.916833,6.601500 60.919333,6.644500 60.935500,6.667833 60.959667,6.660667 60.953000,6.693333 60.931333,6.712667 60.929667,6.756167 60.909000,6.756167 60.920667,6.801333 60.912167,6.809167 60.909667,6.826500 60.891500,6.823667 60.874667,6.759167 60.848167,6.721833 60.834500,6.738000 60.831833,6.784667 60.838000,6.841500 60.856833,6.872167 60.840333,6.949500 60.826000,6.937667 60.824500,6.882000 60.771000,6.873667 60.774667,6.920000 60.767000,6.981500 60.716667,7.011833 60.707500,7.099833 60.689000,7.136333 60.690667,7.175000 60.700167,7.196667 60.683333,7.334667 60.673667,7.462833
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1201;1211;1214;1216;1219;1221;1222;1223;1224;1227;1228;1231;1232;1233;1234;1235;1238;1241;1242;1243;1244;1245;1246;1247;1251;1252;1253;1256;1259;1260;1263;1264;1265;1266</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-12</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2020-02-29T06:00:00+00:00</effective>
+    <onset>2020-02-29T06:00:00+00:00</onset>
+    <expires>2020-03-01T09:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Hordaland, indre strøk, 29 February 06:00 UTC to 01 March 09:00 UTC.</headline>
+    <description>Saturday and early Sunday it is expected wind gusts from east and southeast around 27-30 m/s. </description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-03-01T09:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Strong wind gusts, yellow level, Hordaland, indre strøk, 29 February 06:00 UTC to 01 March 09:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/0c9f1337-16ff-4c5d-b72c-9b808f2d7a2e.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Hordaland, indre strøk</areaDesc>
+      <polygon>60.673667,7.462833 60.660333,7.546833 60.633833,7.633833 60.594000,7.617000 60.564167,7.629667 60.543333,7.661667 60.528833,7.710833 60.412833,7.684000 60.293333,7.672833 60.247500,7.610333 60.177333,7.581167 60.100000,7.492000 60.057333,7.437667 60.019167,7.436500 60.001833,7.370167 59.990500,7.329833 59.987667,7.280000 59.963667,7.228000 59.931833,7.188667 59.886000,7.151000 59.846167,7.144333 59.831500,7.158833 59.810667,7.142000 59.782500,7.093167 59.773833,6.998000 59.741500,6.881500 59.730167,6.839167 59.703667,6.763833 59.697333,6.697500 59.715000,6.645000 59.767000,6.683667 59.796000,6.672833 59.820833,6.690000 59.840167,6.670667 59.832500,6.590000 59.844000,6.533500 59.837500,6.525667 59.869333,6.512500 59.881500,6.504667 59.905167,6.506833 59.917833,6.493000 59.924000,6.501333 59.949000,6.476833 59.981500,6.421000 60.018333,6.331333 60.063500,6.389000 60.111333,6.473000 60.166500,6.479667 60.188167,6.458167 60.210667,6.475000 60.217167,6.411833 60.213833,6.367000 60.199833,6.355000 60.208000,6.339333 60.208667,6.274833 60.166667,6.215667 60.147333,6.194000 60.133000,6.214167 60.118167,6.193500 60.118000,6.170000 60.125500,6.110167 60.156500,6.075833 60.191500,6.024500 60.152167,5.963500 60.145500,5.924167 60.116333,5.923833 60.101167,5.879833 60.135500,5.863500 60.170667,5.862000 60.198000,5.926167 60.208500,5.919667 60.256667,5.950167 60.295333,5.964333 60.314667,5.930000 60.327167,5.912000 60.339333,5.932333 60.388167,5.921833 60.448167,5.946333 60.486500,5.985000 60.493667,5.992000 60.498667,5.987667 60.503333,5.991167 60.509333,6.000667 60.511333,6.030333 60.522333,6.047000 60.522000,6.068333 60.524667,6.078833 60.527500,6.078833 60.526667,6.074167 60.530000,6.074833 60.534667,6.072000 60.536333,6.079667 60.554000,6.075833 60.559500,6.079333 60.588667,6.077667 60.582333,6.055667 60.583500,6.045000 60.585333,6.040167 60.583667,6.029667 60.584000,6.026333 60.583500,6.020167 60.585000,6.017500 60.585167,6.012167 60.582000,6.005833 60.582333,5.997000 60.578667,5.992333 60.575333,5.971833 60.587667,5.946167 60.591000,5.936000 60.589667,5.930833 60.602333,5.904000 60.608667,5.903833 60.610000,5.902333 60.611500,5.907500 60.614167,5.901667 60.617500,5.899000 60.621500,5.901667 60.624500,5.900500 60.631167,5.909000 60.630000,5.898667 60.631667,5.894000 60.630333,5.888167 60.630500,5.878333 60.628667,5.874167 60.634167,5.854667 60.633667,5.845833 60.637000,5.848000 60.638667,5.843833 60.655667,5.848167 60.662167,5.870667 60.679000,5.894667 60.719833,5.904333 60.733000,5.927500 60.741500,5.988833 60.750167,5.995000 60.748167,6.011833 60.741667,6.012667 60.715000,6.048000 60.730167,6.064167 60.741000,6.058000 60.741500,6.079667 60.755833,6.097833 60.766333,6.100167 60.766333,6.139167 60.775167,6.173500 60.787833,6.185000 60.765667,6.214667 60.767333,6.231333 60.784667,6.213667 60.792667,6.224000 60.801667,6.222833 60.808500,6.250000 60.821167,6.287500 60.821667,6.299833 60.815500,6.298000 60.816000,6.311167 60.820833,6.309667 60.829000,6.308833 60.840667,6.314167 60.855167,6.284500 60.880667,6.303833 60.928833,6.387333 60.923500,6.428500 60.923833,6.449833 60.945333,6.477667 60.943167,6.503167 60.927833,6.507833 60.921167,6.511167 60.909833,6.500333 60.903833,6.523333 60.890167,6.539667 60.893167,6.574667 60.916833,6.601500 60.919333,6.644500 60.935500,6.667833 60.959667,6.660667 60.953000,6.693333 60.931333,6.712667 60.929667,6.756167 60.909000,6.756167 60.920667,6.801333 60.912167,6.809167 60.909667,6.826500 60.891500,6.823667 60.874667,6.759167 60.848167,6.721833 60.834500,6.738000 60.831833,6.784667 60.838000,6.841500 60.856833,6.872167 60.840333,6.949500 60.826000,6.937667 60.824500,6.882000 60.771000,6.873667 60.774667,6.920000 60.767000,6.981500 60.716667,7.011833 60.707500,7.099833 60.689000,7.136333 60.690667,7.175000 60.700167,7.196667 60.683333,7.334667 60.673667,7.462833
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1201;1211;1214;1216;1219;1221;1222;1223;1224;1227;1228;1231;1232;1233;1234;1235;1238;1241;1242;1243;1244;1245;1246;1247;1251;1252;1253;1256;1259;1260;1263;1264;1265;1266</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-12</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

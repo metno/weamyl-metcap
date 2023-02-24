@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220601094948</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-01T11:44:11+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220530161107,2022-05-30T16:27:34+00:00</references>
+  <incidents>0000000030</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-06-01T12:00:00+00:00</effective>
+    <onset>2022-06-01T12:00:00+00:00</onset>
+    <expires>2022-06-04T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Skogbrannfare ventes, gult nivå, Vesterålen og Troms, 2022-06-01T12:00:00+00:00, 2022-06-04T12:00:00+00:00</headline>
+    <description>Lokal gress- og lyngbrannfare i snøfrie områder inntil det kommer nedbør av betydning.</description>
+    <instruction>Vær forsiktig med åpen ild. Følg lokale myndigheters instruksjoner. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>
+        https://www.met.no/kontakt-oss
+    </contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-04T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetasjon kan lett antennes og store områder kan bli berørt. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Skogbrannfare ventes</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>
+            Kart over Skogbrannfare ventes, gult nivå, Vesterålen og Troms, 2022-06-01T12:00:00+00:00, 2022-06-04T12:00:00+00:00
+        </resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>
+            https://slaps.met.no/cap-images/7530f94e-3cec-4d76-88a1-81ce58dc0c12.png
+        </uri>
+    </resource>
+    <area>
+      <areaDesc>Vesterålen og Troms</areaDesc>
+      <polygon>
+	        70.3021,20.7059 70.3404,19.158 70.0138,18.4285 69.7141,18.0746 69.4962,16.6393 69.2635,15.3667 68.8643,14.4668 68.5064,14.2172 68.4653,15.2444 68.5917,16.2374 68.6164,17.3013 68.6105,18.6611 69.0056,18.9509 69.1842,19.7762 69.2073,20.7722 69.4939,21.2168 69.7614,21.3433 69.6912,22.3725 70.1371,21.9523 70.2077,21.4403 70.3021,20.7059 70.3021,20.7059
+
+      </polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1866;1867;1868;1870;1871;5401;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1500</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-06-01T12:00:00+00:00</effective>
+    <onset>2022-06-01T12:00:00+00:00</onset>
+    <expires>2022-06-04T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Forest fire danger expected, yellow level, Vesteralen and  Troms, 2022-06-01T12:00:00+00:00, 2022-06-04T12:00:00+00:00</headline>
+    <description>Local danger of wildfire in areas free of snow until significant precipitation.</description>
+    <instruction>Be careful with open fire. Follow the instructions from the local authorities. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>
+        https://www.met.no/en/contact-us
+    </contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-04T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetation is easily ignited and large areas may be affected. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Forest fire danger expected</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>
+            Map over Forest fire danger expected, yellow level, Vesteralen and  Troms, 2022-06-01T12:00:00+00:00, 2022-06-04T12:00:00+00:00
+        </resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>
+            https://slaps.met.no/cap-images/7530f94e-3cec-4d76-88a1-81ce58dc0c12.png
+        </uri>
+    </resource>
+    <area>
+      <areaDesc>Vesteralen and  Troms</areaDesc>
+      <polygon>
+	        70.3021,20.7059 70.3404,19.158 70.0138,18.4285 69.7141,18.0746 69.4962,16.6393 69.2635,15.3667 68.8643,14.4668 68.5064,14.2172 68.4653,15.2444 68.5917,16.2374 68.6164,17.3013 68.6105,18.6611 69.0056,18.9509 69.1842,19.7762 69.2073,20.7722 69.4939,21.2168 69.7614,21.3433 69.6912,22.3725 70.1371,21.9523 70.2077,21.4403 70.3021,20.7059 70.3021,20.7059
+
+      </polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1866;1867;1868;1870;1871;5401;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5421;5422;5423;5424;5425;5426;5427;5428;5429</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1500</ceiling>
+    </area>
+  </info>
+</alert>

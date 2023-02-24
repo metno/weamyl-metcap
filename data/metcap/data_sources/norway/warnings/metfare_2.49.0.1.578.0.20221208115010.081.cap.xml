@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221208115010.081</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-08T11:51:08+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221208111942.021,2022-12-08T11:39:50+00:00</references>
+  <incidents>0000050299</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T00:00:00+00:00</effective>
+    <onset>2022-12-06T00:00:00+00:00</onset>
+    <expires>2022-12-08T16:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Kystnære strøk i Sunnmøre, 2022-12-06T00:00:00+00:00, 2022-12-08T16:00:00+00:00</headline>
+    <description>Utover ettermiddagen er det ventet snøbyger i ytre strøk av Sunnmøre. Det er ventet 5-15 cm i perioden og det vil være store lokale forskjeller.</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-08T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>5cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Kystnære strøk i Sunnmøre, 2022-12-06T00:00:00+00:00, 2022-12-08T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/8ca40730-bd7a-4b14-bd80-cbf55b417dea.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Kystnære strøk i Sunnmøre</areaDesc>
+      
+          <polygon>62.4104,6.49391 62.6714,5.93595 62.4024,5.05184 62.3485,4.95269 62.2583,5.21732 62.1658,5.35675 62.1193,5.36032 62.0639,5.50249 62.0051,5.50257 61.9713,5.44228 61.9935,5.93077 61.9538,6.03926 62.0066,6.21652 62.4104,6.49391 62.4104,6.49391</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1511;1514;1515;1516;1517;1520;1528;1531;1532;1577</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T00:00:00+00:00</effective>
+    <onset>2022-12-06T00:00:00+00:00</onset>
+    <expires>2022-12-08T16:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Coastal areas of Sunnmøre, 2022-12-06T00:00:00+00:00, 2022-12-08T16:00:00+00:00</headline>
+    <description>Late this afternoon snow showers are expected in coastal areas of Sunnmøre. 5-15cm of snow is expected in this period and there will be large local variations.</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-08T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>5cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Coastal areas of Sunnmøre, 2022-12-06T00:00:00+00:00, 2022-12-08T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/8ca40730-bd7a-4b14-bd80-cbf55b417dea.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Coastal areas of Sunnmøre</areaDesc>
+      
+          <polygon>62.4104,6.49391 62.6714,5.93595 62.4024,5.05184 62.3485,4.95269 62.2583,5.21732 62.1658,5.35675 62.1193,5.36032 62.0639,5.50249 62.0051,5.50257 61.9713,5.44228 61.9935,5.93077 61.9538,6.03926 62.0066,6.21652 62.4104,6.49391 62.4104,6.49391</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>15</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1511;1514;1515;1516;1517;1520;1528;1531;1532;1577</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

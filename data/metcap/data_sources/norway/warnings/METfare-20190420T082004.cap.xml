@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190420082004472.1673</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-04-20T08:20:04+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190419121420267.1656,2019-04-19T12:14:20+00:00</references>
+  <incidents>2192</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-04-20T13:00:00+00:00</effective>
+    <onset>2019-04-20T13:00:00+00:00</onset>
+    <expires>2019-04-21T13:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Skomvær - Nordkapp, 20 April 13:00 UTC til 21 April 13:00 UTC.</headline>
+    <description>Fra lørdag ettermiddag sørlig, senere sørvestlig periodevis stiv kuling 15 m/s, først i sør. Søndag kan hende kortvarig sørvestlig sterk kuling 20 m/s.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Grov sjø og hvitt skum fra bølgetopper som brekker, begynner å blåse i strimer i vindretningen. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Skomvær - Nordkapp</areaDesc>
+      <polygon>68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667 68.683167,15.733167 68.766667,15.716667 68.833167,15.766667 68.949833,15.866667 69.033167,16.049833 69.064667,16.030167 69.100833,16.655500 69.316500,16.864500 69.516667,18.099833 69.516667,18.100000 69.915667,19.179667 70.039000,19.960167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 70.116667,22.516667 70.250000,22.383167 70.333167,22.616667 70.400000,22.733167 70.416667,23.033167 70.433167,23.283167 70.500000,23.583167 70.583167,23.683167 70.599833,23.916667 70.650000,24.033167 70.716667,24.166667 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.687167,17.759667 69.332000,16.062833 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.494000,11.894833 67.438000,11.923167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.266667,15.183167 68.300000,15.116667 68.349833,15.266667 68.366667,15.133167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-04-20T13:00:00+00:00</effective>
+    <onset>2019-04-20T13:00:00+00:00</onset>
+    <expires>2019-04-21T13:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Skomvaer - North Cape, 20 April 13:00 UTC to 21 April 13:00 UTC.</headline>
+    <description>From Saturday afternoon south, later southwest occasionally near gale force 7, first in southern part. Sunday possibly brief southwest gale force 8.</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sea heaps up. Some foam from breaking waves is blown into streaks along wind direction. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Skomvaer - North Cape</areaDesc>
+      <polygon>68.366667,15.133167 68.416667,15.266667 68.466667,15.433167 68.516667,15.433167 68.533167,15.616667 68.683167,15.733167 68.766667,15.716667 68.833167,15.766667 68.949833,15.866667 69.033167,16.049833 69.064667,16.030167 69.100833,16.655500 69.316500,16.864500 69.516667,18.099833 69.516667,18.100000 69.915667,19.179667 70.039000,19.960167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 70.116667,22.516667 70.250000,22.383167 70.333167,22.616667 70.400000,22.733167 70.416667,23.033167 70.433167,23.283167 70.500000,23.583167 70.583167,23.683167 70.599833,23.916667 70.650000,24.033167 70.716667,24.166667 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.687167,17.759667 69.332000,16.062833 69.332167,16.062667 69.071667,15.163667 68.839667,14.548667 68.535000,13.911833 68.029667,12.908167 67.646167,12.507167 67.494000,11.894833 67.438000,11.923167 67.557167,12.603667 67.976667,13.253167 68.113500,13.909167 68.151167,14.623167 68.098667,14.742167 68.166667,15.216667 68.266667,15.183167 68.300000,15.116667 68.349833,15.266667 68.366667,15.133167
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

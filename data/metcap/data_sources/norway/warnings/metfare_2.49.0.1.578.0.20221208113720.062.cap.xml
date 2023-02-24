@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221208113720.062</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-08T11:37:40+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221208111837.065,2022-12-08T11:36:10+00:00</references>
+  <incidents>0000050299</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snø</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T14:00:00+00:00</effective>
+    <onset>2022-12-06T14:00:00+00:00</onset>
+    <expires>2022-12-08T16:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Snø, gult nivå, Ytre strøk av nordlige deler av Sogn og Fjordane, 2022-12-06T14:00:00+00:00, 2022-12-08T16:00:00+00:00</headline>
+    <description>Det er ventet snøbyger i ytre strøk av nordlige Sogn og Fjordane. Snøbygene vil vedvare til late torsdag ettermiddag. Det er ventet rundt 5-15 cm snø, men det vil være store lokale forskjeller</description>
+    <instruction>Beregn noe ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-08T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Noen reiser vil kunne få lengre reisetid. Det kan være lokalt vanskelige kjøreforhold. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snø</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>5cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Snø, gult nivå, Ytre strøk av nordlige deler av Sogn og Fjordane, 2022-12-06T14:00:00+00:00, 2022-12-08T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/8ca40730-bd7a-4b14-bd80-cbf55b417dea.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ytre strøk av nordlige deler av Sogn og Fjordane</areaDesc>
+      
+          <polygon>61.6086,5.08097 61.9748,5.49924 62.064,5.51272 62.1232,5.36692 62.1716,5.36009 62.2659,5.22802 61.9717,4.82402 61.6795,4.71108 61.6086,5.08097 61.6086,5.08097</polygon>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4602;4648;4649</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>snow</value>
+    </eventCode>
+    <effective>2022-12-06T14:00:00+00:00</effective>
+    <onset>2022-12-06T14:00:00+00:00</onset>
+    <expires>2022-12-08T16:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Snow, yellow level, Outer areas of northern parts of Sogn og Fjordane, 2022-12-06T14:00:00+00:00, 2022-12-08T16:00:00+00:00</headline>
+    <description>Snowshowers are expected in outer areas of northern Sogn og Fjordane. The snow showers are expected to last until late Thursday afternoon. 5-15cm of snow is expected. There will be large local variations,</description>
+    <instruction>Allow some extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. The need for emergency preparedness shall be assessed continuously by emergency response actors. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/sno</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-12-08T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Travel time may increase on some journeys. Local driving conditions may become difficult. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>triggerLevel</valueName>
+        <value>5cm/24h</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Snow, yellow level, Outer areas of northern parts of Sogn og Fjordane, 2022-12-06T14:00:00+00:00, 2022-12-08T16:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/8ca40730-bd7a-4b14-bd80-cbf55b417dea.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Outer areas of northern parts of Sogn og Fjordane</areaDesc>
+      
+          <polygon>61.6086,5.08097 61.9748,5.49924 62.064,5.51272 62.1232,5.36692 62.1716,5.36009 62.2659,5.22802 61.9717,4.82402 61.6795,4.71108 61.6086,5.08097 61.6086,5.08097</polygon>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4602;4648;4649</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

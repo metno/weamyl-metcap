@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220925072321</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-09-25T08:52:35+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050189</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-09-26T22:00:00+00:00</effective>
+    <onset>2022-09-26T22:00:00+00:00</onset>
+    <expires>2022-09-28T00:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Vestfold og Telemark og vest i Viken, 2022-09-26T22:00:00+00:00, 2022-09-28T00:00:00+00:00</headline>
+    <description>Fra mandag er det ventet mye regn, 40-60 mm på 24 timer, i Vestfold og Telemark og vest i Viken. Natt til onsdag avtar regnet.</description>
+    <instruction>Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-28T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye regn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye regn, gult nivå, Vestfold og Telemark og vest i Viken, 2022-09-26T22:00:00+00:00, 2022-09-28T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/6efce31b-f599-40cc-a053-e7b89480264d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vestfold og Telemark og vest i Viken</areaDesc>
+      <polygon>58.7444,9.46041 59.0136,10.4376 59.3123,10.559 59.4627,10.2575 59.8164,9.93394 60.2578,9.99572 60.5859,9.3067 60.7494,9.15258 60.9694,8.32819 60.7714,7.82537 60.4636,7.77679 60.0113,7.59569 59.5438,7.53445 58.9917,7.86185 58.8081,8.77947 58.7444,9.46041 58.7444,9.46041</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3005;3006;3007;3039;3040;3041;3042;3043;3044;3045;3046;3047;3048;3050;3051;3052;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4211;4212;4217</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rain</value>
+    </eventCode>
+    <effective>2022-09-26T22:00:00+00:00</effective>
+    <onset>2022-09-26T22:00:00+00:00</onset>
+    <expires>2022-09-28T00:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Vestfold and Telemark and western part of Viken , 2022-09-26T22:00:00+00:00, 2022-09-28T00:00:00+00:00</headline>
+    <description>From Monday heavy rain is expected, 40-60 mm in 24 hours, in Vestfold and Telemark and in western part of Viken. The rain subsides night to Wednesday.</description>
+    <instruction>The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/farevarsel-for-nedbor</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-09-28T00:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rain</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>10; rain</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rain, yellow level, Vestfold and Telemark and western part of Viken , 2022-09-26T22:00:00+00:00, 2022-09-28T00:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/6efce31b-f599-40cc-a053-e7b89480264d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vestfold and Telemark and western part of Viken </areaDesc>
+      <polygon>58.7444,9.46041 59.0136,10.4376 59.3123,10.559 59.4627,10.2575 59.8164,9.93394 60.2578,9.99572 60.5859,9.3067 60.7494,9.15258 60.9694,8.32819 60.7714,7.82537 60.4636,7.77679 60.0113,7.59569 59.5438,7.53445 58.9917,7.86185 58.8081,8.77947 58.7444,9.46041 58.7444,9.46041</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3005;3006;3007;3039;3040;3041;3042;3043;3044;3045;3046;3047;3048;3050;3051;3052;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3818;3819;3820;3821;3822;3823;3824;3825;4201;4211;4212;4217</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

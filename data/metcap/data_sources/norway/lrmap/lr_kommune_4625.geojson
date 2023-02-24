@@ -1,0 +1,92 @@
+{
+    "_id": "lr_kommune_4625",
+    "objtype": "Kommune",
+    "source": "https://kartverket.no/",
+    "uuid": "no.met:5e6dbd18-606a-5045-a7d7-9ac9c3106c5f",
+    "administrativeName": [
+        {
+            "navn": "Austevoll",
+            "rekkefolge": "",
+            "sprak": "nor"
+        }
+    ],
+    "administrativeId": "4625",
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4.5470517323018615,
+                            60.104050377559126
+                        ],
+                        [
+                            4.606462222256345,
+                            59.913519569017524
+                        ],
+                        [
+                            5.078464032697801,
+                            59.93861671391398
+                        ],
+                        [
+                            5.266749182679933,
+                            59.97269818871834
+                        ],
+                        [
+                            5.327667587454765,
+                            59.999037622284966
+                        ],
+                        [
+                            5.322123589723072,
+                            60.03115195059361
+                        ],
+                        [
+                            5.331823417340478,
+                            60.10719428326492
+                        ],
+                        [
+                            5.253223639911251,
+                            60.17609109990531
+                        ],
+                        [
+                            5.210076408106472,
+                            60.18879580430033
+                        ],
+                        [
+                            5.117008083434884,
+                            60.15760247556916
+                        ],
+                        [
+                            4.5470517323018615,
+                            60.104050377559126
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "objtype": "Kommune",
+                "samiskforvaltningsomrade": false,
+                "kommunenummer": "4625",
+                "navn": [
+                    {
+                        "navn": "Austevoll",
+                        "rekkefolge": "",
+                        "sprak": "nor"
+                    }
+                ],
+                "bbox": [
+                    4.5470517323018615,
+                    59.913519569017524,
+                    5.331823417340478,
+                    60.18879580430033
+                ],
+                "area": 0.15254418324339658,
+                "crs": "epsg:4326"
+            }
+        }
+    ],
+    "comment": "Resampled from kommune_4625 with UUID: no.geonorge:cec04c01-0110-566a-92b6-8c17afec53c2"
+}

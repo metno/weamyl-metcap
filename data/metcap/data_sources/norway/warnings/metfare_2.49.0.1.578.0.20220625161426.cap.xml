@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220625161426</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-25T16:14:26+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220624074552,2022-06-24T08:32:51+00:00</references>
+  <incidents>0000050040</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-25T16:14:00+00:00</effective>
+    <onset>2022-06-25T16:14:00+00:00</onset>
+    <expires>2022-06-25T17:14:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Nedgradert varsel for mye lyn, Indre strøk av Salten, Ofoten, Troms og Finnmark</headline>
+    <description>Farevarselet er nedgradert. Følg med på oppdaterte prognoser for aktuelt varsel.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-25T17:14:00+00:00</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Ingen</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Nedgradert varsel for mye lyn, Indre strøk av Salten, Ofoten, Troms og Finnmark</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1888dd6d-1cf0-4ab2-b64a-04958e56a7f2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Indre strøk av Salten, Ofoten, Troms og Finnmark</areaDesc>
+      <polygon>67.1896,14.2581 66.9142,16.472 67.9704,18.1543 68.5054,21.7332 68.5234,25.5622 69.7627,26.2747 69.6312,23.0873 68.9125,16.4915 67.1896,14.2581 67.1896,14.2581</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1840;1841;1845;1848;1851;1853;1875;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5422;5425;5426;5428;5430;5437</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>AllClear</responseType>
+    <urgency>Future</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-25T16:14:00+00:00</effective>
+    <onset>2022-06-25T16:14:00+00:00</onset>
+    <expires>2022-06-25T17:14:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Downgraded alert warning for lightning, Inner regions of Salten, Ofoten, Troms and Finnmark</headline>
+    <description>The warning is downgraded. Keep up to date with updated forecasts.</description>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-25T17:14:00+00:00</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>1; green; Minor</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>None</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Downgraded alert warning for lightning, Inner regions of Salten, Ofoten, Troms and Finnmark</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1888dd6d-1cf0-4ab2-b64a-04958e56a7f2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Inner regions of Salten, Ofoten, Troms and Finnmark</areaDesc>
+      <polygon>67.1896,14.2581 66.9142,16.472 67.9704,18.1543 68.5054,21.7332 68.5234,25.5622 69.7627,26.2747 69.6312,23.0873 68.9125,16.4915 67.1896,14.2581 67.1896,14.2581</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>18</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>54</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1804;1806;1840;1841;1845;1848;1851;1853;1875;5402;5411;5412;5413;5414;5415;5416;5417;5418;5419;5420;5422;5425;5426;5428;5430;5437</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

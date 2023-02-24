@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.191115115214494.2917</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-11-15T11:52:14+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2895</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-11-15T21:00:00+00:00</effective>
+    <onset>2019-11-15T21:00:00+00:00</onset>
+    <expires>2019-11-16T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Oksøy - Lindesnes, 15 November 21:00 UTC til 16 November 12:00 UTC.</headline>
+    <description>Natt til lørdag og første del av lørdag perioder med nordøstlig stiv kuling.</description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-11-16T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sjøen bygger seg opp og det kan være farlig å være ute i småbåt. Grov sjø og hvitt skum fra bølgetopper som brekker. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Oksøy - Lindesnes</areaDesc>
+      <polygon>58.069167,7.565667 58.154333,7.994667 58.042667,8.067667 58.033667,8.030667 58.033333,8.029167 57.964167,7.717000 57.959667,7.697167 57.959500,7.696833 57.951167,7.657333 57.950667,7.654833 57.945500,7.623667 57.945000,7.620333 57.944833,7.617833 57.941833,7.567833 57.941833,7.564500 57.941833,7.563833 57.944833,7.226167 57.945000,7.202000 57.945000,7.198667 57.945333,7.195833 57.964000,7.030667 58.067667,7.159167 58.069167,7.565667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO802</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO812</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-11-15T21:00:00+00:00</effective>
+    <onset>2019-11-15T21:00:00+00:00</onset>
+    <expires>2019-11-16T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Oksøy - Lindesnes, 15 November 21:00 UTC to 16 November 12:00 UTC.</headline>
+    <description>Between late Friday evening and Saturday noon periods of northeaster near gale 7.</description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-11-16T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Moderate waves. Risk of dangerous situations when in a small boat at sea. Sea heaps up. Moderate amounts of airborne spray. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Oksøy - Lindesnes</areaDesc>
+      <polygon>58.069167,7.565667 58.154333,7.994667 58.042667,8.067667 58.033667,8.030667 58.033333,8.029167 57.964167,7.717000 57.959667,7.697167 57.959500,7.696833 57.951167,7.657333 57.950667,7.654833 57.945500,7.623667 57.945000,7.620333 57.944833,7.617833 57.941833,7.567833 57.941833,7.564500 57.941833,7.563833 57.944833,7.226167 57.945000,7.202000 57.945000,7.198667 57.945333,7.195833 57.964000,7.030667 58.067667,7.159167 58.069167,7.565667
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO802</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO812</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

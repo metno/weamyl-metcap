@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211117085523671.2313</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-11-17T08:55:23+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48935</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Is</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>ice</value>
+    </eventCode>
+    <effective>2021-11-17T10:00:00+00:00</effective>
+    <onset>2021-11-17T10:00:00+00:00</onset>
+    <expires>2021-11-17T21:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Is, gult nivå, Finnmark, 17 November 10:00 UTC til 17 November 21:00 UTC.</headline>
+    <description>Onsdag er det fare for mye is i Finnmark, på grunn av underkjølt regn. Regnet vil fryse til is på bakken, samt på kjøretøy og andre gjenstander. Nedbøren vil først komme inn i vest, Utover ettermiddagen avtar faren i vest, hvor nedbøren vil gå over til sludd eller snø. Onsdag kveld avtar faren også i øst. </description>
+    <instruction>Vær ekstra oppmerksom; isen kan være vanskelig å se. Vurder bruk av brodder. Beregn ekstra tid til transport og kjøring. Bruk riktige dekk og kjør etter forholdene. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-17T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Det kan være lokalt vanskelige kjøreforhold. Transporttjenester kan bli påvirket. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Is</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.2 mm/3t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over is, gult nivå, Finnmark, 17 November 10:00 UTC til 17 November 21:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/94f3e643-5f3d-4bfc-a712-8f204a9c6130.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmark</areaDesc>
+      <polygon>69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.650000,22.883167 69.599833,22.783167 69.533167,22.716667 69.483167,22.283167 69.349833,22.350000 69.233167,22.500000 69.116667,22.483167 69.083167,22.299833 69.066667,22.000000 68.933167,22.183167 68.816667,22.299833 68.716667,22.383167 68.733167,22.600000 68.683167,22.783167 68.699833,23.049833 68.633167,23.216667 68.683167,23.466667 68.699833,23.666667 68.800000,23.783167 68.816667,24.000000 68.733167,24.250000 68.650000,24.716667 68.566667,24.899833 68.633167,25.100000 68.800000,25.166667 68.883167,25.416667 68.900000,25.633167 69.033167,25.733167 69.266667,25.716667 69.400000,25.816667 69.533167,25.850000 69.599833,25.966667 69.666667,25.899833 69.733167,26.049833 69.816667,26.299833 69.900000,26.433167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5430;5437</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Ice</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>ice</value>
+    </eventCode>
+    <effective>2021-11-17T10:00:00+00:00</effective>
+    <onset>2021-11-17T10:00:00+00:00</onset>
+    <expires>2021-11-17T21:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Ice, yellow level, Finnmark, 17 November 10:00 UTC to 17 November 21:00 UTC.</headline>
+    <description>Wednesday there is risk of glaze ice in Finnmark, due to freezing rain. The rain will freeze on the ground, as well as on vehicles and other objects. The precipitation comes first in west. In the afternoon the danger decreases in west, where the precipitation will come as sleet or snow. Wednesday evening the danger decreases in east as well. </description>
+    <instruction>Be alert; ice may be difficult to see. Consider wearing traction cleats. Allow extra time for transportation and driving. Use tires fit for winter conditions and use caution while driving. Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-17T21:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Local driving conditions may become difficult. Transport services may be impacted. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Ice</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>0.2 mm/3t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of ice, yellow level, Finnmark, 17 November 10:00 UTC to 17 November 21:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/94f3e643-5f3d-4bfc-a712-8f204a9c6130.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Finnmark</areaDesc>
+      <polygon>69.900000,26.433167 69.949833,26.533167 69.949833,26.850000 69.916667,27.083167 69.949833,27.299833 70.000000,27.333167 70.050000,27.566667 70.083167,27.616667 70.066667,27.766667 70.083167,27.950000 70.000000,28.000000 69.916667,28.166667 69.883167,28.333167 69.833167,28.383167 69.683167,29.116667 69.466667,29.333167 69.383167,29.216667 69.216667,28.816667 69.099833,28.816667 69.016667,29.066667 69.116667,29.250000 69.233167,29.333167 69.300000,29.283167 69.316667,29.416667 69.316667,29.566667 69.400000,29.733167 69.433167,29.883167 69.400000,30.000000 69.483167,30.149833 69.533167,30.133167 69.566667,30.200000 69.650000,30.083167 69.666667,30.200000 69.599833,30.416667 69.533167,30.533167 69.516667,30.833167 69.566667,30.950000 69.683167,30.916667 69.766667,30.850000 69.816667,30.883167 70.166667,31.533167 70.422500,31.144500 70.711167,30.158167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.233167,21.016667 70.199833,21.283167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 69.949833,22.233167 69.916667,22.500000 69.783167,22.483167 69.699833,22.666667 69.650000,22.883167 69.599833,22.783167 69.533167,22.716667 69.483167,22.283167 69.349833,22.350000 69.233167,22.500000 69.116667,22.483167 69.083167,22.299833 69.066667,22.000000 68.933167,22.183167 68.816667,22.299833 68.716667,22.383167 68.733167,22.600000 68.683167,22.783167 68.699833,23.049833 68.633167,23.216667 68.683167,23.466667 68.699833,23.666667 68.800000,23.783167 68.816667,24.000000 68.733167,24.250000 68.650000,24.716667 68.566667,24.899833 68.633167,25.100000 68.800000,25.166667 68.883167,25.416667 68.900000,25.633167 69.033167,25.733167 69.266667,25.716667 69.400000,25.816667 69.533167,25.850000 69.599833,25.966667 69.666667,25.899833 69.733167,26.049833 69.816667,26.299833 69.900000,26.433167
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>20</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO073</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5430;5437</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5404;5405;5438;5439;5440;5441;5442;5443;5444</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5403;5406;5432;5433;5434;5435;5436</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

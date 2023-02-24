@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.200821125841869.4048</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2020-08-21T12:58:41+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>4760</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2020-08-21T12:00:00+00:00</effective>
+    <onset>2020-08-21T12:00:00+00:00</onset>
+    <expires>2020-08-21T16:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Svært kraftig styrtregn pågår, oransje nivå, Vestfold, 21 August 12:00 UTC til 21 August 16:00 UTC.</headline>
+    <description>Det er observert svært kraftige regnbyger med torden i området den siste timen. Været er ventet å avta utover ettermiddagen. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Koble fra elektriske apparater. Unngå å være det høyeste punktet, og ikke opphold deg i nærheten av enkeltstående trær, tårn eller master.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-08-21T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Hagl, lyn og torden, og kraftige vindkast. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Vanskelige kjøreforhold grunnet overvann og fare for vannplaning. Skader på elektriske anlegg/apparater grunnet lynnedslag. Kraftige regnbyger kan gi oversvømmelse i kjellere. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Svært kraftig styrtregn pågår</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Alvorlig situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Vær forberedt</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over svært kraftig styrtregn pågår, oransje nivå, Vestfold, 21 August 12:00 UTC til 21 August 16:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6a78d3a6-3b3a-4f6e-9684-a522a71fddb2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vestfold</areaDesc>
+      <polygon>59.051667,9.840167 59.042167,9.836500 59.034667,9.811167 59.030833,9.825167 59.023167,9.833667 59.014167,9.836667 58.998500,9.835167 59.022167,9.790333 59.011667,9.782167 59.009667,9.764167 58.991667,9.765500 58.942500,9.779667 58.930000,9.784667 58.956500,10.048167 58.972667,10.224667 59.043667,10.653167 59.074000,10.654833 59.138667,10.657667 59.195833,10.644000 59.236833,10.619167 59.261167,10.604167 59.292333,10.593500 59.327667,10.584667 59.352667,10.588500 59.362167,10.593000 59.371333,10.595167 59.385167,10.593000 59.392500,10.585000 59.401167,10.567000 59.412167,10.551167 59.427667,10.539167 59.443667,10.538667 59.457500,10.544000 59.477167,10.448167 59.486500,10.446167 59.493667,10.446500 59.498833,10.433500 59.499500,10.420500 59.518500,10.388167 59.528167,10.394333 59.570000,10.411000 59.581500,10.412167 59.593167,10.417667 59.606167,10.411667 59.619667,10.414167 59.625333,10.423667 59.638667,10.416667 59.653167,10.410167 59.671667,10.405167 59.686667,10.385000 59.697167,10.366333 59.700167,10.346167 59.700167,10.322667 59.696333,10.321167 59.668833,10.307333 59.669667,10.300167 59.673833,10.245333 59.668333,10.241000 59.669667,10.226167 59.665167,10.214167 59.669333,10.198333 59.666000,10.151333 59.671000,10.133667 59.669167,10.110667 59.659667,10.107833 59.650500,10.091667 59.640167,10.088500 59.641667,10.076667 59.643167,10.061667 59.641667,10.045333 59.644167,10.031667 59.658667,10.018167 59.664500,10.005667 59.663667,9.997167 59.655167,9.994667 59.646167,9.984000 59.635500,9.978500 59.617667,9.977000 59.613167,9.958167 59.608000,9.940500 59.602500,9.928833 59.596500,9.935667 59.586667,9.941167 59.585833,9.918167 59.584167,9.920167 59.567500,9.945167 59.538167,9.976667 59.513500,10.021667 59.492667,10.044667 59.486167,10.048500 59.472167,10.059167 59.464000,10.021333 59.459167,10.015167 59.459833,10.001167 59.466667,9.991833 59.465667,9.979667 59.468167,9.944333 59.459333,9.935667 59.455167,9.916167 59.459333,9.873000 59.458167,9.854833 59.471167,9.817000 59.457167,9.755333 59.414667,9.774167 59.410167,9.773167 59.367667,9.763833 59.350667,9.773667 59.328167,9.747167 59.258167,9.861667 59.218167,9.877333 59.214667,9.857833 59.200667,9.870167 59.180167,9.895500 59.167167,9.886667 59.165500,9.831833 59.129667,9.821667 59.111000,9.848667 59.087000,9.854667 59.072167,9.849667 59.051667,9.840167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>07</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3803;3804;3805;3802;3811;3005;3801</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-07</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO033</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rainFlood</value>
+    </eventCode>
+    <effective>2020-08-21T12:00:00+00:00</effective>
+    <onset>2020-08-21T12:00:00+00:00</onset>
+    <expires>2020-08-21T16:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Very heavy rainshowers ongoing, orange level, Vestfold, 21 August 12:00 UTC to 21 August 16:00 UTC.</headline>
+    <description>There are observed severe showers in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly.</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Unplug electrical equipment. Avoid being the highest object, and keep away from lone trees, towers, or masts.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2020-08-21T16:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Hail, thunder and lightning, and strong wind gusts. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. Damage to electrical systems and equipment due to lightning. Heavy rainshowers can cause flooding in cellars. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Very heavy rainshowers ongoing</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Severe situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>3 mm/t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be prepared</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of very heavy rainshowers ongoing, orange level, Vestfold, 21 August 12:00 UTC to 21 August 16:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/6a78d3a6-3b3a-4f6e-9684-a522a71fddb2.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Vestfold</areaDesc>
+      <polygon>59.051667,9.840167 59.042167,9.836500 59.034667,9.811167 59.030833,9.825167 59.023167,9.833667 59.014167,9.836667 58.998500,9.835167 59.022167,9.790333 59.011667,9.782167 59.009667,9.764167 58.991667,9.765500 58.942500,9.779667 58.930000,9.784667 58.956500,10.048167 58.972667,10.224667 59.043667,10.653167 59.074000,10.654833 59.138667,10.657667 59.195833,10.644000 59.236833,10.619167 59.261167,10.604167 59.292333,10.593500 59.327667,10.584667 59.352667,10.588500 59.362167,10.593000 59.371333,10.595167 59.385167,10.593000 59.392500,10.585000 59.401167,10.567000 59.412167,10.551167 59.427667,10.539167 59.443667,10.538667 59.457500,10.544000 59.477167,10.448167 59.486500,10.446167 59.493667,10.446500 59.498833,10.433500 59.499500,10.420500 59.518500,10.388167 59.528167,10.394333 59.570000,10.411000 59.581500,10.412167 59.593167,10.417667 59.606167,10.411667 59.619667,10.414167 59.625333,10.423667 59.638667,10.416667 59.653167,10.410167 59.671667,10.405167 59.686667,10.385000 59.697167,10.366333 59.700167,10.346167 59.700167,10.322667 59.696333,10.321167 59.668833,10.307333 59.669667,10.300167 59.673833,10.245333 59.668333,10.241000 59.669667,10.226167 59.665167,10.214167 59.669333,10.198333 59.666000,10.151333 59.671000,10.133667 59.669167,10.110667 59.659667,10.107833 59.650500,10.091667 59.640167,10.088500 59.641667,10.076667 59.643167,10.061667 59.641667,10.045333 59.644167,10.031667 59.658667,10.018167 59.664500,10.005667 59.663667,9.997167 59.655167,9.994667 59.646167,9.984000 59.635500,9.978500 59.617667,9.977000 59.613167,9.958167 59.608000,9.940500 59.602500,9.928833 59.596500,9.935667 59.586667,9.941167 59.585833,9.918167 59.584167,9.920167 59.567500,9.945167 59.538167,9.976667 59.513500,10.021667 59.492667,10.044667 59.486167,10.048500 59.472167,10.059167 59.464000,10.021333 59.459167,10.015167 59.459833,10.001167 59.466667,9.991833 59.465667,9.979667 59.468167,9.944333 59.459333,9.935667 59.455167,9.916167 59.459333,9.873000 59.458167,9.854833 59.471167,9.817000 59.457167,9.755333 59.414667,9.774167 59.410167,9.773167 59.367667,9.763833 59.350667,9.773667 59.328167,9.747167 59.258167,9.861667 59.218167,9.877333 59.214667,9.857833 59.200667,9.870167 59.180167,9.895500 59.167167,9.886667 59.165500,9.831833 59.129667,9.821667 59.111000,9.848667 59.087000,9.854667 59.072167,9.849667 59.051667,9.840167
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>07</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>38</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>3803;3804;3805;3802;3811;3005;3801</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-07</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO033</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

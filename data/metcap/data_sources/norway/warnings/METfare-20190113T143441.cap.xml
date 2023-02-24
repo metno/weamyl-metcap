@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190113143441870.240</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-13T14:34:41+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190112123125761.198,2019-01-12T12:31:25+00:00</references>
+  <incidents>1388</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polare lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-01-13T05:00:00+00:00</effective>
+    <onset>2019-01-13T05:00:00+00:00</onset>
+    <expires>2019-01-14T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, D2, D3, Dype D4, E2, E3, Dype E4, F2, F3, 13 January 05:00 UTC til 14 January 12:00 UTC.</headline>
+    <description>Et eller flere polare lavtrykk dannes på D2 og D4, og vil i løpet av søndag og tidlig mandag bevege seg sørover, og vil trolig treffe land mellom Stad og sør på Helgeland i løpet av søndag kveld til mandag formiddag. Disse vil gi perioder med nordvestlig kuling eller storm vest for senteret.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-14T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Raske endringer i vindstyrke og retning. Vanskelig framkommelighet på grunn av snø, snøfokk og redusert sikt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polart lavtrykk, gult nivå, D2, D3, Dype D4, E2, E3, Dype E4, F2, F3, 13 January 05:00 UTC til 14 January 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/c860b35a-1694-411b-adfb-125b6176c956.png</uri>
+    </resource>
+    <area>
+      <areaDesc>D2, D3, Dype D4, E2, E3, Dype E4, F2, F3</areaDesc>
+      <polygon>70.000000,16.600000 70.200000,16.900000 70.716667,16.780000 72.000000,15.750000 72.500000,15.750000 72.500000,15.000000 72.500000,10.000000 72.500000,0.000000 72.500000,-10.000000 70.000000,-10.000000 70.000000,-5.000000 67.500000,-5.000000 65.000000,-5.000000 65.000000,0.000000 65.000000,10.000000 67.500000,10.000000 68.220000,10.000000 69.550000,15.200000 69.800000,16.300000 70.000000,16.600000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-01-13T05:00:00+00:00</effective>
+    <onset>2019-01-13T05:00:00+00:00</onset>
+    <expires>2019-01-14T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, D2, D3, Dype D4, E2, E3, Dype E4, F2, F3, 13 January 05:00 UTC to 14 January 12:00 UTC.</headline>
+    <description>One or several polar lows develop on D2 and D4, and will during Sunday and early Monday move south, and will probably hit land between Stad and south of Helgeland from late Sunday evening to late Monday morning. They will give occasionally northwest gale or storm west of the centre.</description>
+    <instruction>Be prepared for sudden changes in the weather.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-14T12:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sudden changes of wind speed and direction. Reduced mobility with snow, blowing snow and reduced visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polar low, yellow level, D2, D3, Dype D4, E2, E3, Dype E4, F2, F3, 13 January 05:00 UTC to 14 January 12:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/c860b35a-1694-411b-adfb-125b6176c956.png</uri>
+    </resource>
+    <area>
+      <areaDesc>D2, D3, Dype D4, E2, E3, Dype E4, F2, F3</areaDesc>
+      <polygon>70.000000,16.600000 70.200000,16.900000 70.716667,16.780000 72.000000,15.750000 72.500000,15.750000 72.500000,15.000000 72.500000,10.000000 72.500000,0.000000 72.500000,-10.000000 70.000000,-10.000000 70.000000,-5.000000 67.500000,-5.000000 65.000000,-5.000000 65.000000,0.000000 65.000000,10.000000 67.500000,10.000000 68.220000,10.000000 69.550000,15.200000 69.800000,16.300000 70.000000,16.600000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.210122105903861.196</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-01-22T10:59:03+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.210122044938408.185,2021-01-22T04:49:38+00:00</references>
+  <incidents>48660</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2021-01-22T13:00:00+00:00</effective>
+    <onset>2021-01-22T13:00:00+00:00</onset>
+    <expires>2021-01-22T17:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Ekstremværet Frank: Svært kraftige vindkast pågår, oransje nivå, Nord-Helgeland, Salten, Ofoten og Troms, 22 January 13:00 UTC til 22 January 17:00 UTC.</headline>
+    <description>Fredag ettermiddag ventes fortsatt øst og sørøstlig storm, med lokalt kraftige vindkast på 30-40 m/s. Den sterkeste vinden avtar først i sør, mot kvelden også i nord. Det er observert svært kraftige vindkast i hele området, og det er fortsatt forventet å være store variasjoner i vindstyrke. Noen steder vil få veldig lite vind samtidig som andre steder kan oppleve svært kraftige vindkast. I tillegg er temperaturen på utsatte steder -7 til -15 grader. Kombinasjonen storm og lave temperaturer vil kunne gi utfordringer for strømforsyningen, potensiale for stor forfrysningsfare og fare for moderat til sterk ising på skip.</description>
+    <instruction>Fest alle løse gjenstander. Unngå ferdsel på utsatte steder. Beregn ekstra tid til transport og kjøring. Følg råd og sjekk status fra transportaktører. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. På forhånd vurder tiltak for å begrense skade.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/ekstremvaeret-frank-ekstremt-kraftige-vindkast-i-deler-av-nordland-og-troms</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-01-22T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>incidentName</valueName>
+      <value>Frank</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Gjenstander kan bli tatt av vinden eller blåse over. Fare for skade på bygninger og infrastruktur. Kansellerte avganger for ferje, fly eller annen transport forventes. Broer kan bli stengt. Mange reiser vil kunne få lenger reisetid. Strømforsyningen vil bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Snøfokk gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Den sterke vinden kan gi lokalt høye bølger i fjordstrøk og innsjøer. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Svært kraftige vindkast pågår</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Alvorlig situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>28.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Vær forberedt</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over ekstremværet Frank: Svært kraftige vindkast pågår, oransje nivå, Nord-Helgeland, Salten, Ofoten og Troms, 22 January 13:00 UTC til 22 January 17:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/f3fb0a24-6ab6-41cd-9225-8cd50204841a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nord-Helgeland, Salten, Ofoten og Troms</areaDesc>
+      <polygon>66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.233167,16.333167 69.033167,16.049833 68.949833,15.866667 68.833167,15.766667 68.766667,15.716667 68.683167,15.733167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.949833,12.316667 65.949833,12.683167 65.916667,13.616667 65.883167,14.233167 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1806;1851;1853;1875;5412</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2021-01-22T13:00:00+00:00</effective>
+    <onset>2021-01-22T13:00:00+00:00</onset>
+    <expires>2021-01-22T17:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Extreme weather Frank: Very strong wind gusts ongoing, orange level, North-Helgeland, Salten, Ofoten and Troms, 22 January 13:00 UTC to 22 January 17:00 UTC.</headline>
+    <description>Friday afternoon east and southeasterly storm is still expected, with locally very strong gusts with 30-40 m/s. The winds are first decreasing in the south, towards the evening also in the northern part. It has already been observed very strong wind gusts in the area, but large variations in wind speed are still expected. Some places may have calm conditions while other places experience very strong wind gusts. In addition the temperature at exposed places is in the range of -7 to -15 degrees. The combination storm and low temperatures could cause challenges for power delivery, there is potenial for frost bite and risk of moderate to severe icing on ships. </description>
+    <instruction>Secure all loose objects. Avoid exposed places. Allow a lot of extra time for transportation and driving. Follow advice and check status from transport operators. The need for emergency preparedness shall be assessed continuously by emergency response actors. In advance consider measures to limit damage.</instruction>
+    <web>https://www.met.no/nyhetsarkiv/ekstremvaeret-frank-ekstremt-kraftige-vindkast-i-deler-av-nordland-og-troms</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-01-22T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>incidentName</valueName>
+      <value>Frank</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Larger loose items may be taken by the wind. Risk of damage to buildings and infrastructure. Cancelled departures for ferry, plane, or other transport expected. Bridges may be closed. Many journeys may have longer travel times. The power supply will be impacted, due to tree(s) falling over. Roads may be closed due to trees or other objects in the road. Blowing snow causes reduced visibility and possibly convoys and/or closed roads. The strong wind may cause locally high waves in fjords and lakes. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Very strong wind gusts ongoing</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Severe situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>28.5 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be prepared</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of extreme weather Frank: Very strong wind gusts ongoing, orange level, North-Helgeland, Salten, Ofoten and Troms, 22 January 13:00 UTC to 22 January 17:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/f3fb0a24-6ab6-41cd-9225-8cd50204841a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>North-Helgeland, Salten, Ofoten and Troms</areaDesc>
+      <polygon>66.729167,14.653333 66.816667,14.733167 66.983167,14.899833 66.983167,15.183167 66.849833,15.233167 66.766667,15.399833 66.716667,15.766667 66.916667,16.066667 66.983167,16.216667 67.050000,16.399833 67.216667,16.399833 67.250000,16.316667 67.383167,16.183167 67.433167,16.083167 67.516667,16.166667 67.533167,16.399833 67.650000,16.566667 67.816667,16.666667 67.916667,16.750000 68.050000,17.183167 68.116667,17.283167 68.050000,17.666667 67.966667,17.883167 68.199833,18.149833 68.400000,18.100000 68.533167,18.133167 68.583167,18.416667 68.500000,18.649833 68.500000,18.966667 68.383167,19.733167 68.349833,19.916667 68.416667,20.066667 68.483167,20.216667 68.550000,19.966667 68.666667,20.216667 68.800000,20.316667 68.916667,20.299833 69.050000,20.116667 69.066667,20.583167 69.133167,20.716667 69.033167,21.083167 69.116667,21.083167 69.199833,21.000000 69.316667,21.283167 69.283167,21.583167 69.199833,21.783167 69.066667,22.000000 69.083167,22.299833 69.116667,22.483167 69.233167,22.500000 69.349833,22.350000 69.483167,22.283167 69.533167,22.716667 69.599833,22.783167 69.650000,22.883167 69.699833,22.666667 69.783167,22.483167 69.916667,22.500000 69.949833,22.233167 70.066667,22.216667 70.166667,22.083167 70.099833,21.783167 70.183167,21.600000 70.199833,21.283167 70.233167,21.016667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.425667,16.458667 69.233167,16.333167 69.033167,16.049833 68.949833,15.866667 68.833167,15.766667 68.766667,15.716667 68.683167,15.733167 68.533167,15.616667 68.516667,15.433167 68.466667,15.433167 68.416667,15.266667 68.366667,15.133167 68.349833,15.266667 68.300000,15.116667 68.266667,15.183167 68.166667,15.216667 68.098667,14.742167 68.030667,14.894000 67.766667,14.383167 67.616333,14.420833 67.453833,14.241333 67.200000,13.700000 67.048500,13.353500 66.800000,12.800000 66.401167,12.246833 65.983000,11.873167 65.949833,12.316667 65.949833,12.683167 65.916667,13.616667 65.883167,14.233167 65.849833,14.600000 66.133167,14.550000 66.133167,14.699833 66.166667,15.033167 66.216667,15.266667 66.283167,15.466667 66.366667,15.433167 66.483167,15.383167 66.533167,15.183167 66.516667,14.899833 66.449833,14.750000 66.433167,14.533167 66.500000,14.466667 66.633167,14.566667 66.729167,14.653333
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>18</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>19</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>54</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1811;1812;1813;1815;1816;1818;1820;1822;1824;1825;1826;1827;1828;1832;1833;1834;1835;1836;1837</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1804;1838;1839;1840;1841;1845;1848;1875</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1806;1851;1853;1875;5412</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5402;5411;5412;5413;5414;5415;5417;5416;5418;5419;5420;5421</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>5401;5422;5423;5424;5425;5426;5427;5428;5429</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-18</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-19</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO071</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO072</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

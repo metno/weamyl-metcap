@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190223151948893.936</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-02-23T15:19:48+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>1787</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-24T06:00:00+00:00</effective>
+    <onset>2019-02-24T06:00:00+00:00</onset>
+    <expires>2019-02-24T23:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Bankene utenfor Nordland, 24 February 06:00 UTC til 24 February 23:00 UTC.</headline>
+    <description>Søndag morgen økning til sørvestlig sterk kuling 20 m/s, fra om ettermiddagen liten storm 22 m/s. Minkende sent søndag kveld.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-02-24T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Tette skumstrimer driver i vindretningen. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Bankene utenfor Nordland</areaDesc>
+      <polygon>66.801000,12.795000 67.557167,12.603667 67.646167,12.507167 68.030000,12.908167 68.840000,14.548667 69.071667,15.163667 69.332167,16.062667 69.425667,16.458667 69.550000,15.200000 68.220000,10.000000 66.632000,10.000000 65.654000,10.000000 65.000000,10.000000 65.002500,11.000000 65.000000,11.250000 65.200000,11.400000 65.900000,11.800000 66.400000,12.250000 66.800000,12.800000 67.200000,13.700000 67.453833,14.241333 67.616333,14.420833 67.766667,14.383167 68.030667,14.894000 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557333,12.603667 66.801000,12.795000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2019-02-24T06:00:00+00:00</effective>
+    <onset>2019-02-24T06:00:00+00:00</onset>
+    <expires>2019-02-24T23:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Banks outside Nordland, 24 February 06:00 UTC to 24 February 23:00 UTC.</headline>
+    <description>Sunday morning southwest gale force 8, from Sunday afternoon strong gale force 9. Decreasing late Sunday evening.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-02-24T23:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>High waves whose crests sometimes roll over. Dense foam is blown along wind direction. Large amounts of airborne spray may begin to reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Banks outside Nordland</areaDesc>
+      <polygon>66.801000,12.795000 67.557167,12.603667 67.646167,12.507167 68.030000,12.908167 68.840000,14.548667 69.071667,15.163667 69.332167,16.062667 69.425667,16.458667 69.550000,15.200000 68.220000,10.000000 66.632000,10.000000 65.654000,10.000000 65.000000,10.000000 65.002500,11.000000 65.000000,11.250000 65.200000,11.400000 65.900000,11.800000 66.400000,12.250000 66.800000,12.800000 67.200000,13.700000 67.453833,14.241333 67.616333,14.420833 67.766667,14.383167 68.030667,14.894000 68.098667,14.742167 68.151167,14.623167 68.113500,13.909167 67.976667,13.253167 67.557333,12.603667 66.801000,12.795000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>30</ceiling>
+    </area>
+  </info>
+</alert>

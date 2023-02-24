@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220721080702</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-07-21T08:15:13+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050096</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-07-22T03:00:00+00:00</effective>
+    <onset>2022-07-22T03:00:00+00:00</onset>
+    <expires>2022-07-22T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Deler av Østlandet, 2022-07-22T03:00:00+00:00, 2022-07-22T18:00:00+00:00</headline>
+    <description>Fra natt til fredag til fredag kveld ventes kraftige regnbyger i ditt område, lokalt mer enn 20mm/1t. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt. </description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Unngå unødvendig ferdsel utsatte steder. Ikke kjør bil i vann dypere enn 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-22T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn, gult nivå, Deler av Østlandet, 2022-07-22T03:00:00+00:00, 2022-07-22T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/77a0977a-3952-4474-838b-4adcd1a06983.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Østlandet</areaDesc>
+      <polygon>60.0471,11.7551 59.8006,10.7442 59.1828,9.81558 58.7192,9.17159 58.8404,9.88521 58.9488,10.9308 58.9647,11.0529 59.0841,11.1516 59.1078,11.2791 59.0976,11.3438 58.8962,11.4602 58.8751,11.55 58.9285,11.6406 59.0856,11.7769 59.2973,11.8216 59.6143,11.6958 59.6537,11.8661 59.6948,11.887 59.703,11.9378 59.7778,11.9403 59.8414,11.8823 59.8971,11.9717 59.886,12.0762 59.8906,12.1719 60.0426,12.4614 60.0471,11.7551 60.0471,11.7551</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3001;3002;3003;3004;3011;3012;3013;3014;3015;3016;3017;3018;3019;3020;3021;3022;3025;3026;3027;3028;3029;3030;3416;3801;3802;3803;3804;3805;3806;3811;3813;3814;4201</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-07-22T03:00:00+00:00</effective>
+    <onset>2022-07-22T03:00:00+00:00</onset>
+    <expires>2022-07-22T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Parts of Southeast Norway, 2022-07-22T03:00:00+00:00, 2022-07-22T18:00:00+00:00</headline>
+    <description>From early Friday morning to Friday evening heavy rain showers are expected in your area, locally more than 20mm/1h. There will be large local variations in intensity and duration, and the weather conditions can change rapidly.</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Stay away from exposed places if possible. Do not drive in water deeper than 30 cm. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-07-22T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Parts of Southeast Norway, 2022-07-22T03:00:00+00:00, 2022-07-22T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/77a0977a-3952-4474-838b-4adcd1a06983.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Southeast Norway</areaDesc>
+      <polygon>60.0471,11.7551 59.8006,10.7442 59.1828,9.81558 58.7192,9.17159 58.8404,9.88521 58.9488,10.9308 58.9647,11.0529 59.0841,11.1516 59.1078,11.2791 59.0976,11.3438 58.8962,11.4602 58.8751,11.55 58.9285,11.6406 59.0856,11.7769 59.2973,11.8216 59.6143,11.6958 59.6537,11.8661 59.6948,11.887 59.703,11.9378 59.7778,11.9403 59.8414,11.8823 59.8971,11.9717 59.886,12.0762 59.8906,12.1719 60.0426,12.4614 60.0471,11.7551 60.0471,11.7551</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3001;3002;3003;3004;3011;3012;3013;3014;3015;3016;3017;3018;3019;3020;3021;3022;3025;3026;3027;3028;3029;3030;3416;3801;3802;3803;3804;3805;3806;3811;3813;3814;4201</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

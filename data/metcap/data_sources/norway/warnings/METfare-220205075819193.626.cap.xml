@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.220205075819193.626</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-02-05T07:58:19+00:00</sent>
+  <status>Actual</status>
+  <msgType>Cancel</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.220204003654473.598,2022-02-04T00:36:54+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-02-05T09:00:00+00:00</effective>
+    <onset>2022-02-05T09:00:00+00:00</onset>
+    <expires>2022-02-05T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Nordkapp - Slettnes fyr, 05 February 09:00 UTC til 05 February 10:00 UTC.</headline>
+    <description>Dette farevarselet blir erstattet av et nytt farevarsel.</description>
+    <instruction></instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Nordkapp - Slettnes fyr</areaDesc>
+      <polygon>71.116667,26.783167 71.194167,25.814167 70.733167,25.333167 70.699667,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2022-02-05T09:00:00+00:00</effective>
+    <onset>2022-02-05T09:00:00+00:00</onset>
+    <expires>2022-02-05T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, North Cape - Slettnes lighthouse, 05 February 09:00 UTC to 05 February 10:00 UTC.</headline>
+    <description>This warning is replaced by a new warning.</description>
+    <instruction></instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>North Cape - Slettnes lighthouse</areaDesc>
+      <polygon>71.116667,26.783167 71.194167,25.814167 70.733167,25.333167 70.699667,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621167 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

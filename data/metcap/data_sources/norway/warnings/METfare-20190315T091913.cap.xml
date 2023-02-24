@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190315091913367.1199</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-03-15T09:19:13+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190315091130997.1197,2019-03-15T09:11:30+00:00</references>
+  <incidents>1949</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vind</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-03-15T22:00:00+00:00</effective>
+    <onset>2019-03-15T22:00:00+00:00</onset>
+    <expires>2019-03-16T06:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Ryfylke, 15 March 22:00 UTC til 16 March 06:00 UTC.</headline>
+    <description>Frå seint laurdag kveld til søndag morgon er det utsette stader venta vindkast frå søraust på 27-30 m/s. </description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-16T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Løse gjenstander kan blåse avgårde. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kraftige vindkast, gult nivå, Ryfylke, 15 March 22:00 UTC til 16 March 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/ad66ac8c-247d-4151-911d-1c017e0974d9.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ryfylke</areaDesc>
+      <polygon>59.254167,5.976333 59.259167,6.010000 59.254167,6.016167 59.257167,6.032000 59.267500,6.036000 59.266333,6.044833 59.270667,6.050833 59.276833,6.054500 59.279167,6.055500 59.284833,6.053333 59.288500,6.056500 59.285667,6.062500 59.297667,6.086500 59.311500,6.082667 59.309667,5.904833 59.344833,5.922667 59.383833,5.916500 59.399667,5.891333 59.447500,5.874333 59.463667,5.911333 59.458500,6.025667 59.479167,6.175667 59.494167,6.182333 59.498667,6.167333 59.525333,6.142667 59.533167,6.149667 59.535167,6.146667 59.540000,6.138667 59.554000,6.132833 59.559000,6.155167 59.583833,6.162333 59.591833,6.187667 59.623500,6.175667 59.640167,6.182000 59.643333,6.201000 59.692000,6.229000 59.704833,6.270500 59.732833,6.268333 59.766833,6.304167 59.771333,6.330500 59.783000,6.334000 59.787000,6.418333 59.809500,6.443833 59.844000,6.533500 59.832500,6.590000 59.840167,6.670667 59.820833,6.690000 59.796000,6.672833 59.767000,6.683667 59.715000,6.645000 59.697333,6.697500 59.703667,6.763833 59.730167,6.839167 59.741500,6.881500 59.773833,6.998000 59.782667,7.098500 59.748667,7.119500 59.701667,7.113667 59.671667,7.214500 59.658667,7.141167 59.653667,7.101833 59.621833,7.091167 59.584167,7.055667 59.598167,6.994833 59.522500,6.976667 59.514333,6.963000 59.505667,6.984167 59.502833,7.006833 59.488333,7.026500 59.470000,7.013333 59.459000,6.999167 59.442500,6.954500 59.428833,6.890333 59.399667,6.932667 59.392167,6.910667 59.396167,6.891333 59.368000,6.870167 59.317167,6.832167 59.257500,6.841333 59.195667,6.841167 59.175500,6.807667 59.170667,6.743333 59.184167,6.663167 59.169000,6.622333 59.145667,6.617167 59.139500,6.572667 59.095167,6.548500 59.082500,6.439667 59.091000,6.418667 59.093500,6.402000 59.078333,6.307000 59.060500,6.309000 59.057833,6.277000 59.044667,6.277000 59.044000,6.236833 59.034667,6.220500 58.998500,6.181500 58.974833,6.128167 58.959000,6.096333 58.972333,6.067667 58.966000,5.995167 58.952167,5.978167 58.986167,5.865333 59.031333,5.791500 59.059333,5.791333 59.079000,5.863833 59.137500,5.984333 59.164000,6.012667 59.178667,5.984167 59.189667,5.997833 59.213667,5.962500 59.225833,6.011000 59.254167,5.976333
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1101;1102;1103;1106;1111;1112;1114;1119;1120;1121;1122;1124;1127;1129;1130;1133;1134;1135;1141;1142;1144;1145;1146;1149;1151;1154;1159;1160</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>wind</value>
+    </eventCode>
+    <effective>2019-03-15T22:00:00+00:00</effective>
+    <onset>2019-03-15T22:00:00+00:00</onset>
+    <expires>2019-03-16T06:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Ryfylke, 15 March 22:00 UTC to 16 March 06:00 UTC.</headline>
+    <description>From late Saturday evening and until Sunday morning it is expected wind gust from southeast around 27-30 m/s in exposed areas. </description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no).</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-03-16T06:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Loose items may be taken by the wind. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>17.2 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Strong wind gusts, yellow level, Ryfylke, 15 March 22:00 UTC to 16 March 06:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/ad66ac8c-247d-4151-911d-1c017e0974d9.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Ryfylke</areaDesc>
+      <polygon>59.254167,5.976333 59.259167,6.010000 59.254167,6.016167 59.257167,6.032000 59.267500,6.036000 59.266333,6.044833 59.270667,6.050833 59.276833,6.054500 59.279167,6.055500 59.284833,6.053333 59.288500,6.056500 59.285667,6.062500 59.297667,6.086500 59.311500,6.082667 59.309667,5.904833 59.344833,5.922667 59.383833,5.916500 59.399667,5.891333 59.447500,5.874333 59.463667,5.911333 59.458500,6.025667 59.479167,6.175667 59.494167,6.182333 59.498667,6.167333 59.525333,6.142667 59.533167,6.149667 59.535167,6.146667 59.540000,6.138667 59.554000,6.132833 59.559000,6.155167 59.583833,6.162333 59.591833,6.187667 59.623500,6.175667 59.640167,6.182000 59.643333,6.201000 59.692000,6.229000 59.704833,6.270500 59.732833,6.268333 59.766833,6.304167 59.771333,6.330500 59.783000,6.334000 59.787000,6.418333 59.809500,6.443833 59.844000,6.533500 59.832500,6.590000 59.840167,6.670667 59.820833,6.690000 59.796000,6.672833 59.767000,6.683667 59.715000,6.645000 59.697333,6.697500 59.703667,6.763833 59.730167,6.839167 59.741500,6.881500 59.773833,6.998000 59.782667,7.098500 59.748667,7.119500 59.701667,7.113667 59.671667,7.214500 59.658667,7.141167 59.653667,7.101833 59.621833,7.091167 59.584167,7.055667 59.598167,6.994833 59.522500,6.976667 59.514333,6.963000 59.505667,6.984167 59.502833,7.006833 59.488333,7.026500 59.470000,7.013333 59.459000,6.999167 59.442500,6.954500 59.428833,6.890333 59.399667,6.932667 59.392167,6.910667 59.396167,6.891333 59.368000,6.870167 59.317167,6.832167 59.257500,6.841333 59.195667,6.841167 59.175500,6.807667 59.170667,6.743333 59.184167,6.663167 59.169000,6.622333 59.145667,6.617167 59.139500,6.572667 59.095167,6.548500 59.082500,6.439667 59.091000,6.418667 59.093500,6.402000 59.078333,6.307000 59.060500,6.309000 59.057833,6.277000 59.044667,6.277000 59.044000,6.236833 59.034667,6.220500 58.998500,6.181500 58.974833,6.128167 58.959000,6.096333 58.972333,6.067667 58.966000,5.995167 58.952167,5.978167 58.986167,5.865333 59.031333,5.791500 59.059333,5.791333 59.079000,5.863833 59.137500,5.984333 59.164000,6.012667 59.178667,5.984167 59.189667,5.997833 59.213667,5.962500 59.225833,6.011000 59.254167,5.976333
+</polygon>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1101;1102;1103;1106;1111;1112;1114;1119;1120;1121;1122;1124;1127;1129;1130;1133;1134;1135;1141;1142;1144;1145;1146;1149;1151;1154;1159;1160</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211109085442670.2217</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-11-09T08:54:42+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.211109085324148.2216,2021-11-09T08:53:24+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-11-09T09:00:00+00:00</effective>
+    <onset>2021-11-09T09:00:00+00:00</onset>
+    <expires>2021-11-10T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Svinøy - Frøya, 09 November 09:00 UTC til 10 November 10:00 UTC.</headline>
+    <description>I dag, tirsdag sørvest stiv eller sterk kuling 20 m/s, fra tirsdag ettermiddag periodevis liten storm 22 m/s.</description>
+    <instruction>Ikke dra ut i småbåt.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-10T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Det er farlig å være ute i småbåt. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Svinøy - Frøya</areaDesc>
+      <polygon>62.922000,6.453000 62.847500,6.235000 62.740500,6.029000 62.631000,5.812167 62.541500,5.637333 62.433667,5.400500 62.360333,5.222667 62.265500,5.446000 62.350500,5.573000 62.480000,5.948667 62.577333,6.069333 62.638000,6.152333 62.685333,6.253500 62.776833,6.459333 62.838167,6.607333 62.952333,7.081833 63.038000,7.471000 63.143833,7.771333 63.263667,7.876667 63.389667,7.846333 63.449000,7.998500 63.505333,8.364667 63.592167,8.563333 63.746333,8.279000 63.642833,7.949833 63.553000,7.677667 63.409833,7.436500 63.304667,7.302500 63.164000,7.051833 62.922000,6.453000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-11-09T09:00:00+00:00</effective>
+    <onset>2021-11-09T09:00:00+00:00</onset>
+    <expires>2021-11-10T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Svinoey - Froeya, 09 November 09:00 UTC to 10 November 10:00 UTC.</headline>
+    <description>Today, Tuesday southwest near gale force 7 or gale force 8, from Tuesday afternoon occasionally strong gale force 9.</description>
+    <instruction>Do not go out at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-10T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Large waves. High risk of dangerous situations when in a small boat at sea. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>13.9 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Svinoey - Froeya</areaDesc>
+      <polygon>62.922000,6.453000 62.847500,6.235000 62.740500,6.029000 62.631000,5.812167 62.541500,5.637333 62.433667,5.400500 62.360333,5.222667 62.265500,5.446000 62.350500,5.573000 62.480000,5.948667 62.577333,6.069333 62.638000,6.152333 62.685333,6.253500 62.776833,6.459333 62.838167,6.607333 62.952333,7.081833 63.038000,7.471000 63.143833,7.771333 63.263667,7.876667 63.389667,7.846333 63.449000,7.998500 63.505333,8.364667 63.592167,8.563333 63.746333,8.279000 63.642833,7.949833 63.553000,7.677667 63.409833,7.436500 63.304667,7.302500 63.164000,7.051833 62.922000,6.453000
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO808</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO806</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO807</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

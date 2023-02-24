@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211223082732484.2713</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-12-23T08:27:32+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.211222111855096.2699,2021-12-22T11:18:55+00:00</references>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Kuling</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-12-23T09:00:00+00:00</effective>
+    <onset>2021-12-23T09:00:00+00:00</onset>
+    <expires>2021-12-23T20:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kuling, gult nivå, Andenes - Slettnes fyr, 23 December 09:00 UTC til 23 December 20:00 UTC.</headline>
+    <description>Torsdag nordøstlig periodevis sterk kuling 20 m/s. Torsdag formiddagen økende til forbigående opp i liten storm. Torsdag ettermiddagen minkende, først i øst. </description>
+    <instruction>Vurder å la båten ligge.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-12-23T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Høye bølger. Sjøen begynner å rulle. Sjørokket kan minske synsvidden. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Kuling</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Andenes - Slettnes fyr</areaDesc>
+      <polygon>71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.687167,17.759667 69.332000,16.062833 69.283500,16.208000 69.064667,16.030167 69.100833,16.655500 69.316500,16.864500 69.516667,18.099833 69.516667,18.100000 69.915667,19.179667 70.039000,19.960167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 70.116667,22.516667 70.250000,22.383167 70.333167,22.616667 70.400000,22.733167 70.416667,23.033167 70.433167,23.283167 70.500000,23.583167 70.583167,23.683167 70.599833,23.916667 70.650000,24.033167 70.716667,24.166667 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Gale</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>gale</value>
+    </eventCode>
+    <effective>2021-12-23T09:00:00+00:00</effective>
+    <onset>2021-12-23T09:00:00+00:00</onset>
+    <expires>2021-12-23T20:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Gale, yellow level, Andenes - Slettnes lighthouse, 23 December 09:00 UTC to 23 December 20:00 UTC.</headline>
+    <description>Thursday northeasterly occasionally gale force 8. Thursday forenoon increasing temporary up to severe gale force 9. Thursday afternoon decreasing, first in east. </description>
+    <instruction>It is not recommended to be at sea in a small boat.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-12-23T20:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>High waves whose crests sometimes roll over. Airborne spray may reduce visibility. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Gale</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>1; Wind</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>20.8 m/s</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>marine</value>
+    </parameter>
+    <area>
+      <areaDesc>Andenes - Slettnes lighthouse</areaDesc>
+      <polygon>71.194167,25.814167 71.104167,23.988500 70.680833,21.941167 70.462667,21.334667 70.411167,20.807167 70.342000,20.167667 70.312667,19.215167 70.206167,18.617000 70.109167,18.405667 69.905833,18.007667 69.687167,17.759833 69.687167,17.759667 69.332000,16.062833 69.283500,16.208000 69.064667,16.030167 69.100833,16.655500 69.316500,16.864500 69.516667,18.099833 69.516667,18.100000 69.915667,19.179667 70.039000,19.960167 70.183167,21.600000 70.099833,21.783167 70.166667,22.083167 70.066667,22.216667 70.116667,22.516667 70.250000,22.383167 70.333167,22.616667 70.400000,22.733167 70.416667,23.033167 70.433167,23.283167 70.500000,23.583167 70.583167,23.683167 70.599833,23.916667 70.650000,24.033167 70.716667,24.166667 70.716667,24.383167 70.633167,24.950000 70.733167,25.333167 70.699833,25.600000 70.716667,25.883167 70.666667,26.033167 70.666667,26.250000 70.750000,26.750000 70.750000,27.216667 70.744167,27.621333 71.105667,28.237667 71.150167,27.643167 71.116667,26.783167 71.194167,25.814167
+</polygon>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO805</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO804</value>
+      </geocode>
+      <geocode>
+        <valueName>emma_id</valueName>
+        <value>NO803</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>900</ceiling>
+    </area>
+  </info>
+</alert>

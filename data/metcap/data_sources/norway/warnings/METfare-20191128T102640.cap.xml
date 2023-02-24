@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.191128102640578.3007</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-11-28T10:26:40+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>2959</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polart lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-11-28T10:00:00+00:00</effective>
+    <onset>2019-11-28T10:00:00+00:00</onset>
+    <expires>2019-11-29T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, A4, A5, B4, B5, C4, 28 November 10:00 UTC til 29 November 18:00 UTC.</headline>
+    <description>Et polart lavtrykk er nå ved Bjørnøya. Det beveger seg nordøstover i retning Edgeøya og vil fredag ettermiddag gå på land i nordøstlig del av Spitsbergen. Torsdag ventes nordøstlig liten storm 22 m/s i områdene C4, B4 og B5 og fra natt til fredag full storm 25 m/s i A4, A5 og nord i B5. Lavtrykket ventes å svekkes fredag ettermiddag.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-11-29T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Rask endring i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polart lavtrykk, gult nivå, A4, A5, B4, B5, C4, 28 November 10:00 UTC til 29 November 18:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/247ae539-10c9-4956-9432-4309ddd0673d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>A4, A5, B4, B5, C4</areaDesc>
+      <polygon>75.000000,20.000000 75.000000,30.000000 77.500000,30.000000 80.000000,30.000000 80.000000,27.473667 79.566167,25.754167 79.487667,25.879667 79.432667,25.735000 79.330167,25.140667 79.193167,24.157167 79.161667,23.657667 79.228833,22.823167 79.329167,22.552167 79.349667,20.757167 79.431167,20.324167 79.170500,20.278833 78.832667,21.449000 78.404500,22.198833 77.820000,24.324167 77.551333,24.245500 77.543667,20.825833 77.860000,21.406333 78.063667,20.784667 78.398333,20.582500 78.471833,20.084667 79.449500,20.122167 79.452667,20.000000 79.492667,20.000000 80.000000,17.738000 80.000000,16.623167 79.879167,17.554667 79.185833,19.829667 78.382500,19.800167 77.555000,18.399833 77.550000,13.655667 78.193333,13.005167 78.199833,12.259667 78.230667,11.791500 78.456000,10.996667 78.808500,10.416500 78.890833,10.467333 78.878500,10.835167 78.429000,11.832667 78.212500,12.240167 78.199833,12.984667 78.733500,11.540167 79.527333,10.646333 79.771000,10.646500 79.852500,11.287167 79.864000,15.642167 80.000000,15.969167 80.000000,11.000000 80.000000,10.000000 77.500000,10.000000 75.000000,10.000000 72.500000,10.000000 72.500000,20.000000 75.000000,20.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-11-28T10:00:00+00:00</effective>
+    <onset>2019-11-28T10:00:00+00:00</onset>
+    <expires>2019-11-29T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, A4, A5, B4, B5, C4, 28 November 10:00 UTC to 29 November 18:00 UTC.</headline>
+    <description>A polar low is now near Bear Iceland. Moving northeast towards Edgeøya and expected Friday afternoon to reach the northeastern part of Spitsbergen. Thursday expected northeast strong gale force 9 in areas C4, B4 and B5 and from early Friday morning storm force 10 in A4, A5 and north part of B5. Polar low expected to weakening Friday afternoon.</description>
+    <instruction>Be aware of abrupt weather changes.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-11-29T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Abrupt change in wind speed and wind direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polar low, yellow level, A4, A5, B4, B5, C4, 28 November 10:00 UTC to 29 November 18:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/247ae539-10c9-4956-9432-4309ddd0673d.png</uri>
+    </resource>
+    <area>
+      <areaDesc>A4, A5, B4, B5, C4</areaDesc>
+      <polygon>75.000000,20.000000 75.000000,30.000000 77.500000,30.000000 80.000000,30.000000 80.000000,27.473667 79.566167,25.754167 79.487667,25.879667 79.432667,25.735000 79.330167,25.140667 79.193167,24.157167 79.161667,23.657667 79.228833,22.823167 79.329167,22.552167 79.349667,20.757167 79.431167,20.324167 79.170500,20.278833 78.832667,21.449000 78.404500,22.198833 77.820000,24.324167 77.551333,24.245500 77.543667,20.825833 77.860000,21.406333 78.063667,20.784667 78.398333,20.582500 78.471833,20.084667 79.449500,20.122167 79.452667,20.000000 79.492667,20.000000 80.000000,17.738000 80.000000,16.623167 79.879167,17.554667 79.185833,19.829667 78.382500,19.800167 77.555000,18.399833 77.550000,13.655667 78.193333,13.005167 78.199833,12.259667 78.230667,11.791500 78.456000,10.996667 78.808500,10.416500 78.890833,10.467333 78.878500,10.835167 78.429000,11.832667 78.212500,12.240167 78.199833,12.984667 78.733500,11.540167 79.527333,10.646333 79.771000,10.646500 79.852500,11.287167 79.864000,15.642167 80.000000,15.969167 80.000000,11.000000 80.000000,10.000000 77.500000,10.000000 75.000000,10.000000 72.500000,10.000000 72.500000,20.000000 75.000000,20.000000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

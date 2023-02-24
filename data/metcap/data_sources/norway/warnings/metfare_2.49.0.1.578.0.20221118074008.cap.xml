@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221118074008</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-11-18T07:41:17+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221116083806,2022-11-16T08:45:42+00:00</references>
+  <incidents>0000050275</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Vindkast</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-11-15T13:00:00+00:00</effective>
+    <onset>2022-11-15T13:00:00+00:00</onset>
+    <expires>2022-11-18T18:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftige vindkast, gult nivå, Delar av Rogaland og Vestland, 2022-11-15T13:00:00+00:00, 2022-11-18T18:00:00+00:00</headline>
+    <description>Frå tysdag ettermiddag er det venta lokale vindkast kring 27-30 m/s frå søraust. Minkande vind fredag ettermiddag, først i nord.</description>
+    <instruction>Sikre løse gjenstander. Unngå unødvendig ferdsel på utsatte steder. Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). På forhånd vurder tiltak for å begrense skade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-18T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Løse gjenstander kan blåse avgårde. Mulighet for kansellerte avganger for ferje, fly eller annen transport. Broer kan bli stengt. Enkelte reiser vil kunne få lenger reisetid. Strømforsyningen kan bli påvirket, for eksempel som følge av trær som knekker eller kommer i kontakt med strømnettet. Enkelte veier kan bli stengt på grunn av trær eller andre objekter i veibanen. Snøfokk i fjellet gir redusert sikt og mulighet for kolonnekjøring og/eller stengte veier. Den sterke vinden kan gi lokalt høye bølger i fjordstrøk og innsjøer. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftige vindkast</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftige vindkast, gult nivå, Delar av Rogaland og Vestland, 2022-11-15T13:00:00+00:00, 2022-11-18T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1e0d175c-7d22-4dfd-9adc-9937a71512af.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Delar av Rogaland og Vestland</areaDesc>
+      
+          <polygon>61.1557,6.30706 61.2108,5.79399 61.1609,5.25925 60.7712,5.23294 60.4449,5.46276 59.8979,5.63221 59.4752,5.50545 58.7749,5.81435 58.5572,5.51065 58.2029,6.27481 58.5745,6.53856 58.8618,6.50301 59.1313,6.86314 59.1938,6.77746 59.6717,7.01457 60.0208,7.12341 60.7106,7.49971 60.875,7.27187 61.0349,6.7192 61.0853,6.54095 61.1557,6.30706 61.1557,6.30706</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1101;1103;1108;1111;1112;1114;1119;1121;1122;1130;1133;1134;1135;1146;1160;4601;4611;4616;4617;4618;4619;4620;4621;4622;4623;4624;4628;4629;4630;4631;4634;4635;4637;4638;4639;4641</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Wind gusts</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>wind</value>
+    </eventCode>
+    <effective>2022-11-15T13:00:00+00:00</effective>
+    <onset>2022-11-15T13:00:00+00:00</onset>
+    <expires>2022-11-18T18:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Strong wind gusts, yellow level, Parts of Rogaland and Vestland, 2022-11-15T13:00:00+00:00, 2022-11-18T18:00:00+00:00</headline>
+    <description>From Tuesday afternoon it is expected wind gust from southeast around 27-30 m/s. Declining wind Friday afternoon, first in northern parts.</description>
+    <instruction>Secure loose objects. Avoid unnecessary journeys to exposed places. Follow advice and check status from transport operators. Check road reports (175.no). In advance consider measures to limit damage. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/vind-over-land</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-11-18T18:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Loose items may be taken by the wind. Possibly cancelled departures for ferry, plane, or other transport. Bridges may be closed. Some journeys may have longer travel times. The power supply may be impacted, due to tree(s) falling over. Some roads may be closed due to trees or other objects in the road. Blowing snow at higher altitudes causes reduced visibility and possibly convoys and/or closed roads. The strong wind may cause locally high waves in fjords and lakes. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Strong wind gusts</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>1; Wind</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Strong wind gusts, yellow level, Parts of Rogaland and Vestland, 2022-11-15T13:00:00+00:00, 2022-11-18T18:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1e0d175c-7d22-4dfd-9adc-9937a71512af.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Rogaland and Vestland</areaDesc>
+      
+          <polygon>61.1557,6.30706 61.2108,5.79399 61.1609,5.25925 60.7712,5.23294 60.4449,5.46276 59.8979,5.63221 59.4752,5.50545 58.7749,5.81435 58.5572,5.51065 58.2029,6.27481 58.5745,6.53856 58.8618,6.50301 59.1313,6.86314 59.1938,6.77746 59.6717,7.01457 60.0208,7.12341 60.7106,7.49971 60.875,7.27187 61.0349,6.7192 61.0853,6.54095 61.1557,6.30706 61.1557,6.30706</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>11</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1101;1103;1108;1111;1112;1114;1119;1121;1122;1130;1133;1134;1135;1146;1160;4601;4611;4616;4617;4618;4619;4620;4621;4622;4623;4624;4628;4629;4630;4631;4634;4635;4637;4638;4639;4641</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

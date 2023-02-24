@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221201090257</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-12-01T09:13:10+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221129083928,2022-11-29T09:17:18+00:00</references>
+  <incidents>0000050290</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-11-24T10:00:00+00:00</effective>
+    <onset>2022-11-24T10:00:00+00:00</onset>
+    <expires>2022-12-04T12:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Stor skogbrannfare, oransje nivå, Nordlige deler av Trøndelag, 2022-11-24T10:00:00+00:00, 2022-12-04T12:00:00+00:00</headline>
+    <description>Etter vedvarende oppholdsvær i over to uker er det nå lokal stor gress- og lyngbrannfare i snøfrie områder i lavlandet. Dette gjelder inntil det kommer nedbør av betydning. 
+</description>
+    <instruction>Vær svært forsiktig med åpen ild. Følg lokale myndigheters instruksjoner. Behov for forebyggende tiltak og beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetasjon kan svært lett antennes og veldig store områder kan bli berørt. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Stor skogbrannfare</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Alvorlig situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Vær forberedt</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Stor skogbrannfare, oransje nivå, Nordlige deler av Trøndelag, 2022-11-24T10:00:00+00:00, 2022-12-04T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/f805b8d4-73ad-4389-a536-cce6aa77973a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Nordlige deler av Trøndelag</areaDesc>
+      
+          <polygon>63.4276,11.0383 64.0547,11.5856 65.0002,12.9784 65.1294,13.1075 65.0292,12.885 64.9935,12.8872 64.9838,12.7468 64.9658,12.7113 64.9669,12.637 65.0027,12.5792 64.9945,12.4986 65.0079,12.3925 64.982,12.2788 65.0221,12.1851 65.0285,12.1077 65.0124,12.1021 65.0249,12.0687 65.0714,12.0703 65.0769,12.0031 65.0863,11.952 65.0742,11.943 65.0714,11.9221 65.0934,11.9391 65.1202,11.9799 65.1595,11.9585 65.1705,11.8398 65.1935,11.7014 65.2384,11.5006 65.308,11.4062 65.4067,11.0275 64.9905,10.6732 64.4233,10.2119 64.123,9.92307 63.2858,10.7048 63.4276,11.0383 63.4276,11.0383</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1811;5006;5007;5020;5031;5035;5036;5037;5044;5046;5047;5049;5052;5053;5054;5058;5060</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Severe</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-11-24T10:00:00+00:00</effective>
+    <onset>2022-11-24T10:00:00+00:00</onset>
+    <expires>2022-12-04T12:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>High forest fire danger, orange level, Northern parts of Trøndelag, 2022-11-24T10:00:00+00:00, 2022-12-04T12:00:00+00:00</headline>
+    <description>Due to lasting dry conditions for more than two weeks, there is now local high grass fire danger in areas free of snow. Valid until significant precipitation. </description>
+    <instruction>Be very careful with open fire. Follow the instructions from the local authorities. Emergency services should assess a necessary level of alertness. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetation is very easily ignited and very large areas may be affected. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>High forest fire danger</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>3; orange; Severe</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Severe situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be prepared</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over High forest fire danger, orange level, Northern parts of Trøndelag, 2022-11-24T10:00:00+00:00, 2022-12-04T12:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/f805b8d4-73ad-4389-a536-cce6aa77973a.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Northern parts of Trøndelag</areaDesc>
+      
+          <polygon>63.4276,11.0383 64.0547,11.5856 65.0002,12.9784 65.1294,13.1075 65.0292,12.885 64.9935,12.8872 64.9838,12.7468 64.9658,12.7113 64.9669,12.637 65.0027,12.5792 64.9945,12.4986 65.0079,12.3925 64.982,12.2788 65.0221,12.1851 65.0285,12.1077 65.0124,12.1021 65.0249,12.0687 65.0714,12.0703 65.0769,12.0031 65.0863,11.952 65.0742,11.943 65.0714,11.9221 65.0934,11.9391 65.1202,11.9799 65.1595,11.9585 65.1705,11.8398 65.1935,11.7014 65.2384,11.5006 65.308,11.4062 65.4067,11.0275 64.9905,10.6732 64.4233,10.2119 64.123,9.92307 63.2858,10.7048 63.4276,11.0383 63.4276,11.0383</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>1811;5006;5007;5020;5031;5035;5036;5037;5044;5046;5047;5049;5052;5053;5054;5058;5060</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>1000</ceiling>
+    </area>
+  </info>
+</alert>

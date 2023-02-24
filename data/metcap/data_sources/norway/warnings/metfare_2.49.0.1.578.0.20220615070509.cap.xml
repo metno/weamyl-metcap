@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220615070509</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-15T07:23:56+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20220614095614,2022-06-14T10:27:27+00:00</references>
+  <incidents>0000050021</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Skogbrannfare</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-06-15T06:00:00+00:00</effective>
+    <onset>2022-06-15T06:00:00+00:00</onset>
+    <expires>2022-06-17T15:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Skogbrannfare, gult nivå, Deler av Agder, Vestfold og Telemark og Viken, 2022-06-15T06:00:00+00:00, 2022-06-17T15:00:00+00:00</headline>
+    <description>Lokal skogbrannfare inntil det kommer nedbør av betydning.</description>
+    <instruction>Vær forsiktig med åpen ild. Følg lokale myndigheters instruksjoner. Behov for forebyggende tiltak og beredskap skal vurderes fortløpende av beredskapsaktører. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetasjon kan lett antennes og store områder kan bli berørt. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Skogbrannfare</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Skogbrannfare, gult nivå, Deler av Agder, Vestfold og Telemark og Viken, 2022-06-15T06:00:00+00:00, 2022-06-17T15:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/02543a1c-bc47-4a4f-9ba0-7cd12ca16f49.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Agder, Vestfold og Telemark og Viken</areaDesc>
+      <polygon>58.5693,7.53089 58.2525,7.42674 58.0652,7.50208 58.0408,7.57605 58.0409,7.67159 58.1499,8.01826 58.1706,8.21589 58.4138,8.72295 58.8589,9.43216 58.9662,9.60728 59.1087,9.71982 58.979,9.98006 59.1073,10.2285 59.1865,10.4359 59.3194,10.7674 59.2219,10.8212 59.0896,11.1563 58.9412,11.189 58.884,11.5492 59.106,11.509 59.3601,11.3515 59.6131,11.269 59.7789,10.8344 59.8781,10.6381 60.1045,10.4099 60.1783,10.1929 60.0801,9.57657 59.7422,9.12501 59.029,8.21314 58.5693,7.53089 58.5693,7.53089</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3001;3002;3003;3004;3005;3006;3007;3014;3015;3016;3017;3018;3019;3020;3021;3022;3023;3024;3025;3038;3045;3047;3048;3049;3050;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3820;3821;3822;3823;4201;4202;4203;4204;4205;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4223</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Forest fire danger</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>forestFire</value>
+    </eventCode>
+    <effective>2022-06-15T06:00:00+00:00</effective>
+    <onset>2022-06-15T06:00:00+00:00</onset>
+    <expires>2022-06-17T15:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Forest fire danger, yellow level, Parts of Agder, Vestfold and Telemark and Viken, 2022-06-15T06:00:00+00:00, 2022-06-17T15:00:00+00:00</headline>
+    <description>Local forest fire danger until significant precipitation.</description>
+    <instruction>Be careful with open fire. Follow the instructions from the local authorities. Emergency services should assess a necessary level of alertness. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/varsel-om-skogbrannfare</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Vegetation is easily ignited and large areas may be affected. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Forest fire danger</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>8; forest-fire</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Forest fire danger, yellow level, Parts of Agder, Vestfold and Telemark and Viken, 2022-06-15T06:00:00+00:00, 2022-06-17T15:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/02543a1c-bc47-4a4f-9ba0-7cd12ca16f49.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Agder, Vestfold and Telemark and Viken</areaDesc>
+      <polygon>58.5693,7.53089 58.2525,7.42674 58.0652,7.50208 58.0408,7.57605 58.0409,7.67159 58.1499,8.01826 58.1706,8.21589 58.4138,8.72295 58.8589,9.43216 58.9662,9.60728 59.1087,9.71982 58.979,9.98006 59.1073,10.2285 59.1865,10.4359 59.3194,10.7674 59.2219,10.8212 59.0896,11.1563 58.9412,11.189 58.884,11.5492 59.106,11.509 59.3601,11.3515 59.6131,11.269 59.7789,10.8344 59.8781,10.6381 60.1045,10.4099 60.1783,10.1929 60.0801,9.57657 59.7422,9.12501 59.029,8.21314 58.5693,7.53089 58.5693,7.53089</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>30</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3001;3002;3003;3004;3005;3006;3007;3014;3015;3016;3017;3018;3019;3020;3021;3022;3023;3024;3025;3038;3045;3047;3048;3049;3050;3801;3802;3803;3804;3805;3806;3807;3808;3811;3812;3813;3814;3815;3816;3817;3820;3821;3822;3823;4201;4202;4203;4204;4205;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4223</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

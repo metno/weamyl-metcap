@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220626064911</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-26T07:17:42+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050045</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-26T11:00:00+00:00</effective>
+    <onset>2022-06-26T11:00:00+00:00</onset>
+    <expires>2022-06-26T19:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn, gult nivå, Agder, 2022-06-26T11:00:00+00:00, 2022-06-26T19:00:00+00:00</headline>
+    <description>Det er fare for tordenvær med mye lyn. Tordenværet starter i vestlige deler av Agder og beveger seg østover utover dagen. Det vil være store lokale forskjeller i intensitet. Noen steder vil ikke få tordenvær</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Vurdere behov for forebyggende tiltak. Koble fra elektriske apparater. Tilpass farten etter kjøreforholdene. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-26T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Tordenværet kan føre med seg lokalt kraftige vindkast. Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn, gult nivå, Agder, 2022-06-26T11:00:00+00:00, 2022-06-26T19:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/7d9441e6-f757-4c55-9d35-3e1cce781ca4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Agder</areaDesc>
+      <polygon>58.580911,6.605153 58.625087,6.614727 58.609935,6.497505 58.649332,6.436071 58.696679,6.622365 58.765277,6.572748 58.767415,6.518094 58.880079,6.608556 58.90996,6.560848 59.113399,6.903688 59.144601,6.881024 59.181915,6.939165 59.182664,6.847567 59.269885,6.824516 59.368405,6.86514 59.400274,6.932164 59.429298,6.882823 59.481192,7.022876 59.516451,6.962964 59.597028,6.991826 59.586832,7.048584 59.651305,7.098727 59.672692,7.214677 59.632859,7.392614 59.658697,7.442314 59.601616,7.537869 59.52402,7.536264 59.461779,7.62562 59.438351,7.566068 59.398817,7.539944 59.387151,7.5708 59.328409,7.614274 59.326748,7.696158 59.220686,7.780505 59.143879,7.742206 58.967409,7.9681 58.948473,8.091687 58.961092,8.136711 58.97216,8.079483 58.982343,8.173295 58.886899,8.476479 58.931442,8.575465 58.831398,8.743717 58.912574,8.830721 58.948486,8.761981 58.988088,8.83418 58.99322,8.994876 58.9326,9.034698 58.879303,9.166698 58.803449,9.196363 58.776821,9.353877 58.603305,9.668851 57.955063,8.493194 57.770901,7.725574 57.792995,6.894971 57.887377,6.468919 58.02784,6.149711 58.276502,6.372949 58.365997,6.603935 58.451407,6.632161 58.492778,6.587691 58.580911,6.605153 58.580911,6.605153</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4201;4202;4203;4204;4205;4206;4207;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4221;4222;4223;4224;4225;4226;4227;4228</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-26T11:00:00+00:00</effective>
+    <onset>2022-06-26T11:00:00+00:00</onset>
+    <expires>2022-06-26T19:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning, yellow level, Agder, 2022-06-26T11:00:00+00:00, 2022-06-26T19:00:00+00:00</headline>
+    <description>There is a risk of frequent lightning, first in western part. There will be large local differences in intensity. Some places will not experience any lightning</description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Assess the need for preventive measures. Disconnect electrical appliances. Adjust driving speed according to the road/weather conditions. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-26T19:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Thunderstorms can lead to locally strong wind gusts.  Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning, yellow level, Agder, 2022-06-26T11:00:00+00:00, 2022-06-26T19:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/7d9441e6-f757-4c55-9d35-3e1cce781ca4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Agder</areaDesc>
+      <polygon>58.580911,6.605153 58.625087,6.614727 58.609935,6.497505 58.649332,6.436071 58.696679,6.622365 58.765277,6.572748 58.767415,6.518094 58.880079,6.608556 58.90996,6.560848 59.113399,6.903688 59.144601,6.881024 59.181915,6.939165 59.182664,6.847567 59.269885,6.824516 59.368405,6.86514 59.400274,6.932164 59.429298,6.882823 59.481192,7.022876 59.516451,6.962964 59.597028,6.991826 59.586832,7.048584 59.651305,7.098727 59.672692,7.214677 59.632859,7.392614 59.658697,7.442314 59.601616,7.537869 59.52402,7.536264 59.461779,7.62562 59.438351,7.566068 59.398817,7.539944 59.387151,7.5708 59.328409,7.614274 59.326748,7.696158 59.220686,7.780505 59.143879,7.742206 58.967409,7.9681 58.948473,8.091687 58.961092,8.136711 58.97216,8.079483 58.982343,8.173295 58.886899,8.476479 58.931442,8.575465 58.831398,8.743717 58.912574,8.830721 58.948486,8.761981 58.988088,8.83418 58.99322,8.994876 58.9326,9.034698 58.879303,9.166698 58.803449,9.196363 58.776821,9.353877 58.603305,9.668851 57.955063,8.493194 57.770901,7.725574 57.792995,6.894971 57.887377,6.468919 58.02784,6.149711 58.276502,6.372949 58.365997,6.603935 58.451407,6.632161 58.492778,6.587691 58.580911,6.605153 58.580911,6.605153</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>4201;4202;4203;4204;4205;4206;4207;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4221;4222;4223;4224;4225;4226;4227;4228</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

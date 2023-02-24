@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.190114102907506.273</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2019-01-14T10:29:07+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.190114102424050.272,2019-01-14T10:24:24+00:00</references>
+  <incidents>1421</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Polare lavtrykk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-01-14T10:00:00+00:00</effective>
+    <onset>2019-01-14T10:00:00+00:00</onset>
+    <expires>2019-01-15T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Polart lavtrykk, gult nivå, D3, Dype D4, E3 og Dype E4, 14 January 10:00 UTC til 15 January 10:00 UTC.</headline>
+    <description>Et polart lavtrykk ligger mandag formidag på 71N 011E, og vil bevege seg inn på Vesterålsbankene og gi perioder med vestlig sterk kuling til liten storm sør for senteret. Lavtrykket vil tirsdag morgen bevege seg videre vestover til E3.</description>
+    <instruction>Vær oppmerksom på raske endringer i været.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-15T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Raske endringer i vindstyrke og retning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polart lavtrykk</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polart lavtrykk, gult nivå, D3, Dype D4, E3 og Dype E4, 14 January 10:00 UTC til 15 January 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/2d3bdb1c-3bf0-4b85-a6c3-65d8093b8ca4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>D3, Dype D4, E3 og Dype E4</areaDesc>
+      <polygon>70.000000,16.600000 70.200000,16.900000 70.716667,16.780000 72.000000,15.750000 72.500000,15.750000 72.500000,15.000000 72.500000,10.000000 72.500000,0.000000 70.000000,0.000000 67.500000,0.000000 67.500000,10.000000 68.220000,10.000000 69.550000,15.200000 69.800000,16.300000 70.000000,16.600000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Polar low</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>polarLow</value>
+    </eventCode>
+    <effective>2019-01-14T10:00:00+00:00</effective>
+    <onset>2019-01-14T10:00:00+00:00</onset>
+    <expires>2019-01-15T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Polar low, yellow level, D3, Deep D4, E3 and Deep E4, 14 January 10:00 UTC to 15 January 10:00 UTC.</headline>
+    <description>A polar low is late Monday morning at 71N 011E, and will move to the Westeraalbanks and give occasionally west gale force 8 to severe gale force 9 south of the center. The low vil Tuesday morning move further west to E3.</description>
+    <instruction>Be prepared for sudden changes in the weather.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2019-01-15T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Sudden changes of wind speed and direction. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Polar low</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Polar low, yellow level, D3, Deep D4, E3 and Deep E4, 14 January 10:00 UTC to 15 January 10:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/2d3bdb1c-3bf0-4b85-a6c3-65d8093b8ca4.png</uri>
+    </resource>
+    <area>
+      <areaDesc>D3, Deep D4, E3 and Deep E4</areaDesc>
+      <polygon>70.000000,16.600000 70.200000,16.900000 70.716667,16.780000 72.000000,15.750000 72.500000,15.750000 72.500000,15.000000 72.500000,10.000000 72.500000,0.000000 70.000000,0.000000 67.500000,0.000000 67.500000,10.000000 68.220000,10.000000 69.550000,15.200000 69.800000,16.300000 70.000000,16.600000
+</polygon>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

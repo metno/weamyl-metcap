@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.211118102007512.2323</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2021-11-18T10:20:07+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>48937</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Regn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-11-18T23:00:00+00:00</effective>
+    <onset>2021-11-18T23:00:00+00:00</onset>
+    <expires>2021-11-19T11:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye regn, gult nivå, Rogaland og Hordaland, 18 November 23:00 UTC til 19 November 11:00 UTC.</headline>
+    <description>Fra natt til fredag til fredag ettermiddag ventes mye nedbør i midtre og indre strøk, lokalt kan det komme 50-65 mm på 12 timer. Natt til fredag vil nedbørintensiteten være størst.</description>
+    <instruction>Vurder behov for forebyggende tiltak. Behov for beredskap skal vurderes fortløpende av beredskapsaktører. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-19T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Fare for overvann i tettbygde områder. Se www.varsom.no for mer informasjon. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Noen reiser vil kunne få lenger reisetid. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Mye regn</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Følg med</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Kart over mye regn, gult nivå, Rogaland og Hordaland, 18 November 23:00 UTC til 19 November 11:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/ec2e7283-0349-45e0-aff7-3fc4235a1385.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Rogaland og Hordaland</areaDesc>
+      <polygon>58.569667,5.500000 58.527000,5.545667 58.525000,5.547500 58.513500,5.560833 58.510500,5.564333 58.506833,5.569333 58.503500,5.574833 58.482333,5.611000 58.451000,5.662333 58.429000,5.697833 58.382667,5.773667 58.382167,5.774667 58.377167,5.783167 58.376333,5.784500 58.373000,5.790500 58.370167,5.796833 58.367167,5.803500 58.364833,5.810500 58.362333,5.818167 58.336333,5.909167 58.319333,5.963667 58.313833,5.981500 58.281333,6.083000 58.234167,6.228333 58.215333,6.255000 58.196167,6.282333 58.277667,6.376833 58.303167,6.468167 58.314333,6.533500 58.330500,6.567167 58.355667,6.592833 58.377333,6.606500 58.419833,6.591000 58.448500,6.630667 58.501667,6.586833 58.533667,6.606833 58.561667,6.613833 58.563167,6.608500 58.578667,6.610333 58.585833,6.595000 58.594500,6.589667 58.605833,6.596333 58.624667,6.613833 58.616667,6.583000 58.627500,6.532667 58.614500,6.495500 58.616167,6.493333 58.637500,6.474500 58.650500,6.435500 58.671500,6.466000 58.669000,6.508833 58.694000,6.618667 58.715167,6.617333 58.741000,6.574167 58.764167,6.574833 58.766500,6.518333 58.807333,6.542167 58.840167,6.561833 58.874667,6.607500 58.885333,6.569333 58.900500,6.561167 58.911333,6.563000 58.939667,6.633167 58.967667,6.651500 58.985167,6.663667 58.992667,6.703333 59.006667,6.710000 59.020167,6.730000 59.039000,6.780167 59.053500,6.787333 59.112333,6.901000 59.137167,6.899333 59.140833,6.881667 59.188167,6.936500 59.184833,6.900667 59.182833,6.850833 59.191000,6.837167 59.192667,6.836833 59.253000,6.837833 59.272333,6.823167 59.318667,6.833000 59.335667,6.846667 59.371333,6.861000 59.397833,6.889833 59.393500,6.906000 59.393500,6.921000 59.402000,6.928167 59.413500,6.907667 59.428000,6.882167 59.447333,6.965000 59.480167,7.023333 59.505167,6.999000 59.512500,6.967667 59.559333,6.982500 59.596167,6.989167 59.588000,7.050000 59.602500,7.064667 59.613833,7.079167 59.623000,7.089667 59.644167,7.099833 59.653167,7.097667 59.672000,7.213167 59.703167,7.106833 59.742000,7.113167 59.765833,7.102667 59.782500,7.093167 59.810667,7.142000 59.831500,7.158833 59.846167,7.144333 59.886000,7.151000 59.931833,7.188667 59.963667,7.228000 59.987667,7.280000 59.990500,7.329833 60.001833,7.370167 60.019167,7.436500 60.057333,7.437667 60.100000,7.492000 60.177333,7.581167 60.247500,7.610333 60.293333,7.672833 60.412833,7.684000 60.528833,7.710833 60.543333,7.661667 60.564167,7.629667 60.594000,7.617000 60.633833,7.633833 60.660333,7.546833 60.673667,7.462833 60.685167,7.333000 60.693500,7.316500 60.704000,7.190667 60.694500,7.163667 60.695667,7.122667 60.714167,7.086833 60.710333,7.023333 60.717333,6.990333 60.744833,6.978000 60.771667,6.978333 60.775333,6.929500 60.769667,6.870167 60.811000,6.894833 60.826833,6.874000 60.827167,6.933333 60.839667,6.944500 60.855667,6.871500 60.837333,6.829500 60.831000,6.778167 60.836333,6.732833 60.847167,6.724167 60.879000,6.757833 60.886500,6.799500 60.894167,6.825333 60.911333,6.819500 60.914000,6.806667 60.921333,6.802667 60.923667,6.788000 60.913833,6.774000 60.909000,6.753000 60.934500,6.744500 60.930667,6.711833 60.955000,6.694500 60.964667,6.662333 60.930167,6.664833 60.919833,6.643333 60.916667,6.605500 60.894667,6.575500 60.890833,6.542167 60.909500,6.501500 60.925167,6.509500 60.945333,6.499000 60.946833,6.483167 60.922667,6.446000 60.923167,6.414333 60.931167,6.388833 60.880000,6.301000 60.910667,6.212833 60.914333,6.200500 60.922500,6.155000 60.939167,6.136000 60.971167,6.140833 60.984167,6.148667 60.999167,6.074167 61.027000,6.049333 61.034500,6.017667 61.009333,5.943167 61.012000,5.929167 60.983833,5.904167 60.951333,5.884167 60.953333,5.855333 60.985167,5.798833 60.976500,5.744500 60.967333,5.715000 60.957167,5.705833 60.964000,5.666167 60.979167,5.650000 60.977667,5.619833 60.961333,5.585167 60.931167,5.526333 60.925500,5.500000 58.569667,5.500000
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO043</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1103;1121;1127;1122;1108;1135;1124;1114;1145;1160;1134;1144;1149;1111;1130;1101;1112;1106;1146;1151;1133;1119;1120</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4622;4621;4619;4627;4625;4615;4614;4633;4613;4611;4623;4618;4616;4617;4612;4632;4634;4630;4626;4629;4631;4620;4628;4601;4624</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>eventType</valueName>
+      <value>rain</value>
+    </eventCode>
+    <effective>2021-11-18T23:00:00+00:00</effective>
+    <onset>2021-11-18T23:00:00+00:00</onset>
+    <expires>2021-11-19T11:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rain, yellow level, Rogaland and Hordaland, 18 November 23:00 UTC to 19 November 11:00 UTC.</headline>
+    <description>From early Friday morning to Friday afternoon heavy rain is expected in the central and inner areas, locally 50-65 mm is expected during 12 hours. The strongest intensity will be early Friday morning.</description>
+    <instruction>Consider the need for preventive measures. The need for emergency preparedness shall be assessed continuously by emergency response actors. Check road reports (175.no). Adjust the speed and use caution while driving.</instruction>
+    <web>https://www.met.no/vaer-og-klima/Ekstremvaervarsler-og-andre-farevarsler</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+      <valueName>eventEndingTime</valueName>
+      <value>2021-11-19T11:00:00+00:00</value>
+    </parameter>
+    <parameter>
+      <valueName>consequences</valueName>
+      <value>Risk of flooding of low-lying areas in densely populated areas. Check varsom.no for more information. Locally difficult driving conditions, especially at waterways. Roads may be closed. Some journeys may have longer travel time. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+      <valueName>eventAwarenessName</valueName>
+      <value>Heavy rain</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_level</valueName>
+      <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessSeriousness</valueName>
+      <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+      <valueName>awareness_type</valueName>
+      <value>10; rain</value>
+    </parameter>
+    <parameter>
+      <valueName>triggerLevel</valueName>
+      <value>50 mm/12t</value>
+    </parameter>
+    <parameter>
+      <valueName>awarenessResponse</valueName>
+      <value>Be aware</value>
+    </parameter>
+    <parameter>
+      <valueName>geographicDomain</valueName>
+      <value>land</value>
+    </parameter>
+    <resource>
+      <resourceDesc>Map of heavy rain, yellow level, Rogaland and Hordaland, 18 November 23:00 UTC to 19 November 11:00 UTC.</resourceDesc>
+      <mimeType>image/png</mimeType>
+      <uri>https://slaps.met.no/cap-images/ec2e7283-0349-45e0-aff7-3fc4235a1385.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Rogaland and Hordaland</areaDesc>
+      <polygon>58.569667,5.500000 58.527000,5.545667 58.525000,5.547500 58.513500,5.560833 58.510500,5.564333 58.506833,5.569333 58.503500,5.574833 58.482333,5.611000 58.451000,5.662333 58.429000,5.697833 58.382667,5.773667 58.382167,5.774667 58.377167,5.783167 58.376333,5.784500 58.373000,5.790500 58.370167,5.796833 58.367167,5.803500 58.364833,5.810500 58.362333,5.818167 58.336333,5.909167 58.319333,5.963667 58.313833,5.981500 58.281333,6.083000 58.234167,6.228333 58.215333,6.255000 58.196167,6.282333 58.277667,6.376833 58.303167,6.468167 58.314333,6.533500 58.330500,6.567167 58.355667,6.592833 58.377333,6.606500 58.419833,6.591000 58.448500,6.630667 58.501667,6.586833 58.533667,6.606833 58.561667,6.613833 58.563167,6.608500 58.578667,6.610333 58.585833,6.595000 58.594500,6.589667 58.605833,6.596333 58.624667,6.613833 58.616667,6.583000 58.627500,6.532667 58.614500,6.495500 58.616167,6.493333 58.637500,6.474500 58.650500,6.435500 58.671500,6.466000 58.669000,6.508833 58.694000,6.618667 58.715167,6.617333 58.741000,6.574167 58.764167,6.574833 58.766500,6.518333 58.807333,6.542167 58.840167,6.561833 58.874667,6.607500 58.885333,6.569333 58.900500,6.561167 58.911333,6.563000 58.939667,6.633167 58.967667,6.651500 58.985167,6.663667 58.992667,6.703333 59.006667,6.710000 59.020167,6.730000 59.039000,6.780167 59.053500,6.787333 59.112333,6.901000 59.137167,6.899333 59.140833,6.881667 59.188167,6.936500 59.184833,6.900667 59.182833,6.850833 59.191000,6.837167 59.192667,6.836833 59.253000,6.837833 59.272333,6.823167 59.318667,6.833000 59.335667,6.846667 59.371333,6.861000 59.397833,6.889833 59.393500,6.906000 59.393500,6.921000 59.402000,6.928167 59.413500,6.907667 59.428000,6.882167 59.447333,6.965000 59.480167,7.023333 59.505167,6.999000 59.512500,6.967667 59.559333,6.982500 59.596167,6.989167 59.588000,7.050000 59.602500,7.064667 59.613833,7.079167 59.623000,7.089667 59.644167,7.099833 59.653167,7.097667 59.672000,7.213167 59.703167,7.106833 59.742000,7.113167 59.765833,7.102667 59.782500,7.093167 59.810667,7.142000 59.831500,7.158833 59.846167,7.144333 59.886000,7.151000 59.931833,7.188667 59.963667,7.228000 59.987667,7.280000 59.990500,7.329833 60.001833,7.370167 60.019167,7.436500 60.057333,7.437667 60.100000,7.492000 60.177333,7.581167 60.247500,7.610333 60.293333,7.672833 60.412833,7.684000 60.528833,7.710833 60.543333,7.661667 60.564167,7.629667 60.594000,7.617000 60.633833,7.633833 60.660333,7.546833 60.673667,7.462833 60.685167,7.333000 60.693500,7.316500 60.704000,7.190667 60.694500,7.163667 60.695667,7.122667 60.714167,7.086833 60.710333,7.023333 60.717333,6.990333 60.744833,6.978000 60.771667,6.978333 60.775333,6.929500 60.769667,6.870167 60.811000,6.894833 60.826833,6.874000 60.827167,6.933333 60.839667,6.944500 60.855667,6.871500 60.837333,6.829500 60.831000,6.778167 60.836333,6.732833 60.847167,6.724167 60.879000,6.757833 60.886500,6.799500 60.894167,6.825333 60.911333,6.819500 60.914000,6.806667 60.921333,6.802667 60.923667,6.788000 60.913833,6.774000 60.909000,6.753000 60.934500,6.744500 60.930667,6.711833 60.955000,6.694500 60.964667,6.662333 60.930167,6.664833 60.919833,6.643333 60.916667,6.605500 60.894667,6.575500 60.890833,6.542167 60.909500,6.501500 60.925167,6.509500 60.945333,6.499000 60.946833,6.483167 60.922667,6.446000 60.923167,6.414333 60.931167,6.388833 60.880000,6.301000 60.910667,6.212833 60.914333,6.200500 60.922500,6.155000 60.939167,6.136000 60.971167,6.140833 60.984167,6.148667 60.999167,6.074167 61.027000,6.049333 61.034500,6.017667 61.009333,5.943167 61.012000,5.929167 60.983833,5.904167 60.951333,5.884167 60.953333,5.855333 60.985167,5.798833 60.976500,5.744500 60.967333,5.715000 60.957167,5.705833 60.964000,5.666167 60.979167,5.650000 60.977667,5.619833 60.961333,5.585167 60.931167,5.526333 60.925500,5.500000 58.569667,5.500000
+</polygon>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-11</value>
+      </geocode>
+      <geocode>
+        <valueName>iso</valueName>
+        <value>NO-12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>11</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>12</value>
+      </geocode>
+      <geocode>
+        <valueName>county</valueName>
+        <value>46</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO043</value>
+      </geocode>
+      <geocode>
+        <valueName>NUTS3</valueName>
+        <value>NO051</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>1103;1121;1127;1122;1108;1135;1124;1114;1145;1160;1134;1144;1149;1111;1130;1101;1112;1106;1146;1151;1133;1119;1120</value>
+      </geocode>
+      <geocode>
+        <valueName>MunicipalityId</valueName>
+        <value>4622;4621;4619;4627;4625;4615;4614;4633;4613;4611;4623;4618;4616;4617;4612;4632;4634;4630;4626;4629;4631;4620;4628;4601;4624</value>
+      </geocode>
+      <altitude>0</altitude>
+      <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20221010092134</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-10-10T09:25:46+00:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <references>noreply@met.no,2.49.0.1.578.0.20221009102845,2022-10-09T10:46:26+00:00</references>
+  <incidents>0000050213</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Snøfokk</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-10-10T16:00:00+00:00</effective>
+    <onset>2022-10-10T16:00:00+00:00</onset>
+    <expires>2022-10-11T10:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Kraftig snøfokk, gult nivå, Høyfjellsoverganger, 2022-10-10T16:00:00+00:00, 2022-10-11T10:00:00+00:00</headline>
+    <description>Mandag kveld og første del av tirsdag ventes snøfokk i fjellet på grunn av kraftig vind fra vest og snøbyger over 800-1000 meter. Snøbygene ventes vesentlig i vestlige fjellstrøk.</description>
+    <instruction>Følg råd og sjekk status fra transportaktører. Sjekk veimeldinger (175.no). Bruk riktige dekk og kjør etter forholdene. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/snofokk</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-11T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Redusert sikt. Det kan være lokalt vanskelige kjøreforhold grunnet snø som pakker seg i veibanen. Kolonnekjøring kan bli innført og/eller veier kan bli stengte på kort varsel. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Kraftig snøfokk</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Kraftig snøfokk, gult nivå, Høyfjellsoverganger, 2022-10-10T16:00:00+00:00, 2022-10-11T10:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/b27fa672-657a-4490-b0b8-19a4b9fd6970.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Høyfjellsoverganger</areaDesc>
+      <polygon>61.8455,8.83079 61.8606,8.71929 61.8524,8.57066 61.871,8.42615 61.8753,8.30363 61.8973,8.22635 61.9471,7.91805 62.0067,7.86907 62.0097,7.79004 62.058,7.71961 62.0819,7.62422 62.0519,7.27149 61.8553,7.42764 61.7282,7.52882 61.6852,7.6484 61.57,7.67879 61.5362,7.79408 61.4689,7.68156 61.3872,7.72215 61.3342,8.04414 61.2762,8.0098 61.2211,8.05416 61.171,8.05671 61.1908,7.79858 61.1258,7.73822 61.0632,7.67746 61.0025,7.33772 60.5021,7.11996 60.2697,6.73868 59.9913,6.70504 59.8211,6.99419 59.6279,7.01069 59.5554,7.68338 59.6474,8.0481 59.9032,8.38921 60.0113,8.6646 60.3522,8.52301 60.5718,8.37979 60.8764,8.96795 61.0649,8.88867 61.0853,8.73232 61.1315,8.81164 61.1294,8.86701 61.1824,8.88411 61.2393,9.01352 61.445,9.22263 61.5543,9.20762 61.6144,9.1309 61.7537,9.11693 61.8411,8.95627 61.8455,8.83079 61.8455,8.83079</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3041;3042;3043;3044;3052;3433;3434;3435;3436;3452;3453;3454;3818;3825;4222;4618;4619;4620;4641;4642;4643;4644</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Blowing snow</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>blowingSnow</value>
+    </eventCode>
+    <effective>2022-10-10T16:00:00+00:00</effective>
+    <onset>2022-10-10T16:00:00+00:00</onset>
+    <expires>2022-10-11T10:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Blowing snow, yellow level, Mountainous areas, 2022-10-10T16:00:00+00:00, 2022-10-11T10:00:00+00:00</headline>
+    <description>Monday evening and first part of Tuesday expect blowing snow due to strong westerly wind and snow showers in mountainous areas above 800-1000 meters. Mainly in western areas.</description>
+    <instruction>Follow advice and check status from transport operators. Check road reports (175.no). Use tires fit for winter conditions and use caution while driving. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/snofokk</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-10-11T10:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Reduced visibility. Local driving conditions may become difficult due to snow accumulating on the road. Expect convoys and/or closed roads on short notice. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Blowing snow</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>2; snow-ice</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Blowing snow, yellow level, Mountainous areas, 2022-10-10T16:00:00+00:00, 2022-10-11T10:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/b27fa672-657a-4490-b0b8-19a4b9fd6970.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Mountainous areas</areaDesc>
+      <polygon>61.8455,8.83079 61.8606,8.71929 61.8524,8.57066 61.871,8.42615 61.8753,8.30363 61.8973,8.22635 61.9471,7.91805 62.0067,7.86907 62.0097,7.79004 62.058,7.71961 62.0819,7.62422 62.0519,7.27149 61.8553,7.42764 61.7282,7.52882 61.6852,7.6484 61.57,7.67879 61.5362,7.79408 61.4689,7.68156 61.3872,7.72215 61.3342,8.04414 61.2762,8.0098 61.2211,8.05416 61.171,8.05671 61.1908,7.79858 61.1258,7.73822 61.0632,7.67746 61.0025,7.33772 60.5021,7.11996 60.2697,6.73868 59.9913,6.70504 59.8211,6.99419 59.6279,7.01069 59.5554,7.68338 59.6474,8.0481 59.9032,8.38921 60.0113,8.6646 60.3522,8.52301 60.5718,8.37979 60.8764,8.96795 61.0649,8.88867 61.0853,8.73232 61.1315,8.81164 61.1294,8.86701 61.1824,8.88411 61.2393,9.01352 61.445,9.22263 61.5543,9.20762 61.6144,9.1309 61.7537,9.11693 61.8411,8.95627 61.8455,8.83079 61.8455,8.83079</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>46</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>34</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3041;3042;3043;3044;3052;3433;3434;3435;3436;3452;3453;3454;3818;3825;4222;4618;4619;4620;4641;4642;4643;4644</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

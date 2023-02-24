@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220626132039</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-06-26T13:24:41+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050051</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Mye lyn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-26T13:25:00+00:00</effective>
+    <onset>2022-06-26T13:25:00+00:00</onset>
+    <expires>2022-06-26T17:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Mye lyn pågår, gult nivå, Deler av Trøndelag, 2022-06-26T13:25:00+00:00, 2022-06-26T17:00:00+00:00</headline>
+    <description>Det er observert utbredt tordenvær med mye lyn over deler Trøndelag. Tordenværet er ventet å fortsette frem til i kveld. Det er store lokale forskjeller i intensitet. Noen steder vil ikke oppleve tordenvær</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar eller lyn.met.no. Koble fra elektriske apparater. Søk ly. Unngå åpne sletter og store trær. Ikke svøm eller bade. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-26T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for skade på objekt(er) som følge av lynnedslag. Strømforsyningen og tv/internett kan bli påvirket. Lynnedslag kan føre til brann i bygninger og skog/vegetasjon. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Mye lyn pågår</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Mye lyn pågår, gult nivå, Deler av Trøndelag, 2022-06-26T13:25:00+00:00, 2022-06-26T17:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/829a5ae2-328d-4ee5-8fdb-a7557e4d91d9.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Trøndelag</areaDesc>
+      <polygon>64.1308,12.9908 64.9678,12.3115 64.95,10.987 64.4118,9.98783 63.3207,10.4939 62.778,11.5295 62.8333,12.407 63.5079,13.1616 64.1308,12.9908 64.1308,12.9908</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5001;5006;5007;5020;5026;5031;5032;5033;5034;5035;5036;5037;5038;5041;5045;5046;5047;5049;5053;5054;5058;5060</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Lightning</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Observed</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>lightning</value>
+    </eventCode>
+    <effective>2022-06-26T13:25:00+00:00</effective>
+    <onset>2022-06-26T13:25:00+00:00</onset>
+    <expires>2022-06-26T17:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Frequent lightning ongoing, yellow level, Parts of Trondelag, 2022-06-26T13:25:00+00:00, 2022-06-26T17:00:00+00:00</headline>
+    <description>Widespread thunderstorms have been observed with frequent lightning over parts of Trondelag. The thunderstorm is expected to continue until tonight. There are large local differences in intensity. Some places will not experience any thunderstorms</description>
+    <instruction>Stay up to date on the development of the weather and the weather forecast. Monitor the weather radar or lyn.met.no. Disconnect electrical appliances. Seek shelter. Avoid open plains and large trees. Do not swim or bathe. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/lyn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-06-26T17:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Danger of damage to object(s) as a result of lightning strikes. The power supply and TV / internet may be affected. Lightning strikes can cause fires in buildings or forests/vegetation. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Frequent lightning ongoing</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>3; Thunderstorm</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Frequent lightning ongoing, yellow level, Parts of Trondelag, 2022-06-26T13:25:00+00:00, 2022-06-26T17:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/829a5ae2-328d-4ee5-8fdb-a7557e4d91d9.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Trondelag</areaDesc>
+      <polygon>64.1308,12.9908 64.9678,12.3115 64.95,10.987 64.4118,9.98783 63.3207,10.4939 62.778,11.5295 62.8333,12.407 63.5079,13.1616 64.1308,12.9908 64.1308,12.9908</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>50</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>5001;5006;5007;5020;5026;5031;5032;5033;5034;5035;5036;5037;5038;5041;5045;5046;5047;5049;5053;5054;5058;5060</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>

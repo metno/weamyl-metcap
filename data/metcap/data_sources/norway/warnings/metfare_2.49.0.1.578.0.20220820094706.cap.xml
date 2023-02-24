@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.578.0.20220820094706</identifier>
+  <sender>noreply@met.no</sender>
+  <sent>2022-08-20T09:58:49+00:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <scope>Public</scope>
+  <code>CAP-V12.NO.V1.0</code>
+  <incidents>0000050141</incidents>
+  <info>
+    <language>no</language>
+    <category>Met</category>
+    <event>Styrtregn</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-21T07:00:00+00:00</effective>
+    <onset>2022-08-21T07:00:00+00:00</onset>
+    <expires>2022-08-21T14:00:00+00:00</expires>
+    <senderName>Meteorologisk Institutt</senderName>
+    <headline>Styrtregn, gult nivå, Deler av Agder, Telemark og Vestfold, 2022-08-21T07:00:00+00:00, 2022-08-21T14:00:00+00:00</headline>
+    <description>Fra søndag morgen til søndag ettermiddag ventes kraftige regnbyger i ditt område. Det er store lokale variasjoner i intensitet og mengde, og været kan endres raskt. Lokalt kan det bli mer enn 15 mm/1t. Nedbøren ventes først i Agder, senere også i Telemark og Vestfold.</description>
+    <instruction>Hold deg oppdatert om utviklingen av været og værvarselet. Følg med på værradar. Hold deg unna bratte skråninger, samt bekker med stor vannføring. Rensing av dreneringsveier og stikkrenner anbefales slik at vannet kan renne unna. Sjekk veimeldinger (175.no). Tilpass farten og kjør etter forholdene. Unngå unødvendig ferdsel utsatte steder. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/kontakt-oss</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-21T14:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Fare for overvann i tettbygde områder, lokale oversvømmelser, bekke- og elveløpsendringer, jord- og flomskred der regnbygene treffer. Fare for stengte veier og/eller overvann ved bekke- og elveløp. Lokalt vanskelige kjøreforhold grunnet overvann og fare for vannplaning. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Styrtregn</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Utfordrende situasjon</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Følg med</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Kart over Styrtregn, gult nivå, Deler av Agder, Telemark og Vestfold, 2022-08-21T07:00:00+00:00, 2022-08-21T14:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1526e9e3-a763-4f26-8003-a2eae41a048b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Deler av Agder, Telemark og Vestfold</areaDesc>
+      <polygon>59.5543,10.3285 59.6112,9.83893 59.358,9.10641 58.9326,8.08272 58.5901,7.25711 58.5143,6.61716 58.2491,6.60334 58.077,7.09693 58.0504,7.71062 58.1938,8.3118 58.568,8.94376 58.8764,9.49491 58.9983,10.0651 59.1785,10.4066 59.4676,10.4067 59.5543,10.3285 59.5543,10.3285</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3006;3801;3802;3803;3804;3805;3806;3807;3812;3813;3814;3815;3816;3817;3822;4201;4202;4203;4204;4205;4207;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4223;4224;4225;4226;4227</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+  <info>
+    <language>en-GB</language>
+    <category>Met</category>
+    <event>Rain flood</event>
+    <responseType>Monitor</responseType>
+    <urgency>Future</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+        <valueName>eventType</valueName>
+        <value>rainFlood</value>
+    </eventCode>
+    <effective>2022-08-21T07:00:00+00:00</effective>
+    <onset>2022-08-21T07:00:00+00:00</onset>
+    <expires>2022-08-21T14:00:00+00:00</expires>
+    <senderName>MET Norway</senderName>
+    <headline>Heavy rainshowers, yellow level, Parts of Agder, Telemark and Vestfold., 2022-08-21T07:00:00+00:00, 2022-08-21T14:00:00+00:00</headline>
+    <description>From Sunday morning to Sunday afternoon heavy rain showers are expected in your area. There will be large local variations in intensity and duration, and the weather conditions can change rapidly. Locally the precipitation can exceed 15 mm/h. The precipitation will first enter Agder, later to Telemark and Vestfold.</description>
+    <instruction>Keep yourself informed of the latest weather developments and forecasts. Follow the weather situation on the rain radar. Stay away from steep slopes as well as fast flowing streams. Cleaning of drainage systems and culverts is recommended so that the water can drain away. Check road reports (175.no). Adjust the speed and use caution while driving. Stay away from exposed places if possible. </instruction>
+    <web>https://www.met.no/vaer-og-klima/ekstremvaervarsler-og-andre-farevarsler/vaerfenomener-som-kan-gi-farevarsel-fra-met/styrtregn</web>
+    <contact>https://www.met.no/en/contact-us</contact>
+    <parameter>
+        <valueName>eventEndingTime</valueName>
+        <value>2022-08-21T14:00:00+00:00</value>
+    </parameter>
+    <parameter>
+        <valueName>consequences</valueName>
+        <value>Risk of storm water in urban areas, local flooding, stream bank erosion, changing waterways, shallow landslides at locations impacted by showers. Locally difficult driving conditions, especially at waterways. Roads may be closed. Road conditions affected with road spray and hydroplaning in some places. </value>
+    </parameter>
+    <parameter>
+        <valueName>eventAwarenessName</valueName>
+        <value>Heavy rainshowers</value>
+    </parameter>
+    <parameter>        
+        <valueName>awareness_level</valueName>
+        <value>2; yellow; Moderate</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessSeriousness</valueName>
+        <value>Challenging situation</value>
+    </parameter>
+    <parameter>
+        <valueName>awareness_type</valueName>
+        <value>13; rain-flood</value>
+    </parameter>
+    <parameter>
+        <valueName>awarenessResponse</valueName>
+        <value>Be aware</value>
+    </parameter>
+    <parameter>
+        <valueName>geographicDomain</valueName>
+        <value>land</value>
+    </parameter>
+    <resource>
+        <resourceDesc>Map over Heavy rainshowers, yellow level, Parts of Agder, Telemark and Vestfold., 2022-08-21T07:00:00+00:00, 2022-08-21T14:00:00+00:00</resourceDesc>
+        <mimeType>image/png</mimeType>
+        <uri>https://slaps.met.no/cap-images/1526e9e3-a763-4f26-8003-a2eae41a048b.png</uri>
+    </resource>
+    <area>
+      <areaDesc>Parts of Agder, Telemark and Vestfold.</areaDesc>
+      <polygon>59.5543,10.3285 59.6112,9.83893 59.358,9.10641 58.9326,8.08272 58.5901,7.25711 58.5143,6.61716 58.2491,6.60334 58.077,7.09693 58.0504,7.71062 58.1938,8.3118 58.568,8.94376 58.8764,9.49491 58.9983,10.0651 59.1785,10.4066 59.4676,10.4067 59.5543,10.3285 59.5543,10.3285</polygon>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>42</value>
+    </geocode>
+    <geocode>
+	    <valueName>county</valueName>
+	    <value>38</value>
+    </geocode>
+    <geocode>
+	    <valueName>MunicipalityId</valueName>
+	    <value>3006;3801;3802;3803;3804;3805;3806;3807;3812;3813;3814;3815;3816;3817;3822;4201;4202;4203;4204;4205;4207;4211;4212;4213;4214;4215;4216;4217;4218;4219;4220;4223;4224;4225;4226;4227</value>
+    </geocode>
+    <altitude>0</altitude>
+    <ceiling>9000</ceiling>
+    </area>
+  </info>
+</alert>
