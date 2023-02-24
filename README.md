@@ -3,7 +3,7 @@
 ## Local development and testing
 
 Both the API and the database with sample data run as
-Docker containers. All test have been done on a standard
+Docker containers. All tests have been done on a standard
 **Ubuntu 22.04 LTS** desktop installation.
 
 To use the API in your local environment you must: 
@@ -115,7 +115,7 @@ storing CouchDB under $HOME/metcap on first installation. This
 directory and its subdirectories must also be deleted for a 
 complete removal of METCAP API.
 
-### CAUTION: These command will remove ALL Docker resources including containers not related to METCAP
+### CAUTION: These commands will remove ALL Docker resources including containers not related to METCAP
 
 The following commands are provided as examples only. Use them with caution.
 
