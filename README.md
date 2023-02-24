@@ -15,7 +15,8 @@ To use the API in your local environment you must:
 docker-compose -f local-dev-docker-compose.yml  up -d
 ```
 On first run this process will take several minutes as it
-builds the containers.
+builds and starts the containers. It will also create the directory
+$HOME/metcap.
 
 Once done, you should have two running Docker containers. Check that is so by executing: 
 
@@ -26,24 +27,56 @@ docker ps
 The result should resemble:
 
 ```
-CONTAINER ID   IMAGE        COMMAND                  CREATED        STATUS         PORTS     NAMES
-fb81206ec2cf   metcap-api   "./run.sh"               20 hours ago   Up 6 minutes             metcap-api
-9179a30737b3   database     "tini -- /docker-ent…"   20 hours ago   Up 6 minutes             database
+CONTAINER ID   IMAGE        COMMAND                  CREATED         STATUS         PORTS     NAMES
+ccb239b3371a   metcap-db    "tini -- /docker-ent…"   8 minutes ago   Up 8 minutes             metcap-db
+3573ad1d00f8   metcap-api   "./run.sh"               8 minutes ago   Up 8 minutes             metcap-api
+
 ```
 
-* To add search routines and data to your running database container execute
+* Sample data can be found in the data/metcap directory
+
+```
+data
+└──metcap/
+    └── data_sources
+        ├── norway
+        │   ├── lrmap
+        │   ├── map
+        │   └── warnings
+        └── romania
+            ├── lrmap
+            ├── map
+            └── warnings
+
+```
+
+To make the sample data available from within the running containers you
+must copy the entire contents of the data/metcap dirctory to $HOME/metcap. The 
+tree structure must be preserved. You can do this with the following command:
+
+```
+sudo cp -r data/metcap $HOME/.
+```
+
+* Initialize the running database container with search routines and sample data:
 ```
 ./local-dev-initialize-database.sh
 ```
 
-This script is run **only once** to initialize your database.
-It too will take several minutes to complete at the end of which 
+This script may take several minutes to complete after which
 you will have a CouchDB container running with routines and sample 
-data installed. The data is now persistent and stored under $HOME/couchdb.
+data installed. The data is now persistent and stored under $HOME/metcap.
 Subsequent sessions will use this data store. Note also that the CouchDB 
 caches internal queries so the first call to an end point in the API may 
 take on the order of several seconds, but subsequent calls will return 
 much more quickly.
+
+You may add more data under in the appropriate directory under $HOME/metcap 
+at any time, but to upload the data to the database container you must run 
+```
+./local-dev-initialize-database.sh
+```
+again.
 
 * You can point your browser to http://localhost:7532/api/docs#/
 and you should see
@@ -59,20 +92,30 @@ The user name is "admin" and the password is "password". You should see
 
 ![METCAP API database](./images/01.png?raw=true "METCAP API database")
 
-* Other examples of API use are found in the [./local-dev/demo](local-dev/demo/README.md) directory. 
+* Stopping and restarting
+The docker containers are stopped with
 
-* Removing the software
+```
+docker stop <CONTAINER ID>
+```
+and they can be restarted with
+```
+docker-compose -f local-dev-docker-compose.yml  up -d
+```
 
-To completely remove the software, 
+
+* Uninstalling METCAP completely
+
+To completely remove the METCAP installation, 
 the docker containers must be stopped and all Docker resources
 must be deleted. 
 
 Data pesistance across sessions is achieved by
-storing CouchDB under $HOME/couchdb on first installation. This 
+storing CouchDB under $HOME/metcap on first installation. This 
 directory and its subdirectories must also be deleted for a 
 complete removal of METCAP API.
 
-### CAUTION: These command will remove ALL Docker resources
+### CAUTION: These command will remove ALL Docker resources including containers not related to METCAP
 
 The following commands are provided as examples only. Use them with caution.
 
@@ -80,6 +123,6 @@ The following commands are provided as examples only. Use them with caution.
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 docker system prune -a --force --volumes
-rm -rf $HOME/couchdb
+sudo rm -rf $HOME/metcap
 ```
 
