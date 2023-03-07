@@ -141,7 +141,7 @@ docker inspect --format="{{.Mounts}}" $(docker ps --quiet --no-trunc --filter na
 ```
 
 Data pesistance across sessions is achieved by
-storing CouchDB under $HOME/metcap on first installation. This 
+storing CouchDB data under $HOME/metcap on first installation. This 
 directory and its subdirectories must also be deleted for a 
 complete removal of METCAP API.
 
