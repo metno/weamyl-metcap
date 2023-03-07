@@ -102,27 +102,52 @@ and they can be restarted with
 ```
 docker-compose -f local-dev-docker-compose.yml  up -d
 ```
+* Removing the METCAP API software and data
+
+To remove METCAP API completely you need to remove the associated Docker resources and the sample data. 
+See [Docker Reference documentation](https://docs.docker.com/reference/) for details of the Docker commands.
 
 
-* Uninstalling METCAP completely
+### CAUTION: These commands will remove ALL Docker resources including containers not related to METCAP
 
-To completely remove the METCAP installation, 
-the docker containers must be stopped and all Docker resources
-must be deleted. 
+The following commands are provided as examples only. Use them with caution.
+
+Example Docker commands:
+
+1. Find the container ID for the metcap-db container
+
+```
+docker ps --quiet --no-trunc --filter name="^/metcap-db$"
+```
+
+2. Inspect the Docker volume associated with the metcap-api container
+
+```
+docker inspect --format="{{.Mounts}}" `docker ps --quiet --no-trunc --filter name="^/metcap-db$"`
+
+```
+or
+```
+docker inspect --format="{{.Mounts}}" $(docker ps --quiet --no-trunc --filter name="^/metcap-db$")
+
+```
+
+3. Inspect the file mounts associated with the metcap-api container
+
+```
+docker inspect --format="{{.Mounts}}" `docker ps --quiet --no-trunc --filter name="^/metcap-api$"`
+```
+or 
+```
+docker inspect --format="{{.Mounts}}" $(docker ps --quiet --no-trunc --filter name="^/metcap-api$")
+```
 
 Data pesistance across sessions is achieved by
 storing CouchDB under $HOME/metcap on first installation. This 
 directory and its subdirectories must also be deleted for a 
 complete removal of METCAP API.
 
-### CAUTION: These commands will remove ALL Docker resources including containers not related to METCAP
-
-The following commands are provided as examples only. Use them with caution.
-
 ```
-docker stop $(docker ps -a -q)
-docker rm $(docker ps -a -q)
-docker system prune -a --force --volumes
 sudo rm -rf $HOME/metcap
 ```
 
