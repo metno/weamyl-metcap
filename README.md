@@ -108,8 +108,6 @@ To remove METCAP API completely you need to remove the associated Docker resourc
 See [Docker Reference documentation](https://docs.docker.com/reference/) for details of the Docker commands.
 
 
-### CAUTION: These commands will remove ALL Docker resources including containers not related to METCAP
-
 The following commands are provided as examples only. Use them with caution.
 
 Example Docker commands:
