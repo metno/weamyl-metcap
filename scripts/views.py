@@ -648,7 +648,7 @@ getCapXMLNameByWarning = '''
 function (doc) {
  if (typeof doc.type !== 'undefined' && doc.features && doc._attachments) {
     Object.keys(doc._attachments).forEach(function(k){
-     if(doc._attachments[k].content_type == "text/xml"){
+     if(doc._attachments[k].content_type == "application/xml" || doc._attachments[k].content_type == "text/xml"){
        emit(doc._id,k);
      }
     }
