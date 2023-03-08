@@ -7,9 +7,8 @@ Docker containers. All tests have been done on a standard
 **Ubuntu 22.04 LTS** desktop installation.
 
 To use the API in your local environment you must: 
-* install using the docker and docker-compose using the [official documentation](https://www.docker.com/) 
-We only test our software with docker and docker-compose from the official docker site and strongly encourage you to use
-the version at [https://www.docker.com/](https://www.docker.com/). 
+* install docker and docker-compose. Consult the [official documentation](https://www.docker.com/) on how to do this
+for your version of Linux. We only test our software with docker and docker-compose from the official docker site and strongly encourage you to use the same version ([https://www.docker.com/](https://www.docker.com/)). 
 * clone this repository
 * cd to the top directory (where *local-dev-docker-compose.yml* and  *local-dev-initialize-database.sh* reside)
 * from the command line run:
@@ -18,9 +17,11 @@ docker-compose -f local-dev-docker-compose.yml  up -d
 ```
 On first run this process will take several minutes as it
 builds and starts the containers. It will also create the directory
-$HOME/metcap.
+$HOME/metcap. Note the admonition to use the official versoin of docker as using other versions may lead to faulty installation of the METCAP API.
 
-Once done, you should have two running Docker containers. Check that is so by executing: 
+Once done, you must check that $HOME/metcap has been created.
+
+You should also have two running Docker containers. Check that is so by executing: 
 
 ```
 docker ps
