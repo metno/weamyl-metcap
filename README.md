@@ -7,7 +7,9 @@ Docker containers. All tests have been done on a standard
 **Ubuntu 22.04 LTS** desktop installation.
 
 To use the API in your local environment you must: 
-* install [docker](https://docker.io) and [docker-compse](https://docs.docker.com/compose/install/compose-desktop/)
+* install using the docker and docker-compose using the [official documentation](https://www.docker.com/) 
+We only test our software with docker and docker-compose from the official docker site and strongly encourage you to the 
+software offere at the [https://www.docker.com/](https://www.docker.com/). 
 * clone this repository
 * cd to the top directory (where *local-dev-docker-compose.yml* and  *local-dev-initialize-database.sh* reside)
 * from the command line run:
