@@ -8,8 +8,8 @@ Docker containers. All tests have been done on a standard
 
 To use the API in your local environment you must: 
 * install using the docker and docker-compose using the [official documentation](https://www.docker.com/) 
-We only test our software with docker and docker-compose from the official docker site and strongly encourage you to the 
-software offere at the [https://www.docker.com/](https://www.docker.com/). 
+We only test our software with docker and docker-compose from the official docker site and strongly encourage you to use
+the version at [https://www.docker.com/](https://www.docker.com/). 
 * clone this repository
 * cd to the top directory (where *local-dev-docker-compose.yml* and  *local-dev-initialize-database.sh* reside)
 * from the command line run:
